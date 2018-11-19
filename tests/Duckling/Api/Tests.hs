@@ -119,15 +119,10 @@ rangeTest = testCase "Range Tests" $ do
 supportedDimensionsTest :: TestTree
 supportedDimensionsTest = testCase "Supported Dimensions Test" $ do
   mapM_ check
-    [ ( AR
+    [ ( ZH
       , [ This Email, This AmountOfMoney, This PhoneNumber, This Url
         , This Duration, This Numeral, This Ordinal, This Time, This Volume
         , This Temperature, This Quantity
-        ]
-      )
-    , ( PL
-      , [ This Email, This AmountOfMoney, This PhoneNumber, This Url
-        , This Duration, This Numeral, This Ordinal, This Time
         ]
       )
     ]

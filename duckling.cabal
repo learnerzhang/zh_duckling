@@ -238,7 +238,6 @@ test-suite duckling-test
                      , Duckling.Ordinal.Tests
 
                      -- PhoneNumber
-                     , Duckling.PhoneNumber.PT.Tests
                      , Duckling.PhoneNumber.Tests
 
                      -- Quantity
@@ -255,10 +254,6 @@ test-suite duckling-test
 
                      -- Url
                      , Duckling.Url.Tests
-
-                     -- Volume
-                     , Duckling.Volume.EN.Tests
-                     , Duckling.Volume.Tests
 
                      -- CreditCardNumber
                      , Duckling.CreditCardNumber.Tests
