@@ -42,7 +42,7 @@ ruleRelativeMinutesTotillbeforeIntegerHourofday = Rule
   { name = "relative minutes to|till|before <integer> (hour-of-day)"
   , pattern =
     [ Predicate isAnHourOfDay
-    , regex "(点|點)差"
+    , regex "(时|点|點)差"
     , Predicate $ isIntegerBetween 1 59
     ]
   , prod = \tokens -> case tokens of
@@ -72,7 +72,7 @@ ruleRelativeMinutesAfterpastIntegerHourofday = Rule
   { name = "relative minutes after|past <integer> (hour-of-day)"
   , pattern =
     [ Predicate isAnHourOfDay
-    , regex "点|點"
+    , regex "时|点|點"
     , Predicate $ isIntegerBetween 1 59
     ]
   , prod = \tokens -> case tokens of
@@ -108,7 +108,7 @@ ruleQuarterTotillbeforeIntegerHourofday = Rule
   { name = "quarter to|till|before <integer> (hour-of-day)"
   , pattern =
     [ Predicate isAnHourOfDay
-    , regex "(点|點)差"
+    , regex "(时|点|點)差"
     , regex "一刻"
     ]
   , prod = \tokens -> case tokens of
@@ -132,7 +132,7 @@ ruleQuarterAfterpastIntegerHourofday = Rule
   { name = "quarter after|past <integer> (hour-of-day)"
   , pattern =
     [ Predicate isAnHourOfDay
-    , regex "点|點"
+    , regex "时|点|點"
     , regex "一刻"
     ]
   , prod = \tokens -> case tokens of
@@ -159,7 +159,7 @@ ruleHalfTotillbeforeIntegerHourofday = Rule
   { name = "half to|till|before <integer> (hour-of-day)"
   , pattern =
     [ Predicate isAnHourOfDay
-    , regex "(点|點)差"
+    , regex "(时|点|點)差"
     , regex "半"
     ]
   , prod = \tokens -> case tokens of
@@ -183,7 +183,7 @@ ruleHalfAfterpastIntegerHourofday = Rule
   { name = "half after|past <integer> (hour-of-day)"
   , pattern =
     [ Predicate isAnHourOfDay
-    , regex "点|點"
+    , regex "时|点|點"
     , regex "半"
     ]
   , prod = \tokens -> case tokens of
@@ -415,7 +415,7 @@ ruleInduringThePartofday = Rule
   { name = "in|during the <part-of-day>"
   , pattern =
     [ Predicate isAPartOfDay
-    , regex "点|點"
+    , regex "时|点|點"
     ]
   , prod = \tokens -> case tokens of
       (Token Time td:_) ->
@@ -859,7 +859,7 @@ ruleTimeofdayOclock = Rule
   { name = "<time-of-day> o'clock"
   , pattern =
     [ Predicate isATimeOfDay
-    , regex "點|点|時"
+    , regex "點|点|時|时"
     ]
   , prod = \tokens -> case tokens of
       (Token Time td:_) ->
