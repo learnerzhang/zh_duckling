@@ -17,11 +17,9 @@ import Test.Tasty
 import Duckling.Dimensions.Types
 import Duckling.Email.Corpus
 import Duckling.Testing.Asserts
-import qualified Duckling.Email.EN.Tests as EN
 
 tests :: TestTree
 tests = testGroup "Email Tests"
   [ makeCorpusTest [This Email] corpus
   , makeNegativeCorpusTest [This Email] negativeCorpus
-  , EN.tests
   ]

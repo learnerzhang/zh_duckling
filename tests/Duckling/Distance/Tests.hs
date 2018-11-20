@@ -13,10 +13,31 @@ module Duckling.Distance.Tests
 import Data.String
 import Prelude
 import Test.Tasty
+import Test.Tasty.HUnit
 
-import qualified Duckling.Distance.ZH.Tests as ZH
+import Duckling.Dimensions.Types
+import Duckling.Distance.Types
+import Duckling.Distance.Corpus
+import Duckling.Locale
+import Duckling.Resolve
+import Duckling.Testing.Asserts
+import Duckling.Testing.Types
+
 
 tests :: TestTree
-tests = testGroup "Distance Tests"
-  [ ZH.tests
+tests = testGroup "ZH Distance Tests"
+  [ makeCorpusTest [This Distance] corpus
+  , ambiguousTests
   ]
+
+ambiguousTests :: TestTree
+ambiguousTests = testCase "Ambiguous Tests" $
+  analyzedAmbiguousTest context testOptions
+    (testText, [This Distance], predicates)
+  where
+    context = testContext {locale = makeLocale ZH Nothing}
+    testText = "3千米"
+    predicates = simpleCheck <$>
+      [ simple Kilometre 3.0
+      , simple Metre 3000.0
+      ]

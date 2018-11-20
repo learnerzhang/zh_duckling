@@ -12,9 +12,11 @@ import Data.String
 import Prelude
 import Test.Tasty
 
-import qualified Duckling.Numeral.ZH.Tests as ZH
+import Duckling.Dimensions.Types
+import Duckling.Numeral.Corpus
+import Duckling.Testing.Asserts
 
 tests :: TestTree
-tests = testGroup "Numeral Tests"
-  [ ZH.tests
+tests = testGroup "ZH Numeral Tests"
+  [ makeCorpusTest [This Numeral] corpus
   ]

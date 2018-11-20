@@ -13,10 +13,11 @@ module Duckling.Quantity.Tests
 import Data.String
 import Prelude
 import Test.Tasty
-
-import qualified Duckling.Quantity.ZH.Tests as ZH
+import Duckling.Dimensions.Types
+import Duckling.Quantity.Corpus
+import Duckling.Testing.Asserts
 
 tests :: TestTree
-tests = testGroup "Quantity Tests"
-  [ ZH.tests
+tests = testGroup "ZH Quantity Tests"
+  [ makeCorpusTest [This Quantity] corpus
   ]

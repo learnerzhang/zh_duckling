@@ -43,6 +43,7 @@ toName Time = "time"
 toName TimeGrain = "time-grain"
 toName Url = "url"
 toName Volume = "volume"
+toName Identity = "identity"
 toName (CustomDimension dim) = Text.pack (show dim)
 
 fromName :: Text -> Maybe (Some Dimension)
@@ -62,4 +63,5 @@ fromName name = HashMap.lookup name m
       , ("time", This Time)
       , ("url", This Url)
       , ("volume", This Volume)
+      , ("identity", This Identity)
       ]

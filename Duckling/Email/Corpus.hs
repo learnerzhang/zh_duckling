@@ -16,6 +16,8 @@ module Duckling.Email.Corpus
 import Data.String
 import Prelude
 
+import Data.Text (Text)
+import qualified Data.Text as Text
 import Duckling.Email.Types
 import Duckling.Testing.Types
 
@@ -28,6 +30,14 @@ negativeCorpus = (testContext, testOptions, examples)
     examples =
       [ "hey@6"
       , "hey@you"
+      , "fitness at 6.40"
+      , "class at 12.00"
+      , "tonight at 9.15"
+      , " dot 2@abci"
+      , "x@ dot x"
+      , "x@ x dot "
+      , "abc@x dot "
+      , Text.replicate 10000 "a at a"
       ]
 
 allExamples :: [Example]
@@ -43,5 +53,23 @@ allExamples = concat
              ]
   , examples (EmailData "jean-jacques@stuff.co.uk")
              [ "jean-jacques@stuff.co.uk"
+             ]
+  , examples (EmailData "alice@exAmple.io")
+             [ "alice at exAmple.io"
+             ]
+  , examples (EmailData "yo+yo@blah.org")
+             [ "yo+yo at blah.org"
+             ]
+  , examples (EmailData "1234+abc@x.net")
+             [ "1234+abc at x.net"
+             ]
+  , examples (EmailData "jean-jacques@stuff.co.uk")
+             [ "jean-jacques at stuff.co.uk"
+             ]
+  , examples (EmailData "asdf+ab.c@gmail.com")
+             [ "asdf+ab dot c at gmail dot com"
+             ]
+  , examples (EmailData "asdf.k@fb.com")
+             [ "asdf dot k@fb dot com"
              ]
   ]

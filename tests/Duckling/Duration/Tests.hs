@@ -14,9 +14,12 @@ import Data.String
 import Prelude
 import Test.Tasty
 
-import qualified Duckling.Duration.ZH.Tests as ZH
+import Duckling.Dimensions.Types
+import Duckling.Duration.Corpus
+import Duckling.Testing.Asserts
+import Duckling.Testing.Types
 
 tests :: TestTree
-tests = testGroup "Duration Tests"
-  [ ZH.tests
+tests = testGroup "ZH Duration Tests"
+  [ makeCorpusTest [This Duration] corpus
   ]

@@ -14,9 +14,11 @@ import Data.String
 import Prelude
 import Test.Tasty
 
-import qualified Duckling.AmountOfMoney.ZH.Tests as ZH
+import Duckling.AmountOfMoney.Corpus
+import Duckling.Dimensions.Types
+import Duckling.Testing.Asserts
 
 tests :: TestTree
-tests = testGroup "AmountOfMoney Tests"
-  [ ZH.tests
+tests = testGroup "ZH AmountOfMoney Tests"
+  [ makeCorpusTest [This AmountOfMoney] corpus
   ]

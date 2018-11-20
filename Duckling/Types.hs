@@ -59,6 +59,9 @@ import Duckling.TimeGrain.Types (Grain)
 import Duckling.Url.Types (UrlData)
 import Duckling.Volume.Types (VolumeData)
 
+-- extent dimensions
+import Duckling.Identity.Types (IdentityData)
+
 -- -----------------------------------------------------------------
 -- Token
 
@@ -107,6 +110,9 @@ data Dimension a where
   TimeGrain :: Dimension Grain
   Url :: Dimension UrlData
   Volume :: Dimension VolumeData
+  -- extent dimension
+  Identity :: Dimension IdentityData
+  -- 
   CustomDimension :: CustomDimension a => a -> Dimension (DimensionData a)
 
 -- Show
@@ -126,6 +132,7 @@ instance Show (Dimension a) where
   show TimeGrain = "TimeGrain"
   show Url = "Url"
   show Volume = "Volume"
+  show Identity = "Identity"
   show (CustomDimension dim) = show dim
 instance GShow Dimension where gshowsPrec = showsPrec
 
@@ -155,6 +162,7 @@ instance Hashable (Dimension a) where
   hashWithSalt s Volume              = hashWithSalt s (13::Int)
   hashWithSalt s (CustomDimension _) = hashWithSalt s (14::Int)
   hashWithSalt s CreditCardNumber    = hashWithSalt s (15::Int)
+  hashWithSalt s Identity            = hashWithSalt s (16::Int)
 
 instance GEq Dimension where
   geq RegexMatch RegexMatch = Just Refl
@@ -187,6 +195,8 @@ instance GEq Dimension where
   geq Url _ = Nothing
   geq Volume Volume = Just Refl
   geq Volume _ = Nothing
+  geq Identity Identity = Just Refl
+  geq Identity _ = Nothing
   geq (CustomDimension (_ :: a)) (CustomDimension (_ :: b))
     | Just Refl <- eqT :: Maybe (a :~: b) = Just Refl
   geq (CustomDimension _) _ = Nothing

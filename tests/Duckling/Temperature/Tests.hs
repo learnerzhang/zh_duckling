@@ -12,9 +12,11 @@ import Prelude
 import Data.String
 import Test.Tasty
 
-import qualified Duckling.Temperature.ZH.Tests as ZH
+import Duckling.Dimensions.Types
+import Duckling.Temperature.Corpus
+import Duckling.Testing.Asserts
 
 tests :: TestTree
-tests = testGroup "Temperature Tests"
-  [ ZH.tests
+tests = testGroup "ZH Temperature Tests"
+  [ makeCorpusTest [This Temperature] corpus
   ]

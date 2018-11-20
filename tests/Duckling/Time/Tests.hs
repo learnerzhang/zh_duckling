@@ -24,13 +24,28 @@ import Duckling.Testing.Asserts
 import Duckling.Testing.Types
 import Duckling.Time.Types
 import Duckling.TimeGrain.Types
-import qualified Duckling.Time.ZH.Tests as ZH
+
+import Data.String
+import Prelude
+import Test.Tasty
+
+import Duckling.Dimensions.Types
+import Duckling.Locale
+import Duckling.Testing.Asserts
+import Duckling.Testing.Types
+import Duckling.Time.Corpus
+import qualified Duckling.Time.ZHCorpus as T
+import qualified Duckling.Time.CN.Corpus as CN
+import qualified Duckling.Time.HK.Corpus as HK
+import qualified Duckling.Time.MO.Corpus as MO
+import qualified Duckling.Time.TW.Corpus as TW
 
 tests :: TestTree
 tests = testGroup "Time Tests"
-  [ ZH.tests
-  , timeFormatTest
+  [ timeFormatTest
   , timeIntersectTest
+  , makeCorpusTest [This Time] T.corpus
+  , localeTests
   ]
 
 timeFormatTest :: TestTree
@@ -93,3 +108,24 @@ timeIntersectTest = testCase "Intersect Test" $ mapM_ check
     t3 = UTCTime day 3
     t4 = UTCTime day 4
     day = fromGregorian 2017 2 8
+
+localeTests :: TestTree
+localeTests = testGroup "Locale Tests"
+  [ testGroup "ZH_CN Tests"
+    [ makeCorpusTest [This Time] $ withLocale T.corpus localeCN CN.allExamples
+    ]
+  , testGroup "ZH_HK Tests"
+    [ makeCorpusTest [This Time] $ withLocale T.corpus localeHK HK.allExamples
+    ]
+  , testGroup "ZH_MO Tests"
+    [ makeCorpusTest [This Time] $ withLocale T.corpus localeMO MO.allExamples
+    ]
+  , testGroup "ZH_TW Tests"
+    [ makeCorpusTest [This Time] $ withLocale T.corpus localeTW TW.allExamples
+    ]
+  ]
+  where
+    localeCN = makeLocale ZH $ Just CN
+    localeHK = makeLocale ZH $ Just HK
+    localeMO = makeLocale ZH $ Just MO
+    localeTW = makeLocale ZH $ Just TW

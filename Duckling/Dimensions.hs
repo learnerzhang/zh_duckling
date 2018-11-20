@@ -22,10 +22,9 @@ import Duckling.Dimensions.Types
 import Duckling.Locale
 import Duckling.Types
 import qualified Duckling.Dimensions.Common as CommonDimensions
-import qualified Duckling.Dimensions.ZH as ZHDimensions
 
 allDimensions :: Lang -> [Some Dimension]
-allDimensions lang = CommonDimensions.allDimensions ++ langDimensions lang
+allDimensions lang = CommonDimensions.allDimensions
 
 -- | Augments `targets` with all dependent dimensions.
 explicitDimensions :: HashSet (Some Dimension) -> HashSet (Some Dimension)
@@ -51,7 +50,5 @@ dependents (This Time) =
 dependents (This TimeGrain) = HashSet.empty
 dependents (This Url) = HashSet.empty
 dependents (This Volume) = HashSet.singleton (This Numeral)
+dependents (This Identity) = HashSet.empty
 dependents (This (CustomDimension dim)) = dimDependents dim
-
-langDimensions :: Lang -> [Some Dimension]
-langDimensions ZH = ZHDimensions.allDimensions

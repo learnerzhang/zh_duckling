@@ -49,7 +49,6 @@ library
   -- Rules
                      , Duckling.Rules
                      , Duckling.Rules.Common
-                     , Duckling.Rules.ZH
 
   -- ------------------------------------------------------------------
   -- Ranking
@@ -68,45 +67,39 @@ library
                      , Duckling.Dimensions
                      , Duckling.Dimensions.Common
                      , Duckling.Dimensions.Types
-                     , Duckling.Dimensions.ZH
 
                      -- AmountOfMoney
-                     , Duckling.AmountOfMoney.ZH.Corpus
-                     , Duckling.AmountOfMoney.ZH.Rules
+                     , Duckling.AmountOfMoney.Corpus
                      , Duckling.AmountOfMoney.Helpers
                      , Duckling.AmountOfMoney.Rules
                      , Duckling.AmountOfMoney.Types
 
                      -- Distance
-                     , Duckling.Distance.ZH.Corpus
-                     , Duckling.Distance.ZH.Rules
+                     , Duckling.Distance.Corpus
                      , Duckling.Distance.Helpers
                      , Duckling.Distance.Rules
                      , Duckling.Distance.Types
 
                      -- Duration
-                     , Duckling.Duration.ZH.Corpus
+                     , Duckling.Duration.Corpus
                      , Duckling.Duration.Helpers
                      , Duckling.Duration.Rules
                      , Duckling.Duration.Types
 
                      -- Email
-                     , Duckling.Email.EN.Corpus
-                     , Duckling.Email.EN.Rules
                      , Duckling.Email.Corpus
                      , Duckling.Email.Rules
                      , Duckling.Email.Types
 
                      -- Numeral
-                     , Duckling.Numeral.ZH.Corpus
-                     , Duckling.Numeral.ZH.Rules
+                     , Duckling.Numeral.Corpus
                      , Duckling.Numeral.Helpers
                      , Duckling.Numeral.Rules
                      , Duckling.Numeral.Types
 
                      -- Ordinal
-                     , Duckling.Ordinal.ZH.Corpus
-                     , Duckling.Ordinal.ZH.Rules
+                     , Duckling.Ordinal.Corpus
+                     , Duckling.Ordinal.Rules
                      , Duckling.Ordinal.Helpers
                      , Duckling.Ordinal.Types
 
@@ -116,8 +109,8 @@ library
                      , Duckling.PhoneNumber.Types
 
                      -- Quantity
-                     , Duckling.Quantity.ZH.Corpus
-                     , Duckling.Quantity.ZH.Rules
+                     , Duckling.Quantity.Corpus
+                     , Duckling.Quantity.Rules
                      , Duckling.Quantity.Helpers
                      , Duckling.Quantity.Types
 
@@ -125,32 +118,31 @@ library
                      , Duckling.Regex.Types
 
                      -- Temperature
-                     , Duckling.Temperature.ZH.Corpus
-                     , Duckling.Temperature.ZH.Rules
+                     , Duckling.Temperature.Corpus
                      , Duckling.Temperature.Helpers
                      , Duckling.Temperature.Rules
                      , Duckling.Temperature.Types
 
                      -- Time
-                     , Duckling.Time.ZH.Corpus
-                     , Duckling.Time.ZH.Rules
-                     , Duckling.Time.ZH.CN.Corpus
-                     , Duckling.Time.ZH.CN.Rules
-                     , Duckling.Time.ZH.HK.Corpus
-                     , Duckling.Time.ZH.HK.Rules
-                     , Duckling.Time.ZH.MO.Corpus
-                     , Duckling.Time.ZH.MO.Rules
-                     , Duckling.Time.ZH.TW.Corpus
-                     , Duckling.Time.ZH.TW.Rules
-                     , Duckling.Time.Computed
                      , Duckling.Time.Corpus
+                     , Duckling.Time.ZHCorpus
+                     , Duckling.Time.Rules
+                     , Duckling.Time.CN.Corpus
+                     , Duckling.Time.CN.Rules
+                     , Duckling.Time.HK.Corpus
+                     , Duckling.Time.HK.Rules
+                     , Duckling.Time.MO.Corpus
+                     , Duckling.Time.MO.Rules
+                     , Duckling.Time.TW.Corpus
+                     , Duckling.Time.TW.Rules
+                     , Duckling.Time.Computed
                      , Duckling.Time.Helpers
                      , Duckling.Time.Types
                      -- REMOVE ME
                      , Duckling.Time.TimeZone.Parse
 
                      -- TimeGrain
-                     , Duckling.TimeGrain.ZH.Rules
+                     , Duckling.TimeGrain.Rules
                      , Duckling.TimeGrain.Types
 
                      -- Url
@@ -160,8 +152,7 @@ library
                      , Duckling.Url.Types
 
                      -- Volume
-                     , Duckling.Volume.EN.Corpus
-                     , Duckling.Volume.EN.Rules
+                     , Duckling.Volume.Corpus
                      , Duckling.Volume.Helpers
                      , Duckling.Volume.Rules
                      , Duckling.Volume.Types
@@ -171,6 +162,13 @@ library
                      , Duckling.CreditCardNumber.Helpers
                      , Duckling.CreditCardNumber.Rules
                      , Duckling.CreditCardNumber.Types
+
+                     -- Indentity
+                     , Duckling.Identity.Corpus
+                     , Duckling.Identity.Helpers
+                     , Duckling.Identity.Rules
+                     , Duckling.Identity.Types
+
   build-depends:       base                  >= 4.8.2 && < 5.0
                      , array                 >= 0.5.1.1 && < 0.6
                      , attoparsec            >= 0.13.1.0 && < 0.14
@@ -214,42 +212,33 @@ test-suite duckling-test
                      , Duckling.Dimensions.Tests
 
                      -- AmountOfMoney
-                     , Duckling.AmountOfMoney.ZH.Tests
                      , Duckling.AmountOfMoney.Tests
 
                      -- Distance
-                     , Duckling.Distance.ZH.Tests
                      , Duckling.Distance.Tests
 
                      -- Duration
-                     , Duckling.Duration.ZH.Tests
                      , Duckling.Duration.Tests
 
                      -- Email
-                     , Duckling.Email.EN.Tests
                      , Duckling.Email.Tests
 
                      -- Numeral
-                     , Duckling.Numeral.ZH.Tests
                      , Duckling.Numeral.Tests
 
                      -- Ordinal
-                     , Duckling.Ordinal.ZH.Tests
                      , Duckling.Ordinal.Tests
 
                      -- PhoneNumber
                      , Duckling.PhoneNumber.Tests
 
                      -- Quantity
-                     , Duckling.Quantity.ZH.Tests
                      , Duckling.Quantity.Tests
 
                      -- Temperature
-                     , Duckling.Temperature.ZH.Tests
                      , Duckling.Temperature.Tests
 
                      -- Time
-                     , Duckling.Time.ZH.Tests
                      , Duckling.Time.Tests
 
                      -- Url
@@ -257,6 +246,9 @@ test-suite duckling-test
 
                      -- CreditCardNumber
                      , Duckling.CreditCardNumber.Tests
+
+                     -- Identity
+                     , Duckling.Identity.Tests
 
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N -Wincomplete-patterns
   default-language:    Haskell2010

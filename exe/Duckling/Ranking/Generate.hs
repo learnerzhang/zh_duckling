@@ -28,11 +28,11 @@ import Duckling.Ranking.Train
 import Duckling.Ranking.Types
 import Duckling.Rules
 import Duckling.Testing.Types
-import qualified Duckling.Time.ZH.Corpus as ZHTime
-import qualified Duckling.Time.ZH.CN.Corpus as ZH_CNTime
-import qualified Duckling.Time.ZH.HK.Corpus as ZH_HKTime
-import qualified Duckling.Time.ZH.MO.Corpus as ZH_MOTime
-import qualified Duckling.Time.ZH.TW.Corpus as ZH_TWTime
+import qualified Duckling.Time.ZHCorpus as ZHTime
+import qualified Duckling.Time.CN.Corpus as ZH_CNTime
+import qualified Duckling.Time.HK.Corpus as ZH_HKTime
+import qualified Duckling.Time.MO.Corpus as ZH_MOTime
+import qualified Duckling.Time.TW.Corpus as ZH_TWTime
 
 -- -----------------------------------------------------------------
 -- Main

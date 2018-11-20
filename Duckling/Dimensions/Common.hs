@@ -19,4 +19,15 @@ allDimensions =
   , This Numeral
   , This PhoneNumber
   , This Url
+  ] 
+  ++ [ This Distance
+  , This Duration
+  , This Numeral
+  , This Ordinal
+  , This Quantity
+  , This Temperature
+  , This Time
+  ] 
+  ++ [
+    This Identity
   ]

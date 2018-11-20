@@ -23,7 +23,6 @@ import Duckling.Dimensions.Types
 import Duckling.Locale
 import Duckling.Types
 import qualified Duckling.Rules.Common as CommonRules
-import qualified Duckling.Rules.ZH as ZHRules
 
 -- | Returns the minimal set of rules required for `targets`.
 rulesFor :: Locale -> HashSet (Some Dimension) -> [Rule]
@@ -46,10 +45,10 @@ rulesFor' (Locale lang Nothing) dim =
 
 -- | Default rules when no locale, for backward compatibility.
 defaultRules :: Lang -> Some Dimension -> [Rule]
-defaultRules ZH = ZHRules.defaultRules
+defaultRules ZH = CommonRules.defaultRules
 
 localeRules :: Lang -> Region -> Some Dimension -> [Rule]
-localeRules ZH = ZHRules.localeRules
+localeRules ZH = CommonRules.localeRules
 
 langRules :: Lang -> Some Dimension -> [Rule]
-langRules ZH = ZHRules.langRules
+langRules ZH = CommonRules.langRules
