@@ -52,7 +52,7 @@ timeFormatTest :: TestTree
 timeFormatTest = testCase "Format Test" $
   mapM_ (analyzedFirstTest testContext testOptions . withTargets [This Time]) xs
   where
-    xs = examplesCustom (parserCheck expected parseValue) ["now"]
+    xs = examplesCustom (parserCheck expected parseValue) ["现在"]
     expected = "2013-02-12T04:30:00.000-02:00"
 
 parseValue :: Value -> Maybe Text

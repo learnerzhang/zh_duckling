@@ -60,25 +60,25 @@ rankTest = testGroup "Rank Tests"
 rankFilterTest :: TestTree
 rankFilterTest = testCase "Rank Filter Tests" $ do
   mapM_ check
-    [ ( "in 2 minutes"
+    [ ( "2分钟"
       , [This Numeral, This Duration, This Time]
-      , [This Time]
+      , [This Duration]
       )
-    , ( "in 2 minutes, about 42 degrees"
-      , [This Numeral, This Temperature, This Time]
-      , [This Time, This Temperature]
+    , ( "2分钟, 大概 42 度"
+      , [This Numeral, This Temperature, This Duration, This Time]
+      , [This Duration, This Temperature]
       )
-    , ( "today works... and tomorrow at 9pm too"
+    , ( "今天工作...和明天9pm"
       , [This Numeral, This Time]
       , [This Time, This Time]
       )
-    , ( "between 9:30 and 11:00 on thursday or Saturday and Thanksgiving Day"
+    , ( "星期二或者星期三或者下周"
       , [This Numeral, This Time]
       , [This Time, This Time, This Time]
       )
-    , ("the day after tomorrow 5pm", [This Time], [This Time])
-    , ("the day after tomorrow 5pm", [This Time, This Numeral], [This Time])
-    , ("the day after tomorrow 5pm", [], [This Time])
+    , ("后天 5pm", [This Time], [This Time])
+    , ("后天 5pm", [This Time, This Numeral], [This Time])
+    , ("后天 5pm", [], [This Time])
     ]
   where
     check :: (Text, [Some Dimension], [Some Dimension]) -> IO ()
@@ -108,9 +108,9 @@ rangeTest = testCase "Range Tests" $ do
              [ ( "order status 3233763377", [This PhoneNumber], Range 13 23 )
              , ( "  3233763377  "         , [This PhoneNumber], Range  2 12 )
              , ( " -3233763377"           , [This PhoneNumber], Range  2 12 )
-             , ( "  now"                  , [This Time]       , Range  2  5 )
-             , ( "   Monday  "            , [This Time]       , Range  3  9 )
-             , ( "  next   week "         , [This Time]       , Range  2 13 )
+             , ( "  现在"                  , [This Time]       , Range  2  4 )
+             , ( "   星期一  "            , [This Time]       , Range  3  6 )
+             , ( "  下周 "         , [This Time]       , Range  2 4 )
              , ( "   42\n\n"              , [This Numeral]    , Range  3  5 )
              ]
     f :: Range -> TestPredicate
@@ -120,9 +120,7 @@ supportedDimensionsTest :: TestTree
 supportedDimensionsTest = testCase "Supported Dimensions Test" $ do
   mapM_ check
     [ ( ZH
-      , [ This Email, This AmountOfMoney, This PhoneNumber, This Url
-        , This Duration, This Numeral, This Ordinal, This Time, This Volume
-        , This Temperature, This Quantity
+      , [ This Url,This Quantity,This Temperature,This Time,This AmountOfMoney,This Numeral,This Ordinal,This PhoneNumber,This Identity,This Distance,This Duration,This Email
         ]
       )
     ]
