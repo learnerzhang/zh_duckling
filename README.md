@@ -159,7 +159,7 @@ in|within|after <duration> (in two minutes)
 |        | R43 |`evening\|night`| 儿童节晚上
 |        | R44 |`mm/dd/yyyy`| 12/20/2012
 |        | R45 |`<time-of-day> o'clock`| 上午10点
-|        | R46 |`other rules`| 其他节日规则
+|        | R46 |`other rules` | 节日规则
 
 
 
