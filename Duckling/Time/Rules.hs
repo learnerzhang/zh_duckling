@@ -392,7 +392,7 @@ ruleAfternoon :: Rule
 ruleAfternoon = Rule
   { name = "afternoon"
   , pattern =
-    [ regex "下午|中午|\x664f\x665d"
+    [ regex "中午|下午"  --TODO REPAIR
     ]
   , prod = \_ ->
       let from = hour False 12
@@ -425,7 +425,7 @@ ruleInduringThePartofday = Rule
 
 ruleIntersectBy :: Rule
 ruleIntersectBy = Rule
-  { name = "intersect by \",\""
+  { name = "intersect by \",\"" -- can do logist produce
   , pattern =
     [ Predicate isNotLatent
     , regex ","
@@ -575,7 +575,7 @@ ruleLastYear :: Rule
 ruleLastYear = Rule
   { name = "last year"
   , pattern =
-    [ regex "去年|上年"
+    [ regex "去年|上年|过去一年"
     ]
   , prod = \_ -> tt . cycleNth TG.Year $ - 1
   }
@@ -655,7 +655,7 @@ ruleMorning :: Rule
 ruleMorning = Rule
   { name = "morning"
   , pattern =
-    [ regex "早上|早晨|\x671d(\x982d)?早"
+    [ regex "早上|早晨"
     ]
   , prod = \_ ->
       let from = hour False 4
@@ -880,6 +880,8 @@ ruleTimezone = Rule
        _) -> Token Time <$> inTimezone (Text.toUpper tz) td
       _ -> Nothing
   }
+
+
 
 ruleDaysOfWeek :: [Rule]
 ruleDaysOfWeek = mkRuleDaysOfWeek

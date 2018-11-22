@@ -109,5 +109,60 @@ in|within|after <duration> (in two minutes)
 [Entity {dim = "time", body = "in two minutes", value = RVal Time (TimeValue (SimpleValue (InstantValue {vValue = 2013-02-12 04:32:00 -0200, vGrain = Second})) [SimpleValue (InstantValue {vValue = 2013-02-12 04:32:00 -0200, vGrain = Second})] Nothing), start = 0, end = 14}]
 ```
 
+## The support rule of dimension
+
+
+| Dimension | Rules | Description| Example
+| --------- | ------------- | --------------------| --------------------
+| `Time` | R1 |`the day after tomorrow`| 后天\|後天\|後日
+|        | R2 |`relative minutes to|till|before <integer> (hour-of-day)`| 两点差5
+|        | R3 |`relative minutes to|till|before noon|midnight`| 12点\|0点差5
+|        | R4 |`relative minutes after|past <integer> (hour-of-day)`| 12点15
+|        | R5 |`relative minutes after|past noon|midnight`| 12点\|0点过5
+|        | R6 |`quarter to|till|before <integer> (hour-of-day)`| 12点差一刻
+|        | R7 |`quarter to|till|before noon|midnight`| 12点差一刻
+|        | R8 |`half after|past <integer> (hour-of-day)`| 5点半
+|        | R9 |`half to|till|before <integer> (hour-of-day)`| 5时差半
+|        | R10 |`half to|till|before noon|midnight`| 12时差半
+|        | R11 |`hh:mm (time-of-day)`| 12:20\|0:21
+|        | R12 |`this <day-of-week>`| 这周一
+|        | R13 |`nth <time> of <time>`| 1月的第一个周末
+|        | R14 |`week-end`| 周末
+|        | R15 |`last year`| 去年\|上年\|过去一年
+|        | R16 |`<dim time> <part-of-day>`| 今天下午\|早晨
+|        | R17 |`next <time>`| 下个元旦
+|        | R18 |`the day before yesterday`| 前天\|前日
+|        | R19 |`next <cycle>`| 下年\|下月\|下周
+|        | R20 |`next n <cycle>`| 下2年\|下2月\|下2周\|二周后
+|        | R21 |`last <cycle>`| 上个月\|上周
+|        | R22 |`afternoon`| 2018年6月1日中午\|上午
+|        | R23 |`midnight`| 午夜\|凌晨\|半夜
+|        | R24 |`in|during the <part-of-day>`| 早上时\|晚上时
+|        | R25 |`intersect by \",\"`| 周日, 儿童节
+|        | R26 |`mm/dd`| 12/22\|2/29
+|        | R27 |`year (numeric with year symbol)`| 2018年
+|        | R28 |`hhmm (military time-of-day)`| 早上1130
+|        | R29 |`hh:mm (time-of-day)`| 12:30
+|        | R30 |`intersect`| 昨天12:30
+|        | R31 |`<dim time> <part-of-day>`| 10点晚上
+|        | R32 |`yyyy-mm-dd`| 2012-10-01
+|        | R33 |`morning`| 2018年6月1日早晨\|早上
+|        | R34 |`next year`| 明年\|下年
+|        | R35 |`this <time>`| 这一年
+|        | R36 |`yesterday`| 昨天\|昨日\|
+|        | R37 |`last night`| 昨晚\|昨天晚上\|
+|        | R38 |`<time-of-day> am|pm`| 10pm
+|        | R39 |`<named-month> <day-of-month>`| 1月2号
+|        | R40 |`tonight`| 今晚\|今天晚上
+|        | R41 |`tomorrow night`| 明晚\|明天晚上
+|        | R42 |`this year`| 今年
+|        | R43 |`evening|night`| 儿童节晚上
+|        | R44 |`mm/dd/yyyy`| 12/20/2012
+|        | R45 |`<time-of-day> o'clock`| 上午10点
+|        | R46 |`other rules`| 其他节日规则
+
+
+
+
 ## License
 Duckling is BSD-licensed. We also provide an additional patent grant.
