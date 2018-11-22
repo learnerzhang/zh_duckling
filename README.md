@@ -137,7 +137,7 @@ in|within|after <duration> (in two minutes)
 |        | R21 |`last <cycle>`| 上个月\|上周
 |        | R22 |`afternoon`| 2018年6月1日中午\|上午
 |        | R23 |`midnight`| 午夜\|凌晨\|半夜
-|        | R24 |`in|during the <part-of-day>`| 早上时\|晚上时
+|        | R24 |`in\|during the <part-of-day>`| 早上时\|晚上时
 |        | R25 |`intersect by \",\"`| 周日, 儿童节
 |        | R26 |`mm/dd`| 12/22\|2/29
 |        | R27 |`year (numeric with year symbol)`| 2018年
