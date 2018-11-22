@@ -118,8 +118,8 @@ in|within|after <duration> (in two minutes)
 |        | R2 |`relative minutes to\|till\|before <integer> (hour-of-day)`| 两点差5
 |        | R3 |`relative minutes to\|till\|before noon\|midnight`| 12点\|0点差5
 |        | R4 |`relative minutes after\|past <integer> (hour-of-day)`| 12点15
-|        | R5 |`relative minutes after\|past noon|midnight`| 12点\|0点过5
-|        | R6 |`quarter to\|till|before <integer> (hour-of-day)`| 12点差一刻
+|        | R5 |`relative minutes after\|past noon\|midnight`| 12点\|0点过5
+|        | R6 |`quarter to\|till\|before <integer> (hour-of-day)`| 12点差一刻
 |        | R7 |`quarter to\|till\|before noon\|midnight`| 12点差一刻
 |        | R8 |`half after\|past <integer> (hour-of-day)`| 5点半
 |        | R9 |`half to\|till\|before <integer> (hour-of-day)`| 5时差半
