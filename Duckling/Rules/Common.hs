@@ -23,6 +23,7 @@ import Duckling.Locale
 import qualified Duckling.AmountOfMoney.Rules as AmountOfMoney
 import qualified Duckling.CreditCardNumber.Rules as CreditCardNumber
 import qualified Duckling.Distance.Rules as Distance
+import qualified Duckling.Weight.Rules as Weight
 import qualified Duckling.Duration.Rules as Duration
 import qualified Duckling.Email.Rules as Email
 import qualified Duckling.Numeral.Rules as Numeral
@@ -47,6 +48,7 @@ rules :: Some Dimension -> [Rule]
 rules (This AmountOfMoney) = AmountOfMoney.rules
 rules (This CreditCardNumber) = CreditCardNumber.rules
 rules (This Distance) = Distance.rules
+rules (This Weight) = Weight.rules
 rules (This Duration) = Duration.rules
 rules (This Email) = Email.rules
 rules (This Numeral) = Numeral.rules
@@ -77,6 +79,7 @@ langRules :: Some Dimension -> [Rule]
 langRules (This AmountOfMoney) = AmountOfMoney.rules
 langRules (This CreditCardNumber) = []
 langRules (This Distance) = Distance.rules
+langRules (This Weight) = Weight.rules
 langRules (This Duration) = []
 langRules (This Email) = []
 langRules (This Numeral) = Numeral.rules

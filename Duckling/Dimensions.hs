@@ -36,6 +36,7 @@ explicitDimensions targets = HashSet.union targets deps
 dependents :: Some Dimension -> HashSet (Some Dimension)
 dependents (This CreditCardNumber) = HashSet.empty
 dependents (This Distance) = HashSet.singleton (This Numeral)
+dependents (This Weight) = HashSet.singleton (This Numeral)
 dependents (This Duration) = HashSet.fromList [This Numeral, This TimeGrain]
 dependents (This Numeral) = HashSet.empty
 dependents (This Email) = HashSet.empty

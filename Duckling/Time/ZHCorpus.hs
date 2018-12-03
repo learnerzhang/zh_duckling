@@ -194,6 +194,10 @@ allExamples = concat
              [ "10/31/1974"
              , "10/31/74"
              ]
+  , examples (datetime (1974, 11, 0, 0, 0, 0) Month)
+             [ "1974-11"
+             , "1974年11月"
+             ]
   , examples (datetimeInterval ((2013, 2, 15, 4, 0, 0), (2013, 2, 15, 12, 0, 0)) Hour)
              [ "二月十五号早上"
              , "二月十五号早晨"
@@ -435,7 +439,6 @@ allExamples = concat
              , "三點"
              , "3pm"
              , "下午三點"
-             , "晏晝三點"
              , "下午三時"
              ]
   , examples (datetime (2013, 2, 12, 15, 15, 0) Minute)
@@ -446,7 +449,6 @@ allExamples = concat
              , "3:15PM"
              , "3:15p"
              , "下午三點十五"
-             , "晏晝三點十五"
              ]
   , examples (datetime (2013, 2, 12, 13, 0, 0) Minute)
              [ "4pm CET"

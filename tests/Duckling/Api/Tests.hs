@@ -120,7 +120,11 @@ supportedDimensionsTest :: TestTree
 supportedDimensionsTest = testCase "Supported Dimensions Test" $ do
   mapM_ check
     [ ( ZH
-      , [ This Url,This Quantity,This Temperature,This Time,This AmountOfMoney,This Numeral,This Ordinal,This PhoneNumber,This Identity,This Distance,This Duration,This Email
+      , [ This Url,This Quantity,This Temperature
+        ,This Time,This AmountOfMoney,This Numeral
+        ,This Ordinal,This PhoneNumber,This Identity
+        ,This Distance,This Weight,This Duration
+        ,This Email
         ]
       )
     ]

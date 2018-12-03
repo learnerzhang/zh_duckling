@@ -353,7 +353,7 @@ ruleNextCycle :: Rule
 ruleNextCycle = Rule
   { name = "next <cycle>"
   , pattern =
-    [ regex "下(个|個)?"
+    [ regex "(下|未来)(个|個)?"
     , dimension TimeGrain
     ]
   , prod = \tokens -> case tokens of
@@ -367,10 +367,23 @@ ruleDurationFromNow = Rule
   { name = "<duration> from now"
   , pattern =
     [ dimension Duration
-    , regex "后|後|之後"
+    , regex "后|後|之後|之后"
     ]
   , prod = \tokens -> case tokens of
       (Token Duration dd:_) ->
+        tt $ inDuration dd
+      _ -> Nothing
+  }
+
+ruleFutureDurationFromNow :: Rule
+ruleFutureDurationFromNow = Rule
+  { name = "<duration> from now"
+  , pattern =
+    [ regex "下(个)?" 
+    , dimension Duration
+    ]
+  , prod = \tokens -> case tokens of
+      (_:Token Duration dd:_) ->
         tt $ inDuration dd
       _ -> Nothing
   }
@@ -478,6 +491,7 @@ ruleYearNumericWithYearSymbol = Rule
       _ -> Nothing
   }
 
+-- 最近一段时间
 ruleDurationAgo :: Rule
 ruleDurationAgo = Rule
   { name = "<duration> ago"
@@ -487,6 +501,19 @@ ruleDurationAgo = Rule
     ]
   , prod = \tokens -> case tokens of
       (Token Duration dd:_) ->
+        tt $ durationAgo dd
+      _ -> Nothing
+  }
+
+ruleRecentDuration :: Rule
+ruleRecentDuration = Rule
+  { name = "recent <duration>"
+  , pattern =
+    [ regex "(最)?近"
+    , dimension Duration
+    ]
+  , prod = \tokens -> case tokens of
+      (_:Token Duration dd:_) ->
         tt $ durationAgo dd
       _ -> Nothing
   }
@@ -603,6 +630,37 @@ ruleNextTime = Rule
   , prod = \tokens -> case tokens of
       (_:Token Time td:_) ->
         tt $ predNth 1 False td
+      _ -> Nothing
+  }
+
+ruleYYYYMM :: Rule
+ruleYYYYMM = Rule
+  { name = "yyyy-mm"
+  , pattern =
+    [ regex "(\\d{4})\\s*[/-]\\s*(1[0-2]|0?[1-9])"
+    ]
+  , prod = \tokens -> case tokens of
+      (Token RegexMatch (GroupMatch (yy:mm:_)):_) -> do
+        y <- parseInt yy
+        m <- parseInt mm
+        tt $ yearMonth y m
+      _ -> Nothing
+  }
+
+ruleYearMonth :: Rule
+ruleYearMonth = Rule
+  { name = "year-month"
+  , pattern =
+    [ Predicate $ isIntegerBetween 1000 9999
+    , regex "年"
+    , Predicate $ isIntegerBetween 1 12
+    , regex "月"
+    ]
+  , prod = \tokens -> case tokens of
+      (td1:_:td3:_:_) -> do
+        y <- getIntValue td1
+        m <- getIntValue td3
+        tt $ yearMonth y m
       _ -> Nothing
   }
 
@@ -881,7 +939,119 @@ ruleTimezone = Rule
       _ -> Nothing
   }
 
+-- eg: 3月5(日|号)？-15
+ruleIntervalMonthDDDD :: Rule
+ruleIntervalMonthDDDD = Rule
+  { name = "<month> dd-dd (interval)"
+  , pattern =
+    [ Predicate isAMonth
+    , Predicate isDOMValue
+    , regex "(号|日)?(\\-|到|至)"
+    , Predicate isDOMValue
+    ]
+  , prod = \tokens -> case tokens of
+      (Token Time td:
+       token1:
+       _:
+       token2:
+       _) -> do
+        dom1 <- intersectDOM td token1
+        dom2 <- intersectDOM td token2
+        Token Time <$> interval TTime.Closed dom1 dom2
+      _ -> Nothing
+  }
 
+ruleIntervalFromMonthDDDD :: Rule
+ruleIntervalFromMonthDDDD = Rule
+  { name = "from <month> dd-dd (interval)"
+  , pattern =
+    [ regex "从"
+    , Predicate isAMonth
+    , Predicate isDOMValue
+    , regex "(号|日)?(\\-|到|至)"
+    , Predicate isDOMValue
+    ]
+  , prod = \tokens -> case tokens of
+      (_:
+       Token Time td:
+       token1:
+       _:
+       token2:
+       _) -> do
+        dom1 <- intersectDOM td token1
+        dom2 <- intersectDOM td token2
+        Token Time <$> interval TTime.Closed dom1 dom2
+      _ -> Nothing
+  }
+
+
+ruleIntervalDash :: Rule
+ruleIntervalDash = Rule
+  { name = "<datetime> - <datetime> (interval)"
+  , pattern =
+    [ Predicate isNotLatent
+    , regex "(\\-|到|至)"
+    , Predicate isNotLatent
+    ]
+  , prod = \tokens -> case tokens of
+      (Token Time td1:_:Token Time td2:_) ->
+        Token Time <$> interval TTime.Closed td1 td2
+      _ -> Nothing
+  }
+
+ruleIntervalTODBetween :: Rule
+ruleIntervalTODBetween = Rule
+  { name = "between <time-of-day> and <time-of-day> (interval)"
+  , pattern =
+    [ regex "从"
+    , Predicate isATimeOfDay
+    , regex "到|至"
+    , Predicate isATimeOfDay
+    ]
+  , prod = \tokens -> case tokens of
+      (_:Token Time td1:_:Token Time td2:_) ->
+        Token Time <$> interval TTime.Closed td1 td2
+      _ -> Nothing
+  }
+
+ruleIntervalByTheEndOf :: Rule
+ruleIntervalByTheEndOf = Rule
+  { name = "by the end of <time>"
+  , pattern =
+    [ regex "by (the )?end of"
+    , dimension Time
+    ]
+  , prod = \tokens -> case tokens of
+      (_:Token Time td:_) -> Token Time <$> interval TTime.Closed now td
+      _ -> Nothing
+  }
+
+-- 截止/直到 time
+ruleIntervalUntilTime :: Rule
+ruleIntervalUntilTime = Rule
+  { name = "until <time>"
+  , pattern =
+    [ regex "(截止|直到)"
+    , dimension Time
+    ]
+  , prod = \tokens -> case tokens of
+      (_:Token Time td:_) -> tt . withDirection TTime.Before $ notLatent td
+      _ -> Nothing
+  }
+
+-- 从 time 起
+ruleIntervalAfterFromSinceTime :: Rule
+ruleIntervalAfterFromSinceTime = Rule
+  { name = "from|since|after <time>"
+  , pattern =
+    [ regex "从"
+    , dimension Time
+    , regex "起"
+    ]
+  , prod = \tokens -> case tokens of
+      (_:Token Time td:_) -> tt . withDirection TTime.After $ notLatent td
+      _ -> Nothing
+  }
 
 ruleDaysOfWeek :: [Rule]
 ruleDaysOfWeek = mkRuleDaysOfWeek
@@ -1037,9 +1207,22 @@ rules =
   , ruleWeekend
   , ruleYearNumericWithYearSymbol
   , ruleYesterday
+  , ruleYYYYMM
+  , ruleYearMonth
   , ruleYyyymmdd
   , ruleTimezone
   ]
   ++ ruleDaysOfWeek
   ++ ruleMonths
   ++ rulePeriodicHolidays
+  ++ [
+    ruleRecentDuration  -- 最(近)一段时间
+  , ruleIntervalDash
+  , ruleIntervalMonthDDDD
+  , ruleIntervalFromMonthDDDD
+  , ruleIntervalTODBetween
+  , ruleIntervalUntilTime
+  , ruleIntervalAfterFromSinceTime
+  , ruleIntervalByTheEndOf
+  , ruleFutureDurationFromNow
+  ]

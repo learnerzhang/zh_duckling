@@ -21,6 +21,7 @@ allDimensions =
   , This Url
   ] 
   ++ [ This Distance
+  , This Weight -- 重量
   , This Duration
   , This Numeral
   , This Ordinal

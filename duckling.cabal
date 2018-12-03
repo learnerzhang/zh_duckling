@@ -80,6 +80,12 @@ library
                      , Duckling.Distance.Rules
                      , Duckling.Distance.Types
 
+                     -- Weight
+                     , Duckling.Weight.Corpus
+                     , Duckling.Weight.Helpers
+                     , Duckling.Weight.Rules
+                     , Duckling.Weight.Types
+
                      -- Duration
                      , Duckling.Duration.Corpus
                      , Duckling.Duration.Helpers
@@ -216,6 +222,9 @@ test-suite duckling-test
 
                      -- Distance
                      , Duckling.Distance.Tests
+
+                     -- Weight
+                     , Duckling.Weight.Tests
 
                      -- Duration
                      , Duckling.Duration.Tests

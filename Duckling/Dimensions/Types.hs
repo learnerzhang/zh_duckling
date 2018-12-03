@@ -31,6 +31,7 @@ toName :: Dimension a -> Text
 toName RegexMatch = "regex"
 toName CreditCardNumber = "credit-card-number"
 toName Distance = "distance"
+toName Weight = "weight"
 toName Duration = "duration"
 toName Email = "email"
 toName AmountOfMoney = "amount-of-money"
@@ -53,6 +54,7 @@ fromName name = HashMap.lookup name m
       [ ("amount-of-money", This AmountOfMoney)
       , ("credit-card-number", This CreditCardNumber)
       , ("distance", This Distance)
+      , ("weight", This Weight)
       , ("duration", This Duration)
       , ("email", This Email)
       , ("number", This Numeral)

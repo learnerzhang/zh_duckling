@@ -44,6 +44,7 @@ import qualified TextShow as TS
 import Duckling.AmountOfMoney.Types (AmountOfMoneyData)
 import Duckling.CreditCardNumber.Types (CreditCardNumberData)
 import Duckling.Distance.Types (DistanceData)
+import Duckling.Weight.Types (WeightData)
 import Duckling.Duration.Types (DurationData)
 import Duckling.Email.Types (EmailData)
 import Duckling.Locale
@@ -99,6 +100,7 @@ data Dimension a where
   AmountOfMoney :: Dimension AmountOfMoneyData
   CreditCardNumber :: Dimension CreditCardNumberData
   Distance :: Dimension DistanceData
+  Weight :: Dimension WeightData
   Duration :: Dimension DurationData
   Email :: Dimension EmailData
   Numeral :: Dimension NumeralData
@@ -120,6 +122,7 @@ instance Show (Dimension a) where
   show RegexMatch = "RegexMatch"
   show CreditCardNumber = "CreditCardNumber"
   show Distance = "Distance"
+  show Weight = "weight"
   show Duration = "Duration"
   show Email = "Email"
   show AmountOfMoney = "AmountOfMoney"
@@ -163,6 +166,7 @@ instance Hashable (Dimension a) where
   hashWithSalt s (CustomDimension _) = hashWithSalt s (14::Int)
   hashWithSalt s CreditCardNumber    = hashWithSalt s (15::Int)
   hashWithSalt s Identity            = hashWithSalt s (16::Int)
+  hashWithSalt s Weight              = hashWithSalt s (17::Int)
 
 instance GEq Dimension where
   geq RegexMatch RegexMatch = Just Refl
@@ -171,6 +175,8 @@ instance GEq Dimension where
   geq CreditCardNumber _ = Nothing
   geq Distance Distance = Just Refl
   geq Distance _ = Nothing
+  geq Weight Weight = Just Refl
+  geq Weight _ = Nothing
   geq Duration Duration = Just Refl
   geq Duration _ = Nothing
   geq Email Email = Just Refl
