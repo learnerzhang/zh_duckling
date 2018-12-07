@@ -61,7 +61,7 @@ main = do
 -- | Return which languages have which dimensions
 targetsHandler :: Snap ()
 targetsHandler = do
-  modifyResponse $ setHeader "Content-Type" "application/json"
+  modifyResponse $ setHeader "Content-Type" "application/json;charset=utf-8"
   writeLBS $ encode $
     HashMap.fromList . map dimText $ HashMap.toList supportedDimensions
   where
@@ -72,7 +72,7 @@ targetsHandler = do
 -- | Parse some text into the given dimensions
 parseHandler :: HashMap Text TimeZoneSeries -> Snap ()
 parseHandler tzs = do
-  modifyResponse $ setHeader "Content-Type" "application/json"
+  modifyResponse $ setHeader "Content-Type" "application/json;charset=utf-8"
   t <- getPostParam "text"
   l <- getPostParam "lang"
   ds <- getPostParam "dims"
