@@ -52,4 +52,5 @@ dependents (This TimeGrain) = HashSet.empty
 dependents (This Url) = HashSet.empty
 dependents (This Volume) = HashSet.singleton (This Numeral)
 dependents (This Identity) = HashSet.empty
+dependents (This Gender) = HashSet.empty
 dependents (This (CustomDimension dim)) = dimDependents dim

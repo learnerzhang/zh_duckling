@@ -1,0 +1,58 @@
+
+==================== FINAL INTERFACE ====================
+2019-01-30 07:24:33.588451 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Engine.Regex 8002
+  interface hash: 5aa79c41b7ca45a7fc8794aed198146f
+  ABI hash: a4fbf1f7b9f059fe0e9cb08b8221e6cf
+  export-list hash: 1dee0af53c8da98b12a397321ed4bf35
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: e9dd42777f64d832ed42bb15ea1d81c8
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Text.Regex.Base.RegexLike.RegexLike|{Text.Regex.Base.RegexLike.matchAll Text.Regex.Base.RegexLike.matchOnce}
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0*
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base 692871a91018d559947a86960bcb18e8
+e680bfa889ba12a6d47ee8f23271257a
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Engine.Regex.$trModule2
+                   Duckling.Engine.Regex.$trModule1) -}
+e5190b201608b417b70722adff3ed011
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Engine.Regex"#) -}
+5c3877cb9b4cf1f12632f569cf2ed4f8
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

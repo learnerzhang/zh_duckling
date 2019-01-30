@@ -1,0 +1,527 @@
+
+==================== FINAL INTERFACE ====================
+2019-01-30 07:26:46.595438 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Rules 8002
+  interface hash: 883d460f65947f432d56634d526a6467
+  ABI hash: ba912fe6e7ee856b7ddedbb3e0dada90
+  export-list hash: da0157c9e86986567007a7eac54e18f7
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 5ca01762543b0c0c02c95da60b7f76c2
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.CreditCardNumber.Rules.rules
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Helpers Duckling.CreditCardNumber.Types
+                     Duckling.Dimensions.Types Duckling.Distance.Types
+                     Duckling.Duration.Types Duckling.Email.Types Duckling.Gender.Types
+                     Duckling.Identity.Types Duckling.Locale Duckling.Numeral.Types
+                     Duckling.Ordinal.Types Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Types Duckling.Regex.Types Duckling.Region
+                     Duckling.Resolve Duckling.Temperature.Types Duckling.Time.Types
+                     Duckling.TimeGrain.Types Duckling.Types Duckling.Url.Types
+                     Duckling.Volume.Types Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Bool d125a207c348870c918ec350dc1fe27e
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.CreditCardNumber.Helpers 779cea288d8431d47e5cad16454c4be5
+  exports: 61bbe3e40bef2789b5d036b6910966af
+  amexCreditCardNumberRegex 71ea7edba673da27deb6a53c1478e6ff
+  creditCard 422f8e485c73dd7504ce8c018b24ac9c
+  dinerClubCreditCardNumberRegex e4fe368a3f32fd3bc62425472ed6ead8
+  discoverCreditCardNumberRegex e460f32ee76ab7e6ae0b6440882853e4
+  isValidCreditCardNumber 6e0a862d03094f460597f09ccce00514
+  mastercardCreditCardNumberRegex 3ddccb3ba739fe9839398aebf29e69f3
+  otherCreditCardNumberRegex 2e64aa118ca90b3d7652dd2334159fe7
+  visaCreditCardNumberRegex ca8d7d90d184d2e1bcc496db20573351
+import  -/  Duckling.CreditCardNumber.Types 81fe06b4314b4604371cc015e9908e21
+  exports: 8db62903b79d3bc1584e480b56e21fcc
+  Amex 618c8ea60b8e9a78757a24b214bb9f12
+  DinerClub 0e62a283e88e9f647ffca9747f27dfed
+  Discover 9f2eff7eb8113c1e80c0d779b2aaa123
+  Issuer 7242b555aa3d28322fe91967ef549c66
+  Mastercard b856b265a0bc01631a226a695b3fda82
+  Other 92a3373a98f7848db0d8f20e3bf1a40c
+  Visa 6cedb5f1269a577ee65c4206e5034088
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.Regex.Types 02ee061ffbed7bfe03850219af82e91c
+  exports: d44c9c4af09e2c2530be2e20de544b1d
+  GroupMatch 537ad29f8ab71f1e1b7b5a2d9bd0ac47
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  CreditCardNumber f60e4acc7233d8732715c2bb6f56397c
+  PatternItem 876893268fb58123567a47e946b5b6ba
+  RegexMatch 48a4c104f38c3a332becce55bbf47568
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  name 76f427769b73e82db2c2df59caa60288
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  prod a4c6750bd517e049c9ce8428e1e5dff2
+  regex c51097368a8c266ad9942dc9e3370fd5
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+cba666033d12e58a998e8bb5559a63a5
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.CreditCardNumber.Rules.$trModule2
+                   Duckling.CreditCardNumber.Rules.$trModule1) -}
+476ab44ecadf41d4cd58f6ed889b253c
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "Duckling.CreditCardNumber.Rules"#) -}
+09be54d821fa485c7ad2dea435015e25
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+6a39631d98d9b4fb21cd35da70d653e5
+  $wc ::
+    Data.Text.Internal.Text
+    -> Duckling.Types.PatternItem
+    -> Duckling.CreditCardNumber.Types.Issuer
+    -> (# Data.Text.Internal.Text, Duckling.Types.Pattern,
+          Duckling.Types.Production #)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: Data.Text.Internal.Text)
+                   (ww1 :: Duckling.Types.PatternItem)
+                   (ww2 :: Duckling.CreditCardNumber.Types.Issuer) ->
+                 (# ww,
+                    GHC.Types.:
+                      @ Duckling.Types.PatternItem
+                      ww1
+                      (GHC.Types.[] @ Duckling.Types.PatternItem),
+                    \ (ds :: [Duckling.Types.Token]) ->
+                    case ds of wild {
+                      [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                      : ds1 ds2
+                      -> case ds1 of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds3 ds4 ->
+                         case ds3 of wild2 {
+                           DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                           Duckling.Types.RegexMatch cobox0
+                           -> case ds4
+                                     `cast`
+                                   (Sub cobox0) of wild3 { Duckling.Regex.Types.GroupMatch ds5 ->
+                              case ds5 of wild4 {
+                                [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                                : ccNum ds6
+                                -> case ccNum of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                                   case Duckling.CreditCardNumber.Helpers.$wisValidCreditCardNumber
+                                          ww4
+                                          ww5
+                                          ww6 of wild5 {
+                                     GHC.Types.False -> GHC.Base.Nothing @ Duckling.Types.Token
+                                     GHC.Types.True
+                                     -> GHC.Base.Just
+                                          @ Duckling.Types.Token
+                                          (Duckling.Types.Token
+                                             @ Duckling.CreditCardNumber.Types.CreditCardNumberData
+                                             Duckling.CreditCardNumber.Types.$fResolveCreditCardNumberData
+                                             Duckling.CreditCardNumber.Types.$fEqCreditCardNumberData
+                                             Duckling.CreditCardNumber.Types.$fHashableCreditCardNumberData
+                                             Duckling.CreditCardNumber.Types.$fShowCreditCardNumberData
+                                             Duckling.CreditCardNumber.Types.$fNFDataCreditCardNumberData_$crnf
+                                               `cast`
+                                             (Sym (Control.DeepSeq.N:NFData[0]
+                                                       <Duckling.CreditCardNumber.Types.CreditCardNumberData>_N))
+                                             Duckling.Types.$WCreditCardNumber
+                                             (Duckling.CreditCardNumber.Types.CreditCardNumberData
+                                                ww3
+                                                ww2)) } } } } } } } #)) -}
+947bf6bafdd1b450e51d8333604a52dd
+  rules :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.CreditCardNumber.Rules.rules26
+                   Duckling.CreditCardNumber.Rules.rules1) -}
+d5d975af18b6973cce74431cd4fe9b22
+  rules1 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.CreditCardNumber.Rules.rules22
+                   Duckling.CreditCardNumber.Rules.rules2) -}
+095a425c07a276af6930d76547dadb94
+  rules10 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.CreditCardNumber.Rules.$wc
+                        Duckling.CreditCardNumber.Rules.rules13
+                        Duckling.CreditCardNumber.Rules.rules11
+                        Duckling.CreditCardNumber.Types.DinerClub of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+83c36e015872762987a35cb1f7e56370
+  rules11 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.CreditCardNumber.Rules.rules12) -}
+1197d4d8c254df0f6dab31ece66455ed
+  rules12 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.CreditCardNumber.Helpers.dinerClubCreditCardNumberRegex) -}
+74ea19dc491dc001c9ecdd8dcd9dd308
+  rules13 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "diner club card number"#) -}
+c0e309233c8a72832655eb068d2bfd50
+  rules14 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.CreditCardNumber.Rules.$wc
+                        Duckling.CreditCardNumber.Rules.rules17
+                        Duckling.CreditCardNumber.Rules.rules15
+                        Duckling.CreditCardNumber.Types.Mastercard of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+cc57d74caca8e937580d1f0ef5180b34
+  rules15 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.CreditCardNumber.Rules.rules16) -}
+3b730b1f30044966583a85b420ff7649
+  rules16 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.CreditCardNumber.Helpers.mastercardCreditCardNumberRegex) -}
+48ad9fce345a37190103bc378a972249
+  rules17 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "mastercard card number"#) -}
+beb4eee23e5c4d2a23df8f0ca991d334
+  rules18 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.CreditCardNumber.Rules.$wc
+                        Duckling.CreditCardNumber.Rules.rules21
+                        Duckling.CreditCardNumber.Rules.rules19
+                        Duckling.CreditCardNumber.Types.Discover of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+28481b6585dd77e263efc1a8a019a689
+  rules19 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.CreditCardNumber.Rules.rules20) -}
+8a6e26593e03b7d621e062ead719145e
+  rules2 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.CreditCardNumber.Rules.rules18
+                   Duckling.CreditCardNumber.Rules.rules3) -}
+3df7d747385a3fe5259b96482deab5a9
+  rules20 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.CreditCardNumber.Helpers.discoverCreditCardNumberRegex) -}
+d55cdcce26a281594c163861ef15d759
+  rules21 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "discover card number"#) -}
+f4281d5229490bed9796fcd2bf389ac3
+  rules22 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.CreditCardNumber.Rules.$wc
+                        Duckling.CreditCardNumber.Rules.rules25
+                        Duckling.CreditCardNumber.Rules.rules23
+                        Duckling.CreditCardNumber.Types.Amex of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+bb5c6eed965f690ee3db0244a135b580
+  rules23 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.CreditCardNumber.Rules.rules24) -}
+e16386ecda2d54663ff62bc58139998b
+  rules24 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.CreditCardNumber.Helpers.amexCreditCardNumberRegex) -}
+da40fd973b1f838bbb87d28558eb6110
+  rules25 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "amex card number"#) -}
+84378169cb9b04cda98eacda84103621
+  rules26 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.CreditCardNumber.Rules.$wc
+                        Duckling.CreditCardNumber.Rules.rules29
+                        Duckling.CreditCardNumber.Rules.rules27
+                        Duckling.CreditCardNumber.Types.Visa of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+03b203df1ae2170f98938c0ce6e22c5d
+  rules27 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.CreditCardNumber.Rules.rules28) -}
+503dd5d12185a0e1d26fcf628bfee4d2
+  rules28 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.CreditCardNumber.Helpers.visaCreditCardNumberRegex) -}
+f60560b08fb3edb94a098a2d44f5ef92
+  rules29 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "visa credit card number"#) -}
+fbf55a39d322aef94943d095a06f55df
+  rules3 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.CreditCardNumber.Rules.rules14
+                   Duckling.CreditCardNumber.Rules.rules4) -}
+e826c6443e0befb053a99a01ba7a3bba
+  rules4 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.CreditCardNumber.Rules.rules10
+                   Duckling.CreditCardNumber.Rules.rules5) -}
+983ebfc59bbacca1c26e12f39491b28f
+  rules5 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.CreditCardNumber.Rules.rules6
+                   (GHC.Types.[] @ Duckling.Types.Rule)) -}
+eefefd9b1d0133c140d6a60913c2e823
+  rules6 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.CreditCardNumber.Rules.$wc
+                        Duckling.CreditCardNumber.Rules.rules9
+                        Duckling.CreditCardNumber.Rules.rules7
+                        Duckling.CreditCardNumber.Types.Other of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+cd60f53346c506278c8b3c594cf3ab7b
+  rules7 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.CreditCardNumber.Rules.rules8) -}
+f335def57c452a00596052eac9d9fb58
+  rules8 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.CreditCardNumber.Helpers.otherCreditCardNumberRegex) -}
+ccde960f6a99bfdc396f135d0f0c53c7
+  rules9 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "credit card number"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

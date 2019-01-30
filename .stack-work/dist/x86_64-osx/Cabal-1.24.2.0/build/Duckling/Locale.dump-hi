@@ -1,0 +1,2375 @@
+
+==================== FINAL INTERFACE ====================
+2019-01-30 07:24:13.97756 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale [family instance module] 8002
+  interface hash: 7de58ce9d02a630d1f2ec8c26c371aa0
+  ABI hash: 020bf273f3f9b80348357a6a6745b7ad
+  export-list hash: add3c3336cdc18456bb772c1f769cbd3
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 52bebd6c2be3367953930b688693a96c
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Locale.allLocales
+  Duckling.Locale.makeLocale
+  Duckling.Locale.Lang{Duckling.Locale.ZH}
+  Duckling.Locale.Locale{Duckling.Locale.Locale}
+  Duckling.Region.Region{Duckling.Region.AU Duckling.Region.BE Duckling.Region.BZ Duckling.Region.CA Duckling.Region.CN Duckling.Region.GB Duckling.Region.HK Duckling.Region.IE Duckling.Region.IN Duckling.Region.JM Duckling.Region.MO Duckling.Region.NZ Duckling.Region.PH Duckling.Region.TT Duckling.Region.TW Duckling.Region.US Duckling.Region.ZA}
+module dependencies: Duckling.Region
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1 pretty-1.1.3.3@pretty-1.1.3.3
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Compose base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Enum 3811281f7b5f26da514529cf3ed44009
+import  -/  base-4.9.1.0:GHC.Err 3bba35a16538d33d424682ce66876cdd
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Read b6821365d2d5fa2155c9e910160e7f57
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:Text.Read.Lex 16199fac3c6c2d64cc7c268f3c0d2269
+import  -/  Duckling.Region 7f879aa0b7189387001e62b5b7d755fb
+  exports: 36aad133505a3a51f67b089240d29bec
+  AU 5d7a57141176ce1db8282c279b47f09c
+  BE c9b293804663a43b227c7e5e4a09b33e
+  BZ 6cee2637c934f069f44fc2ae17aca79e
+  CA 79cab2bbeb890b18664b3046d861791b
+  CN a85c4062db03a64894a43142d1b503db
+  GB 32c773590d51f5131ff9e0e528cf171a
+  HK fc4358be37e156e9d186acabf776d93c
+  IE 62903aa85a730438a9f9c24e7dc3a05d
+  IN 1ec1717a6572b2964f25ebf32cff6850
+  JM ad0641fe721380597944987cc144c65c
+  MO 3601e015d3e3af59ad5e7603973b4fee
+  NZ 067b6b143771c7c2fbc457b2a48cc7a8
+  PH d1244f65445b7c61300afed2ec042117
+  Region 3b28b3ea172cd9e9637ee6bddd576df9
+  TT 330ab7c921aa49ce406d4e666efebe95
+  TW 2bdbad432bd9cc14c9a22bb7e647a0df
+  US 104245b0586e97e6d990770f091b86d6
+  ZA 96bf26d76cb31f543e046a4d2f51ce7f
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable 0e86f32bd46d4c618b1e312455011c77
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Class bc4f00f60e55accb5753c8e0ce3cde5f
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal.Builder 0149c87bcfcb8590d2bf2896244acf6b
+import  -/  text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow aa23f2706bb607d0c81ed1e25d7f545f
+import  -/  text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Classes dedda7fb5ea7a6680ca797592cc143d8
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base 05331f9dbdce4e8225c18ce1a8ba2f88
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Strict 74fd7b14a4a2f9eaf95c7dc9a18e61b1
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet 5f58e144114dc7a5de72a4ecdcadde39
+31c921884abdece48e208bb67982f63e
+  $fBoundedLang :: GHC.Enum.Bounded Duckling.Locale.Lang
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang Duckling.Locale.ZH Duckling.Locale.ZH -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang :: GHC.Enum.Enum Duckling.Locale.Lang
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fEnumLang_$csucc
+                  Duckling.Locale.$fEnumLang_$cpred
+                  Duckling.Locale.$fEnumLang_$ctoEnum
+                  Duckling.Locale.$fEnumLang_$cfromEnum
+                  Duckling.Locale.$fEnumLang_$cenumFrom
+                  Duckling.Locale.$fEnumLang_$cenumFromThen
+                  Duckling.Locale.$fEnumLang_$cenumFromTo
+                  Duckling.Locale.$fEnumLang_$cenumFromThenTo -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang1 :: [Duckling.Locale.Lang]
+  {- Unfolding: (GHC.Enum.efdtIntUpFB
+                   @ [Duckling.Locale.Lang]
+                   Duckling.Locale.$fEnumLang2
+                   (GHC.Types.[] @ Duckling.Locale.Lang)
+                   0#
+                   0#
+                   0#) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang2 ::
+    GHC.Types.Int -> [Duckling.Locale.Lang] -> [Duckling.Locale.Lang]
+  {- Arity: 2,
+     Unfolding: (\ (x :: GHC.Types.Int)
+                   (ys :: [Duckling.Locale.Lang])[OneShot] ->
+                 GHC.Types.:
+                   @ Duckling.Locale.Lang
+                   (Duckling.Locale.$fEnumLang_$ctoEnum x)
+                   ys) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang3 :: GHC.Prim.Int# -> Duckling.Locale.Lang
+  {- Arity: 1, Strictness: <L,U>x -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang4 :: [Duckling.Locale.Lang]
+  {- Unfolding: (Duckling.Locale.$fEnumLang_go 0#) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang5 :: [Duckling.Locale.Lang]
+  {- Unfolding: (GHC.Enum.efdtIntUpFB
+                   @ [Duckling.Locale.Lang]
+                   Duckling.Locale.$fEnumLang6
+                   (GHC.Types.[] @ Duckling.Locale.Lang)
+                   0#
+                   0#
+                   0#) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang6 ::
+    GHC.Types.Int -> [Duckling.Locale.Lang] -> [Duckling.Locale.Lang]
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (\ (x :: GHC.Types.Int)
+                   (ys :: [Duckling.Locale.Lang])[OneShot] ->
+                 GHC.Types.:
+                   @ Duckling.Locale.Lang
+                   (case x of wild { GHC.Types.I# a ->
+                    GHC.Prim.tagToEnum# @ Duckling.Locale.Lang a })
+                   ys) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang7 :: [Duckling.Locale.Lang]
+  {- Unfolding: (Duckling.Locale.$fEnumLang_go1 0#) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang8 :: Duckling.Locale.Lang
+  {- Strictness: x -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang9 :: Duckling.Locale.Lang
+  {- Strictness: x -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$cenumFrom ::
+    Duckling.Locale.Lang -> [Duckling.Locale.Lang]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.Locale.Lang) ->
+                 case w of w1 { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fEnumLang7 }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$cenumFromThen ::
+    Duckling.Locale.Lang
+    -> Duckling.Locale.Lang -> [Duckling.Locale.Lang]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Lang) (w1 :: Duckling.Locale.Lang) ->
+                 case w of w2 { Duckling.Locale.ZH ->
+                 case w1 of w3 { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fEnumLang5 } }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$cenumFromThenTo ::
+    Duckling.Locale.Lang
+    -> Duckling.Locale.Lang
+    -> Duckling.Locale.Lang
+    -> [Duckling.Locale.Lang]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: Duckling.Locale.Lang)
+                   (w1 :: Duckling.Locale.Lang)
+                   (w2 :: Duckling.Locale.Lang) ->
+                 case w of w3 { Duckling.Locale.ZH ->
+                 case w1 of w4 { Duckling.Locale.ZH ->
+                 case w2 of w5 { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fEnumLang1 } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$cenumFromTo ::
+    Duckling.Locale.Lang
+    -> Duckling.Locale.Lang -> [Duckling.Locale.Lang]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Lang) (w1 :: Duckling.Locale.Lang) ->
+                 case w of w2 { Duckling.Locale.ZH ->
+                 case w1 of w3 { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fEnumLang4 } }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$cfromEnum :: Duckling.Locale.Lang -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Duckling.Locale.Lang) ->
+                 case a of wild { Duckling.Locale.ZH -> GHC.Types.I# 0# }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$cpred :: Duckling.Locale.Lang -> Duckling.Locale.Lang
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Duckling.Locale.Lang) ->
+                 case a of wild { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fEnumLang8 }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$csucc :: Duckling.Locale.Lang -> Duckling.Locale.Lang
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Duckling.Locale.Lang) ->
+                 case a of wild { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fEnumLang9 }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_$ctoEnum :: GHC.Types.Int -> Duckling.Locale.Lang
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Duckling.Locale.$w$ctoEnum ww1 }) -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_go :: GHC.Prim.Int# -> [Duckling.Locale.Lang]
+  {- Arity: 1, Strictness: <L,U> -}
+31c921884abdece48e208bb67982f63e
+  $fEnumLang_go1 :: GHC.Prim.Int# -> [Duckling.Locale.Lang]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U> -}
+31c921884abdece48e208bb67982f63e
+  $fEqLang :: GHC.Classes.Eq Duckling.Locale.Lang
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fEqLang_$c>=
+                  Duckling.Locale.$fEqLang_$c> -}
+31c921884abdece48e208bb67982f63e
+  $fEqLang_$c> ::
+    Duckling.Locale.Lang -> Duckling.Locale.Lang -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.Locale.Lang) (b :: Duckling.Locale.Lang) ->
+                 case a of wild { Duckling.Locale.ZH ->
+                 case b of wild1 { Duckling.Locale.ZH -> GHC.Types.False } }) -}
+31c921884abdece48e208bb67982f63e
+  $fEqLang_$c>= ::
+    Duckling.Locale.Lang -> Duckling.Locale.Lang -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.Locale.Lang) (b :: Duckling.Locale.Lang) ->
+                 case a of wild { Duckling.Locale.ZH ->
+                 case b of wild1 { Duckling.Locale.ZH -> GHC.Types.True } }) -}
+31c921884abdece48e208bb67982f63e
+  $fEqLocale :: GHC.Classes.Eq Duckling.Locale.Locale
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Locale
+                  Duckling.Locale.$fEqLocale_$c==
+                  Duckling.Locale.$fEqLocale_$c/= -}
+31c921884abdece48e208bb67982f63e
+  $fEqLocale_$c/= ::
+    Duckling.Locale.Locale -> Duckling.Locale.Locale -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just ipv -> GHC.Types.True }
+                   GHC.Base.Just a1
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just b1
+                        -> case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.==#
+                                     (GHC.Prim.dataToTag# @ Duckling.Region.Region a1)
+                                     (GHC.Prim.dataToTag# @ Duckling.Region.Region b1)) of wild2 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True -> GHC.Types.False } } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fEqLocale_$c== ::
+    Duckling.Locale.Locale -> Duckling.Locale.Locale -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a1
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> Duckling.Region.$fEqRegion_$c== a1 b1 } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLang :: GHC.Generics.Generic Duckling.Locale.Lang
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fGenericLang_$cfrom
+                  Duckling.Locale.$fGenericLang_$cto -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLang1 ::
+    Duckling.Locale.Lang
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False)
+         GHC.Generics.U1
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Duckling.Locale.Lang) ->
+                 case x1 of wild { Duckling.Locale.ZH ->
+                 (GHC.Generics.U1 @ x)
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False>_P
+                           <GHC.Generics.U1>_R) <x>_N) }) -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLang_$cfrom ::
+    Duckling.Locale.Lang -> GHC.Generics.Rep Duckling.Locale.Lang x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Locale.$fGenericLang1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Duckling.Locale.Lang>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "Lang"
+                                       "Duckling.Locale"
+                                       "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False)
+                                       GHC.Generics.U1>_R))
+                          (Sub (Sym (Duckling.Locale.Rep_Lang[0]))) <x>_N) -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLang_$cto ::
+    GHC.Generics.Rep Duckling.Locale.Lang x -> Duckling.Locale.Lang
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (ds :: GHC.Generics.Rep Duckling.Locale.Lang x) ->
+                 case ds of tpl { DEFAULT -> Duckling.Locale.ZH }) -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLocale :: GHC.Generics.Generic Duckling.Locale.Locale
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Locale
+                  Duckling.Locale.$fGenericLocale_$cfrom
+                  Duckling.Locale.$fGenericLocale_$cto -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLocale1 ::
+    Duckling.Locale.Locale
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "Locale" 'GHC.Generics.PrefixI 'GHC.Types.False)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               'GHC.Base.Nothing
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang)
+          GHC.Generics.:*: GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                'GHC.Base.Nothing
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Duckling.Region.Region)))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Duckling.Locale.Locale) ->
+                 case x1 of wild { Duckling.Locale.Locale g1 g2 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            'GHC.Base.Nothing
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            'GHC.Base.Nothing
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1
+                            GHC.Generics.R (GHC.Base.Maybe Duckling.Region.Region)))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <Duckling.Locale.Lang>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      'GHC.Base.Nothing
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang>_R) <x>_N))
+                    g2
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P
+                                   <GHC.Base.Maybe Duckling.Region.Region>_R
+                                   <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      'GHC.Base.Nothing
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1
+                                      GHC.Generics.R
+                                      (GHC.Base.Maybe Duckling.Region.Region)>_R) <x>_N)))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "Locale" 'GHC.Generics.PrefixI 'GHC.Types.False>_P
+                           <GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 'GHC.Base.Nothing
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang)
+                            GHC.Generics.:*: GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  'GHC.Base.Nothing
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R
+                                                  (GHC.Base.Maybe
+                                                     Duckling.Region.Region))>_R) <x>_N) }) -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLocale_$cfrom ::
+    Duckling.Locale.Locale -> GHC.Generics.Rep Duckling.Locale.Locale x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Locale.$fGenericLocale1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Duckling.Locale.Locale>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "Locale"
+                                       "Duckling.Locale"
+                                       "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "Locale" 'GHC.Generics.PrefixI 'GHC.Types.False)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             'GHC.Base.Nothing
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang)
+                                        GHC.Generics.:*: GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           ('GHC.Generics.MetaSel
+                                                              'GHC.Base.Nothing
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R
+                                                              (GHC.Base.Maybe
+                                                                 Duckling.Region.Region)))>_R))
+                          (Sub (Sym (Duckling.Locale.Rep_Locale[0]))) <x>_N) -}
+31c921884abdece48e208bb67982f63e
+  $fGenericLocale_$cto ::
+    GHC.Generics.Rep Duckling.Locale.Locale x -> Duckling.Locale.Locale
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (ds :: GHC.Generics.Rep Duckling.Locale.Locale x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Duckling.Locale.Rep_Locale[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "Locale"
+                                        "Duckling.Locale"
+                                        "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                        'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "Locale" 'GHC.Generics.PrefixI 'GHC.Types.False)
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              'GHC.Base.Nothing
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               'GHC.Base.Nothing
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R
+                                                               (GHC.Base.Maybe
+                                                                  Duckling.Region.Region)))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "Locale" 'GHC.Generics.PrefixI 'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        ('GHC.Generics.MetaSel
+                                           'GHC.Base.Nothing
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang)
+                                      GHC.Generics.:*: GHC.Generics.M1
+                                                         GHC.Generics.S
+                                                         ('GHC.Generics.MetaSel
+                                                            'GHC.Base.Nothing
+                                                            'GHC.Generics.NoSourceUnpackedness
+                                                            'GHC.Generics.NoSourceStrictness
+                                                            'GHC.Generics.DecidedLazy)
+                                                         (GHC.Generics.K1
+                                                            GHC.Generics.R
+                                                            (GHC.Base.Maybe
+                                                               Duckling.Region.Region))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 Duckling.Locale.Locale
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                'GHC.Base.Nothing
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <Duckling.Locale.Lang>_R <x>_P))
+                   ds2
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                'GHC.Base.Nothing
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe Duckling.Region.Region)>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe Duckling.Region.Region>_R
+                             <x>_P)) }) -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLang :: Data.Hashable.Class.Hashable Duckling.Locale.Lang
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fHashableLang_$s$dmhashWithSalt
+                  Duckling.Locale.$fHashableLang_$chash -}
+6fe4db1e59c2ad11cf020451f866d0f3
+  $fHashableLang1 ::
+    Data.Hashable.Class.GHashable
+      Data.Hashable.Class.Zero
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData
+            "Lang"
+            "Duckling.Locale"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.False)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False)
+            GHC.Generics.U1))
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><S(S),1*U(U)><S,1*H>m,
+     Unfolding: InlineRule (0, True, True)
+                (Data.Hashable.Generic.$fGHashablearityU1_$cghashWithSalt
+                   @ Data.Hashable.Class.Zero)
+                  `cast`
+                (Trans
+                     (forall (a1 :: <*>_N).
+                      <Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1>_R
+                      ->_R <GHC.Types.Int>_R
+                      ->_R Trans
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.C>_P
+                                         <'GHC.Generics.MetaCons
+                                            "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False>_P
+                                         <GHC.Generics.U1>_R))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.D>_P
+                                         <'GHC.Generics.MetaData
+                                            "Lang"
+                                            "Duckling.Locale"
+                                            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                            'GHC.Types.False>_P
+                                         <GHC.Generics.M1
+                                            GHC.Generics.C
+                                            ('GHC.Generics.MetaCons
+                                               "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False)
+                                            GHC.Generics.U1>_R)) <a1>_N
+                      ->_R <GHC.Types.Int>_R)
+                     (Sym (Data.Hashable.Class.N:GHashable[0]
+                               <Data.Hashable.Class.Zero>_N
+                               <GHC.Generics.M1
+                                  GHC.Generics.D
+                                  ('GHC.Generics.MetaData
+                                     "Lang"
+                                     "Duckling.Locale"
+                                     "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                     'GHC.Types.False)
+                                  (GHC.Generics.M1
+                                     GHC.Generics.C
+                                     ('GHC.Generics.MetaCons
+                                        "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False)
+                                     GHC.Generics.U1)>_N))) -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLang_$chash :: Duckling.Locale.Lang -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (\ (x :: Duckling.Locale.Lang) ->
+                 case x of wild { Duckling.Locale.ZH ->
+                 GHC.Types.I# 839657738087498284# }) -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLang_$s$dmhashWithSalt ::
+    GHC.Types.Int -> Duckling.Locale.Lang -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S,1*H>m,
+     Unfolding: InlineRule (-3, True, False)
+                (\ (salt :: GHC.Types.Int) (x :: Duckling.Locale.Lang) ->
+                 Duckling.Locale.$fHashableLang1
+                   `cast`
+                 (Data.Hashable.Class.N:GHashable[0]
+                      <Data.Hashable.Class.Zero>_N (Sym (Duckling.Locale.Rep_Lang[0])))
+                   @ GHC.Prim.Any
+                   (Data.Hashable.Class.$WHashArgs0 @ GHC.Prim.Any)
+                   salt
+                   (Duckling.Locale.$fGenericLang_$cfrom @ GHC.Prim.Any x)) -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLocale ::
+    Data.Hashable.Class.Hashable Duckling.Locale.Locale
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Locale
+                  Duckling.Locale.$fHashableLocale_$chashWithSalt
+                  Duckling.Locale.$fHashableLocale_$chash -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLocale1 ::
+    Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1
+    -> GHC.Types.Int
+    -> (GHC.Generics.:*:)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               'GHC.Base.Nothing
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.Rec0 Duckling.Locale.Lang))
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               'GHC.Base.Nothing
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.Rec0 (GHC.Base.Maybe Duckling.Region.Region)))
+         a1
+    -> GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(SS),1*U(1*U,1*U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a1
+                   (w :: Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: (GHC.Generics.:*:)
+                            (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  'GHC.Base.Nothing
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.Rec0 Duckling.Locale.Lang))
+                            (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  'GHC.Base.Nothing
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.Rec0 (GHC.Base.Maybe Duckling.Region.Region)))
+                            a1) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w2 of ww2 { GHC.Generics.:*: ww3 ww4 ->
+                 case ww4
+                        `cast`
+                      (Trans
+                           (GHC.Generics.N:M1[0]
+                                <GHC.Generics.S>_P
+                                <'GHC.Generics.MetaSel
+                                   'GHC.Base.Nothing
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy>_P
+                                <GHC.Generics.K1
+                                   GHC.Generics.R (GHC.Base.Maybe Duckling.Region.Region)>_R <a1>_N)
+                           (GHC.Generics.N:K1[0]
+                                <GHC.Generics.R>_P
+                                <GHC.Base.Maybe Duckling.Region.Region>_R
+                                <a1>_P)) of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of tpl { DEFAULT ->
+                      GHC.Types.I# (GHC.Prim.*# (GHC.Prim.*# ww1 16777619#) 16777619#) }
+                   GHC.Base.Just a2
+                   -> case ww3 of tpl { DEFAULT ->
+                      case Duckling.Region.$w$chashWithSalt
+                             (GHC.Prim.xorI#
+                                (GHC.Prim.*# (GHC.Prim.*# ww1 16777619#) 16777619#)
+                                6148914691236517205#)
+                             a2 of ww5 { DEFAULT ->
+                      GHC.Types.I# ww5 } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLocale_$chash :: Duckling.Locale.Locale -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Duckling.Locale.$fHashableLocale_$chashWithSalt
+                   Data.Hashable.Class.defaultSalt) -}
+31c921884abdece48e208bb67982f63e
+  $fHashableLocale_$chashWithSalt ::
+    GHC.Types.Int -> Duckling.Locale.Locale -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(SS),1*U(1*U,1*U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (salt :: GHC.Types.Int) (x :: Duckling.Locale.Locale) ->
+                 case x of wild { Duckling.Locale.Locale g1 g2 ->
+                 Duckling.Locale.$fHashableLocale1
+                   @ GHC.Prim.Any
+                   (Data.Hashable.Class.$WHashArgs0 @ GHC.Prim.Any)
+                   salt
+                   (GHC.Generics.:*:
+                      @ (GHC.Generics.M1
+                           GHC.Generics.S
+                           ('GHC.Generics.MetaSel
+                              'GHC.Base.Nothing
+                              'GHC.Generics.NoSourceUnpackedness
+                              'GHC.Generics.NoSourceStrictness
+                              'GHC.Generics.DecidedLazy)
+                           (GHC.Generics.K1 GHC.Generics.R Duckling.Locale.Lang))
+                      @ (GHC.Generics.M1
+                           GHC.Generics.S
+                           ('GHC.Generics.MetaSel
+                              'GHC.Base.Nothing
+                              'GHC.Generics.NoSourceUnpackedness
+                              'GHC.Generics.NoSourceStrictness
+                              'GHC.Generics.DecidedLazy)
+                           (GHC.Generics.K1
+                              GHC.Generics.R (GHC.Base.Maybe Duckling.Region.Region)))
+                      @ GHC.Prim.Any
+                      g1
+                        `cast`
+                      (Trans
+                           (Sym (GHC.Generics.N:K1[0]
+                                     <GHC.Generics.R>_P <Duckling.Locale.Lang>_R <GHC.Prim.Any>_P))
+                           (Sym (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <'GHC.Generics.MetaSel
+                                        'GHC.Base.Nothing
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy>_P
+                                     <GHC.Generics.K1
+                                        GHC.Generics.R Duckling.Locale.Lang>_R) <GHC.Prim.Any>_N))
+                      g2
+                        `cast`
+                      (Trans
+                           (Sym (GHC.Generics.N:K1[0]
+                                     <GHC.Generics.R>_P
+                                     <GHC.Base.Maybe Duckling.Region.Region>_R
+                                     <GHC.Prim.Any>_P))
+                           (Sym (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <'GHC.Generics.MetaSel
+                                        'GHC.Base.Nothing
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy>_P
+                                     <GHC.Generics.K1
+                                        GHC.Generics.R
+                                        (GHC.Base.Maybe
+                                           Duckling.Region.Region)>_R) <GHC.Prim.Any>_N))) }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLang :: GHC.Classes.Ord Duckling.Locale.Lang
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fEqLang
+                  Duckling.Locale.$fOrdLang_$ccompare
+                  Duckling.Locale.$fEqLang_$c>
+                  Duckling.Locale.$fEqLang_$c>=
+                  Duckling.Locale.$fEqLang_$c>
+                  Duckling.Locale.$fEqLang_$c>=
+                  Duckling.Locale.$fOrdLang_$s$dmmin
+                  Duckling.Locale.$fOrdLang_$s$dmmin -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLang_$ccompare ::
+    Duckling.Locale.Lang -> Duckling.Locale.Lang -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.Locale.Lang) (b :: Duckling.Locale.Lang) ->
+                 case a of wild { Duckling.Locale.ZH ->
+                 case b of wild1 { Duckling.Locale.ZH -> GHC.Types.EQ } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLang_$s$dmmin ::
+    Duckling.Locale.Lang
+    -> Duckling.Locale.Lang -> Duckling.Locale.Lang
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*U()>m,
+     Unfolding: InlineRule (-1, True, False)
+                (\ (x :: Duckling.Locale.Lang) (y :: Duckling.Locale.Lang) ->
+                 case Duckling.Locale.$fEqLang_$c>= x y of wild {
+                   GHC.Types.False -> y GHC.Types.True -> x }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale :: GHC.Classes.Ord Duckling.Locale.Locale
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Locale
+                  Duckling.Locale.$fEqLocale
+                  Duckling.Locale.$fOrdLocale_$ccompare
+                  Duckling.Locale.$fOrdLocale_$c<
+                  Duckling.Locale.$fOrdLocale_$c<=
+                  Duckling.Locale.$fOrdLocale_$c>
+                  Duckling.Locale.$fOrdLocale_$c>=
+                  Duckling.Locale.$fOrdLocale_$cmax
+                  Duckling.Locale.$fOrdLocale_$cmin -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$c< ::
+    Duckling.Locale.Locale -> Duckling.Locale.Locale -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just ipv -> GHC.Types.True }
+                   GHC.Base.Just a2
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> Duckling.Region.$fOrdRegion_$c< a2 b1 } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$c<= ::
+    Duckling.Locale.Locale -> Duckling.Locale.Locale -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing -> case ww6 of wild1 { DEFAULT -> GHC.Types.True }
+                   GHC.Base.Just a2
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> Duckling.Region.$fOrdRegion_$c<= a2 b1 } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$c> ::
+    Duckling.Locale.Locale -> Duckling.Locale.Locale -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> case ww6 of wild1 { DEFAULT -> GHC.Types.False }
+                   GHC.Base.Just a2
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just b1
+                        -> Duckling.Region.$fOrdRegion_$c> a2 b1 } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$c>= ::
+    Duckling.Locale.Locale -> Duckling.Locale.Locale -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a2
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just b1
+                        -> Duckling.Region.$fOrdRegion_$c>= a2 b1 } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$ccompare ::
+    Duckling.Locale.Locale
+    -> Duckling.Locale.Locale -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(1*H,1*U)><S(SS),1*U(1*H,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 case w1 of ww4 { Duckling.Locale.Locale ww5 ww6 ->
+                 case ww5 of ww7 { Duckling.Locale.ZH ->
+                 case ww2 of wild {
+                   GHC.Base.Nothing
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.EQ
+                        GHC.Base.Just ipv -> GHC.Types.LT }
+                   GHC.Base.Just a2
+                   -> case ww6 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.GT
+                        GHC.Base.Just b1
+                        -> Duckling.Region.$fOrdRegion_$ccompare a2 b1 } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$cmax ::
+    Duckling.Locale.Locale
+    -> Duckling.Locale.Locale -> Duckling.Locale.Locale
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(U,U)><S(SS),1*U(U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case w1 of ww3 { Duckling.Locale.Locale ww4 ww5 ->
+                 case ww1 of wild { Duckling.Locale.ZH ->
+                 case ww4 of wild1 { Duckling.Locale.ZH ->
+                 case ww2 of wild2 {
+                   GHC.Base.Nothing
+                   -> case ww5 of wild3 { DEFAULT ->
+                      Duckling.Locale.Locale Duckling.Locale.ZH wild3 }
+                   GHC.Base.Just a2
+                   -> case ww5 of wild3 {
+                        GHC.Base.Nothing -> Duckling.Locale.Locale Duckling.Locale.ZH wild2
+                        GHC.Base.Just b1
+                        -> case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=#
+                                     (GHC.Prim.dataToTag# @ Duckling.Region.Region a2)
+                                     (GHC.Prim.dataToTag# @ Duckling.Region.Region b1)) of wild4 {
+                             GHC.Types.False -> Duckling.Locale.Locale Duckling.Locale.ZH wild2
+                             GHC.Types.True
+                             -> Duckling.Locale.Locale
+                                  Duckling.Locale.ZH
+                                  wild3 } } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fOrdLocale_$cmin ::
+    Duckling.Locale.Locale
+    -> Duckling.Locale.Locale -> Duckling.Locale.Locale
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SS),1*U(U,U)><S(SS),1*U(U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Locale) (w1 :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case w1 of ww3 { Duckling.Locale.Locale ww4 ww5 ->
+                 case ww1 of wild { Duckling.Locale.ZH ->
+                 case ww4 of wild1 { Duckling.Locale.ZH ->
+                 case ww2 of wild2 {
+                   GHC.Base.Nothing
+                   -> case ww5 of wild3 { DEFAULT ->
+                      Duckling.Locale.Locale
+                        Duckling.Locale.ZH
+                        (GHC.Base.Nothing @ Duckling.Region.Region) }
+                   GHC.Base.Just a2
+                   -> case ww5 of wild3 {
+                        GHC.Base.Nothing
+                        -> Duckling.Locale.Locale
+                             Duckling.Locale.ZH
+                             (GHC.Base.Nothing @ Duckling.Region.Region)
+                        GHC.Base.Just b1
+                        -> case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=#
+                                     (GHC.Prim.dataToTag# @ Duckling.Region.Region a2)
+                                     (GHC.Prim.dataToTag# @ Duckling.Region.Region b1)) of wild4 {
+                             GHC.Types.False -> Duckling.Locale.Locale Duckling.Locale.ZH wild3
+                             GHC.Types.True
+                             -> Duckling.Locale.Locale
+                                  Duckling.Locale.ZH
+                                  wild2 } } } } } } }) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang :: GHC.Read.Read Duckling.Locale.Lang
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fReadLang_$creadsPrec
+                  Duckling.Locale.$fReadLang_$creadList
+                  Duckling.Locale.$fReadLang_$creadPrec
+                  Duckling.Locale.$fReadLang_$creadListPrec -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([Duckling.Locale.Lang] -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (eta1 :: [Duckling.Locale.Lang]
+                            -> Text.ParserCombinators.ReadP.P b) ->
+                 GHC.Read.list1
+                   @ Duckling.Locale.Lang
+                   Duckling.Locale.$fReadLang2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <Duckling.Locale.Lang>_R))
+                   eta
+                   @ b
+                   eta1) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP Duckling.Locale.Lang
+  {- Arity: 1,
+     Unfolding: (GHC.Read.parens1
+                   @ Duckling.Locale.Lang
+                   Duckling.Locale.$fReadLang3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                       <Duckling.Locale.Lang>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                  <Duckling.Locale.Lang>_R)))) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b1.
+       (Duckling.Locale.Lang -> Text.ParserCombinators.ReadP.P b1)
+       -> Text.ParserCombinators.ReadP.P b1
+  {- Arity: 2, Strictness: <L,A><L,1*C1(U)>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b1
+                   (w1 :: Duckling.Locale.Lang
+                          -> Text.ParserCombinators.ReadP.P b1) ->
+                 case Duckling.Locale.$w$creadPrec @ b1 w1 of ww { Unit# ww1 ->
+                 Text.ParserCombinators.ReadP.Look @ b1 ww1 }) -}
+8e8d9add99d1c88f1bc7d4c6b9b57458
+  $fReadLang4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ZH"#) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang5 ::
+    Text.ParserCombinators.ReadP.P [Duckling.Locale.Lang]
+  {- Unfolding: (GHC.Read.list1
+                   @ Duckling.Locale.Lang
+                   Duckling.Locale.$fReadLang2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <Duckling.Locale.Lang>_R))
+                   GHC.Read.$fRead()5
+                   @ [Duckling.Locale.Lang]
+                   (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                      @ [Duckling.Locale.Lang])) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang_$creadList ::
+    Text.ParserCombinators.ReadP.ReadS [Duckling.Locale.Lang]
+  {- Arity: 1,
+     Unfolding: (Text.ParserCombinators.ReadP.run
+                   @ [Duckling.Locale.Lang]
+                   Duckling.Locale.$fReadLang5) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec [Duckling.Locale.Lang]
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Locale.$fReadLang1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                    <[Duckling.Locale.Lang]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                               <[Duckling.Locale.Lang]>_R))) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec Duckling.Locale.Lang
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Locale.$fReadLang2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                          <Duckling.Locale.Lang>_R)) -}
+31c921884abdece48e208bb67982f63e
+  $fReadLang_$creadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS Duckling.Locale.Lang
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: GHC.Types.Int) ->
+                 Text.ParserCombinators.ReadP.run
+                   @ Duckling.Locale.Lang
+                   ((GHC.Read.parens1
+                       @ Duckling.Locale.Lang
+                       Duckling.Locale.$fReadLang3
+                         `cast`
+                       (Trans
+                            (<Text.ParserCombinators.ReadPrec.Prec>_R
+                             ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                           <Duckling.Locale.Lang>_R))
+                            (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                      <Duckling.Locale.Lang>_R)))
+                       eta)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.N:ReadP[0] <Duckling.Locale.Lang>_R)
+                      @ Duckling.Locale.Lang
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                         @ Duckling.Locale.Lang))) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLang :: GHC.Show.Show Duckling.Locale.Lang
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fShowLang_$cshowsPrec
+                  Duckling.Locale.$fShowLang_$cshow
+                  Duckling.Locale.$fShowLang_$cshowList -}
+31c921884abdece48e208bb67982f63e
+  $fShowLang1 :: Duckling.Locale.Lang -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Duckling.Locale.Lang) (eta :: GHC.Base.String) ->
+                 case ds of wild { Duckling.Locale.ZH ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      Duckling.Locale.$fReadLang4)
+                   eta }) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLang_$cshow :: Duckling.Locale.Lang -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.Locale.Lang) ->
+                 case x of wild { Duckling.Locale.ZH ->
+                 Duckling.Locale.$fReadLang4 }) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLang_$cshowList :: [Duckling.Locale.Lang] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.Locale.Lang
+                   Duckling.Locale.$fShowLang1) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLang_$cshowsPrec ::
+    GHC.Types.Int -> Duckling.Locale.Lang -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: Duckling.Locale.Lang)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { Duckling.Locale.ZH ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      Duckling.Locale.$fReadLang4)
+                   eta }) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLocale :: GHC.Show.Show Duckling.Locale.Locale
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Locale
+                  Duckling.Locale.$fShowLocale_$cshowsPrec
+                  Duckling.Locale.$fShowLocale_$cshow
+                  Duckling.Locale.$fShowLocale_$cshowList -}
+31c921884abdece48e208bb67982f63e
+  $fShowLocale1 ::
+    Duckling.Locale.Locale -> GHC.Base.String -> [GHC.Types.Char]
+  {- Arity: 2,
+     Unfolding: (\ (x :: Duckling.Locale.Locale)
+                   (s :: GHC.Base.String)[OneShot] ->
+                 case x of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   (Duckling.Locale.$w$cshow Duckling.Locale.ZH ww2)
+                   s } }) -}
+75e47e2c7cdeb57004477fef9dd69abe
+  $fShowLocale2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Base.++
+                   @ GHC.Types.Char
+                   Duckling.Locale.$fReadLang4
+                   Duckling.Locale.$fShowLocale3) -}
+e7438fcfa865f5255aea83399efe1708
+  $fShowLocale3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_XX"#) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLocale_$cshow :: Duckling.Locale.Locale -> GHC.Base.String
+  {- Arity: 1, Strictness: <S(SS),1*U(1*H,1*U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.Locale.Locale) ->
+                 case w of ww { Duckling.Locale.Locale ww1 ww2 ->
+                 case ww1 of ww3 { Duckling.Locale.ZH ->
+                 Duckling.Locale.$w$cshow Duckling.Locale.ZH ww2 } }) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLocale_$cshowList ::
+    [Duckling.Locale.Locale] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: (\ (ls :: [Duckling.Locale.Locale])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Duckling.Locale.Locale
+                   Duckling.Locale.$fShowLocale1
+                   ls
+                   s) -}
+31c921884abdece48e208bb67982f63e
+  $fShowLocale_$cshowsPrec ::
+    GHC.Types.Int -> Duckling.Locale.Locale -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S(SS),1*U(1*H,1*U)><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Duckling.Locale.Locale)
+                   (s :: GHC.Base.String) ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      (Duckling.Locale.$fShowLocale_$cshow x))
+                   s) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang :: TextShow.Classes.TextShow Duckling.Locale.Lang
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Lang
+                  Duckling.Locale.$fTextShowLang_$cshowbPrec
+                  Duckling.Locale.$fTextShowLang_$cshowb
+                  Duckling.Locale.$fTextShowLang_$cshowbList
+                  Duckling.Locale.$fTextShowLang_$cshowtPrec
+                  Duckling.Locale.$fTextShowLang_$cshowt
+                  Duckling.Locale.$fTextShowLang_$cshowtList
+                  Duckling.Locale.$fTextShowLang_$cshowtlPrec
+                  Duckling.Locale.$fTextShowLang_$cshowtl
+                  Duckling.Locale.$fTextShowLang_$cshowtlList -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang1 ::
+    Duckling.Locale.Lang
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 4,
+     Strictness: <S,1*H><L,C(C1(U(U,U)))><S(SSSS),1*U(U,U,U,U)><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (4, True, False)
+                (\ (w :: Duckling.Locale.Lang)
+                   @ s
+                   (w1 :: Data.Text.Internal.Builder.Buffer s
+                          -> GHC.ST.ST s [Data.Text.Internal.Text])
+                   (w2 :: Data.Text.Internal.Builder.Buffer s)
+                   (w3 :: GHC.Prim.State# s)[OneShot] ->
+                 case w of w4 { Duckling.Locale.ZH ->
+                 case w2 of ww { Data.Text.Internal.Builder.Buffer ww1 ww2 ww3 ww4 ->
+                 Duckling.Locale.$w$cshowb
+                   Duckling.Locale.ZH
+                   @ s
+                   w1
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   w3 } }) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [Data.Text.Internal.Text] #)
+  {- Arity: 1,
+     Unfolding: (\ (s1 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Prim.newByteArray#
+                        @ GHC.Prim.RealWorld
+                        224#
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 Duckling.Locale.$w$cshowb
+                   Duckling.Locale.ZH
+                   @ GHC.Prim.RealWorld
+                   Data.Text.Internal.Builder.toLazyTextWith1
+                     `cast`
+                   (<Data.Text.Internal.Builder.Buffer GHC.Prim.RealWorld>_R
+                    ->_R Sym (GHC.ST.N:ST[0]
+                                  <GHC.Prim.RealWorld>_N <[Data.Text.Internal.Text]>_R))
+                   ipv1
+                   0#
+                   0#
+                   112#
+                   ipv }) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang3 ::
+    GHC.Types.Int
+    -> Duckling.Locale.Lang
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> Data.Text.Internal.Builder.Buffer s
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: GHC.Types.Int)
+                   (eta :: Duckling.Locale.Lang)
+                   @ s
+                   (eta1 :: Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text])
+                   (eta2 :: Data.Text.Internal.Builder.Buffer s)
+                   (eta3 :: GHC.Prim.State# s)[OneShot] ->
+                 Duckling.Locale.$fTextShowLang1 eta @ s eta1 eta2 eta3) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowb ::
+    Duckling.Locale.Lang -> Data.Text.Internal.Builder.Builder
+  {- Arity: 4,
+     Strictness: <S,1*H><L,C(C1(U(U,U)))><S(SSSS),1*U(U,U,U,U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Locale.$fTextShowLang1
+                  `cast`
+                (<Duckling.Locale.Lang>_R
+                 ->_R Trans
+                          (forall (s :: <*>_N).
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.N:Builder[0]))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowbList ::
+    [Duckling.Locale.Lang] -> Data.Text.Internal.Builder.Builder
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Duckling.Locale.Lang]) ->
+                 TextShow.Classes.showbListWith
+                   @ Duckling.Locale.Lang
+                   Duckling.Locale.$fTextShowLang1
+                     `cast`
+                   (<Duckling.Locale.Lang>_R
+                    ->_R Trans
+                             (forall (s :: <*>_N).
+                              <Data.Text.Internal.Builder.Buffer s
+                               -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                              ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                              ->_R Sym (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                             (Sym (Data.Text.Internal.Builder.N:Builder[0])))
+                   eta) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowbPrec ::
+    GHC.Types.Int
+    -> Duckling.Locale.Lang -> Data.Text.Internal.Builder.Builder
+  {- Arity: 5, Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Locale.$fTextShowLang3
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R <Duckling.Locale.Lang>_R
+                 ->_R Trans
+                          (forall (s :: <*>_N).
+                           <Data.Text.Internal.Builder.Buffer s
+                            -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                           ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                           ->_R Sym (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                          (Sym (Data.Text.Internal.Builder.N:Builder[0]))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowt ::
+    Duckling.Locale.Lang -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.Locale.Lang) ->
+                 case w of w1 { Duckling.Locale.ZH ->
+                 Duckling.Locale.$w$cshowt Duckling.Locale.ZH }) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowtList ::
+    [Duckling.Locale.Lang] -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Duckling.Locale.Lang]) ->
+                 Data.Text.concat
+                   (Data.Text.Lazy.dropEnd_go
+                      (Duckling.Locale.$fTextShowLang_$cshowtlList eta))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowtPrec ::
+    GHC.Types.Int -> Duckling.Locale.Lang -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <L,A><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (p :: GHC.Types.Int) (x :: Duckling.Locale.Lang) ->
+                 Data.Text.concat
+                   (Data.Text.Lazy.dropEnd_go
+                      (Duckling.Locale.$fTextShowLang_$cshowtlPrec p x))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowtl ::
+    Duckling.Locale.Lang -> Data.Text.Internal.Lazy.Text
+  {- Arity: 1, Strictness: <S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.Locale.Lang) ->
+                 case w of w1 { Duckling.Locale.ZH ->
+                 case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ [Data.Text.Internal.Text]
+                        Duckling.Locale.$fTextShowLang2 of ds1 { (#,#) ipv ipv1 ->
+                 Data.Text.Lazy.fromChunks_go ipv1 } }) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowtlList ::
+    [Duckling.Locale.Lang] -> Data.Text.Internal.Lazy.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Duckling.Locale.Lang]) ->
+                 Data.Text.Internal.Builder.$wtoLazyTextWith
+                   112#
+                   (TextShow.Classes.showbListWith
+                      @ Duckling.Locale.Lang
+                      Duckling.Locale.$fTextShowLang1
+                        `cast`
+                      (<Duckling.Locale.Lang>_R
+                       ->_R Trans
+                                (forall (s :: <*>_N).
+                                 <Data.Text.Internal.Builder.Buffer s
+                                  -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                                 ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                                 ->_R Sym (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                                (Sym (Data.Text.Internal.Builder.N:Builder[0])))
+                      eta)) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLang_$cshowtlPrec ::
+    GHC.Types.Int
+    -> Duckling.Locale.Lang -> Data.Text.Internal.Lazy.Text
+  {- Arity: 2, Strictness: <L,A><S,1*H>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int) (w1 :: Duckling.Locale.Lang) ->
+                 case w1 of w2 { Duckling.Locale.ZH ->
+                 case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ [Data.Text.Internal.Text]
+                        Duckling.Locale.$fTextShowLang2 of ds1 { (#,#) ipv ipv1 ->
+                 Data.Text.Lazy.fromChunks_go ipv1 } }) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale ::
+    TextShow.Classes.TextShow Duckling.Locale.Locale
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Locale.Locale
+                  Duckling.Locale.$fTextShowLocale_$cshowbPrec
+                  Duckling.Locale.$fTextShowLocale_$cshowb
+                  Duckling.Locale.$fTextShowLocale_$cshowbList
+                  Duckling.Locale.$fTextShowLocale_$cshowtPrec
+                  Duckling.Locale.$fTextShowLocale_$cshowt
+                  Duckling.Locale.$fTextShowLocale_$cshowtList
+                  Duckling.Locale.$fTextShowLocale_$cshowtlPrec
+                  Duckling.Locale.$fTextShowLocale_$cshowtl
+                  Duckling.Locale.$fTextShowLocale_$cshowtlList -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowb ::
+    Duckling.Locale.Locale -> Data.Text.Internal.Builder.Builder
+  {- Arity: 1, Strictness: <L,1*U(1*H,1*U)>,
+     Unfolding: (\ (x :: Duckling.Locale.Locale) ->
+                 let {
+                   str :: GHC.Base.String
+                   = case x of ww { Duckling.Locale.Locale ww1 ww2 ->
+                     case ww1 of ww3 { Duckling.Locale.ZH ->
+                     Duckling.Locale.$w$cshow Duckling.Locale.ZH ww2 } }
+                 } in
+                 (\ @ s
+                    (k :: Data.Text.Internal.Builder.Buffer s
+                          -> GHC.ST.ST s [Data.Text.Internal.Text])
+                    (ds :: Data.Text.Internal.Builder.Buffer s)
+                    (eta :: GHC.Prim.State# s)[OneShot] ->
+                  case ds of wild { Data.Text.Internal.Builder.Buffer dt dt1 dt2 dt3 ->
+                  letrec {
+                    $wloop :: GHC.Prim.MutableByteArray# s
+                              -> GHC.Prim.Int#
+                              -> GHC.Prim.Int#
+                              -> GHC.Prim.Int#
+                              -> [GHC.Types.Char]
+                              -> GHC.Prim.State# s
+                              -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+                      {- Arity: 6, Strictness: <L,U><L,U><L,U><L,U><S,1*U><S,U>,
+                         Inline: [0] -}
+                    = \ (ww :: GHC.Prim.MutableByteArray# s)
+                        (ww1 :: GHC.Prim.Int#)
+                        (ww2 :: GHC.Prim.Int#)
+                        (ww3 :: GHC.Prim.Int#)
+                        (w :: [GHC.Types.Char])
+                        (w1 :: GHC.Prim.State# s)[OneShot] ->
+                      case w of wild1 {
+                        []
+                        -> (k (Data.Text.Internal.Builder.Buffer @ s ww ww1 ww2 ww3))
+                             `cast`
+                           (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                             w1
+                        : ipv4 ipv5
+                        -> case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.<=# ww3 1#) of wild2 {
+                             GHC.Types.False
+                             -> case ipv4 of wild3 { GHC.Types.C# c# ->
+                                let {
+                                  x1 :: GHC.Prim.Int# = GHC.Prim.ord# c#
+                                } in
+                                case GHC.Prim.tagToEnum#
+                                       @ GHC.Types.Bool
+                                       (GHC.Prim.<# x1 65536#) of wild4 {
+                                  GHC.Types.False
+                                  -> let {
+                                       i# :: GHC.Prim.Int# = GHC.Prim.+# ww1 ww2
+                                     } in
+                                     let {
+                                       x# :: GHC.Prim.Int# = GHC.Prim.-# x1 65536#
+                                     } in
+                                     case GHC.Prim.writeWord16Array#
+                                            @ s
+                                            ww
+                                            i#
+                                            (GHC.Prim.narrow16Word#
+                                               (GHC.Prim.int2Word#
+                                                  (GHC.Prim.+#
+                                                     (GHC.Prim.uncheckedIShiftRA# x# 10#)
+                                                     55296#)))
+                                            w1 of s2# { DEFAULT ->
+                                     case GHC.Prim.writeWord16Array#
+                                            @ s
+                                            ww
+                                            (GHC.Prim.+# i# 1#)
+                                            (GHC.Prim.narrow16Word#
+                                               (GHC.Prim.int2Word#
+                                                  (GHC.Prim.+# (GHC.Prim.andI# x# 1023#) 56320#)))
+                                            s2# of s2#1 { DEFAULT ->
+                                     $wloop
+                                       ww
+                                       ww1
+                                       (GHC.Prim.+# ww2 2#)
+                                       (GHC.Prim.-# ww3 2#)
+                                       ipv5
+                                       s2#1 } }
+                                  GHC.Types.True
+                                  -> case GHC.Prim.writeWord16Array#
+                                            @ s
+                                            ww
+                                            (GHC.Prim.+# ww1 ww2)
+                                            (GHC.Prim.narrow16Word# (GHC.Prim.int2Word# x1))
+                                            w1 of s2# { DEFAULT ->
+                                     $wloop
+                                       ww
+                                       ww1
+                                       (GHC.Prim.+# ww2 1#)
+                                       (GHC.Prim.-# ww3 1#)
+                                       ipv5
+                                       s2# } } }
+                             GHC.Types.True
+                             -> case GHC.Prim.unsafeFreezeByteArray#
+                                       @ s
+                                       ww
+                                       w1 of ds2 { (#,#) ipv6 ipv7 ->
+                                case GHC.Prim.newByteArray#
+                                       @ s
+                                       224#
+                                       ipv6 of ds3 { (#,#) ipv8 ipv9 ->
+                                (# ipv8,
+                                   GHC.Types.:
+                                     @ Data.Text.Internal.Text
+                                     (Data.Text.Internal.Text ipv7 ww1 ww2)
+                                     (case $wloop
+                                             ipv9
+                                             0#
+                                             0#
+                                             112#
+                                             wild1
+                                             ipv8 of ds4 { (#,#) ipv10 ipv11 ->
+                                      ipv11 }) #) } } } }
+                  } in
+                  $wloop dt dt1 dt2 dt3 str eta })
+                   `cast`
+                 (Trans
+                      (forall (s :: <*>_N).
+                       <Data.Text.Internal.Builder.Buffer s
+                        -> GHC.ST.ST s [Data.Text.Internal.Text]>_R
+                       ->_R <Data.Text.Internal.Builder.Buffer s>_R
+                       ->_R Sym (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R))
+                      (Sym (Data.Text.Internal.Builder.N:Builder[0])))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowbList ::
+    [Duckling.Locale.Locale] -> Data.Text.Internal.Builder.Builder
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Duckling.Locale.Locale]) ->
+                 TextShow.Classes.showbListWith
+                   @ Duckling.Locale.Locale
+                   Duckling.Locale.$fTextShowLocale_$cshowb
+                   eta) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowbPrec ::
+    GHC.Types.Int
+    -> Duckling.Locale.Locale -> Data.Text.Internal.Builder.Builder
+  {- Arity: 2, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: GHC.Types.Int) (eta :: Duckling.Locale.Locale) ->
+                 Duckling.Locale.$fTextShowLocale_$cshowb eta) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowt ::
+    Duckling.Locale.Locale -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <L,1*U(1*H,1*U)>,
+     Unfolding: (\ (x :: Duckling.Locale.Locale) ->
+                 Data.Text.concat
+                   (Data.Text.Lazy.dropEnd_go
+                      (Data.Text.Internal.Builder.$wtoLazyTextWith
+                         112#
+                         (Duckling.Locale.$fTextShowLocale_$cshowb x)))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowtList ::
+    [Duckling.Locale.Locale] -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Duckling.Locale.Locale]) ->
+                 Data.Text.concat
+                   (Data.Text.Lazy.dropEnd_go
+                      (Duckling.Locale.$fTextShowLocale_$cshowtlList eta))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowtPrec ::
+    GHC.Types.Int -> Duckling.Locale.Locale -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <L,A><L,1*U(1*H,1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (p :: GHC.Types.Int) (x :: Duckling.Locale.Locale) ->
+                 Data.Text.concat
+                   (Data.Text.Lazy.dropEnd_go
+                      (Duckling.Locale.$fTextShowLocale_$cshowtlPrec p x))) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowtl ::
+    Duckling.Locale.Locale -> Data.Text.Internal.Lazy.Text
+  {- Arity: 1, Strictness: <L,1*U(1*H,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.Locale.Locale) ->
+                 Data.Text.Internal.Builder.$wtoLazyTextWith
+                   112#
+                   (Duckling.Locale.$fTextShowLocale_$cshowb x)) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowtlList ::
+    [Duckling.Locale.Locale] -> Data.Text.Internal.Lazy.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Duckling.Locale.Locale]) ->
+                 Data.Text.Internal.Builder.$wtoLazyTextWith
+                   112#
+                   (TextShow.Classes.showbListWith
+                      @ Duckling.Locale.Locale
+                      Duckling.Locale.$fTextShowLocale_$cshowb
+                      eta)) -}
+31c921884abdece48e208bb67982f63e
+  $fTextShowLocale_$cshowtlPrec ::
+    GHC.Types.Int
+    -> Duckling.Locale.Locale -> Data.Text.Internal.Lazy.Text
+  {- Arity: 2, Strictness: <L,A><L,1*U(1*H,1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (p :: GHC.Types.Int) (x :: Duckling.Locale.Locale) ->
+                 Data.Text.Internal.Builder.$wtoLazyTextWith
+                   112#
+                   (Duckling.Locale.$fTextShowLocale_$cshowb x)) -}
+70af7f08e582a9bff3ebef29e2b1a427
+  $slookup1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+988354f8678860f2faaf787985544ea8
+  $tc'Locale :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   790562360674984823##
+                   8894629380080492582##
+                   Duckling.Locale.$trModule
+                   Duckling.Locale.$tc'Locale1) -}
+065d4bb650829299b29403ff2aad53ce
+  $tc'Locale1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Locale"#) -}
+f72471ca4f19c352401aa511165acc85
+  $tc'ZH :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16697802180355583742##
+                   10466036147711417899##
+                   Duckling.Locale.$trModule
+                   Duckling.Locale.$tc'ZH1) -}
+74e98f8c76937ec56ba44940e8726b31
+  $tc'ZH1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'ZH"#) -}
+fd339f885a14b7b5dc6312184b2f5935
+  $tcLang :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   926645613833172973##
+                   15765154367472972759##
+                   Duckling.Locale.$trModule
+                   Duckling.Locale.$tcLang1) -}
+6fff6d123cb509cd766ce9e4bde3ae77
+  $tcLang1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Lang"#) -}
+26802cca0b08b55674c1bd280265cd14
+  $tcLocale :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5022681912650952862##
+                   17658844535384998222##
+                   Duckling.Locale.$trModule
+                   Duckling.Locale.$tcLocale1) -}
+c14837e2fd5bee6919ff46b93094ba34
+  $tcLocale1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Locale"#) -}
+afbe67dc046d688135940fac107f9317
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Locale.$trModule2
+                   Duckling.Locale.$trModule1) -}
+14b369c42afef2b2334531c0551ebef8
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Locale"#) -}
+880b3865e8ebc6025672cadbf1bbb2cc
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+31c921884abdece48e208bb67982f63e
+  $w$creadPrec ::
+    (Duckling.Locale.Lang -> Text.ParserCombinators.ReadP.P b1)
+    -> (# GHC.Base.String -> Text.ParserCombinators.ReadP.P b1 #)
+  {- Arity: 1, Strictness: <L,1*C1(U)>, Inline: [0],
+     Unfolding: (\ @ b1
+                   (w :: Duckling.Locale.Lang -> Text.ParserCombinators.ReadP.P b1) ->
+                 let {
+                   lvl81 :: Text.ParserCombinators.ReadP.P b1
+                   = let {
+                       lvl82 :: Text.ParserCombinators.ReadP.P b1 = w Duckling.Locale.ZH
+                     } in
+                     Text.Read.Lex.expect2
+                       @ b1
+                       (\ (a1 :: Text.Read.Lex.Lexeme) ->
+                        case a1 of wild {
+                          DEFAULT -> Text.ParserCombinators.ReadP.Fail @ b1
+                          Text.Read.Lex.Ident a2
+                          -> case GHC.Base.eqString a2 Duckling.Locale.$fReadLang4 of wild1 {
+                               GHC.Types.False -> Text.ParserCombinators.ReadP.Fail @ b1
+                               GHC.Types.True -> lvl82 } })
+                 } in
+                 let {
+                   k :: () -> Text.ParserCombinators.ReadP.P b1
+                     {- Arity: 1, Strictness: <L,A>, Inline: INLINE[0],
+                        Unfolding: InlineRule (1, True, True) (\ (w4 :: ()) -> lvl81) -}
+                   = \ (w4 :: ()) -> lvl81
+                 } in
+                 (# \ (a :: GHC.Base.String) ->
+                    (Text.ParserCombinators.ReadP.skipSpaces_skip a)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.N:ReadP[0] <()>_R)
+                      @ b1
+                      k #)) -}
+31c921884abdece48e208bb67982f63e
+  $w$cshow ::
+    Duckling.Locale.Lang
+    -> GHC.Base.Maybe Duckling.Region.Region -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*H><S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Locale.Lang)
+                   (ww1 :: GHC.Base.Maybe Duckling.Region.Region) ->
+                 case ww1 of wild {
+                   GHC.Base.Nothing -> Duckling.Locale.$fShowLocale2
+                   GHC.Base.Just region
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Duckling.Locale.$fReadLang4
+                        (GHC.CString.unpackAppendCString#
+                           "_"#
+                           (Duckling.Region.$w$cshowsPrec
+                              region
+                              (GHC.Types.[] @ GHC.Types.Char))) }) -}
+31c921884abdece48e208bb67982f63e
+  $w$cshowb ::
+    Duckling.Locale.Lang
+    -> forall s.
+       (Data.Text.Internal.Builder.Buffer s
+        -> GHC.ST.ST s [Data.Text.Internal.Text])
+       -> GHC.Prim.MutableByteArray# s
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.Int#
+       -> GHC.Prim.State# s
+       -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+  {- Arity: 7,
+     Strictness: <S,1*H><L,C(C1(U(U,U)))><S,U><S,U><S,U><S,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ (w :: Duckling.Locale.Lang)
+                   @ s
+                   (w1 :: Data.Text.Internal.Builder.Buffer s
+                          -> GHC.ST.ST s [Data.Text.Internal.Text])
+                   (ww :: GHC.Prim.MutableByteArray# s)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: GHC.Prim.Int#)
+                   (w2 :: GHC.Prim.State# s)[OneShot] ->
+                 letrec {
+                   $wloop :: GHC.Prim.MutableByteArray# s
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> [GHC.Types.Char]
+                             -> GHC.Prim.State# s
+                             -> (# GHC.Prim.State# s, [Data.Text.Internal.Text] #)
+                     {- Arity: 6, Strictness: <L,U><L,U><L,U><L,U><S,1*U><S,U>,
+                        Inline: [0] -}
+                   = \ (ww4 :: GHC.Prim.MutableByteArray# s)
+                       (ww5 :: GHC.Prim.Int#)
+                       (ww6 :: GHC.Prim.Int#)
+                       (ww7 :: GHC.Prim.Int#)
+                       (w3 :: [GHC.Types.Char])
+                       (w4 :: GHC.Prim.State# s)[OneShot] ->
+                     case w3 of wild1 {
+                       []
+                       -> (w1 (Data.Text.Internal.Builder.Buffer @ s ww4 ww5 ww6 ww7))
+                            `cast`
+                          (GHC.ST.N:ST[0] <s>_N <[Data.Text.Internal.Text]>_R)
+                            w4
+                       : ipv4 ipv5
+                       -> case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.<=# ww7 1#) of wild2 {
+                            GHC.Types.False
+                            -> case ipv4 of wild3 { GHC.Types.C# c# ->
+                               let {
+                                 x :: GHC.Prim.Int# = GHC.Prim.ord# c#
+                               } in
+                               case GHC.Prim.tagToEnum#
+                                      @ GHC.Types.Bool
+                                      (GHC.Prim.<# x 65536#) of wild4 {
+                                 GHC.Types.False
+                                 -> let {
+                                      i# :: GHC.Prim.Int# = GHC.Prim.+# ww5 ww6
+                                    } in
+                                    let {
+                                      x# :: GHC.Prim.Int# = GHC.Prim.-# x 65536#
+                                    } in
+                                    case GHC.Prim.writeWord16Array#
+                                           @ s
+                                           ww4
+                                           i#
+                                           (GHC.Prim.narrow16Word#
+                                              (GHC.Prim.int2Word#
+                                                 (GHC.Prim.+#
+                                                    (GHC.Prim.uncheckedIShiftRA# x# 10#)
+                                                    55296#)))
+                                           w4 of s2# { DEFAULT ->
+                                    case GHC.Prim.writeWord16Array#
+                                           @ s
+                                           ww4
+                                           (GHC.Prim.+# i# 1#)
+                                           (GHC.Prim.narrow16Word#
+                                              (GHC.Prim.int2Word#
+                                                 (GHC.Prim.+# (GHC.Prim.andI# x# 1023#) 56320#)))
+                                           s2# of s2#1 { DEFAULT ->
+                                    $wloop
+                                      ww4
+                                      ww5
+                                      (GHC.Prim.+# ww6 2#)
+                                      (GHC.Prim.-# ww7 2#)
+                                      ipv5
+                                      s2#1 } }
+                                 GHC.Types.True
+                                 -> case GHC.Prim.writeWord16Array#
+                                           @ s
+                                           ww4
+                                           (GHC.Prim.+# ww5 ww6)
+                                           (GHC.Prim.narrow16Word# (GHC.Prim.int2Word# x))
+                                           w4 of s2# { DEFAULT ->
+                                    $wloop
+                                      ww4
+                                      ww5
+                                      (GHC.Prim.+# ww6 1#)
+                                      (GHC.Prim.-# ww7 1#)
+                                      ipv5
+                                      s2# } } }
+                            GHC.Types.True
+                            -> case GHC.Prim.unsafeFreezeByteArray#
+                                      @ s
+                                      ww4
+                                      w4 of ds2 { (#,#) ipv6 ipv7 ->
+                               case GHC.Prim.newByteArray#
+                                      @ s
+                                      224#
+                                      ipv6 of ds3 { (#,#) ipv8 ipv9 ->
+                               (# ipv8,
+                                  GHC.Types.:
+                                    @ Data.Text.Internal.Text
+                                    (Data.Text.Internal.Text ipv7 ww5 ww6)
+                                    (case $wloop
+                                            ipv9
+                                            0#
+                                            0#
+                                            112#
+                                            wild1
+                                            ipv8 of ds4 { (#,#) ipv10 ipv11 ->
+                                     ipv11 }) #) } } } }
+                 } in
+                 $wloop ww ww1 ww2 ww3 Duckling.Locale.$fReadLang4 w2) -}
+31c921884abdece48e208bb67982f63e
+  $w$cshowt :: Duckling.Locale.Lang -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [0],
+     Unfolding: (\ (w :: Duckling.Locale.Lang) ->
+                 case GHC.Magic.runRW#
+                        @ 'GHC.Types.PtrRepLifted
+                        @ [Data.Text.Internal.Text]
+                        Duckling.Locale.$fTextShowLang2 of ds1 { (#,#) ipv ipv1 ->
+                 Data.Text.concat
+                   (Data.Text.Lazy.dropEnd_go
+                      (Data.Text.Lazy.fromChunks_go ipv1)) }) -}
+31c921884abdece48e208bb67982f63e
+  $w$ctoEnum :: GHC.Prim.Int# -> Duckling.Locale.Lang
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 0#) of wild {
+                   GHC.Types.False -> Duckling.Locale.$fEnumLang3 ww
+                   GHC.Types.True
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.<=# ww 0#) of wild1 {
+                        GHC.Types.False -> Duckling.Locale.$fEnumLang3 ww
+                        GHC.Types.True
+                        -> GHC.Prim.tagToEnum# @ Duckling.Locale.Lang ww } }) -}
+02a7c7cee68558e52059680e2f2ef46b
+  $wpoly_go1 ::
+    Duckling.Region.Region
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Region.Region v)
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.Maybe v
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><S,U><S,U><S,U>,
+     Inline: [0] -}
+0562e00ce0fa58c60066c31d09f6e643
+  $wpoly_go2 ::
+    GHC.Prim.Word#
+    -> Duckling.Locale.Lang
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Duckling.Locale.Lang v
+    -> GHC.Base.Maybe v
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,U><S,1*H><L,U><S,1*U>,
+     Inline: [0] -}
+0e3ab4b0835aebc7a6b6a7ca1d1aff66
+  $wpoly_go3 ::
+    GHC.Prim.Word#
+    -> Duckling.Region.Region
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Duckling.Region.Region v
+    -> GHC.Base.Maybe v
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,U><S,1*U><L,U><S,1*U>,
+     Inline: [0] -}
+f4ba5e82179b487a7d147353b776085b
+  $wpoly_go4 ::
+    GHC.Prim.Word#
+    -> Duckling.Locale.Lang
+    -> v
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Duckling.Locale.Lang v
+    -> GHC.Prim.State# s
+    -> (# GHC.Prim.State# s,
+          Data.HashMap.Base.HashMap Duckling.Locale.Lang v #)
+  {- Arity: 6, Strictness: <L,U><S,1*H><L,U><L,U><S,1*U><S,U>,
+     Inline: [0] -}
+31c921884abdece48e208bb67982f63e
+  data Lang = ZH
+31c921884abdece48e208bb67982f63e
+  data Locale
+    = Locale Duckling.Locale.Lang
+             (GHC.Base.Maybe Duckling.Region.Region)
+31c921884abdece48e208bb67982f63e
+  axiom Rep_Lang::
+      GHC.Generics.Rep Duckling.Locale.Lang
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Lang"
+               "Duckling.Locale"
+               "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "ZH" 'GHC.Generics.PrefixI 'GHC.Types.False)
+               GHC.Generics.U1)
+31c921884abdece48e208bb67982f63e
+  axiom Rep_Locale::
+      GHC.Generics.Rep Duckling.Locale.Locale
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Locale"
+               "Duckling.Locale"
+               "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Locale" 'GHC.Generics.PrefixI 'GHC.Types.False)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     'GHC.Base.Nothing
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 Duckling.Locale.Lang)
+                GHC.Generics.:*: GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      'GHC.Base.Nothing
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 (GHC.Base.Maybe Duckling.Region.Region))))
+fd2a83f735d368b9a164d332f614e400
+  allLocales ::
+    Data.HashMap.Base.HashMap
+      Duckling.Locale.Lang (Data.HashSet.HashSet Duckling.Region.Region)
+  {- Unfolding: (case Data.HashMap.Base.insert
+                        @ Duckling.Region.Region
+                        @ ()
+                        Duckling.Region.$fEqRegion
+                        Duckling.Region.$fHashableRegion
+                        Duckling.Region.CN
+                        GHC.Tuple.()
+                        (Data.HashMap.Base.Empty
+                           @ Duckling.Region.Region
+                           @ ()) of z { DEFAULT ->
+                 case Data.HashMap.Base.insert
+                        @ Duckling.Region.Region
+                        @ ()
+                        Duckling.Region.$fEqRegion
+                        Duckling.Region.$fHashableRegion
+                        Duckling.Region.HK
+                        GHC.Tuple.()
+                        z of z1 { DEFAULT ->
+                 case Data.HashMap.Base.insert
+                        @ Duckling.Region.Region
+                        @ ()
+                        Duckling.Region.$fEqRegion
+                        Duckling.Region.$fHashableRegion
+                        Duckling.Region.MO
+                        GHC.Tuple.()
+                        z1 of z2 { DEFAULT ->
+                 case Data.HashMap.Base.insert
+                        @ Duckling.Region.Region
+                        @ ()
+                        Duckling.Region.$fEqRegion
+                        Duckling.Region.$fHashableRegion
+                        Duckling.Region.TW
+                        GHC.Tuple.()
+                        z2 of nt { DEFAULT ->
+                 case Duckling.Locale.$wpoly_go4
+                        @ GHC.Prim.RealWorld
+                        @ (Data.HashSet.HashSet Duckling.Region.Region)
+                        839657738087498284##
+                        Duckling.Locale.ZH
+                        nt
+                          `cast`
+                        (Sym (Data.HashSet.N:HashSet[0] <Duckling.Region.Region>_N))
+                        0#
+                        (Data.HashMap.Base.Empty
+                           @ Duckling.Locale.Lang
+                           @ (Data.HashSet.HashSet Duckling.Region.Region))
+                        GHC.Prim.realWorld# of ds { (#,#) ipv ipv1 ->
+                 ipv1 } } } } }) -}
+1586c234b6d7199fdb023a38b4b3332d
+  makeLocale ::
+    Duckling.Locale.Lang
+    -> GHC.Base.Maybe Duckling.Region.Region -> Duckling.Locale.Locale
+  {- Arity: 2, Strictness: <L,U><S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Locale.Lang)
+                   (w1 :: GHC.Base.Maybe Duckling.Region.Region) ->
+                 case w1 of wild {
+                   GHC.Base.Nothing
+                   -> Duckling.Locale.Locale
+                        w
+                        (GHC.Base.Nothing @ Duckling.Region.Region)
+                   GHC.Base.Just region
+                   -> case w of wild1 { Duckling.Locale.ZH ->
+                      case Duckling.Locale.makeLocale1 of wild2 {
+                        GHC.Base.Nothing
+                        -> case Duckling.Region.$w$chashWithSalt
+                                  -2578643520546668380#
+                                  region of ww2 { DEFAULT ->
+                           case Duckling.Locale.$wpoly_go3
+                                  @ ()
+                                  (GHC.Prim.int2Word# ww2)
+                                  region
+                                  0#
+                                  (Data.HashMap.Base.Empty @ Duckling.Region.Region @ ()) of wild3 {
+                             GHC.Base.Nothing
+                             -> Duckling.Locale.Locale
+                                  Duckling.Locale.ZH
+                                  (GHC.Base.Nothing @ Duckling.Region.Region)
+                             GHC.Base.Just ds
+                             -> Duckling.Locale.Locale Duckling.Locale.ZH wild } }
+                        GHC.Base.Just v1
+                        -> case Duckling.Region.$w$chashWithSalt
+                                  -2578643520546668380#
+                                  region of ww2 { DEFAULT ->
+                           case Duckling.Locale.$wpoly_go3
+                                  @ ()
+                                  (GHC.Prim.int2Word# ww2)
+                                  region
+                                  0#
+                                  v1
+                                    `cast`
+                                  (Data.HashSet.N:HashSet[0] <Duckling.Region.Region>_N) of wild3 {
+                             GHC.Base.Nothing
+                             -> Duckling.Locale.Locale
+                                  Duckling.Locale.ZH
+                                  (GHC.Base.Nothing @ Duckling.Region.Region)
+                             GHC.Base.Just ds
+                             -> Duckling.Locale.Locale Duckling.Locale.ZH wild } } } } }) -}
+2d0c6ccc5e0e687f81818dd4a07c2146
+  makeLocale1 ::
+    GHC.Base.Maybe (Data.HashSet.HashSet Duckling.Region.Region)
+  {- Unfolding: (Duckling.Locale.$wpoly_go2
+                   @ (Data.HashSet.HashSet Duckling.Region.Region)
+                   839657738087498284##
+                   Duckling.Locale.ZH
+                   0#
+                   Duckling.Locale.allLocales) -}
+instance GHC.Enum.Bounded [Duckling.Locale.Lang]
+  = Duckling.Locale.$fBoundedLang
+instance GHC.Enum.Enum [Duckling.Locale.Lang]
+  = Duckling.Locale.$fEnumLang
+instance GHC.Classes.Eq [Duckling.Locale.Lang]
+  = Duckling.Locale.$fEqLang
+instance GHC.Classes.Eq [Duckling.Locale.Locale]
+  = Duckling.Locale.$fEqLocale
+instance GHC.Generics.Generic [Duckling.Locale.Lang]
+  = Duckling.Locale.$fGenericLang
+instance GHC.Generics.Generic [Duckling.Locale.Locale]
+  = Duckling.Locale.$fGenericLocale
+instance Data.Hashable.Class.Hashable [Duckling.Locale.Lang]
+  = Duckling.Locale.$fHashableLang
+instance Data.Hashable.Class.Hashable [Duckling.Locale.Locale]
+  = Duckling.Locale.$fHashableLocale
+instance GHC.Classes.Ord [Duckling.Locale.Lang]
+  = Duckling.Locale.$fOrdLang
+instance GHC.Classes.Ord [Duckling.Locale.Locale]
+  = Duckling.Locale.$fOrdLocale
+instance GHC.Read.Read [Duckling.Locale.Lang]
+  = Duckling.Locale.$fReadLang
+instance GHC.Show.Show [Duckling.Locale.Lang]
+  = Duckling.Locale.$fShowLang
+instance GHC.Show.Show [Duckling.Locale.Locale]
+  = Duckling.Locale.$fShowLocale
+instance TextShow.Classes.TextShow [Duckling.Locale.Lang]
+  = Duckling.Locale.$fTextShowLang
+instance TextShow.Classes.TextShow [Duckling.Locale.Locale]
+  = Duckling.Locale.$fTextShowLocale
+family instance GHC.Generics.Rep [Duckling.Locale.Locale]
+  = Duckling.Locale.Rep_Locale
+family instance GHC.Generics.Rep [Duckling.Locale.Lang]
+  = Duckling.Locale.Rep_Lang
+"SPEC/Duckling.Locale $dmhashWithSalt @ Lang" [ALWAYS] forall ($dGHashable :: Data.Hashable.Class.GHashable
+                                                                                Data.Hashable.Class.Zero
+                                                                                (GHC.Generics.Rep
+                                                                                   Duckling.Locale.Lang))
+                                                              ($dGeneric :: GHC.Generics.Generic
+                                                                              Duckling.Locale.Lang)
+                                                              ($dHashable :: Data.Hashable.Class.Hashable
+                                                                               Duckling.Locale.Lang)
+  Data.Hashable.Class.$dmhashWithSalt @ Duckling.Locale.Lang
+                                      $dHashable
+                                      $dGeneric
+                                      $dGHashable
+  = Duckling.Locale.$fHashableLang_$s$dmhashWithSalt
+"SPEC/Duckling.Locale $dmmin @ Lang" [ALWAYS] forall ($dOrd :: GHC.Classes.Ord
+                                                                 Duckling.Locale.Lang)
+  GHC.Classes.$dmmin @ Duckling.Locale.Lang $dOrd
+  = Duckling.Locale.$fOrdLang_$s$dmmin
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,476 @@
+
+==================== FINAL INTERFACE ====================
+2019-01-30 07:27:24.050663 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Engine 8002
+  interface hash: 97f2a5b6c21e057358052883bd5743cb
+  ABI hash: 621c48f9379a58a84d4238ff16f6192c
+  export-list hash: 95a0cd1fc00ff5b1e59fe06cafa94c12
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 80133930371cc8220b572fe46c24f738
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Engine.lookupRegexAnywhere
+  Duckling.Engine.parseAndResolve
+  Duckling.Engine.runDuckling
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Types Duckling.Dimensions.Types
+                     Duckling.Distance.Types Duckling.Duration.Types
+                     Duckling.Email.Types Duckling.Engine.Regex Duckling.Gender.Types
+                     Duckling.Identity.Types Duckling.Locale Duckling.Numeral.Types
+                     Duckling.Ordinal.Types Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Types Duckling.Regex.Types Duckling.Region
+                     Duckling.Resolve Duckling.Temperature.Types Duckling.Time.Types
+                     Duckling.TimeGrain.Types Duckling.Types Duckling.Types.Document
+                     Duckling.Types.Stash Duckling.Url.Types Duckling.Volume.Types
+                     Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson 1af00541e969ad203c27ee12864de00d
+import  -/  array-0.5.1.1@array-0.5.1.1:Data.Array 01310623526f8acc73d1bb69e9d9530a
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.Functor.Identity 6ee67943d44d50091e12d22df04741f0
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.Maybe d876c4ffe4b3c43755a781e8ad860d88
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:GHC.Arr dbae05e7a9c0aba55cc706ecf0406507
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString 21ce1800689b373b38139d788d9bbd62
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Internal 55dd939197544e08d4254aa7d070fa6c
+import  -/  deepseq-1.4.2.0@deepseq-1.4.2.0:Control.DeepSeq 0a99763cf6016b16bbf55422778a79b2
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.Engine.Regex a4fbf1f7b9f059fe0e9cb08b8221e6cf
+  exports: 1dee0af53c8da98b12a397321ed4bf35
+import  -/  Duckling.Regex.Types 02ee061ffbed7bfe03850219af82e91c
+  exports: d44c9c4af09e2c2530be2e20de544b1d
+  GroupMatch 537ad29f8ab71f1e1b7b5a2d9bd0ac47
+import  -/  Duckling.Resolve 15ce2eadafd5cc42f057e1d0f9191938
+  exports: 6e20ad884e276a7b8b73219b25eea656
+  Context 6c0269cb99302be078f2197303ef498a
+  Options 97f32ae7e47d6c096d8e6d04ab59eac6
+  resolve 9cc80ba2923dcd8349d33a4eff9d9e42
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  Node c9b5fde9703703766d610ad69c56db9f
+  Node 77cecf73b2bd5e7e34b8b255a24c785b
+  PatternItem 876893268fb58123567a47e946b5b6ba
+  Predicate 7b23b72c5da11bf15a4943a8b0a1fdb3
+  RVal ee66e550030701e0c0ee9bb77e775e51
+  Range a03203b0c9c6b09d6307db98f5128d10
+  Regex d32788dca5599040295181abbd8b644d
+  RegexMatch 48a4c104f38c3a332becce55bbf47568
+  Resolved 4a7223efff6442afd04a9f34a8f2ea12
+  ResolvedToken f8e17b0721b86350c49a27f32de48f63
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  children 6a6a83ac376382e3d6d27eaeed4c5a9e
+  isLatent c8779e2ef0b8545c3dd528747564c350
+  node 753aae763e8333663525f71a24ee51d9
+  nodeRange f0856018dc2c5a8fc212c0f5df1fdc69
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  range 3c328653d9034d8b85c67e43cd299855
+  rule 83bdb624649d0ef67e6017f11344b4f2
+  rval 0091d7b4cf33c2b9d3c5d29bfa5b203a
+  token fb98132ad6afc39dd92fd5b1a9d36243
+import  -/  Duckling.Types.Document b2ed45b786c4a2137f1e92db593686f4
+  exports: 71046309cd97c09b45133d60c1db2a87
+  Document 27b452612f4e1fad25cf377b153161b5
+  byteStringFromPos 2a9bc69a84b8644145db181f75f0b61a
+  fromText c0f19193f874cfb8b87ed0c8c291406a
+  isAdjacent 2b5ab064adcc8926f496375000753874
+  isRangeValid 82cb9605d060a69d2e8ce63d1a1c3409
+  length af653e2f2a3f9dae1305339588286c28
+import  -/  Duckling.Types.Stash 4074efc4cf5b051eb4fcc22874c26c75
+  exports: c608dbd43f10cbc228c6058ba7eab93f
+  Stash 8d7a480226f3ebf92c81c90af768490f
+  empty 6db7e75e9ece4aa46f81583c0c4d5981
+  fromList 17cbbaa4ebc3f46909f0100eef67b0e1
+  null 6ab26d17c936e75729f56adec5cf9279
+  toPosOrderedList 71cd2477450f8ed0c5763401df7b5b95
+  toPosOrderedListFrom e7d8abd61043e38f4e320e7afdb8305d
+  union 38798380f4d85730d3dd87dfb8b72d43
+import  -/  extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL:Control.Monad.Extra c08b3e8b120fc546401c13d38cb17323
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.RegexLike 3448747551b54593c367675a9e948fa1
+import  -/  regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE 53cf9c11c8ae2b4f302649dbcacabaff
+import  -/  regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Wrap 49a0cd2aa5ebf780f018c01b84798ffe
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+d0cc562ba864427ade79daf605a96e6e
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Engine.$trModule2
+                   Duckling.Engine.$trModule1) -}
+e28ad08225261dfbe441bce531c71d90
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Engine"#) -}
+bc8c95a4d21489515d1a44eae4b7bebe
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+13cd643281b5aff7fbe28fd9a8253aed
+  $wlookupRegexAnywhere ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Addr#
+    -> GHC.ForeignPtr.ForeignPtrContents
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Array.Base.UArray GHC.Types.Int GHC.Types.Char
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.ByteArray#
+    -> Data.Array.Base.UArray GHC.Types.Int GHC.Types.Int
+    -> Data.Array.Base.UArray GHC.Types.Int GHC.Types.Int
+    -> GHC.ForeignPtr.ForeignPtr Text.Regex.PCRE.Wrap.PCRE
+    -> Text.Regex.PCRE.Wrap.ExecOption
+    -> Duckling.Engine.Duckling [Duckling.Types.Node]
+  {- Arity: 15,
+     Strictness: <L,U><L,U><L,U><L,U><L,U><S,U><L,U(U(U),U(U),U,U)><S,U><S,U><S,U><S,U><L,U(U(U),U(U),U,U)><L,U(U(U),U(U),U,U)><L,1*U(U,U)><L,U(U)>,
+     Inline: [0] -}
+e57f76e03c2e732e81fdac6a08b344d5
+  $wparseString1 ::
+    [Duckling.Types.Rule]
+    -> Duckling.Types.Document.Document
+    -> Duckling.Types.Stash.Stash
+    -> Duckling.Types.Stash.Stash
+    -> [Duckling.Engine.Match]
+    -> (# Duckling.Types.Stash.Stash, [Duckling.Engine.Match] #)
+  {- Arity: 5,
+     Strictness: <L,1*U><L,U(U(U,U,A),U(U,U,U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U))><L,U><L,U><S,U>,
+     Inline: [0] -}
+505659afb6f876ae10e1c117e945686a
+  type Duckling a = Data.Functor.Identity.Identity a
+aae5f3f912e0bfece3ffb6d44ae153d2
+  type Match =
+    (Duckling.Types.Rule, GHC.Types.Int, [Duckling.Types.Node])
+170760e0c19a02c2caca483244a7ef9b
+  lookupRegexAnywhere ::
+    Duckling.Types.Document.Document
+    -> Text.Regex.PCRE.Wrap.Regex
+    -> Duckling.Engine.Duckling [Duckling.Types.Node]
+  {- Arity: 2,
+     Strictness: <S(SS(LLLS)LLS(S(S)S(S)SS)LL),1*U(U(U,U,A),1*U(U,U,U,U),U(U(U),U(U),U,U),A,1*U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U))><S,1*U(1*U(U,U),A,U(U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Types.Document.Document)
+                   (w1 :: Text.Regex.PCRE.Wrap.Regex) ->
+                 case w of ww { Duckling.Types.Document.Document ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
+                 case ww1 of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                 case ww2 of ww12 { Data.ByteString.Internal.PS ww13 ww14 ww15 ww16 ->
+                 case ww5 of ww17 { Data.Array.Base.UArray ww18 ww19 ww20 ww21 ->
+                 case ww18 of ww22 { GHC.Types.I# ww23 ->
+                 case ww19 of ww24 { GHC.Types.I# ww25 ->
+                 case w1 of ww26 { Text.Regex.PCRE.Wrap.Regex ww27 ww28 ww29 ->
+                 Duckling.Engine.$wlookupRegexAnywhere
+                   ww9
+                   ww10
+                   ww13
+                   ww14
+                   ww15
+                   ww16
+                   ww3
+                   ww23
+                   ww25
+                   ww20
+                   ww21
+                   ww6
+                   ww7
+                   ww27
+                   ww29 } } } } } } }) -}
+892ef7fb41cd41db02c488ddcdc1bf78
+  parseAndResolve ::
+    [Duckling.Types.Rule]
+    -> Data.Text.Internal.Text
+    -> Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> [Duckling.Types.ResolvedToken]
+  {- Arity: 4, Strictness: <L,U><L,1*U(U,U,U)><L,U><L,U>,
+     Unfolding: (\ (rules :: [Duckling.Types.Rule])
+                   (input :: Data.Text.Internal.Text)
+                   (context :: Duckling.Resolve.Context)
+                   (options :: Duckling.Resolve.Options) ->
+                 let {
+                   sentence :: Duckling.Types.Document.Document
+                   = case input of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                     case Duckling.Types.Document.$wfromText
+                            ww1
+                            ww2
+                            ww3 of ww4 { (#,,,,,,#) ww5 ww6 ww7 ww8 ww9 ww10 ww11 ->
+                     Duckling.Types.Document.Document ww5 ww6 ww7 ww8 ww9 ww10 ww11 } }
+                 } in
+                 case Duckling.Engine.$wparseString1
+                        rules
+                        sentence
+                        (Data.IntMap.Base.Nil @ (Data.HashSet.HashSet Duckling.Types.Node))
+                          `cast`
+                        (Sym (Duckling.Types.Stash.N:Stash[0]))
+                        (Data.IntMap.Base.Nil @ (Data.HashSet.HashSet Duckling.Types.Node))
+                          `cast`
+                        (Sym (Duckling.Types.Stash.N:Stash[0]))
+                        (GHC.Types.[] @ Duckling.Engine.Match) of ww { (#,#) ww1 ww2 ->
+                 let {
+                   x :: [Duckling.Types.Node]
+                   = case ww1 `cast` (Duckling.Types.Stash.N:Stash[0]) of wild {
+                       DEFAULT
+                       -> Duckling.Types.Stash.toPosOrderedList
+                            (Duckling.Engine.saturateParseString
+                               (Duckling.Engine.parseAndResolve_go rules)
+                               sentence
+                               wild `cast` (Sym (Duckling.Types.Stash.N:Stash[0]))
+                               wild `cast` (Sym (Duckling.Types.Stash.N:Stash[0]))
+                               ww2)
+                              `cast`
+                            (Data.Functor.Identity.N:Identity[0]
+                                 <Duckling.Types.Stash.Stash>_R)
+                       Data.IntMap.Base.Nil -> Duckling.Engine.parseAndResolve1 }
+                 } in
+                 case Control.DeepSeq.$fNFDataArray_$crnf1
+                        @ Duckling.Types.Node
+                        Duckling.Types.$fNFDataNode_$crnf
+                          `cast`
+                        (Sym (Control.DeepSeq.N:NFData[0] <Duckling.Types.Node>_N))
+                        x of wild { () ->
+                 Data.Maybe.mapMaybe
+                   @ Duckling.Types.Node
+                   @ Duckling.Types.ResolvedToken
+                   (\ (n :: Duckling.Types.Node) ->
+                    case n of wild1 { Duckling.Types.Node ds ds1 ds2 ds3 ->
+                    case ds1 of wild2 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData dim dd ->
+                    case Duckling.Resolve.resolve
+                           @ a
+                           $dResolve
+                           context
+                           options
+                           dd of wild3 {
+                      GHC.Base.Nothing -> GHC.Base.Nothing @ Duckling.Types.ResolvedToken
+                      GHC.Base.Just x1
+                      -> case x1 of wild4 { (,) val latent ->
+                         GHC.Base.Just
+                           @ Duckling.Types.ResolvedToken
+                           (Duckling.Types.Resolved
+                              ds
+                              wild1
+                              (Duckling.Types.RVal
+                                 @ a
+                                 $dResolve
+                                 (Duckling.Resolve.$p1Resolve @ a $dResolve)
+                                 (Duckling.Resolve.$p2Resolve @ a $dResolve)
+                                 (Duckling.Resolve.$p3Resolve @ a $dResolve)
+                                 dim
+                                 val)
+                              latent) } } } })
+                   x } }) -}
+84cda092241460ee1e8775549ba667e8
+  parseAndResolve1 :: [Duckling.Types.Node]
+  {- Unfolding: (Duckling.Types.Stash.toPosOrderedList
+                   (Data.IntMap.Base.Nil @ (Data.HashSet.HashSet Duckling.Types.Node))
+                     `cast`
+                   (Sym (Duckling.Types.Stash.N:Stash[0]))) -}
+d31fc94239bbf8ebae2753605738cd03
+  parseAndResolve_go ::
+    [Duckling.Types.Rule] -> [Duckling.Types.Rule]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+48e13e7c5e2e2a3679186f8d9bb8b942
+  runDuckling :: Duckling.Engine.Duckling a -> a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Functor.Identity.$fFoldableIdentity2
+                  `cast`
+                (forall (a :: <*>_N).
+                 <Data.Functor.Identity.Identity a>_R
+                 ->_R Data.Functor.Identity.N:Identity[0] <a>_R) -}
+d2d4c70e78d6834109687059db60b506
+  saturateParseString ::
+    [Duckling.Types.Rule]
+    -> Duckling.Types.Document.Document
+    -> Duckling.Types.Stash.Stash
+    -> Duckling.Types.Stash.Stash
+    -> [Duckling.Engine.Match]
+    -> Duckling.Engine.Duckling Duckling.Types.Stash.Stash
+  {- Arity: 5,
+     Strictness: <L,U><L,U(U(U,U,A),U(U,U,U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U),U(U(U),U(U),U,U))><S,U><L,U><S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

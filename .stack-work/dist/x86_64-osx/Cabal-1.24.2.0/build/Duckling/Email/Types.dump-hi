@@ -1,0 +1,1167 @@
+
+==================== FINAL INTERFACE ====================
+2019-01-30 07:24:33.900331 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types [family instance module] 8002
+  interface hash: ccad0fcd7f1d54778fec9280e0aec36c
+  ABI hash: 35caa3197682fd270959d400e14b5a0c
+  export-list hash: 7aadf1c3c46aca73fef35851674632db
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: fc52cf46cf55fb1422df6dfb33f5dda4
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Email.Types.EmailData{Duckling.Email.Types.EmailData value}
+module dependencies: Duckling.Locale Duckling.Region
+                     Duckling.Resolve
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson 1af00541e969ad203c27ee12864de00d
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal 4c7adfaf9946e7eb59b1a47b47e68246
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d6ae344f2a743c9940980d0869569ad4
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  deepseq-1.4.2.0@deepseq-1.4.2.0:Control.DeepSeq 0a99763cf6016b16bbf55422778a79b2
+import  -/  Duckling.Resolve 15ce2eadafd5cc42f057e1d0f9191938
+  exports: 6e20ad884e276a7b8b73219b25eea656
+  Resolve 857149e63f1fbb61ae9c206e0802b0fa
+  ResolvedValue d3c9ab28ab95ed33280b467fbe72cd58
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable 0e86f32bd46d4c618b1e312455011c77
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Class bc4f00f60e55accb5753c8e0ce3cde5f
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+8f184380236342de532cdaaa1c360735
+  $fEqEmailData :: GHC.Classes.Eq Duckling.Email.Types.EmailData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fEqEmailData_$c==
+                  Duckling.Email.Types.$fEqEmailData_$c/= -}
+8f184380236342de532cdaaa1c360735
+  $fEqEmailData_$c/= ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fEqText_$c/=
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fEqEmailData_$c== ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(U,U,U)><S(LLS),1*U(U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fEqText_$c==
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fGenericEmailData ::
+    GHC.Generics.Generic Duckling.Email.Types.EmailData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fGenericEmailData_$cfrom
+                  Duckling.Email.Types.$fGenericEmailData_$cto -}
+8f184380236342de532cdaaa1c360735
+  $fGenericEmailData1 ::
+    GHC.Generics.Rep Duckling.Email.Types.EmailData x
+    -> GHC.Generics.Rep Duckling.Email.Types.EmailData x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x (ds :: GHC.Generics.Rep Duckling.Email.Types.EmailData x) ->
+                 ds) -}
+8f184380236342de532cdaaa1c360735
+  $fGenericEmailData2 ::
+    Duckling.Email.Types.EmailData -> Duckling.Email.Types.EmailData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x (x1 :: Duckling.Email.Types.EmailData) -> x1) -}
+8f184380236342de532cdaaa1c360735
+  $fGenericEmailData_$cfrom ::
+    Duckling.Email.Types.EmailData
+    -> GHC.Generics.Rep Duckling.Email.Types.EmailData x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.$fGenericEmailData2
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Duckling.Email.Types.EmailData>_R
+                 ->_R Trans
+                          (Duckling.Email.Types.N:EmailData[0])
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <Data.Text.Internal.Text>_R <x>_P))
+                               (Trans
+                                    (Sym (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.S>_P
+                                              <'GHC.Generics.MetaSel
+                                                 ('GHC.Base.Just "value")
+                                                 'GHC.Generics.NoSourceUnpackedness
+                                                 'GHC.Generics.NoSourceStrictness
+                                                 'GHC.Generics.DecidedLazy>_P
+                                              <GHC.Generics.K1
+                                                 GHC.Generics.R Data.Text.Internal.Text>_R))
+                                    (Trans
+                                         (Sym (GHC.Generics.N:M1[0]
+                                                   <GHC.Generics.C>_P
+                                                   <'GHC.Generics.MetaCons
+                                                      "EmailData"
+                                                      'GHC.Generics.PrefixI
+                                                      'GHC.Types.True>_P
+                                                   <GHC.Generics.M1
+                                                      GHC.Generics.S
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "value")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.K1
+                                                         GHC.Generics.R
+                                                         Data.Text.Internal.Text)>_R))
+                                         (Trans
+                                              (Sym (GHC.Generics.N:M1[0]
+                                                        <GHC.Generics.D>_P
+                                                        <'GHC.Generics.MetaData
+                                                           "EmailData"
+                                                           "Duckling.Email.Types"
+                                                           "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                                           'GHC.Types.True>_P
+                                                        <GHC.Generics.M1
+                                                           GHC.Generics.C
+                                                           ('GHC.Generics.MetaCons
+                                                              "EmailData"
+                                                              'GHC.Generics.PrefixI
+                                                              'GHC.Types.True)
+                                                           (GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "value")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R
+                                                                 Data.Text.Internal.Text))>_R))
+                                              (Sub (Sym (Duckling.Email.Types.Rep_EmailData[0]))))) <x>_N))) -}
+8f184380236342de532cdaaa1c360735
+  $fGenericEmailData_$cto ::
+    GHC.Generics.Rep Duckling.Email.Types.EmailData x
+    -> Duckling.Email.Types.EmailData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.$fGenericEmailData1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <GHC.Generics.Rep Duckling.Email.Types.EmailData x>_R
+                 ->_R Trans
+                          (Trans
+                               (Sub (Duckling.Email.Types.Rep_EmailData[0]))
+                               (Trans
+                                    (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.D>_P
+                                         <'GHC.Generics.MetaData
+                                            "EmailData"
+                                            "Duckling.Email.Types"
+                                            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                            'GHC.Types.True>_P
+                                         <GHC.Generics.M1
+                                            GHC.Generics.C
+                                            ('GHC.Generics.MetaCons
+                                               "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                            (GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "value")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R Data.Text.Internal.Text))>_R)
+                                    (Trans
+                                         (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.C>_P
+                                              <'GHC.Generics.MetaCons
+                                                 "EmailData"
+                                                 'GHC.Generics.PrefixI
+                                                 'GHC.Types.True>_P
+                                              <GHC.Generics.M1
+                                                 GHC.Generics.S
+                                                 ('GHC.Generics.MetaSel
+                                                    ('GHC.Base.Just "value")
+                                                    'GHC.Generics.NoSourceUnpackedness
+                                                    'GHC.Generics.NoSourceStrictness
+                                                    'GHC.Generics.DecidedLazy)
+                                                 (GHC.Generics.K1
+                                                    GHC.Generics.R Data.Text.Internal.Text)>_R)
+                                         (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.S>_P
+                                              <'GHC.Generics.MetaSel
+                                                 ('GHC.Base.Just "value")
+                                                 'GHC.Generics.NoSourceUnpackedness
+                                                 'GHC.Generics.NoSourceStrictness
+                                                 'GHC.Generics.DecidedLazy>_P
+                                              <GHC.Generics.K1
+                                                 GHC.Generics.R Data.Text.Internal.Text>_R))) <x>_N)
+                          (Trans
+                               (GHC.Generics.N:K1[0]
+                                    <GHC.Generics.R>_P <Data.Text.Internal.Text>_R <x>_P)
+                               (Sym (Duckling.Email.Types.N:EmailData[0])))) -}
+8f184380236342de532cdaaa1c360735
+  $fHashableEmailData ::
+    Data.Hashable.Class.Hashable Duckling.Email.Types.EmailData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fHashableEmailData_$s$dmhashWithSalt
+                  Duckling.Email.Types.$fHashableEmailData_$chash -}
+b2a3ab1c5aed4de312102148a8b7fc56
+  $fHashableEmailData1 :: Data.Text.Internal.Text -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Data.Hashable.Class.$fHashableText_$chashWithSalt1
+                   Data.Hashable.Class.defaultSalt) -}
+0098105a1fe06a561432e1d193ec2cb8
+  $fHashableEmailData2 ::
+    Data.Hashable.Class.GHashable
+      Data.Hashable.Class.Zero
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData
+            "EmailData"
+            "Duckling.Email.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.True)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "value")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 Data.Text.Internal.Text))))
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(SSS),1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.$fHashableEmailData3
+                  `cast`
+                (Sym (Data.Hashable.Class.N:GHashable[0]
+                          <Data.Hashable.Class.Zero>_N
+                          <GHC.Generics.M1
+                             GHC.Generics.D
+                             ('GHC.Generics.MetaData
+                                "EmailData"
+                                "Duckling.Email.Types"
+                                "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                'GHC.Types.True)
+                             (GHC.Generics.M1
+                                GHC.Generics.C
+                                ('GHC.Generics.MetaCons
+                                   "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                (GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "value")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 Data.Text.Internal.Text)))>_N)) -}
+c37462ac5c95a917246aa5a5f398fdf6
+  $fHashableEmailData3 ::
+    Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1
+    -> GHC.Types.Int
+    -> GHC.Generics.M1
+         GHC.Generics.D
+         ('GHC.Generics.MetaData
+            "EmailData"
+            "Duckling.Email.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.C
+            ('GHC.Generics.MetaCons
+               "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "value")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 Data.Text.Internal.Text)))
+         a1
+    -> GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(SSS),1*U(U,U,U)>m,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a1
+                   (targs :: Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1)
+                   (salt :: GHC.Types.Int)
+                   (x :: GHC.Generics.M1
+                           GHC.Generics.D
+                           ('GHC.Generics.MetaData
+                              "EmailData"
+                              "Duckling.Email.Types"
+                              "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                              'GHC.Types.True)
+                           (GHC.Generics.M1
+                              GHC.Generics.C
+                              ('GHC.Generics.MetaCons
+                                 "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "value")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 Data.Text.Internal.Text)))
+                           a1) ->
+                 Data.Hashable.Class.$fHashableText_$chashWithSalt1
+                   salt
+                   x `cast`
+                   (Trans
+                        (Trans
+                             (GHC.Generics.N:M1[0]
+                                  <GHC.Generics.D>_P
+                                  <'GHC.Generics.MetaData
+                                     "EmailData"
+                                     "Duckling.Email.Types"
+                                     "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                     'GHC.Types.True>_P
+                                  <GHC.Generics.M1
+                                     GHC.Generics.C
+                                     ('GHC.Generics.MetaCons
+                                        "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                     (GHC.Generics.S1
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "value")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.Rec0 Data.Text.Internal.Text))>_R)
+                             (Trans
+                                  (GHC.Generics.N:M1[0]
+                                       <GHC.Generics.C>_P
+                                       <'GHC.Generics.MetaCons
+                                          "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                       <GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "value")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.Rec0 Data.Text.Internal.Text)>_R)
+                                  (GHC.Generics.N:M1[0]
+                                       <GHC.Generics.S>_P
+                                       <'GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "value")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy>_P
+                                       <GHC.Generics.K1
+                                          GHC.Generics.R Data.Text.Internal.Text>_R)) <a1>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <Data.Text.Internal.Text>_R <a1>_P))) -}
+8f184380236342de532cdaaa1c360735
+  $fHashableEmailData_$chash ::
+    Duckling.Email.Types.EmailData -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.$fHashableEmailData1
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Int>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fHashableEmailData_$s$dmhashWithSalt ::
+    GHC.Types.Int -> Duckling.Email.Types.EmailData -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(SSS),1*U(U,U,U)>m,
+     Unfolding: InlineRule (-3, True, False)
+                (\ (salt :: GHC.Types.Int) (x :: Duckling.Email.Types.EmailData) ->
+                 Duckling.Email.Types.$fHashableEmailData2
+                   `cast`
+                 (Data.Hashable.Class.N:GHashable[0]
+                      <Data.Hashable.Class.Zero>_N
+                      (Sym (Duckling.Email.Types.Rep_EmailData[0])))
+                   @ GHC.Prim.Any
+                   (Data.Hashable.Class.$WHashArgs0 @ GHC.Prim.Any)
+                   salt
+                   (Duckling.Email.Types.$fGenericEmailData_$cfrom
+                      @ GHC.Prim.Any
+                      x)) -}
+8f184380236342de532cdaaa1c360735
+  $fNFDataEmailData ::
+    Control.DeepSeq.NFData Duckling.Email.Types.EmailData
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Duckling.Email.Types.$fNFDataEmailData_$s$dmrnf
+                  `cast`
+                (Sym (Control.DeepSeq.N:NFData[0]
+                          <Duckling.Email.Types.EmailData>_N)) -}
+89d10432acabb4a40ca4be4749e9e5d8
+  $fNFDataEmailData1 ::
+    Control.DeepSeq.GNFData
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData
+            "EmailData"
+            "Duckling.Email.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.True)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "value")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 Data.Text.Internal.Text))))
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.$fNFDataEmailData2
+                  `cast`
+                (Sym (Control.DeepSeq.N:GNFData[0]
+                          <GHC.Types.*>_N
+                          <GHC.Generics.M1
+                             GHC.Generics.D
+                             ('GHC.Generics.MetaData
+                                "EmailData"
+                                "Duckling.Email.Types"
+                                "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                'GHC.Types.True)
+                             (GHC.Generics.M1
+                                GHC.Generics.C
+                                ('GHC.Generics.MetaCons
+                                   "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                (GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "value")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 Data.Text.Internal.Text)))>_N)) -}
+61ea0837a41fd22443627b8aaee2cae3
+  $fNFDataEmailData2 ::
+    GHC.Generics.M1
+      GHC.Generics.D
+      ('GHC.Generics.MetaData
+         "EmailData"
+         "Duckling.Email.Types"
+         "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+         'GHC.Types.True)
+      (GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.S1
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "value")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.Rec0 Data.Text.Internal.Text)))
+      a1
+    -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a1
+                   (x :: GHC.Generics.M1
+                           GHC.Generics.D
+                           ('GHC.Generics.MetaData
+                              "EmailData"
+                              "Duckling.Email.Types"
+                              "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                              'GHC.Types.True)
+                           (GHC.Generics.M1
+                              GHC.Generics.C
+                              ('GHC.Generics.MetaCons
+                                 "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "value")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 Data.Text.Internal.Text)))
+                           a1) ->
+                 case x of tpl { DEFAULT -> GHC.Tuple.() }) -}
+8f184380236342de532cdaaa1c360735
+  $fNFDataEmailData_$s$dmrnf :: Duckling.Email.Types.EmailData -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (-3, True, False)
+                (\ (eta :: Duckling.Email.Types.EmailData) ->
+                 Duckling.Email.Types.$fNFDataEmailData1
+                   `cast`
+                 (Control.DeepSeq.N:GNFData[0]
+                      <GHC.Types.*>_N (Sym (Duckling.Email.Types.Rep_EmailData[0])))
+                   @ GHC.Prim.Any
+                   (Duckling.Email.Types.$fGenericEmailData_$cfrom
+                      @ GHC.Prim.Any
+                      eta)) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData :: GHC.Classes.Ord Duckling.Email.Types.EmailData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fEqEmailData
+                  Duckling.Email.Types.$fOrdEmailData_$ccompare
+                  Duckling.Email.Types.$fOrdEmailData_$c<
+                  Duckling.Email.Types.$fOrdEmailData_$c<=
+                  Duckling.Email.Types.$fOrdEmailData_$c>
+                  Duckling.Email.Types.$fOrdEmailData_$c>=
+                  Duckling.Email.Types.$fOrdEmailData_$cmax
+                  Duckling.Email.Types.$fOrdEmailData_$cmin -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$c< ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(U,U,U)><S(LLS),1*U(U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$c<
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$c<= ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(U,U,U)><S(LLS),1*U(U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$c<=
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$c> ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(U,U,U)><S(LLS),1*U(U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$c>
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$c>= ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(U,U,U)><S(LLS),1*U(U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$c>=
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$ccompare ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(U,U,U)><S(LLS),1*U(U,U,U)>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$ccompare
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R <GHC.Types.Ordering>_R) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$cmax ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> Duckling.Email.Types.EmailData
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),U(U,U,U)><S(LLS),U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$cmax
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])) -}
+8f184380236342de532cdaaa1c360735
+  $fOrdEmailData_$cmin ::
+    Duckling.Email.Types.EmailData
+    -> Duckling.Email.Types.EmailData -> Duckling.Email.Types.EmailData
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LLS),U(U,U,U)><S(LLS),U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Data.Text.$fOrdText_$cmin
+                  `cast`
+                (Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])
+                 ->_R Sym (Duckling.Email.Types.N:EmailData[0])) -}
+8f184380236342de532cdaaa1c360735
+  $fResolveEmailData ::
+    Duckling.Resolve.Resolve Duckling.Email.Types.EmailData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fEqEmailData
+                    `cast`
+                  (GHC.Classes.Eq
+                     (Sym (Duckling.Email.Types.D:R:ResolvedValueEmailData[0])))_R
+                  Duckling.Email.Types.$fShowEmailData
+                    `cast`
+                  (GHC.Show.Show
+                     (Sym (Duckling.Email.Types.D:R:ResolvedValueEmailData[0])))_R
+                  Duckling.Email.Types.$fToJSONEmailData
+                    `cast`
+                  (Data.Aeson.Types.ToJSON.ToJSON
+                     (Sym (Duckling.Email.Types.D:R:ResolvedValueEmailData[0])))_R
+                  Duckling.Email.Types.$fResolveEmailData_$cresolve -}
+8f184380236342de532cdaaa1c360735
+  $fResolveEmailData1 ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> Duckling.Email.Types.EmailData
+    -> GHC.Base.Maybe (Duckling.Email.Types.EmailData, GHC.Types.Bool)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><L,U>m2,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: Duckling.Resolve.Context)
+                   (ds1 :: Duckling.Resolve.Options)
+                   (x :: Duckling.Email.Types.EmailData) ->
+                 GHC.Base.Just
+                   @ (Duckling.Email.Types.EmailData, GHC.Types.Bool)
+                   (x, GHC.Types.False)) -}
+8f184380236342de532cdaaa1c360735
+  $fResolveEmailData_$cresolve ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> Duckling.Email.Types.EmailData
+    -> GHC.Base.Maybe
+         (Duckling.Resolve.ResolvedValue Duckling.Email.Types.EmailData,
+          GHC.Types.Bool)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><L,U>m2,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.$fResolveEmailData1
+                  `cast`
+                (<Duckling.Resolve.Context>_R
+                 ->_R <Duckling.Resolve.Options>_R
+                 ->_R <Duckling.Email.Types.EmailData>_R
+                 ->_R (GHC.Base.Maybe
+                         ((,)
+                            (Sub (Sym (Duckling.Email.Types.D:R:ResolvedValueEmailData[0])))
+                            <GHC.Types.Bool>_R)_R)_R) -}
+8f184380236342de532cdaaa1c360735
+  $fShowEmailData :: GHC.Show.Show Duckling.Email.Types.EmailData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fShowEmailData_$cshowsPrec
+                  Duckling.Email.Types.$fShowEmailData_$cshow
+                  Duckling.Email.Types.$fShowEmailData_$cshowList -}
+8f184380236342de532cdaaa1c360735
+  $fShowEmailData1 ::
+    Duckling.Email.Types.EmailData -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Duckling.Email.Types.EmailData)
+                   (w1 :: GHC.Base.String) ->
+                 Duckling.Email.Types.$w$cshowsPrec 0# w w1) -}
+2d5b014a48b71d5226fd44ca09352944
+  $fShowEmailData2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+05a4bdbf1703cedf8676e72fe9fa4b48
+  $fShowEmailData3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "value = "#) -}
+f896e4c1210f4f04a3f202d73a89d331
+  $fShowEmailData4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "EmailData {"#) -}
+8f184380236342de532cdaaa1c360735
+  $fShowEmailData_$cshow ::
+    Duckling.Email.Types.EmailData -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U(U,U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.Email.Types.EmailData) ->
+                 Duckling.Email.Types.$fShowEmailData_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+8f184380236342de532cdaaa1c360735
+  $fShowEmailData_$cshowList ::
+    [Duckling.Email.Types.EmailData] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.Email.Types.EmailData
+                   Duckling.Email.Types.$fShowEmailData1) -}
+8f184380236342de532cdaaa1c360735
+  $fShowEmailData_$cshowsPrec ::
+    GHC.Types.Int -> Duckling.Email.Types.EmailData -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><L,1*U(U,U,U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.Email.Types.EmailData)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Duckling.Email.Types.$w$cshowsPrec ww1 w1 w2 }) -}
+8f184380236342de532cdaaa1c360735
+  $fToJSONEmailData ::
+    Data.Aeson.Types.ToJSON.ToJSON Duckling.Email.Types.EmailData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Email.Types.EmailData
+                  Duckling.Email.Types.$fToJSONEmailData_$ctoJSON
+                  Duckling.Email.Types.$fToJSONEmailData_$ctoEncoding
+                  Duckling.Email.Types.$fToJSONEmailData_$ctoJSONList
+                  Duckling.Email.Types.$fToJSONEmailData_$ctoEncodingList -}
+fe0ca407733c817351422f28fefec7f0
+  $fToJSONEmailData1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "value"#) -}
+8f184380236342de532cdaaa1c360735
+  $fToJSONEmailData_$ctoEncoding ::
+    Duckling.Email.Types.EmailData
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <L,U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Duckling.Email.Types.EmailData) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Duckling.Email.Types.$fToJSONEmailData_$ctoJSON eta)) -}
+8f184380236342de532cdaaa1c360735
+  $fToJSONEmailData_$ctoEncodingList ::
+    [Duckling.Email.Types.EmailData]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Duckling.Email.Types.EmailData]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Duckling.Email.Types.$fToJSONEmailData_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Duckling.Email.Types.EmailData
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Duckling.Email.Types.EmailData)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Duckling.Email.Types.$fToJSONEmailData_$ctoJSON v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Duckling.Email.Types.EmailData>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+8f184380236342de532cdaaa1c360735
+  $fToJSONEmailData_$ctoJSON ::
+    Duckling.Email.Types.EmailData -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <L,U>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.Email.Types.EmailData) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString
+                              w `cast` (Duckling.Email.Types.N:EmailData[0]))
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+8f184380236342de532cdaaa1c360735
+  $fToJSONEmailData_$ctoJSONList ::
+    [Duckling.Email.Types.EmailData] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Duckling.Email.Types.EmailData]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Duckling.Email.Types.EmailData
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Duckling.Email.Types.EmailData
+                                       c
+                                       Duckling.Email.Types.$fToJSONEmailData_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+e779332ee5d45588a7495c4380018ef2
+  $tc'EmailData :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3628175785088517705##
+                   13747990639659478630##
+                   Duckling.Email.Types.$trModule
+                   Duckling.Email.Types.$tc'EmailData1) -}
+5ba6bba208646b19f9452b7a66b6f14d
+  $tc'EmailData1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'EmailData"#) -}
+1a9f198facdd8b18d3248fcdc6ea2787
+  $tcEmailData :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18320943004972888886##
+                   9018197814583926248##
+                   Duckling.Email.Types.$trModule
+                   Duckling.Email.Types.$tcEmailData1) -}
+3db72888fa96541d1a6e9c002e35f6a4
+  $tcEmailData1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "EmailData"#) -}
+25a51c08d46c82dac8c47c3f326fb055
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Email.Types.$trModule2
+                   Duckling.Email.Types.$trModule1) -}
+7eac41c83f87e705d19305d02bd95128
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Email.Types"#) -}
+57230cfa13adcea98d686cd877d31c25
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+8f184380236342de532cdaaa1c360735
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Duckling.Email.Types.EmailData
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,1*U(U,U,U)><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (w :: Duckling.Email.Types.EmailData)
+                   (w1 :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Duckling.Email.Types.$fShowEmailData4
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Duckling.Email.Types.$fShowEmailData3
+                          (case Data.Text.Show.$w$cshowsPrec
+                                  w `cast` (Duckling.Email.Types.N:EmailData[0])
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Duckling.Email.Types.$fShowEmailData2
+                                     x) of ww1 { (#,#) ww2 ww3 ->
+                           GHC.Types.: @ GHC.Types.Char ww2 ww3 }))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w1
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1)) }) -}
+8f184380236342de532cdaaa1c360735
+  axiom D:R:ResolvedValueEmailData::
+      Duckling.Resolve.ResolvedValue Duckling.Email.Types.EmailData
+        = Duckling.Email.Types.EmailData
+8f184380236342de532cdaaa1c360735
+  newtype EmailData = EmailData {value :: Data.Text.Internal.Text}
+8f184380236342de532cdaaa1c360735
+  axiom Rep_EmailData::
+      GHC.Generics.Rep Duckling.Email.Types.EmailData
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "EmailData"
+               "Duckling.Email.Types"
+               "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+               'GHC.Types.True)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "EmailData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "value")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 Data.Text.Internal.Text)))
+8c8aa484161c726a29e941ab6cd6c084
+  value :: Duckling.Email.Types.EmailData -> Data.Text.Internal.Text
+  RecSel Left Duckling.Email.Types.EmailData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Email.Types.value1
+                  `cast`
+                (<Duckling.Email.Types.EmailData>_R
+                 ->_R Duckling.Email.Types.N:EmailData[0]) -}
+22116d6378cf1fe621d41d5af4d9a98b
+  value1 ::
+    Duckling.Email.Types.EmailData -> Duckling.Email.Types.EmailData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Duckling.Email.Types.EmailData) -> ds) -}
+instance GHC.Classes.Eq [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fEqEmailData
+instance GHC.Generics.Generic [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fGenericEmailData
+instance Data.Hashable.Class.Hashable [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fHashableEmailData
+instance Control.DeepSeq.NFData [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fNFDataEmailData
+instance GHC.Classes.Ord [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fOrdEmailData
+instance Duckling.Resolve.Resolve [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fResolveEmailData
+instance GHC.Show.Show [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fShowEmailData
+instance Data.Aeson.Types.ToJSON.ToJSON [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.$fToJSONEmailData
+family instance GHC.Generics.Rep [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.Rep_EmailData
+family instance Duckling.Resolve.ResolvedValue [Duckling.Email.Types.EmailData]
+  = Duckling.Email.Types.D:R:ResolvedValueEmailData
+"SPEC/Duckling.Email.Types $dmhashWithSalt @ EmailData" [ALWAYS] forall ($dGHashable :: Data.Hashable.Class.GHashable
+                                                                                          Data.Hashable.Class.Zero
+                                                                                          (GHC.Generics.Rep
+                                                                                             Duckling.Email.Types.EmailData))
+                                                                        ($dGeneric :: GHC.Generics.Generic
+                                                                                        Duckling.Email.Types.EmailData)
+                                                                        ($dHashable :: Data.Hashable.Class.Hashable
+                                                                                         Duckling.Email.Types.EmailData)
+  Data.Hashable.Class.$dmhashWithSalt @ Duckling.Email.Types.EmailData
+                                      $dHashable
+                                      $dGeneric
+                                      $dGHashable
+  = Duckling.Email.Types.$fHashableEmailData_$s$dmhashWithSalt
+"SPEC/Duckling.Email.Types $dmrnf @ EmailData" [ALWAYS] forall ($dGNFData :: Control.DeepSeq.GNFData
+                                                                               (GHC.Generics.Rep
+                                                                                  Duckling.Email.Types.EmailData))
+                                                               ($dGeneric :: GHC.Generics.Generic
+                                                                               Duckling.Email.Types.EmailData)
+                                                               ($dNFData :: Control.DeepSeq.NFData
+                                                                              Duckling.Email.Types.EmailData)
+  Control.DeepSeq.$dmrnf @ Duckling.Email.Types.EmailData
+                         $dNFData
+                         $dGeneric
+                         $dGNFData
+  = Duckling.Email.Types.$fNFDataEmailData_$s$dmrnf
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

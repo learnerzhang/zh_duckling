@@ -1,0 +1,831 @@
+
+==================== FINAL INTERFACE ====================
+2019-01-30 07:27:13.827185 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Rules 8002
+  interface hash: 1de093d52ecc712b1e89b79a5a141820
+  ABI hash: 499347ea6a94d95f4c86223af52c40ac
+  export-list hash: ceef3136bd8e89883d86f9fd19555d9a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: bac0be98a64bbc3dfa6f6c2f3cd525ad
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Temperature.Rules.rules
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Types Duckling.Dimensions.Types
+                     Duckling.Distance.Types Duckling.Duration.Types
+                     Duckling.Email.Types Duckling.Gender.Types Duckling.Identity.Types
+                     Duckling.Locale Duckling.Numeral.Types Duckling.Ordinal.Types
+                     Duckling.PhoneNumber.Types Duckling.Quantity.Types
+                     Duckling.Regex.Types Duckling.Region Duckling.Resolve
+                     Duckling.Temperature.Helpers Duckling.Temperature.Types
+                     Duckling.Time.Types Duckling.TimeGrain.Types Duckling.Types
+                     Duckling.Url.Types Duckling.Volume.Types Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.Numeral.Types 5130bfd045a9ca6085fec0a42ae9c523
+  exports: 94344b1dfc906561c4234f30cd403539
+  value 8ada7f17e1d24c76a72ee8a3669186b6
+import  -/  Duckling.Temperature.Helpers 5d7002eef05f3584d71681290930574b
+  exports: 0a8fd40f0034edebd82de5ad3e2cfac0
+  isValueOnly 5c1fd3c5c2f9234e3f6c6838f83ce9ba
+  valueOnly 1b5a22b97d798f6709537515c8026315
+  withUnit c01a8bb67e02214e79b918230dc8eaad
+import  -/  Duckling.Temperature.Types c7f3dc789a62dec5378beb28bc64479a
+  exports: 3608a96fa6a5d7edada240602ba19e6c
+  Celsius e0e27c5bef975e59ca3b8e2775b581c2
+  Degree dc5d2e300912c5185b4fd1743f8b0636
+  Fahrenheit 0e5af89405ee215bb093ac6edc935aa2
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  Numeral 37ea753945466ebddfe8bb90136c8911
+  Predicate 7b23b72c5da11bf15a4943a8b0a1fdb3
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  Temperature 95b88b0271357b5c53cc5dfd9cd84794
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  dimension d0737f4b2a091d17072dfde26c2eb47c
+  name 76f427769b73e82db2c2df59caa60288
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  prod a4c6750bd517e049c9ce8428e1e5dff2
+  regex c51097368a8c266ad9942dc9e3370fd5
+f9f91432dbfc1eded584ebb91a1211b6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Temperature.Rules.$trModule2
+                   Duckling.Temperature.Rules.$trModule1) -}
+f1989465d26e663469dca41814fd72cf
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Temperature.Rules"#) -}
+87c06adee1f9b4ff4c59e35cac50cd56
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+b8abfa94496e4c14018e9997fb3ce0d2
+  rules :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules52
+                   Duckling.Temperature.Rules.rules1) -}
+59f54d4990d83b784f840a78d1ccc51b
+  rules1 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules45
+                   Duckling.Temperature.Rules.rules2) -}
+7eb19975ccef7dcf53390d453d236dd7
+  rules10 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules11
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+0ac8fdc36520b9ca45784aa93ae65a54
+  rules11 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Temperature.Rules.rules12) -}
+3d4e18ec0f8a50a50e41f4740c938544
+  rules12 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Temperature.Rules.rules13) -}
+a05cd8d6b402f77bf4b2196ed9234358
+  rules13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "(\\229\\141\\142|\\232\\143\\175)\\230\\176\\143(\\194\\176|\\229\\186\\166)|(\\194\\176)F"#) -}
+ef3fa40d6212947a7a5dd495a2f885f1
+  rules14 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Temperature.Rules.rules15) -}
+201e7ad780fc506e02a922949b58a46b
+  rules15 :: Duckling.Types.Predicate
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds1 ds2 ->
+                 case ds1 of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Temperature cobox0
+                   -> case ds2
+                             `cast`
+                           (Sub cobox0) of wild2 { Duckling.Temperature.Types.TemperatureData ds3 ds4 ds5 ds6 ->
+                      case ds4 of wild3 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just ds7
+                        -> case ds5 of wild4 {
+                             GHC.Base.Nothing
+                             -> case ds6 of wild5 {
+                                  GHC.Base.Nothing
+                                  -> case ds3 of wild6 {
+                                       GHC.Base.Nothing -> GHC.Types.True
+                                       GHC.Base.Just ipv
+                                       -> case ipv of wild8 {
+                                            Duckling.Temperature.Types.Degree -> GHC.Types.True
+                                            Duckling.Temperature.Types.Celsius -> GHC.Types.False
+                                            Duckling.Temperature.Types.Fahrenheit
+                                            -> GHC.Types.False } }
+                                  GHC.Base.Just ipv -> GHC.Types.False }
+                             GHC.Base.Just ipv -> GHC.Types.False } } } } }) -}
+15c6c87a9e181e09dfa61a0298793f27
+  rules16 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<temp> Fahrenheit"#) -}
+7b64dd117dbcfeff4eccae2425492998
+  rules17 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules25
+                   Duckling.Temperature.Rules.rules20
+                   Duckling.Temperature.Rules.rules18) -}
+b179cd0bd7474ec73a80bfe4eec897a0
+  rules18 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 td ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Temperature cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Temperature.Types.TemperatureData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WTemperature
+                                (case td
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Temperature.Types.TemperatureData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Temperature.Types.TemperatureData
+                                   Duckling.Temperature.Rules.rules19
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+95643e4b277541694c7d7aaa3dc3d4bd
+  rules19 ::
+    GHC.Base.Maybe Duckling.Temperature.Types.TemperatureUnit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Temperature.Types.TemperatureUnit
+                   Duckling.Temperature.Types.Celsius) -}
+30fe8a468caa9ddcd2798970dbb43c71
+  rules2 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules37
+                   Duckling.Temperature.Rules.rules3) -}
+b7a2bd00c8f51c13f704e4ad17bd73b2
+  rules20 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules14
+                   Duckling.Temperature.Rules.rules21) -}
+5c1eeaab1f8ed2e49096e10f9f71dd2c
+  rules21 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules22
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+646b5504413d9d1a8eecb3d1a1677772
+  rules22 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Temperature.Rules.rules23) -}
+7faa31c44531b4b77536a5e60513833c
+  rules23 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Temperature.Rules.rules24) -}
+c6f1ac68da22d7f750557db347aba96b
+  rules24 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "(\\230\\145\\132|\\230\\148\\157)\\230\\176\\143(\\194\\176|\\229\\186\\166)|(\\194\\176)C"#) -}
+c826ee5be13bb8eef322f4ecca2d062b
+  rules25 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<temp> Celcius"#) -}
+d46c73cce9ba22676b45bba985c3ea15
+  rules26 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules36
+                   Duckling.Temperature.Rules.rules29
+                   Duckling.Temperature.Rules.rules27) -}
+6fa681d805a23eea6f7c9b6a22362a0f
+  rules27 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 td ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Temperature cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Temperature.Types.TemperatureData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WTemperature
+                                (case td
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Temperature.Types.TemperatureData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Temperature.Types.TemperatureData
+                                   Duckling.Temperature.Rules.rules28
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+f21c2623a51ec244d91b46a38f6c6e12
+  rules28 ::
+    GHC.Base.Maybe Duckling.Temperature.Types.TemperatureUnit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Temperature.Types.TemperatureUnit
+                   Duckling.Temperature.Types.Degree) -}
+efebc08fe29e73b63ac56cb2b7b3e9ea
+  rules29 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules34
+                   Duckling.Temperature.Rules.rules30) -}
+f27c2aa622f14a47ecdd91bffaf60a3c
+  rules3 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules26
+                   Duckling.Temperature.Rules.rules4) -}
+6d98deb1e96877a06f28052578fb5ee8
+  rules30 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules31
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+06329ad5be710ac46c70a5f3f9a20858
+  rules31 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Temperature.Rules.rules32) -}
+a0569520ce590c1e31a170a578d5892b
+  rules32 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Temperature.Rules.rules33) -}
+3baf975797f6ba8aa6c89953a6a9d66c
+  rules33 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\186\\166|\\194\\176"#) -}
+3edeb116a911b00e7126d3ffc05a369a
+  rules34 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Temperature.Rules.rules35) -}
+5b73ff58e99f9e1bc39348bd4431f570
+  rules35 :: Duckling.Types.Predicate
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds1 ds2 ->
+                 case ds1 of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Temperature cobox0
+                   -> case ds2
+                             `cast`
+                           (Sub cobox0) of wild2 { Duckling.Temperature.Types.TemperatureData ds3 ds4 ds5 ds6 ->
+                      case ds4 of wild3 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just ds7
+                        -> case ds5 of wild4 {
+                             GHC.Base.Nothing
+                             -> case ds6 of wild5 {
+                                  GHC.Base.Nothing
+                                  -> case ds3 of wild6 {
+                                       GHC.Base.Nothing -> GHC.Types.True
+                                       GHC.Base.Just ipv -> GHC.Types.False }
+                                  GHC.Base.Just ipv -> GHC.Types.False }
+                             GHC.Base.Just ipv -> GHC.Types.False } } } } }) -}
+75d388c16d8c49cd9700f8427cb980d4
+  rules36 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<latent temp> degrees"#) -}
+0b8ad70cf4d746ccdc2f5e74ffb28d6b
+  rules37 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules44
+                   Duckling.Temperature.Rules.rules39
+                   Duckling.Temperature.Rules.rules38) -}
+5e8585abd06792f503ee52e9bdc008d6
+  rules38 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds1 of wild1 {
+                        [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                        : ds2 ds3
+                        -> case ds2 of wild2 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds4 td ->
+                           case ds4 of wild3 {
+                             DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                             Duckling.Types.Temperature cobox0
+                             -> GHC.Base.Just
+                                  @ Duckling.Types.Token
+                                  (Duckling.Types.Token
+                                     @ Duckling.Temperature.Types.TemperatureData
+                                     $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                     $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                     $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                     $dShow `cast` (GHC.Show.Show cobox0)_R
+                                     $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                     Duckling.Types.$WTemperature
+                                     (case td
+                                             `cast`
+                                           (Sub cobox0) of wild4 { Duckling.Temperature.Types.TemperatureData ds5 ds6 ds7 ds8 ->
+                                      Duckling.Temperature.Types.TemperatureData
+                                        Duckling.Temperature.Rules.rules8
+                                        ds6
+                                        ds7
+                                        ds8 })) } } } }) -}
+5875a6299f7a7a5f222b5e837d73b03a
+  rules39 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules41
+                   Duckling.Temperature.Rules.rules40) -}
+743467f100576ab7e582c454790395c4
+  rules4 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules17
+                   Duckling.Temperature.Rules.rules5) -}
+78fd5d2613ad8c55b8bec9aeeba31fd3
+  rules40 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules14
+                   Duckling.Temperature.Rules.rules30) -}
+fc5fa739b1ff4989e22b7f0bbf723b9e
+  rules41 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Temperature.Rules.rules42) -}
+dcd1a581d827b3f0999e728ab20f8514
+  rules42 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Temperature.Rules.rules43) -}
+5ed5ce846daeac289274dc44f924d694
+  rules43 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "(\\229\\141\\142|\\232\\143\\175)\\230\\176\\143"#) -}
+59bfea8fa9b403ec38a118ff731f6d0b
+  rules44 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "Fahrenheit <temp>"#) -}
+321c1fe56f87deb8079f39c1b7cde059
+  rules45 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules51
+                   Duckling.Temperature.Rules.rules47
+                   Duckling.Temperature.Rules.rules46) -}
+304883f3ed067c8b7b06330e13916839
+  rules46 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds1 of wild1 {
+                        [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                        : ds2 ds3
+                        -> case ds2 of wild2 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds4 td ->
+                           case ds4 of wild3 {
+                             DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                             Duckling.Types.Temperature cobox0
+                             -> GHC.Base.Just
+                                  @ Duckling.Types.Token
+                                  (Duckling.Types.Token
+                                     @ Duckling.Temperature.Types.TemperatureData
+                                     $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                     $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                     $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                     $dShow `cast` (GHC.Show.Show cobox0)_R
+                                     $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                     Duckling.Types.$WTemperature
+                                     (case td
+                                             `cast`
+                                           (Sub cobox0) of wild4 { Duckling.Temperature.Types.TemperatureData ds5 ds6 ds7 ds8 ->
+                                      Duckling.Temperature.Types.TemperatureData
+                                        Duckling.Temperature.Rules.rules19
+                                        ds6
+                                        ds7
+                                        ds8 })) } } } }) -}
+1e32c383cae70bd9270f50b0891da486
+  rules47 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules48
+                   Duckling.Temperature.Rules.rules40) -}
+54aa0ffec6530cc1f5a2090d0bf7e76e
+  rules48 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Temperature.Rules.rules49) -}
+4d610f1bcaa3482ad0cfe60d7c683a03
+  rules49 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Temperature.Rules.rules50) -}
+b402adf2b996653fab9a7b3dd7df95e9
+  rules5 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules6
+                   (GHC.Types.[] @ Duckling.Types.Rule)) -}
+56e556dea593623b587fe8716a2fcdc3
+  rules50 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "(\\230\\145\\132|\\230\\148\\157)\\230\\176\\143"#) -}
+44d8f00183b30ec1f51053e784ce1606
+  rules51 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "Celcius <temp>"#) -}
+f54724796ef16f7e371c42e2800239aa
+  rules52 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules57
+                   Duckling.Temperature.Rules.rules54
+                   Duckling.Temperature.Rules.rules53) -}
+84032b65db8eb101d2d49b16faacba5e
+  rules53 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 case ds of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds1 ds2
+                   -> case ds1 of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds3 nd ->
+                      case ds3 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Numeral cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Temperature.Types.TemperatureData
+                                Duckling.Temperature.Types.$fResolveTemperatureData
+                                Duckling.Temperature.Types.$fEqTemperatureData
+                                Duckling.Temperature.Types.$fHashableTemperatureData
+                                Duckling.Temperature.Types.$fShowTemperatureData
+                                Duckling.Temperature.Types.$fNFDataTemperatureData_$crnf
+                                  `cast`
+                                (Sym (Control.DeepSeq.N:NFData[0]
+                                          <Duckling.Temperature.Types.TemperatureData>_N))
+                                Duckling.Types.$WTemperature
+                                (Duckling.Temperature.Types.TemperatureData
+                                   (GHC.Base.Nothing @ Duckling.Temperature.Types.TemperatureUnit)
+                                   (GHC.Base.Just
+                                      @ GHC.Types.Int
+                                      (case nd
+                                              `cast`
+                                            (Sub cobox0) of wild3 { Duckling.Numeral.Types.NumeralData ds4 ds5 ds6 ds7 ->
+                                       case ds4 of wild4 { GHC.Types.D# x ->
+                                       let {
+                                         n :: GHC.Prim.Int# = GHC.Prim.double2Int# x
+                                       } in
+                                       case GHC.Prim.tagToEnum#
+                                              @ GHC.Types.Bool
+                                              (GHC.Prim.<## x (GHC.Prim.int2Double# n)) of wild5 {
+                                         GHC.Types.False -> GHC.Types.I# n
+                                         GHC.Types.True -> GHC.Types.I# (GHC.Prim.-# n 1#) } } }))
+                                   (GHC.Base.Nothing @ GHC.Types.Int)
+                                   (GHC.Base.Nothing @ GHC.Types.Int))) } } }) -}
+ea49cb6bccf9223db9ef7346f4cc8cc3
+  rules54 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules55
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+583827fe280074aa29af07c31c16a948
+  rules55 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Temperature.Rules.rules56) -}
+5c37db99efa4ba17526afb5005cffd43
+  rules56 :: Duckling.Types.Token -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a10 $dResolve $dEq $dHashable $dShow $dNFData dim' ds1 ->
+                 case dim' of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Numeral cobox1 -> GHC.Types.True } }) -}
+8e10f0bc1b12bbf3d09980ead44925b1
+  rules57 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "number as temp"#) -}
+72fe742c17cc3f9d5dd9f9072d536f2e
+  rules6 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Temperature.Rules.rules16
+                   Duckling.Temperature.Rules.rules9
+                   Duckling.Temperature.Rules.rules7) -}
+51f975f223bc678c122932fb025f21bd
+  rules7 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 td ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Temperature cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Temperature.Types.TemperatureData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WTemperature
+                                (case td
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Temperature.Types.TemperatureData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Temperature.Types.TemperatureData
+                                   Duckling.Temperature.Rules.rules8
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+8998d131c84e2068c310e6504624e341
+  rules8 :: GHC.Base.Maybe Duckling.Temperature.Types.TemperatureUnit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Temperature.Types.TemperatureUnit
+                   Duckling.Temperature.Types.Fahrenheit) -}
+ee4aa1aa39fe67c95dd3ec252b57af5d
+  rules9 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Temperature.Rules.rules14
+                   Duckling.Temperature.Rules.rules10) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

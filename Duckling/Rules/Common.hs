@@ -35,6 +35,7 @@ import qualified Duckling.Temperature.Rules as Temperature
 import qualified Duckling.Url.Rules as Url
 import qualified Duckling.Volume.Rules as Volume
 import qualified Duckling.Identity.Rules as Identity
+import qualified Duckling.Gender.Rules as Gender
 import qualified Duckling.Time.Rules as Time
 import qualified Duckling.Time.CN.Rules as TimeCN
 import qualified Duckling.Time.HK.Rules as TimeHK
@@ -62,6 +63,7 @@ rules (This TimeGrain) = []
 rules (This Url) = Url.rules
 rules (This Volume) = Volume.rules
 rules (This Identity) = Identity.rules
+rules (This Gender) = Gender.rules
 rules (This (CustomDimension dim)) = dimRules dim
 
 defaultRules :: Some Dimension -> [Rule]
@@ -93,4 +95,5 @@ langRules (This TimeGrain) = TimeGrain.rules
 langRules (This Url) = []
 langRules (This Volume) = []
 langRules (This Identity) = Identity.rules
+langRules (This Gender) = Gender.rules
 langRules (This (CustomDimension dim)) = dimLangRules ZH dim

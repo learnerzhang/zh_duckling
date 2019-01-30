@@ -62,7 +62,7 @@ import Duckling.Volume.Types (VolumeData)
 
 -- extent dimensions
 import Duckling.Identity.Types (IdentityData)
-
+import Duckling.Gender.Types (GenderData)
 -- -----------------------------------------------------------------
 -- Token
 
@@ -114,6 +114,7 @@ data Dimension a where
   Volume :: Dimension VolumeData
   -- extent dimension
   Identity :: Dimension IdentityData
+  Gender :: Dimension GenderData
   -- 
   CustomDimension :: CustomDimension a => a -> Dimension (DimensionData a)
 
@@ -136,6 +137,7 @@ instance Show (Dimension a) where
   show Url = "Url"
   show Volume = "Volume"
   show Identity = "Identity"
+  show Gender = "Gender"
   show (CustomDimension dim) = show dim
 instance GShow Dimension where gshowsPrec = showsPrec
 
@@ -166,7 +168,8 @@ instance Hashable (Dimension a) where
   hashWithSalt s (CustomDimension _) = hashWithSalt s (14::Int)
   hashWithSalt s CreditCardNumber    = hashWithSalt s (15::Int)
   hashWithSalt s Identity            = hashWithSalt s (16::Int)
-  hashWithSalt s Weight              = hashWithSalt s (17::Int)
+  hashWithSalt s Gender              = hashWithSalt s (17::Int)
+  hashWithSalt s Weight              = hashWithSalt s (18::Int)
 
 instance GEq Dimension where
   geq RegexMatch RegexMatch = Just Refl
@@ -203,6 +206,8 @@ instance GEq Dimension where
   geq Volume _ = Nothing
   geq Identity Identity = Just Refl
   geq Identity _ = Nothing
+  geq Gender Gender = Just Refl
+  geq Gender _ = Nothing
   geq (CustomDimension (_ :: a)) (CustomDimension (_ :: b))
     | Just Refl <- eqT :: Maybe (a :~: b) = Just Refl
   geq (CustomDimension _) _ = Nothing

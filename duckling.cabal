@@ -175,6 +175,11 @@ library
                      , Duckling.Identity.Rules
                      , Duckling.Identity.Types
 
+                     -- Gender
+                     , Duckling.Gender.Corpus
+                     , Duckling.Gender.Rules
+                     , Duckling.Gender.Types
+
   build-depends:       base                  >= 4.8.2 && < 5.0
                      , array                 >= 0.5.1.1 && < 0.6
                      , attoparsec            >= 0.13.1.0 && < 0.14
@@ -258,6 +263,9 @@ test-suite duckling-test
 
                      -- Identity
                      , Duckling.Identity.Tests
+
+                     -- Gender
+                     , Duckling.Gender.Tests
 
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N -Wincomplete-patterns
   default-language:    Haskell2010
