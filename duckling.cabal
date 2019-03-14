@@ -56,10 +56,6 @@ library
                      , Duckling.Ranking.Extraction
                      , Duckling.Ranking.Rank
                      , Duckling.Ranking.Classifiers
-                     , Duckling.Ranking.Classifiers.ZH_CN
-                     , Duckling.Ranking.Classifiers.ZH_HK
-                     , Duckling.Ranking.Classifiers.ZH_MO
-                     , Duckling.Ranking.Classifiers.ZH_TW
                      , Duckling.Ranking.Classifiers.ZH_XX
 
   -- ------------------------------------------------------------------
@@ -133,14 +129,6 @@ library
                      , Duckling.Time.Corpus
                      , Duckling.Time.ZHCorpus
                      , Duckling.Time.Rules
-                     , Duckling.Time.CN.Corpus
-                     , Duckling.Time.CN.Rules
-                     , Duckling.Time.HK.Corpus
-                     , Duckling.Time.HK.Rules
-                     , Duckling.Time.MO.Corpus
-                     , Duckling.Time.MO.Rules
-                     , Duckling.Time.TW.Corpus
-                     , Duckling.Time.TW.Rules
                      , Duckling.Time.Computed
                      , Duckling.Time.Helpers
                      , Duckling.Time.Types

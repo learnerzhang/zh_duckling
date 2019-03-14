@@ -29,10 +29,6 @@ import Duckling.Ranking.Types
 import Duckling.Rules
 import Duckling.Testing.Types
 import qualified Duckling.Time.ZHCorpus as ZHTime
-import qualified Duckling.Time.CN.Corpus as ZH_CNTime
-import qualified Duckling.Time.HK.Corpus as ZH_HKTime
-import qualified Duckling.Time.MO.Corpus as ZH_MOTime
-import qualified Duckling.Time.TW.Corpus as ZH_TWTime
 
 -- -----------------------------------------------------------------
 -- Main
@@ -146,10 +142,6 @@ getCorpusForLang :: Lang -> Corpus
 getCorpusForLang ZH = ZHTime.corpus
 
 getExamplesForLocale :: Lang -> Region -> [Example]
-getExamplesForLocale ZH CN = ZH_CNTime.allExamples
-getExamplesForLocale ZH HK = ZH_HKTime.allExamples
-getExamplesForLocale ZH MO = ZH_MOTime.allExamples
-getExamplesForLocale ZH TW = ZH_TWTime.allExamples
 getExamplesForLocale _ _   = []
 
 -- -----------------------------------------------------------------

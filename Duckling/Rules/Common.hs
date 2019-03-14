@@ -37,10 +37,6 @@ import qualified Duckling.Volume.Rules as Volume
 import qualified Duckling.Identity.Rules as Identity
 import qualified Duckling.Gender.Rules as Gender
 import qualified Duckling.Time.Rules as Time
-import qualified Duckling.Time.CN.Rules as TimeCN
-import qualified Duckling.Time.HK.Rules as TimeHK
-import qualified Duckling.Time.MO.Rules as TimeMO
-import qualified Duckling.Time.TW.Rules as TimeTW
 import qualified Duckling.TimeGrain.Rules as TimeGrain
 
 
@@ -70,10 +66,6 @@ defaultRules :: Some Dimension -> [Rule]
 defaultRules = langRules
 
 localeRules :: Region -> Some Dimension -> [Rule]
-localeRules CN (This Time) = TimeCN.rules
-localeRules HK (This Time) = TimeHK.rules
-localeRules MO (This Time) = TimeMO.rules
-localeRules TW (This Time) = TimeTW.rules
 localeRules region (This (CustomDimension dim)) = dimLocaleRules region dim
 localeRules _ _ = []
 

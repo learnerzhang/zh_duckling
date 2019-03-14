@@ -1052,6 +1052,14 @@ ruleIntervalAfterFromSinceTime = Rule
       (_:Token Time td:_) -> tt . withDirection TTime.After $ notLatent td
       _ -> Nothing
   }
+ruleNationalDay :: Rule
+ruleNationalDay = Rule
+  { name = "national day"
+  , pattern =
+    [ regex "(国庆|國慶)(节|節)?"
+    ]
+  , prod = \_ -> tt $ monthDay 10 1
+  }
 
 ruleDaysOfWeek :: [Rule]
 ruleDaysOfWeek = mkRuleDaysOfWeek
@@ -1211,6 +1219,7 @@ rules =
   , ruleYearMonth
   , ruleYyyymmdd
   , ruleTimezone
+  , ruleNationalDay
   ]
   ++ ruleDaysOfWeek
   ++ ruleMonths
