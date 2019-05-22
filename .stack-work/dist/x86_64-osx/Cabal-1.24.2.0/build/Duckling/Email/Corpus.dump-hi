@@ -1,0 +1,835 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:01:09.22883 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Corpus 8002
+  interface hash: 29c262fb04e75936e19e3102d88daac3
+  ABI hash: c9f8bd1e2db2e859a6a7a60b33e7f201
+  export-list hash: 5970e0dfa9222a8a159eafd37b6d3d59
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 89b0da0373a0d3cdfb5f74fc98ed4c42
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Email.Corpus.corpus
+  Duckling.Email.Corpus.negativeCorpus
+module dependencies: Duckling.AmountOfMoney.Helpers
+                     Duckling.AmountOfMoney.Rules Duckling.AmountOfMoney.Types
+                     Duckling.Api Duckling.Core Duckling.CreditCardNumber.Helpers
+                     Duckling.CreditCardNumber.Rules Duckling.CreditCardNumber.Types
+                     Duckling.Dimensions Duckling.Dimensions.Common
+                     Duckling.Dimensions.Types Duckling.Distance.Helpers
+                     Duckling.Distance.Rules Duckling.Distance.Types
+                     Duckling.Duration.Helpers Duckling.Duration.Rules
+                     Duckling.Duration.Types Duckling.Email.Rules Duckling.Email.Types
+                     Duckling.Engine Duckling.Engine.Regex Duckling.Gender.Rules
+                     Duckling.Gender.Types Duckling.Identity.Helpers
+                     Duckling.Identity.Rules Duckling.Identity.Types Duckling.Locale
+                     Duckling.Numeral.Helpers Duckling.Numeral.Rules
+                     Duckling.Numeral.Types Duckling.Ordinal.Helpers
+                     Duckling.Ordinal.Rules Duckling.Ordinal.Types
+                     Duckling.PhoneNumber.Rules Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Helpers Duckling.Quantity.Rules
+                     Duckling.Quantity.Types Duckling.Ranking.Classifiers
+                     Duckling.Ranking.Classifiers.ZH_XX Duckling.Ranking.Extraction
+                     Duckling.Ranking.Rank Duckling.Ranking.Types Duckling.Regex.Types
+                     Duckling.Region Duckling.Resolve Duckling.Rules
+                     Duckling.Rules.Common Duckling.Temperature.Helpers
+                     Duckling.Temperature.Rules Duckling.Temperature.Types
+                     Duckling.Testing.Types Duckling.Time.Helpers Duckling.Time.Rules
+                     Duckling.Time.TimeZone.Parse Duckling.Time.Types
+                     Duckling.TimeGrain.Rules Duckling.TimeGrain.Types Duckling.Types
+                     Duckling.Types.Document Duckling.Types.Stash Duckling.Url.Helpers
+                     Duckling.Url.Rules Duckling.Url.Types Duckling.Volume.Helpers
+                     Duckling.Volume.Rules Duckling.Volume.Types Duckling.Weight.Helpers
+                     Duckling.Weight.Rules Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Email.Types 35caa3197682fd270959d400e14b5a0c
+  exports: 7aadf1c3c46aca73fef35851674632db
+  EmailData df6f30e69ae664c82240e2eac40ce2f3
+import  -/  Duckling.Testing.Types a43f67fb62d50f033116bd615019c103
+  exports: c3bdabff1f878cdb9f1a06aa9798a083
+  Corpus 3678ae062c1f6873d635493e9463cd42
+  Example 229575881ace16a3861bb85ac88bc4c1
+  NegativeCorpus a962af0f5318d8f7db2e9a63003c543c
+  examples ac3dfc3428f717b4bf32290e3e73f89d
+  testContext a2b9b307754e64d57829569f9b05f84d
+  testOptions 1abf9bf49c67a240999e40f967046842
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+29e694d9b4264aa5598eeb2c81117bbe
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Email.Corpus.$trModule2
+                   Duckling.Email.Corpus.$trModule1) -}
+c99c71e5a0ac9d68de805587e501b4ba
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Email.Corpus"#) -}
+603514d3222c84a97742d375b5864d97
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+40ae70f3fe581fae3879dafed4b894df
+  $wallExamples :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus12
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+dfad0c728e61f018e74aa577e51549c9
+  $wallExamples1 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus17
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+ecce8ab9dd3f1426cb9528fa758a713a
+  $wallExamples2 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus22
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+8558f3781f91481eb0130a14ff6dc701
+  $wallExamples3 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus27
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+4765d0390d7157054bff5ce314050c24
+  $wallExamples4 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus32
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+33757ca77300585aee71c7b8e28217ef
+  $wallExamples5 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus37
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+0d369ea374e63520376750fdda54e612
+  $wallExamples6 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus22
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+a595a7e0a6499fa25d802e00fde74c2f
+  $wallExamples7 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus27
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+7c29c0ebae89917ac38fdd1586e58303
+  $wallExamples8 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus32
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+46e8362051eb16a28dd7f1c68050f115
+  $wallExamples9 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   Duckling.Email.Corpus.corpus37
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) }) -}
+9ae48b9d4f075c22be7d8129641fc7c6
+  allExamples :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus46
+                   Duckling.Email.Corpus.corpus1) -}
+187f0fe3da7b80209ed01684c263ac52
+  corpus :: Duckling.Testing.Types.Corpus
+  {- Strictness: m,
+     Unfolding: ((Duckling.Testing.Types.testContext,
+                  GHC.Types.False `cast` (Sym (Duckling.Resolve.N:Options[0])),
+                  Duckling.Email.Corpus.allExamples)) -}
+07a89320c131afa0d012e7cd2f5b7c59
+  corpus1 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus44
+                   Duckling.Email.Corpus.corpus2) -}
+21830cdf4498d235fc398216dacdbca3
+  corpus10 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus14,
+                  Duckling.Email.Corpus.corpus11)) -}
+da1b7016b5ee95f7d70def86be0b3b4f
+  corpus11 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples ww3 }) -}
+d15736e53690689f450480a7b55e2651
+  corpus12 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString Duckling.Email.Corpus.corpus13)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+fa6127c80c2f3dfc458d9ba37b3c1c80
+  corpus13 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "asdf.k@fb.com"#) -}
+8eca389e1bbfebb3b356527760d55a7d
+  corpus14 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "asdf dot k@fb dot com"#) -}
+0681ea42c792b8f93812493caa53d838
+  corpus15 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus19,
+                  Duckling.Email.Corpus.corpus16)) -}
+d3dbecc52da30648c8f7934a6c457949
+  corpus16 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples1 ww3 }) -}
+aff3fce7dbfa2e7c95ba874dae309c86
+  corpus17 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString Duckling.Email.Corpus.corpus18)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+bfef8df72915bcb65e34db79e91c1b1d
+  corpus18 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "asdf+ab.c@gmail.com"#) -}
+014c95d4254f12d24c38b1fdcbed5e5d
+  corpus19 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "asdf+ab dot c at gmail dot com"#) -}
+a8bf8f3a7dafe504207880d5e456235a
+  corpus2 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus42
+                   Duckling.Email.Corpus.corpus3) -}
+ada5173847907a9300d3a6a0554c75a3
+  corpus20 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus24,
+                  Duckling.Email.Corpus.corpus21)) -}
+67c0283b9456d4a86f1ea9b81a33d080
+  corpus21 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples2 ww3 }) -}
+38e7681b805596995f380238e4dfa457
+  corpus22 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString Duckling.Email.Corpus.corpus23)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+e30226bb859cad9ddd03acc7292348a6
+  corpus23 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "jean-jacques@stuff.co.uk"#) -}
+ab95c345cc7478e129099509d33372a7
+  corpus24 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "jean-jacques at stuff.co.uk"#) -}
+e6a48d55c79f482dc2599378ce808573
+  corpus25 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus29,
+                  Duckling.Email.Corpus.corpus26)) -}
+37f2d1696d0d3d57efcb38e62d29322f
+  corpus26 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples3 ww3 }) -}
+bda0f9941c7d235150a8db3cd88adad3
+  corpus27 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString Duckling.Email.Corpus.corpus28)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+d10daf0ac244c424e49653fe72e28847
+  corpus28 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1234+abc@x.net"#) -}
+8c9fb61876f784469b3bd9a58dd48c69
+  corpus29 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "1234+abc at x.net"#) -}
+18c36779ac7bda04be911444904d6a73
+  corpus3 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus40
+                   Duckling.Email.Corpus.corpus4) -}
+2bf22a594346b88983311cd2fa0cf0f1
+  corpus30 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus34,
+                  Duckling.Email.Corpus.corpus31)) -}
+0fe2cdc4e06d000d4de5f6770852cd51
+  corpus31 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples4 ww3 }) -}
+ec25127783a062cf259e998ae471a483
+  corpus32 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString Duckling.Email.Corpus.corpus33)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+1cef96c8be7cb80fcb1c255712d4f694
+  corpus33 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "yo+yo@blah.org"#) -}
+09b2bbef02f7debc77ba40530353a292
+  corpus34 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "yo+yo at blah.org"#) -}
+58ae45c0673c089f55fc9884e8465358
+  corpus35 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus39,
+                  Duckling.Email.Corpus.corpus36)) -}
+f5860c858153f888735cc51fa5e53977
+  corpus36 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples5 ww3 }) -}
+3c69d4e88f21fe9362618de416295ebd
+  corpus37 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.Email.Types.$fToJSONEmailData1,
+                            Data.Aeson.Types.Internal.$WString Duckling.Email.Corpus.corpus38)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt }) -}
+8959a637080263e31323e1e4ba92d786
+  corpus38 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "alice@exAmple.io"#) -}
+972e473e5b5e7ba670fb796467e09e68
+  corpus39 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "alice at exAmple.io"#) -}
+41cc5167a1e92cbda7da2f0f7359db1f
+  corpus4 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus35
+                   Duckling.Email.Corpus.corpus5) -}
+0d00c79a8752378679d45d3840f5ad52
+  corpus40 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus23,
+                  Duckling.Email.Corpus.corpus41)) -}
+c18cd89b738d900f52993aace9ad88b6
+  corpus41 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples6 ww3 }) -}
+3b204eb09573340b61b0dba7b5a39af4
+  corpus42 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus28,
+                  Duckling.Email.Corpus.corpus43)) -}
+142c9235cfaa24d8b76b91c4b7b7cffa
+  corpus43 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples7 ww3 }) -}
+895a8927f467b53f02a8afd0512996ef
+  corpus44 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus33,
+                  Duckling.Email.Corpus.corpus45)) -}
+c73f64b1d092848386f4f0388ac8aacd
+  corpus45 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples8 ww3 }) -}
+8ffba280612b1cae8c37756413bd9b4a
+  corpus46 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Email.Corpus.corpus38,
+                  Duckling.Email.Corpus.corpus47)) -}
+f901aa56c4bbd368c19b3cc68cc095f7
+  corpus47 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Email.Corpus.$wallExamples9 ww3 }) -}
+cb457aa88a39c05013b493e1b04a07bb
+  corpus5 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus30
+                   Duckling.Email.Corpus.corpus6) -}
+b36464961f60f35f329646aa12bded7e
+  corpus6 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus25
+                   Duckling.Email.Corpus.corpus7) -}
+f9334821cec4a6a8f1907a907caff812
+  corpus7 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus20
+                   Duckling.Email.Corpus.corpus8) -}
+6773bcfb6ee540dfdd6eac5a824fb3e3
+  corpus8 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus15
+                   Duckling.Email.Corpus.corpus9) -}
+93f2ae5bb9d4b9ca66369e10198b57a1
+  corpus9 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Email.Corpus.corpus10
+                   (GHC.Types.[] @ Duckling.Testing.Types.Example)) -}
+4604a41a2a15dc89707c43db89b77c39
+  negativeCorpus :: Duckling.Testing.Types.NegativeCorpus
+  {- Strictness: m,
+     Unfolding: ((Duckling.Testing.Types.testContext,
+                  GHC.Types.False `cast` (Sym (Duckling.Resolve.N:Options[0])),
+                  Duckling.Email.Corpus.negativeCorpus_examples)) -}
+9ab8c49db8f682d90f984ac48aa0e33a
+  negativeCorpus1 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus18
+                   Duckling.Email.Corpus.negativeCorpus2) -}
+a42a793b5c321adb4b9141321a1975a2
+  negativeCorpus10 :: Data.Text.Internal.Text
+47c833650937a1d94699bd44a947c2ac
+  negativeCorpus11 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "abc@x dot "#) -}
+0953e7e83b56acfccd08127f6644c394
+  negativeCorpus12 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "x@ x dot "#) -}
+76c4e0dda88196c048643516154d5b83
+  negativeCorpus13 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "x@ dot x"#) -}
+4dc4ce1756e5534a6cd478310623e94a
+  negativeCorpus14 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# " dot 2@abci"#) -}
+e5ea9116d8049a67aa9b2bbfd9b51be3
+  negativeCorpus15 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "tonight at 9.15"#) -}
+2d2de0a14b4298d08e90537baeca9c61
+  negativeCorpus16 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "class at 12.00"#) -}
+1831bd5ffbda9ea9044571d8cd69d634
+  negativeCorpus17 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "fitness at 6.40"#) -}
+91d2038a59bb062240682bbdba9ff5b4
+  negativeCorpus18 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "hey@you"#) -}
+c275122480dbc0b638e1a96d81bbe98f
+  negativeCorpus19 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "hey@6"#) -}
+68b132d1d2d88e275d67e1b37adc44c6
+  negativeCorpus2 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus17
+                   Duckling.Email.Corpus.negativeCorpus3) -}
+3cc84b2acb9d3ce7d27ef58543ec7e8a
+  negativeCorpus3 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus16
+                   Duckling.Email.Corpus.negativeCorpus4) -}
+98d2086d18468ba633b01ef659aa6cc0
+  negativeCorpus4 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus15
+                   Duckling.Email.Corpus.negativeCorpus5) -}
+c8625b2cf8fc18f533a6789d71e1e2ae
+  negativeCorpus5 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus14
+                   Duckling.Email.Corpus.negativeCorpus6) -}
+d4e2c759c2913d17e61118cc882306b6
+  negativeCorpus6 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus13
+                   Duckling.Email.Corpus.negativeCorpus7) -}
+c400b462b7f457e29dcff9109a9deae5
+  negativeCorpus7 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus12
+                   Duckling.Email.Corpus.negativeCorpus8) -}
+dc68dab3c2415273f39a2f601bed806d
+  negativeCorpus8 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus11
+                   Duckling.Email.Corpus.negativeCorpus9) -}
+5d9f1084c64d8fe2053c73b2cc009c44
+  negativeCorpus9 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus10
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+f3bfa0d0d58739fb36a9ffa0488fec0b
+  negativeCorpus_examples :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.Email.Corpus.negativeCorpus19
+                   Duckling.Email.Corpus.negativeCorpus1) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

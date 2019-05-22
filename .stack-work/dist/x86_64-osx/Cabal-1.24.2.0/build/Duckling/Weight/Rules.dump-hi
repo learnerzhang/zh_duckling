@@ -1,0 +1,988 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:01:05.314478 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Rules 8002
+  interface hash: 02bad44a3cc22164bedb50906acef2c6
+  ABI hash: 39907b8f45baf4d3c9b651d6ed1df480
+  export-list hash: 23cd371cef33872669fe9c6cc4c79d41
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 67846e8672c4110befdb954340edb66d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Weight.Rules.rules
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Types Duckling.Dimensions.Types
+                     Duckling.Distance.Types Duckling.Duration.Types
+                     Duckling.Email.Types Duckling.Gender.Types Duckling.Identity.Types
+                     Duckling.Locale Duckling.Numeral.Types Duckling.Ordinal.Types
+                     Duckling.PhoneNumber.Types Duckling.Quantity.Types
+                     Duckling.Regex.Types Duckling.Region Duckling.Resolve
+                     Duckling.Temperature.Types Duckling.Time.Types
+                     Duckling.TimeGrain.Types Duckling.Types Duckling.Url.Types
+                     Duckling.Volume.Types Duckling.Weight.Helpers Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.Numeral.Types 5130bfd045a9ca6085fec0a42ae9c523
+  exports: 94344b1dfc906561c4234f30cd403539
+  NumeralData eed9cb1fe0950cfcb945c3cf09694611
+  value 8ada7f17e1d24c76a72ee8a3669186b6
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  Numeral 37ea753945466ebddfe8bb90136c8911
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  Weight bf60e063d050c29a02f5a8217eb4dcf9
+  dimension d0737f4b2a091d17072dfde26c2eb47c
+  name 76f427769b73e82db2c2df59caa60288
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  prod a4c6750bd517e049c9ce8428e1e5dff2
+  regex c51097368a8c266ad9942dc9e3370fd5
+import  -/  Duckling.Weight.Helpers e1ea2a79e85b6ad4dbafe5ffe6d12e2d
+  exports: e5d50aead16e28d1334d69c07879ca21
+  weight 06151ea5a7307e72bec7076751bcf746
+  withUnit 247a272c483e2187e99ca13564ea84ff
+import  -/  Duckling.Weight.Types 8247a5f41551f006c25533154da2cad5
+  exports: 8f72193238d93dff2655ebec37ea7d9e
+  Gram 1428a30d33add3b51ed2dd727af7e8f9
+  Jin 8d7d24754210381a21a1bdb3fc1048c5
+  Kilogram 0531cd7dad56ba80ebcd2f718c5ab825
+  Liang a32f646c430661ebc4ddd61ee1486fbd
+  Milligram 8c9a4b0cdcc6f871dd9fb4449b5e9a1c
+  Pound 86a2fdeff8e4b54bfc3049fb3294af1f
+  Tonne f5a19e6e2a42b4e3106c1377f1b052e8
+22235d0fd1285c0b4478bfe91b9f15e2
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Weight.Rules.$trModule2
+                   Duckling.Weight.Rules.$trModule1) -}
+cf24a77c83b0f29debded6524c8211fc
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Weight.Rules"#) -}
+cc128673b7cfe17c6567137eb61f3884
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+5ddc9245bd8f355ccd2b9c371fbdd899
+  rules :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules78
+                   Duckling.Weight.Rules.rules1) -}
+584de9bc81e152d2e3e3878263339fb8
+  rules1 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules69
+                   Duckling.Weight.Rules.rules2) -}
+04a4cfabb5d478a0c39de0971add7559
+  rules10 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules11
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+cdddff8a4f1d8c1079a9410ada93facd
+  rules11 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Tonne) -}
+22d51ae8cd4fe2889f38e30c13f148db
+  rules12 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules13) -}
+58c080fe70cd1dbb3bca5e5d0ab51edf
+  rules13 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules14
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+8b4732513f5e1838056295cbd6560c2e
+  rules14 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules15) -}
+4d15555a07bb0314b83a8c4e1ba14648
+  rules15 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules16) -}
+c77489dc9335f64a93cc297c85657647
+  rules16 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "t|tonne|Tonne|\\229\\144\\168"#) -}
+23c53c1477fe03f623b7b31173bfa57a
+  rules17 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Weight.Rules.rules18) -}
+4ec5caa9f4e5021b2b2d4244ce6d7e8d
+  rules18 :: Duckling.Types.Token -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a1 $dResolve $dEq $dHashable $dShow $dNFData dim' ds1 ->
+                 case dim' of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Weight cobox1 -> GHC.Types.True } }) -}
+24055b341e2a5aa34c9e3b8056cb04af
+  rules19 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<Weight> miles"#) -}
+7f81446f711e6d5ef7f7d2ae84e6428b
+  rules2 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules65
+                   Duckling.Weight.Rules.rules3) -}
+8a6dcf2c4134c4f0bb15b8a87db3f50c
+  rules20 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules28
+                   Duckling.Weight.Rules.rules23
+                   Duckling.Weight.Rules.rules21) -}
+48a59507b47bdd10d73ca92199ff46b5
+  rules21 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules22
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+43c4d67d51c204eeb94c8176a274484c
+  rules22 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Pound) -}
+64c4c78f7e38211ddbac186794b54ae4
+  rules23 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules24) -}
+b0268296ad426d55e082233027297aee
+  rules24 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules25
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+bb9cfa950c8f492f0c94ad8858472e11
+  rules25 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules26) -}
+4a88d85498ae6d93ffc7ad7bf3dee970
+  rules26 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules27) -}
+796833bac2a2a4fc77522af00b6ba4d7
+  rules27 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "pound|Pound|\\231\\163\\133"#) -}
+dfda2cba3281af4cbe52bd1fd9fa728e
+  rules28 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<Weight> Pound"#) -}
+a6ed8ce96481d560e2d3f082a6b8b198
+  rules29 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules37
+                   Duckling.Weight.Rules.rules32
+                   Duckling.Weight.Rules.rules30) -}
+0040efd94b3e37adad12099f25724fd4
+  rules3 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules61
+                   Duckling.Weight.Rules.rules4) -}
+866309dd33f35c4c926cf3ada0faee36
+  rules30 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules31
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+8f0a0c16d604d271b3d9e0c510af3775
+  rules31 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Gram) -}
+89feb36d632a621417b8bc6eff18c532
+  rules32 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules33) -}
+a8f19448264642e37ee1f170b97ef206
+  rules33 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules34
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+8c29e732d5f31f04d2ee8144e4635589
+  rules34 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules35) -}
+79df36bfb35ed500d1c05389dd7b0f77
+  rules35 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules36) -}
+db1944d392a92cbf1f28ef3af18f9c57
+  rules36 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "g|\\229\\133\\139"#) -}
+d2f0353605e52fb8b5cb9b1a29f9b293
+  rules37 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<Weight> Grams"#) -}
+62de3a845f4f932f175ff431ca9c9947
+  rules38 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules46
+                   Duckling.Weight.Rules.rules41
+                   Duckling.Weight.Rules.rules39) -}
+c86caf924ad8a861753151b363c9e955
+  rules39 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules40
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+96fd102c71272a770ed4fec102311df5
+  rules4 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules47
+                   Duckling.Weight.Rules.rules5) -}
+af19eb5530f2c9521f8a76681e68dcc6
+  rules40 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Kilogram) -}
+29e5f3fef3482938ab99d5b97c3c5f7c
+  rules41 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules42) -}
+2b5c024f1abac8a10384d69e31c38655
+  rules42 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules43
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+fda443ef490f67d926b17f0579f13618
+  rules43 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules44) -}
+a497fa449c611793f48cafaeb110b07f
+  rules44 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules45) -}
+4aa9142b25ccf120f2a62b5a525b152c
+  rules45 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "kg|\\229\\141\\131\\229\\133\\139|\\229\\133\\172\\230\\150\\164"#) -}
+88b59953c77f5abb46efa4ec78b1eee1
+  rules46 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<Weight> Kilogram"#) -}
+c49c4c883454bc9df74ce35f78988cca
+  rules47 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules60
+                   Duckling.Weight.Rules.rules50
+                   Duckling.Weight.Rules.rules48) -}
+2efdb0753d6929caa741953949207b39
+  rules48 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules49
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+54c6a02163b5b3d5a9a223fb6e42f667
+  rules49 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Jin) -}
+b6fae9b110f97bcc29a19d18aeb8239c
+  rules5 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules38
+                   Duckling.Weight.Rules.rules6) -}
+09c3eb699ff1de135c7e6fcf10088ff9
+  rules50 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules51) -}
+2a11c9858387e76855b26dc76e0e89a1
+  rules51 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules57
+                   Duckling.Weight.Rules.rules52) -}
+7614d11c0c34832cfeb0a1108f628fff
+  rules52 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules53) -}
+c43ad3cfb2791b99d4adf14ce9e70ffd
+  rules53 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules54
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+a4c651429eefaffe70a46e719b8b04bd
+  rules54 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules55) -}
+fe46198c1994f7df98e0433465f88939
+  rules55 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules56) -}
+71570a9dfb0aee479d9d515c8cc57dd4
+  rules56 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\228\\184\\164"#) -}
+8c2029a38b5d402996b7f1e51ec9f363
+  rules57 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules58) -}
+ad6f17eaf6dc5450ddbc672e07c453a5
+  rules58 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules59) -}
+e022b4e8410c543bf0be49c098a2cd37
+  rules59 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\230\\150\\164"#) -}
+0c45d8ab6d326151fb5c0e44823b4dc1
+  rules6 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules29
+                   Duckling.Weight.Rules.rules7) -}
+750702fa75876d6d2e52d0e63a117ec8
+  rules60 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<Weight> Jin and <Weight> Liang "#) -}
+b50a18eef375db30bd53e394323122e2
+  rules61 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules64
+                   Duckling.Weight.Rules.rules62
+                   Duckling.Weight.Rules.rules48) -}
+a56325112889f575b02584350754e2fa
+  rules62 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules63) -}
+c25ef222d9679c026a0b578aeb12deea
+  rules63 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules57
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+ee4daf1d23ead63a8d325f6a04e016bb
+  rules64 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<Weight> Jin"#) -}
+b986461670faa460f44d2d564e0b5559
+  rules65 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules68
+                   Duckling.Weight.Rules.rules52
+                   Duckling.Weight.Rules.rules66) -}
+c76767159a2d6abcd911ca51e28579d4
+  rules66 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules67
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+ed9aaf27183b5fa2c75bb39359084926
+  rules67 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Liang) -}
+c4f2524a1e8292a801bcccd54beef97b
+  rules68 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<Weight> Liangs"#) -}
+1943f93005f8a782609d29a385a1ec4a
+  rules69 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules77
+                   Duckling.Weight.Rules.rules72
+                   Duckling.Weight.Rules.rules70) -}
+98c33b4d5c19195d439fc07325555b82
+  rules7 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules20
+                   Duckling.Weight.Rules.rules8) -}
+f5dd9823423f9f068d8219f2a804d28c
+  rules70 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Weight cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WWeight
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Weight.Types.WeightData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Weight.Types.WeightData
+                                   Duckling.Weight.Rules.rules71
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+d6504f103a38e433960ba513f2cbb4df
+  rules71 :: GHC.Base.Maybe Duckling.Weight.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Weight.Types.Unit
+                   Duckling.Weight.Types.Milligram) -}
+8e26da3c10c3d4b2caa9bf8116dbd94b
+  rules72 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules17
+                   Duckling.Weight.Rules.rules73) -}
+88e3f6a577deb23431d9d51f7e60faff
+  rules73 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules74
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+7a4c90e739e7780ee72dc3cbd43ea8e7
+  rules74 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex Duckling.Weight.Rules.rules75) -}
+8e2c34fc5b22fec16fd6189e08d17373
+  rules75 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Weight.Rules.rules76) -}
+1294d82b529c8aff1fa7f859837635e7
+  rules76 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "mg|\\230\\175\\171\\229\\133\\139"#) -}
+050cffa16c0277e2c3ce2cd3bae9c220
+  rules77 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<Weight> Milligrams"#) -}
+d86745c28dfd9cc594d284785c9e1ee8
+  rules78 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules83
+                   Duckling.Weight.Rules.rules80
+                   Duckling.Weight.Rules.rules79) -}
+c618bd32067bd68729c1487fe8d13469
+  rules79 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Numeral cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Numeral.Types.NumeralData ds4 ds5 ds6 ds7 ->
+                           GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Weight.Types.WeightData
+                                Duckling.Weight.Types.$fResolveWeightData
+                                Duckling.Weight.Types.$fEqWeightData
+                                Duckling.Weight.Types.$fHashableWeightData
+                                Duckling.Weight.Types.$fShowWeightData
+                                Duckling.Weight.Types.$fNFDataWeightData_$crnf
+                                  `cast`
+                                (Sym (Control.DeepSeq.N:NFData[0]
+                                          <Duckling.Weight.Types.WeightData>_N))
+                                Duckling.Types.$WWeight
+                                (Duckling.Weight.Helpers.weight ds4)) } } } }) -}
+c791582341644d948a3f8fe6cb4a9d4f
+  rules8 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules9
+                   (GHC.Types.[] @ Duckling.Types.Rule)) -}
+0f96f834b21e0d07a2ce8854ffb62837
+  rules80 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Weight.Rules.rules81
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+6bff8575d5b9bd5b4541899a053b233f
+  rules81 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Weight.Rules.rules82) -}
+cdb069a71ed65eed7e5bef639c8aa80d
+  rules82 :: Duckling.Types.Token -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a1 $dResolve $dEq $dHashable $dShow $dNFData dim' ds1 ->
+                 case dim' of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Numeral cobox1 -> GHC.Types.True } }) -}
+e52c586ab91cdffaaebd92a0d155345e
+  rules83 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "number as weight"#) -}
+7cb00c83db125710aa9b2d377f653903
+  rules9 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Weight.Rules.rules19
+                   Duckling.Weight.Rules.rules12
+                   Duckling.Weight.Rules.rules10) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

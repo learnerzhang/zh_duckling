@@ -1,0 +1,1931 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:00:51.393116 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Rules 8002
+  interface hash: 41c9b5963a9c55c9ea4365ecde29f46e
+  ABI hash: 98f3fc1755f74af694cf6402af0f1d93
+  export-list hash: 1340680661b4094ef6d08b3f57ae6323
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6c555b0385fc7eed31540f232d169f1e
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Numeral.Rules.rules
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Types Duckling.Dimensions.Types
+                     Duckling.Distance.Types Duckling.Duration.Types
+                     Duckling.Email.Types Duckling.Gender.Types Duckling.Identity.Types
+                     Duckling.Locale Duckling.Numeral.Helpers Duckling.Numeral.Types
+                     Duckling.Ordinal.Types Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Types Duckling.Regex.Types Duckling.Region
+                     Duckling.Resolve Duckling.Temperature.Types Duckling.Time.Types
+                     Duckling.TimeGrain.Types Duckling.Types Duckling.Url.Types
+                     Duckling.Volume.Types Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.Maybe d876c4ffe4b3c43755a781e8ad860d88
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:Data.Tuple 7dc4bbb45d2e69c991ffac438beeca11
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.Numeral.Helpers bd0dabecd11987616dc666a3e43dd924
+  exports: e7d47526dd2b06e4e1d94c237fe469a9
+  diffIntegerDigits 0c63f1787832983ab73a8b6e5bb9e5df
+  divide 26efee045a805bba487ca85344a540f2
+  double 85d34317d96066816975aa527e9f38c7
+  integer e2f676c7568bf59cd3110251d89d0ff6
+  isMultipliable 6cfa36928a2be2f0140895a1b465e781
+  isPositive 833c10b9c2bf07ab2b69a2d355712775
+  multiply d7c3679392be42978b9f311a06075f84
+  notOkForAnyTime 8fd92585c50d1cf5e647bd6ae6b96784
+  parseDecimal 6c229be2184e2bbc6d015d704db68e03
+  parseDouble c2cd1ba258348e67f1302d1762055de9
+  parseInt 96a0cf102d8136d5751b58d6e2ee330e
+  withGrain fca2d0a6623313beae6b73dc7c3647f0
+  withMultipliable 1623a1c520daba39a99e41552f5d63a5
+import  -/  Duckling.Numeral.Types 5130bfd045a9ca6085fec0a42ae9c523
+  exports: 94344b1dfc906561c4234f30cd403539
+  NumeralData eed9cb1fe0950cfcb945c3cf09694611
+  value 8ada7f17e1d24c76a72ee8a3669186b6
+import  -/  Duckling.Regex.Types 02ee061ffbed7bfe03850219af82e91c
+  exports: d44c9c4af09e2c2530be2e20de544b1d
+  GroupMatch 537ad29f8ab71f1e1b7b5a2d9bd0ac47
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  Numeral 37ea753945466ebddfe8bb90136c8911
+  Predicate 7b23b72c5da11bf15a4943a8b0a1fdb3
+  RegexMatch 48a4c104f38c3a332becce55bbf47568
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  Token 876893268fb58123567a47e946b5b6ba
+  dimension d0737f4b2a091d17072dfde26c2eb47c
+  name 76f427769b73e82db2c2df59caa60288
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  prod a4c6750bd517e049c9ce8428e1e5dff2
+  regex c51097368a8c266ad9942dc9e3370fd5
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show 516b88f1e0e0dbed91cb925542602306
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base 05331f9dbdce4e8225c18ce1a8ba2f88
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Strict 74fd7b14a4a2f9eaf95c7dc9a18e61b1
+b4234531432096bcd1995e3e1dadccf2
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Numeral.Rules.$trModule2
+                   Duckling.Numeral.Rules.$trModule1) -}
+97e16045d079c9c5cffb9ff468e95666
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Numeral.Rules"#) -}
+d3df2dac5cf0b1fba9ad00968a032c3c
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+75df490bd655eee2271ddf8c9a480fc0
+  $w$s$wupdateOrSnocWithKey ::
+    (Data.Text.Internal.Text -> v -> v -> v)
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+  {- Arity: 6, Strictness: <L,C(C1(C1(U)))><L,U><L,U><L,U><L,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (w :: Data.Text.Internal.Text -> v -> v -> v)
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w1 :: v)
+                   (w2 :: GHC.Prim.Array#
+                            (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)) ->
+                 letrec {
+                   $wgo1 :: GHC.Prim.ByteArray#
+                            -> GHC.Prim.Int#
+                            -> GHC.Prim.Int#
+                            -> v
+                            -> GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                            -> GHC.Prim.Int#
+                            -> GHC.Prim.Int#
+                            -> GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                     {- Arity: 7, Strictness: <L,U><L,U><L,U><L,U><S,U><S,U><S,U>,
+                        Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.ByteArray#)
+                       (ww4 :: GHC.Prim.Int#)
+                       (ww5 :: GHC.Prim.Int#)
+                       (w3 :: v)
+                       (ww6 :: GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v))
+                       (ww7 :: GHC.Prim.Int#)
+                       (ww8 :: GHC.Prim.Int#) ->
+                     let {
+                       k2 :: Data.Text.Internal.Text = Data.Text.Internal.Text ww3 ww4 ww5
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww7 ww8) of wild {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ww6
+                                 ww7 of ds { Unit# ipv3 ->
+                          case ipv3 of wild1 { Data.HashMap.Base.L kx y ->
+                          case kx of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# ww5 dt5) of wild3 {
+                            GHC.Types.False
+                            -> $wgo1 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00 _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.State#
+                                                                                                                       GHC.Prim.RealWorld
+                                                                                                                  -> (# GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld,
+                                                                                                                        GHC.Prim.Int# #)}
+                                      ww3
+                                      (GHC.Prim.int2Word# ww4)
+                                      dt3
+                                      (GHC.Prim.int2Word# dt4)
+                                      (GHC.Prim.int2Word# ww5)
+                                      GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild5 {
+                                 DEFAULT -> $wgo1 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                                 0#
+                                 -> case GHC.Prim.thawArray#
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           @ GHC.Prim.RealWorld
+                                           ww6
+                                           0#
+                                           (GHC.Prim.sizeofArray#
+                                              @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                              ww6)
+                                           GHC.Prim.realWorld# of ds1 { (#,#) ipv4 ipv5 ->
+                                    case GHC.Prim.writeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           ipv5
+                                           ww7
+                                           (Data.HashMap.Base.L
+                                              @ Data.Text.Internal.Text
+                                              @ v
+                                              k2
+                                              (w k2 w3 y))
+                                           ipv4 of s' { DEFAULT ->
+                                    case GHC.Prim.unsafeFreezeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           ipv5
+                                           s' of ds2 { (#,#) ipv6 ipv7 ->
+                                    ipv7 } } } } } } } } }
+                       GHC.Types.True
+                       -> case GHC.Prim.newArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 @ GHC.Prim.RealWorld
+                                 (GHC.Prim.+# ww8 1#)
+                                 (Data.HashMap.Array.undefinedElem
+                                    @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v))
+                                 GHC.Prim.realWorld# of ds { (#,#) ipv3 ipv4 ->
+                          case GHC.Prim.copyArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 @ GHC.Prim.RealWorld
+                                 ww6
+                                 0#
+                                 ipv4
+                                 0#
+                                 ww8
+                                 ipv3 of s2 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ipv4
+                                 ww8
+                                 (Data.HashMap.Base.L @ Data.Text.Internal.Text @ v k2 w3)
+                                 s2 of s' { DEFAULT ->
+                          case GHC.Prim.unsafeFreezeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ipv4
+                                 s' of ds1 { (#,#) ipv5 ipv6 ->
+                          ipv6 } } } } }
+                 } in
+                 $wgo1
+                   ww
+                   ww1
+                   ww2
+                   w1
+                   w2
+                   0#
+                   (GHC.Prim.sizeofArray#
+                      @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                      w2)) -}
+d2cc41d1a7c851bfbcac88183c4ac544
+  $w$slookup ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> GHC.Base.Maybe v
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,U><S,U><S,U><S,1*U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w :: Data.HashMap.Base.HashMap Data.Text.Internal.Text v) ->
+                 case {__pkg_ccall hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol hashable_fnv_hash_offset GHC.Prim.ByteArray#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld
+                                                                                                                     -> (# GHC.Prim.State#
+                                                                                                                             GHC.Prim.RealWorld,
+                                                                                                                           GHC.Prim.Int# #)}
+                        ww
+                        (GHC.Prim.uncheckedIShiftL# ww1 1#)
+                        (GHC.Prim.uncheckedIShiftL# ww2 1#)
+                        -2578643520546668380#
+                        GHC.Prim.realWorld# of wild1 { (#,#) ds1 ds2 ->
+                 Duckling.Numeral.Rules.$wpoly_go2
+                   @ v
+                   (GHC.Prim.int2Word# ds2)
+                   ww
+                   ww1
+                   ww2
+                   0#
+                   w }) -}
+4fb0fdbe703a6548e8cdb1f2153939c9
+  $w$sunsafeInsert ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+  {- Arity: 5, Strictness: <S,U><S,U><S,U><L,U><S,1*U>, Inline: [0],
+     Unfolding: (\ @ v
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w :: v)
+                   (w1 :: Data.HashMap.Base.HashMap Data.Text.Internal.Text v) ->
+                 case {__pkg_ccall hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol hashable_fnv_hash_offset GHC.Prim.ByteArray#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld
+                                                                                                                     -> (# GHC.Prim.State#
+                                                                                                                             GHC.Prim.RealWorld,
+                                                                                                                           GHC.Prim.Int# #)}
+                        ww
+                        (GHC.Prim.uncheckedIShiftL# ww1 1#)
+                        (GHC.Prim.uncheckedIShiftL# ww2 1#)
+                        -2578643520546668380#
+                        GHC.Prim.realWorld# of wild1 { (#,#) ds1 ds2 ->
+                 case Duckling.Numeral.Rules.$wpoly_go3
+                        @ GHC.Prim.RealWorld
+                        @ v
+                        (GHC.Prim.int2Word# ds2)
+                        ww
+                        ww1
+                        ww2
+                        w
+                        0#
+                        w1
+                        GHC.Prim.realWorld# of ds { (#,#) ipv ipv1 ->
+                 ipv1 } }) -}
+89f4179f340b7762611e31e2f49006f8
+  $wc ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+    -> (# Data.Text.Internal.Text, Duckling.Types.Pattern,
+          Duckling.Types.Production #)
+  {- Arity: 1, Strictness: <L,U(1*U(U,U,U),1*U)>, Inline: [0],
+     Unfolding: (\ (w :: (Data.Text.Internal.Text,
+                          GHC.Base.Maybe Duckling.Types.Token)) ->
+                 let {
+                   suffixName :: Data.Text.Internal.Text
+                   = case w of wild { (,) x ds -> x }
+                 } in
+                 let {
+                   production :: GHC.Base.Maybe Duckling.Types.Token
+                   = case w of wild { (,) ds y -> y }
+                 } in
+                 (# Data.Text.append Duckling.Numeral.Rules.rules28 suffixName,
+                    GHC.Types.:
+                      @ Duckling.Types.PatternItem
+                      (Duckling.Types.Regex
+                         (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                            Duckling.Types.regex1
+                              `cast`
+                            (Trans
+                                 (Sym (Foreign.C.Types.N:CInt[0]))
+                                 (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                            Text.Regex.PCRE.Wrap.execBlank1
+                              `cast`
+                            (Trans
+                                 (Sym (Foreign.C.Types.N:CInt[0]))
+                                 (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                            (case suffixName of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                             let {
+                               end :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                             } in
+                             letrec {
+                               $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                                 {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                               = \ (ww :: GHC.Prim.Int#) ->
+                                 case GHC.Prim.tagToEnum#
+                                        @ GHC.Types.Bool
+                                        (GHC.Prim.>=# ww end) of wild1 {
+                                   GHC.Types.False
+                                   -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                                      case GHC.Prim.tagToEnum#
+                                             @ GHC.Types.Bool
+                                             (GHC.Prim.geWord# r# 55296##) of wild2 {
+                                        GHC.Types.False
+                                        -> GHC.Types.:
+                                             @ GHC.Types.Char
+                                             (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                             ($wunfold (GHC.Prim.+# ww 1#))
+                                        GHC.Types.True
+                                        -> case GHC.Prim.tagToEnum#
+                                                  @ GHC.Types.Bool
+                                                  (GHC.Prim.leWord# r# 56319##) of wild3 {
+                                             GHC.Types.False
+                                             -> GHC.Types.:
+                                                  @ GHC.Types.Char
+                                                  (GHC.Types.C#
+                                                     (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                                  ($wunfold (GHC.Prim.+# ww 1#))
+                                             GHC.Types.True
+                                             -> case GHC.Prim.indexWord16Array#
+                                                       dt
+                                                       (GHC.Prim.+# ww 1#) of r#1 { DEFAULT ->
+                                                GHC.Types.:
+                                                  @ GHC.Types.Char
+                                                  (GHC.Types.C#
+                                                     (GHC.Prim.chr#
+                                                        (GHC.Prim.+#
+                                                           (GHC.Prim.+#
+                                                              (GHC.Prim.uncheckedIShiftL#
+                                                                 (GHC.Prim.-#
+                                                                    (GHC.Prim.word2Int# r#)
+                                                                    55296#)
+                                                                 10#)
+                                                              (GHC.Prim.-#
+                                                                 (GHC.Prim.word2Int# r#1)
+                                                                 56320#))
+                                                           65536#)))
+                                                  ($wunfold (GHC.Prim.+# ww 2#)) } } } }
+                                   GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                             } in
+                             $wunfold dt1 })))
+                      (GHC.Types.[] @ Duckling.Types.PatternItem),
+                    \ (ds :: [Duckling.Types.Token]) -> production #)) -}
+2e5f5d18133e2c50319900aaa1911a29
+  $wpoly_go1 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.Maybe v
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <L,U><L,U><L,U><S,U><S,U><S,U>, Inline: [0] -}
+8c787017c2c1a7ff2f5fcb93bbe3078d
+  $wpoly_go2 ::
+    GHC.Prim.Word#
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> GHC.Base.Maybe v
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <L,U><L,U><L,U><L,U><L,U><S,1*U>, Inline: [0] -}
+ba5740bf2b3bf27f6e11f447f98f3b20
+  $wpoly_go3 ::
+    GHC.Prim.Word#
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> GHC.Prim.State# s
+    -> (# GHC.Prim.State# s,
+          Data.HashMap.Base.HashMap Data.Text.Internal.Text v #)
+  {- Arity: 8,
+     Strictness: <L,U><L,U><L,U><L,U><L,U><L,U><S,1*U><L,U>,
+     Inline: [0] -}
+21f7e82250616ef81bebf7255f0d65aa
+  integerMap ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text GHC.Integer.Type.Integer
+e978a006258689db060d43d346b0b5db
+  rules :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules158
+                   Duckling.Numeral.Rules.rules1) -}
+f1fdbefa66fe536984286670f8e517dd
+  rules1 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules151
+                   Duckling.Numeral.Rules.rules2) -}
+1225f10a5cc57bd27250a0b7a07a4477
+  rules10 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules86
+                   Duckling.Numeral.Rules.rules11) -}
+92286b2d1b345319b8db06a175bcaa64
+  rules100 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules101) -}
+80153013424bc80298a6f0368baef0ad
+  rules101 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "-|\\232\\180\\159|\\232\\178\\160"#) -}
+5ab1dc896f24f477a4cfa6fc4bdd6f27
+  rules102 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "numbers prefix with -, negative or minus"#) -}
+36c55e50f9c2861c22efb0249ba52ced
+  rules103 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules110
+                   Duckling.Numeral.Rules.rules105
+                   Duckling.Numeral.Rules.rules104) -}
+2c26710873ea6e0f3f145a6ef6cf6a07
+  rules104 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Numeral cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Numeral.Types.NumeralData ds4 ds5 ds6 ds7 ->
+                           case ds1 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : ds8 ds9
+                             -> case ds9 of wild5 {
+                                  [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                                  : ds10 ds11
+                                  -> case ds10 of wild6 { Duckling.Types.Token a1 $dResolve1 $dEq1 $dHashable1 $dShow1 $dNFData1 ds12 ds13 ->
+                                     case ds12 of wild7 {
+                                       DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                                       Duckling.Types.Numeral cobox1
+                                       -> case ds13
+                                                 `cast`
+                                               (Sub cobox1) of wild8 { Duckling.Numeral.Types.NumeralData ds14 ds15 ds16 ds17 ->
+                                          case ds4 of ww { GHC.Types.D# ww1 ->
+                                          case ds14 of ww2 { GHC.Types.D# ww3 ->
+                                          case Duckling.Numeral.Helpers.$wdiffIntegerDigits
+                                                 ww1
+                                                 ww3 of ww4 { DEFAULT ->
+                                          case GHC.Prim.tagToEnum#
+                                                 @ GHC.Types.Bool
+                                                 (GHC.Prim.<=# ww4 1#) of wild9 {
+                                            GHC.Types.False
+                                            -> GHC.Base.Just
+                                                 @ Duckling.Types.Token
+                                                 (Duckling.Types.Token
+                                                    @ Duckling.Numeral.Types.NumeralData
+                                                    Duckling.Numeral.Types.$fResolveNumeralData
+                                                    Duckling.Numeral.Types.$fEqNumeralData
+                                                    Duckling.Numeral.Types.$fHashableNumeralData
+                                                    Duckling.Numeral.Types.$fShowNumeralData
+                                                    Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                                                      `cast`
+                                                    (Sym (Control.DeepSeq.N:NFData[0]
+                                                              <Duckling.Numeral.Types.NumeralData>_N))
+                                                    Duckling.Types.$WNumeral
+                                                    (Duckling.Numeral.Types.NumeralData
+                                                       (GHC.Types.D# (GHC.Prim.+## ww1 ww3))
+                                                       (GHC.Base.Nothing @ GHC.Types.Int)
+                                                       GHC.Types.False
+                                                       GHC.Types.True))
+                                            GHC.Types.True
+                                            -> GHC.Base.Nothing
+                                                 @ Duckling.Types.Token } } } } } } } } } } } } }) -}
+da254462d3255807e24829c3954cd291
+  rules105 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules98
+                   Duckling.Numeral.Rules.rules106) -}
+0d7e34084f6cd1ef090ca5e1f3679435
+  rules106 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules107
+                   Duckling.Numeral.Rules.rules97) -}
+0c8099b15b98b811b213dbc88d953ca0
+  rules107 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules108) -}
+15e0e1f9b0f9ff5e3cb182fca2520aa1
+  rules108 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules109) -}
+edf30eb5d705af252d674d91e5ebdcc0
+  rules109 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\233\\155\\182|\\227\\128\\135"#) -}
+6429d5cc36c16bfdbfbb540cb90aefbd
+  rules11 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules83
+                   Duckling.Numeral.Rules.rules12) -}
+d4099a74ead1a91422fae8842145f8e7
+  rules110 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "integer with nonconsecutive unit modifiers"#) -}
+6b7fcf5ae80edef7a79a32c079fc7d83
+  rules111 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules114
+                   Duckling.Numeral.Rules.rules113
+                   Duckling.Numeral.Rules.rules112) -}
+178a2f6c508176561a8ce081eaab1be4
+  rules112 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Numeral cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Numeral.Types.NumeralData ds4 ds5 ds6 ds7 ->
+                           case ds1 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : ds8 ds9
+                             -> case ds8 of wild5 { Duckling.Types.Token a1 $dResolve1 $dEq1 $dHashable1 $dShow1 $dNFData1 ds10 ds11 ->
+                                case ds10 of wild6 {
+                                  DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                                  Duckling.Types.Numeral cobox1
+                                  -> case ds11
+                                            `cast`
+                                          (Sub cobox1) of wild7 { Duckling.Numeral.Types.NumeralData ds12 ds13 ds14 ds15 ->
+                                     case ds4 of ww { GHC.Types.D# ww1 ->
+                                     case ds12 of ww2 { GHC.Types.D# ww3 ->
+                                     case Duckling.Numeral.Helpers.$wdiffIntegerDigits
+                                            ww1
+                                            ww3 of ww4 {
+                                       DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                                       1#
+                                       -> GHC.Base.Just
+                                            @ Duckling.Types.Token
+                                            (Duckling.Types.Token
+                                               @ Duckling.Numeral.Types.NumeralData
+                                               Duckling.Numeral.Types.$fResolveNumeralData
+                                               Duckling.Numeral.Types.$fEqNumeralData
+                                               Duckling.Numeral.Types.$fHashableNumeralData
+                                               Duckling.Numeral.Types.$fShowNumeralData
+                                               Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                                                 `cast`
+                                               (Sym (Control.DeepSeq.N:NFData[0]
+                                                         <Duckling.Numeral.Types.NumeralData>_N))
+                                               Duckling.Types.$WNumeral
+                                               (Duckling.Numeral.Types.NumeralData
+                                                  (GHC.Types.D# (GHC.Prim.+## ww1 ww3))
+                                                  (GHC.Base.Nothing @ GHC.Types.Int)
+                                                  GHC.Types.False
+                                                  GHC.Types.True)) } } } } } } } } } } }) -}
+da4f235cc10e3f466502e1eebab2225e
+  rules113 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules98
+                   Duckling.Numeral.Rules.rules97) -}
+559ea6e191032e50cc6d42bcb458f118
+  rules114 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "integer with consecutive unit modifiers"#) -}
+2dddb06f5af8b519f9d61ab97a6e0b3c
+  rules115 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules122
+                   Duckling.Numeral.Rules.rules117
+                   Duckling.Numeral.Rules.rules116) -}
+43a1016f09613acf27b88e6d578c24d2
+  rules116 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : token ds -> GHC.Base.Just @ Duckling.Types.Token token }) -}
+a6faafbc4151ca1a6e84c8d649a230b1
+  rules117 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules91
+                   Duckling.Numeral.Rules.rules118) -}
+16c4f1114cd62fedfb82928acfd9036d
+  rules118 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules119
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+0b7e5c4c99a59b8f448417536e6cb7e8
+  rules119 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules120) -}
+ba2d5559d8990266a1798c2269b23eba
+  rules12 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules74
+                   Duckling.Numeral.Rules.rules13) -}
+b48d01f4a44fd8af292fdc657edfb5f4
+  rules120 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules121) -}
+ae97a0bff5b3d3e6ee99a3939abb55f4
+  rules121 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\228\\184\\170|\\229\\128\\139"#) -}
+9efa79a47337f807c72fc0eff1820eda
+  rules122 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<number>\\228\\184\\170/\\229\\128\\139"#) -}
+ef7f93c85c1f365113ec19754add2270
+  rules123 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules130
+                   Duckling.Numeral.Rules.rules126
+                   Duckling.Numeral.Rules.rules124) -}
+75713d5a71836d486bf684fd94c8f081
+  rules124 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.RegexMatch cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Regex.Types.GroupMatch ds4 ->
+                           case ds4 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : match ds5
+                             -> case Duckling.Numeral.Rules.rules125 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                                case Data.Text.Internal.empty of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                                case match of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                                case Data.Text.$wreplace
+                                       ww1
+                                       ww2
+                                       ww3
+                                       ww5
+                                       ww6
+                                       ww7
+                                       ww9
+                                       ww10
+                                       ww11 of ww16 { Data.Text.Internal.Text ww17 ww18 ww19 ->
+                                case Duckling.Numeral.Helpers.$wparseDouble
+                                       ww17
+                                       ww18
+                                       ww19 of wild5 {
+                                  GHC.Base.Nothing -> GHC.Base.Nothing @ Duckling.Types.Token
+                                  GHC.Base.Just x
+                                  -> Duckling.Numeral.Helpers.double x } } } } } } } } } }) -}
+023e22a5b930ff5bff9307b201eae923
+  rules125 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# ","#) -}
+340b41f68c95592b2efd87ae6b8603cb
+  rules126 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules127
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+8b0fb9013e85a709c960205a21e001cc
+  rules127 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules128) -}
+5ed775eeb923ba7a299f385619dfd5cc
+  rules128 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules129) -}
+16fd3f2826b376398ce63571a8b2a366
+  rules129 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "(\\d{1,3}(,\\d\\d\\d){1,5})"#) -}
+b08f54814e4cac1aa677be26e81c8f2b
+  rules13 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules65
+                   Duckling.Numeral.Rules.rules14) -}
+215edbf9ce26e31dd0edddee162dcd8b
+  rules130 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "integer with thousands separator ,"#) -}
+74f43c237b46705aa4bec115b19b8436
+  rules131 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules137
+                   Duckling.Numeral.Rules.rules133
+                   Duckling.Numeral.Rules.rules132) -}
+3edf7faa1495b48a0df4e90cb2a050e4
+  rules132 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.RegexMatch cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Regex.Types.GroupMatch ds4 ->
+                           case ds4 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : match ds5
+                             -> case match of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                                case Duckling.Numeral.Rules.$w$slookup
+                                       @ GHC.Integer.Type.Integer
+                                       ww1
+                                       ww2
+                                       ww3
+                                       Duckling.Numeral.Rules.integerMap of wild5 {
+                                  GHC.Base.Nothing -> GHC.Base.Nothing @ Duckling.Types.Token
+                                  GHC.Base.Just x
+                                  -> Duckling.Numeral.Helpers.integer x } } } } } } }) -}
+5b065047614394827b00f419aba42797
+  rules133 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules134
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+db8129400f1b94a75b23753db6a088b0
+  rules134 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules135) -}
+398f275dd0cf0588ba634f10539bf456
+  rules135 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules136) -}
+130edf9f7f0d85dcb9b3eb7516aae129
+  rules136 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "(\\227\\128\\135|\\233\\155\\182|\\228\\184\\128|\\228\\186\\140|\\228\\184\\164|\\229\\133\\169|\\228\\184\\137|\\229\\155\\155|\\228\\186\\148|\\229\\133\\173|\\228\\184\\131|\\229\\133\\171|\\228\\185\\157|\\229\\141\\129)"#) -}
+41fd2749bdeff0381d6a02715f7f3ff7
+  rules137 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "integer (0..10)"#) -}
+ad1fd617504545a72b06a3cc34dfaa25
+  rules138 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules143
+                   Duckling.Numeral.Rules.rules139
+                   Duckling.Numeral.Rules.rules124) -}
+7bbf492ff184b6d366501bfdb7831da8
+  rules139 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules140
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+b35b819d2e85b4ac0b8c76271a11c150
+  rules14 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules56
+                   Duckling.Numeral.Rules.rules15) -}
+e92be24b0a8e667dad39d36f700e09ad
+  rules140 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules141) -}
+86bc9bfddec6e6e086ec2ce556f14d6f
+  rules141 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules142) -}
+3237f80eecef2f3d966f3a2c0bfa022f
+  rules142 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "(\\d+(,\\d\\d\\d)+\\.\\d+)"#) -}
+f334b6dbd1fb4788cc561a4814df160a
+  rules143 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "decimal with thousands separator"#) -}
+9eb666d9daa9c1f855ca3cda76d9f285
+  rules144 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules150
+                   Duckling.Numeral.Rules.rules146
+                   Duckling.Numeral.Rules.rules145) -}
+8059d4d2061e0d36e2135d37ef425628
+  rules145 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.RegexMatch cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Regex.Types.GroupMatch ds4 ->
+                           case ds4 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : match ds5
+                             -> case match of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                                Duckling.Numeral.Helpers.$wparseDecimal
+                                  GHC.Types.True
+                                  ww1
+                                  ww2
+                                  ww3 } } } } } }) -}
+63b919b7176e0c7b678c9b7c17664684
+  rules146 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules147
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+cad58ae0112eab9723e8538e815d259d
+  rules147 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules148) -}
+e762195c231914dfd821e839d4e5a166
+  rules148 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules149) -}
+c3b843a0cb9f5254ea92d70d1bba1300
+  rules149 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "(\\d*\\.\\d+)"#) -}
+d68e5d6465037c2037c53315abc7cc65
+  rules15 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules47
+                   Duckling.Numeral.Rules.rules16) -}
+077ec00890cecb1e1396d9ec6b554035
+  rules150 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "decimal number"#) -}
+f720549b43cdef293172820022ac9326
+  rules151 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules157
+                   Duckling.Numeral.Rules.rules153
+                   Duckling.Numeral.Rules.rules152) -}
+ba9ceb6ba0ba21517aeeb6101500c09b
+  rules152 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.RegexMatch cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Regex.Types.GroupMatch ds4 ->
+                           case ds4 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : numerator ds5
+                             -> case ds5 of wild5 {
+                                  [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                                  : denominator ds6
+                                  -> case numerator of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                                     case Duckling.Numeral.Helpers.$wparseDecimal
+                                            GHC.Types.False
+                                            ww1
+                                            ww2
+                                            ww3 of wild6 {
+                                       GHC.Base.Nothing -> GHC.Base.Nothing @ Duckling.Types.Token
+                                       GHC.Base.Just x
+                                       -> case denominator of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                                          case Duckling.Numeral.Helpers.$wparseDecimal
+                                                 GHC.Types.False
+                                                 ww5
+                                                 ww6
+                                                 ww7 of wild7 {
+                                            GHC.Base.Nothing
+                                            -> GHC.Base.Nothing @ Duckling.Types.Token
+                                            GHC.Base.Just x1
+                                            -> case Duckling.Numeral.Helpers.divide x x1 of wild8 {
+                                                 GHC.Base.Nothing
+                                                 -> GHC.Base.Nothing @ Duckling.Types.Token
+                                                 GHC.Base.Just x2
+                                                 -> Duckling.Numeral.Helpers.notOkForAnyTime
+                                                      x2 } } } } } } } } } } }) -}
+5bacd4fa5de8a1c5f85cfe3afe2ebd94
+  rules153 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules154
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+c00ceb496325d97be949b2899ec08a81
+  rules154 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules155) -}
+da6c493e31b2104b2ab9a8039adf1cfd
+  rules155 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules156) -}
+a7620c87eaea878b0c2bc1415dc2464f
+  rules156 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "(\\d+)/(\\d+)"#) -}
+9d4fdfbc65f0a9281cb339067f156970
+  rules157 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "fractional number"#) -}
+7433d2dc72f4492dc5d6ffe148ee56b6
+  rules158 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules164
+                   Duckling.Numeral.Rules.rules160
+                   Duckling.Numeral.Rules.rules159) -}
+b789c807a1ec630ed3ece48ccae19b3f
+  rules159 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.RegexMatch cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Regex.Types.GroupMatch ds4 ->
+                           case ds4 of wild4 {
+                             [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                             : match ds5
+                             -> case Duckling.Numeral.Helpers.parseInteger match of wild5 {
+                                  GHC.Base.Nothing -> GHC.Base.Nothing @ Duckling.Types.Token
+                                  GHC.Base.Just x1
+                                  -> GHC.Base.Just
+                                       @ Duckling.Types.Token
+                                       (Duckling.Types.Token
+                                          @ Duckling.Numeral.Types.NumeralData
+                                          Duckling.Numeral.Types.$fResolveNumeralData
+                                          Duckling.Numeral.Types.$fEqNumeralData
+                                          Duckling.Numeral.Types.$fHashableNumeralData
+                                          Duckling.Numeral.Types.$fShowNumeralData
+                                          Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                                            `cast`
+                                          (Sym (Control.DeepSeq.N:NFData[0]
+                                                    <Duckling.Numeral.Types.NumeralData>_N))
+                                          Duckling.Types.$WNumeral
+                                          (Duckling.Numeral.Types.NumeralData
+                                             (case GHC.Integer.Type.integerToInt
+                                                     x1 of wild6 { DEFAULT ->
+                                              GHC.Types.D# (GHC.Prim.int2Double# wild6) })
+                                             (GHC.Base.Nothing @ GHC.Types.Int)
+                                             GHC.Types.False
+                                             GHC.Types.True)) } } } } } }) -}
+a2c5d65bbc11b9cad407e43931a009f4
+  rules16 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules38
+                   Duckling.Numeral.Rules.rules17) -}
+3478682052e20753fe1c17cadb4697e7
+  rules160 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules161
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+3826b560a9a619fe11cb5689abeb8f8e
+  rules161 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules162) -}
+57d4efa8469326c6db4f3415329b87a6
+  rules162 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Numeral.Rules.rules163) -}
+5f22a7c406dbc017c2e166a31497a0b2
+  rules163 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "(\\d{1,18})"#) -}
+02b59abbc750ed0287b2e151a99815ea
+  rules164 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "integer (numeric)"#) -}
+bc46b9f13a9af9881bd521ce8d8561ad
+  rules17 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules29
+                   Duckling.Numeral.Rules.rules18) -}
+50a84c6655ac0157e04dff1bcf135ce9
+  rules18 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules19
+                   (GHC.Types.[] @ Duckling.Types.Rule)) -}
+94a6560474b04f561cde61aa39d8f698
+  rules19 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules20 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+e736b65224c2b87ff3fa429f402f916e
+  rules2 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules144
+                   Duckling.Numeral.Rules.rules3) -}
+cbbf2cf96dd9ae254e8c56860928ed64
+  rules20 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules27,
+                  Duckling.Numeral.Rules.rules21)) -}
+a0d4e3b074d7c5a4752c7aa73d7959ac
+  rules21 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules22) -}
+42846a12f3b47fc8bce88f12b8f6f38b
+  rules22 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules23) -}
+e440047e3dd769780b0497839e1aa485
+  rules23 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules26
+                   Duckling.Numeral.Rules.rules24
+                   GHC.Types.True
+                   GHC.Types.True) -}
+e18d402783e3629bad555038adfef004
+  rules24 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules25) -}
+858a79edaffbbae528d4349bbc23dcf1
+  rules25 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 8#) -}
+de1e6af726f6cccca1d151598686a682
+  rules26 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0e8##) -}
+d5d1241a19e789cbbcac62dfb387ca11
+  rules27 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\228\\186\\191"#) -}
+271e39f3569c756c15698861e158dd11
+  rules28 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "number suffix: "#) -}
+d527215096fda35dceba15405c591522
+  rules29 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules30 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+8f0d340d93b2e68932df03a838f44618
+  rules3 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules138
+                   Duckling.Numeral.Rules.rules4) -}
+9f205f7b502b888134732a2b7d408839
+  rules30 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules37,
+                  Duckling.Numeral.Rules.rules31)) -}
+ff141bcc3aeb19f410a46a754bc2c01c
+  rules31 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules32) -}
+2b72e45eef84d09e878290557000ae5d
+  rules32 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules33) -}
+217239b7fbeef1e9f29be99e6a496c44
+  rules33 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules36
+                   Duckling.Numeral.Rules.rules34
+                   GHC.Types.True
+                   GHC.Types.True) -}
+dfde351b75200c96651231cf687459b8
+  rules34 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules35) -}
+ae16c7dd9690cf47b2fcb7c0be5f6bdd
+  rules35 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4#) -}
+716301c37bc86092d71d6f4897425927
+  rules36 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 10000.0##) -}
+6f7cd7f69fd890cc8c146497c656d893
+  rules37 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\228\\184\\135"#) -}
+c7d4c7ed9d48e001bb84fba6180c5c76
+  rules38 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules39 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+a68bb87bb47d8e07c22eb26185abbaad
+  rules39 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules46,
+                  Duckling.Numeral.Rules.rules40)) -}
+41d05ebca9c8ffcb8a666dec205124a6
+  rules4 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules131
+                   Duckling.Numeral.Rules.rules5) -}
+da825bda1f1d85f543141991201499c0
+  rules40 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules41) -}
+553288f85be586db0f98d01b3737e266
+  rules41 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules42) -}
+b9b0af96b969e2b2bad96081db118580
+  rules42 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules45
+                   Duckling.Numeral.Rules.rules43
+                   GHC.Types.True
+                   GHC.Types.True) -}
+edc8b6d51d4445a953694c3b8356eccd
+  rules43 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules44) -}
+947d14e35ee6e733a080b475a699cd25
+  rules44 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 3#) -}
+5c3bfb0fe79653edcc4339ce50d5e361
+  rules45 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1000.0##) -}
+4c5aba2c8c0019f60ee82221c3d8d431
+  rules46 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\229\\141\\131"#) -}
+026cf950f866b93c126761435d3fd83f
+  rules47 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules48 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+21a0d9552d730fd10a07d1bb9e5cedee
+  rules48 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules55,
+                  Duckling.Numeral.Rules.rules49)) -}
+192d85727cd20f055ddd39ff451c6b2b
+  rules49 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules50) -}
+df62a46e5b574a54fd837f64ed2e157a
+  rules5 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules123
+                   Duckling.Numeral.Rules.rules6) -}
+3f320c79898e95390f7b8ddf290a7956
+  rules50 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules51) -}
+dc8e6aa10878f43037eed195937b5126
+  rules51 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules54
+                   Duckling.Numeral.Rules.rules52
+                   GHC.Types.True
+                   GHC.Types.True) -}
+6b07a86551a1a4613e256735d50516aa
+  rules52 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules53) -}
+9107538e289f32e2a16cebf32c02bc59
+  rules53 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 2#) -}
+990b9deb141cec19b957a6c491e06b88
+  rules54 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 100.0##) -}
+37e9c740bf4725557bb037b4785bc119
+  rules55 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\231\\153\\190"#) -}
+c9b1f3f8948545fdfcc3f9c461c8b4b6
+  rules56 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules57 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+0f7eca3bc9265a9b65dcee147e524e3f
+  rules57 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules64,
+                  Duckling.Numeral.Rules.rules58)) -}
+a7ab566bfaec149c95398162d796c399
+  rules58 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules59) -}
+faa4ae49fd3544f4e9452c0e4b1776a1
+  rules59 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules60) -}
+8a1eb47b3745ff31843f24d3d824e620
+  rules6 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules115
+                   Duckling.Numeral.Rules.rules7) -}
+2fc83ae248c0cc82cd6dbcddab9fc3de
+  rules60 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules63
+                   Duckling.Numeral.Rules.rules61
+                   GHC.Types.True
+                   GHC.Types.True) -}
+bd2c6e87b0c4ce3d4904dc3bc9150d3b
+  rules61 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules62) -}
+d349902f40a6127a30a1cb540763779e
+  rules62 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 1#) -}
+90774672476e70f7d95c966c6649c682
+  rules63 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 10.0##) -}
+7fae9cc1dac61db4875fc7900e5bc357
+  rules64 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\229\\141\\129"#) -}
+d3dab1c900c96ed24905b6b041f049b4
+  rules65 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules66 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+d0eed7311db9ad6d2ac8aa7ecb13d666
+  rules66 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules73,
+                  Duckling.Numeral.Rules.rules67)) -}
+0ffd687949023ce1a5240784854620b3
+  rules67 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules68) -}
+209df3b380202c99a6cd51959350491f
+  rules68 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules69) -}
+b47edc206a175de31fc7c0a68dd7a059
+  rules69 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules72
+                   Duckling.Numeral.Rules.rules70
+                   GHC.Types.True
+                   GHC.Types.True) -}
+a5025f500d3627a7da224239b50bad9a
+  rules7 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules111
+                   Duckling.Numeral.Rules.rules8) -}
+e3fa379677e16c750f47945863853afe
+  rules70 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules71) -}
+95d2d73fd1ab9605f5daa59e050e3f59
+  rules71 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 9#) -}
+a480b47964647a3b7c80dcace99fee2f
+  rules72 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0e9##) -}
+c78708787adcd8e28d10bf8f632f8be2
+  rules73 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "G"#) -}
+5743335204bc49cec24a5f3e71f92528
+  rules74 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules75 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+dd840365691fe3443dd75e844ec740b0
+  rules75 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules82,
+                  Duckling.Numeral.Rules.rules76)) -}
+28f1d37f91d825bc2bc31f0abfa8c851
+  rules76 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.Numeral.Rules.rules77) -}
+49b381d7b715bfe67eaffe01f959b7b1
+  rules77 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Types.$fResolveNumeralData
+                   Duckling.Numeral.Types.$fEqNumeralData
+                   Duckling.Numeral.Types.$fHashableNumeralData
+                   Duckling.Numeral.Types.$fShowNumeralData
+                   Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.Numeral.Types.NumeralData>_N))
+                   Duckling.Types.$WNumeral
+                   Duckling.Numeral.Rules.rules78) -}
+42a1f2f28530e5ceedee4f19e8a3a0e8
+  rules78 :: Duckling.Numeral.Types.NumeralData
+  {- HasNoCafRefs,
+     Unfolding: (Duckling.Numeral.Types.NumeralData
+                   Duckling.Numeral.Rules.rules81
+                   Duckling.Numeral.Rules.rules79
+                   GHC.Types.True
+                   GHC.Types.True) -}
+51b278c9be0e30f50566899471ee43c3
+  rules79 :: GHC.Base.Maybe GHC.Types.Int
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ GHC.Types.Int
+                   Duckling.Numeral.Rules.rules80) -}
+0f8b2c159ceda811dbde673767fd30e2
+  rules8 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules103
+                   Duckling.Numeral.Rules.rules9) -}
+cac79599cf0b7fdc3a558a7f90c32cae
+  rules80 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 6#) -}
+b7fabf3fa4fd2ea8c7b59d5db9ba0f1d
+  rules81 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1000000.0##) -}
+5798ab7eda7dd3da479cc2b852898db7
+  rules82 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "M"#) -}
+3df6ddcfb23cbeb36007bb4bb2902487
+  rules83 :: Duckling.Types.Rule
+  {- Unfolding: (case Duckling.Numeral.Rules.$wc
+                        Duckling.Numeral.Rules.rules84 of ww { (#,,#) ww1 ww2 ww3 ->
+                 Duckling.Types.Rule ww1 ww2 ww3 }) -}
+4137ea71d95806108a0074d5f250c058
+  rules84 ::
+    (Data.Text.Internal.Text, GHC.Base.Maybe Duckling.Types.Token)
+  {- Unfolding: ((Duckling.Numeral.Rules.rules85,
+                  Duckling.Numeral.Rules.rules40)) -}
+5fb49c91f306641aac6242bef6b939bd
+  rules85 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "K"#) -}
+9efd28ab1c402bb496e53045273528b0
+  rules86 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules93
+                   Duckling.Numeral.Rules.rules88
+                   Duckling.Numeral.Rules.rules87) -}
+154159bfa98443e60b3eb7b6d09a4a3b
+  rules87 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : token1 ds
+                   -> case ds of wild1 {
+                        [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                        : token2 ds1
+                        -> Duckling.Numeral.Helpers.multiply token1 token2 } }) -}
+c6bf56a454e44911297775e30423bd47
+  rules88 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules91
+                   Duckling.Numeral.Rules.rules89) -}
+187c705a312154b6fefd98224e974e01
+  rules89 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules90
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+ddb17aeb36cc29d1b6762343a7ea3225
+  rules9 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules94
+                   Duckling.Numeral.Rules.rules10) -}
+dc812a89c9ea6f9ef6234266f1e9422a
+  rules90 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Numeral.Helpers.isMultipliable) -}
+4c287e7b8329d4fe475e64fb97eb0ae0
+  rules91 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Numeral.Rules.rules92) -}
+27ffc2cd6ffb9ee46f894b0f0ce3afa9
+  rules92 :: Duckling.Types.Token -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a1 $dResolve $dEq $dHashable $dShow $dNFData dim' ds1 ->
+                 case dim' of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Numeral cobox1 -> GHC.Types.True } }) -}
+db6525117b3702b5bb2b13d5fc343fc1
+  rules93 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "compose by multiplication"#) -}
+471b1675ad2f491a7bb4ea564e9ff181
+  rules94 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Numeral.Rules.rules102
+                   Duckling.Numeral.Rules.rules96
+                   Duckling.Numeral.Rules.rules95) -}
+375a26adf27b21fe0d43ca4bfac632b0
+  rules95 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds1 of wild1 {
+                        [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                        : ds2 ds3
+                        -> case ds2 of wild2 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds4 nd ->
+                           case ds4 of wild3 {
+                             DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                             Duckling.Types.Numeral cobox0
+                             -> GHC.Base.Just
+                                  @ Duckling.Types.Token
+                                  (Duckling.Types.Token
+                                     @ Duckling.Numeral.Types.NumeralData
+                                     Duckling.Numeral.Types.$fResolveNumeralData
+                                     Duckling.Numeral.Types.$fEqNumeralData
+                                     Duckling.Numeral.Types.$fHashableNumeralData
+                                     Duckling.Numeral.Types.$fShowNumeralData
+                                     Duckling.Numeral.Types.$fNFDataNumeralData_$crnf
+                                       `cast`
+                                     (Sym (Control.DeepSeq.N:NFData[0]
+                                               <Duckling.Numeral.Types.NumeralData>_N))
+                                     Duckling.Types.$WNumeral
+                                     (Duckling.Numeral.Types.NumeralData
+                                        (case nd
+                                                `cast`
+                                              (Sub cobox0) of wild4 { Duckling.Numeral.Types.NumeralData ds5 ds6 ds7 ds8 ->
+                                         case ds5 of wild5 { GHC.Types.D# x ->
+                                         GHC.Types.D# (GHC.Prim.*## x -1.0##) } })
+                                        (GHC.Base.Nothing @ GHC.Types.Int)
+                                        GHC.Types.False
+                                        GHC.Types.True)) } } } }) -}
+8d1755f8be42e0d97dc2c8ddd6c949b9
+  rules96 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules99
+                   Duckling.Numeral.Rules.rules97) -}
+e45687a0509f16beb1db473aaabf8935
+  rules97 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Numeral.Rules.rules98
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+8ed33ec36aeba5c7ee6f8ccec9bf10b6
+  rules98 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Numeral.Helpers.isPositive) -}
+9c2ee43d876620b7aab0f2b724955aa9
+  rules99 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Numeral.Rules.rules100) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

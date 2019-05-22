@@ -1,0 +1,903 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:00:49.571444 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Rules 8002
+  interface hash: 27000074868056e8a3194d2a33cfc901
+  ABI hash: e1ebaa5f2833b76d5dbffa21361cf328
+  export-list hash: 3c1db21e677b1c1dfdd479bfd1c1d71a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: a96401ca8a36c0d3853eed86666add7b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Distance.Rules.rules
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Types Duckling.Dimensions.Types
+                     Duckling.Distance.Helpers Duckling.Distance.Types
+                     Duckling.Duration.Types Duckling.Email.Types Duckling.Gender.Types
+                     Duckling.Identity.Types Duckling.Locale Duckling.Numeral.Types
+                     Duckling.Ordinal.Types Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Types Duckling.Regex.Types Duckling.Region
+                     Duckling.Resolve Duckling.Temperature.Types Duckling.Time.Types
+                     Duckling.TimeGrain.Types Duckling.Types Duckling.Url.Types
+                     Duckling.Volume.Types Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.Distance.Helpers a4fa6817de33167fe114896ee88d7900
+  exports: 228279a00cc1562ac5ca96e2fae65516
+  distance e681fe140b53b4e653bed26f6a6a3742
+  withUnit e15085f420e5b5fee9faece96f313b32
+import  -/  Duckling.Distance.Types 9896bb4befae688e072673e0e486da8d
+  exports: 23b1a80c558bfd60ea16f2f89103940d
+  Centimetre 85693992fe15023f46b4142563be3bab
+  Foot b3b484575fecce5a4a6885b33df5918c
+  Inch 934a457d76c32257098dc8dfc26b2767
+  Kilometre 54f56254d5d1207fcc0bd9a3da247447
+  Metre fedc78f56c1dbdcf17413c12f658aac5
+  Mile 011f0f1a9a92d37e934988b9924a4b63
+import  -/  Duckling.Numeral.Types 5130bfd045a9ca6085fec0a42ae9c523
+  exports: 94344b1dfc906561c4234f30cd403539
+  NumeralData eed9cb1fe0950cfcb945c3cf09694611
+  value 8ada7f17e1d24c76a72ee8a3669186b6
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  Distance 811d25e885b01d1c0a367576d53d1d65
+  Numeral 37ea753945466ebddfe8bb90136c8911
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  dimension d0737f4b2a091d17072dfde26c2eb47c
+  name 76f427769b73e82db2c2df59caa60288
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  prod a4c6750bd517e049c9ce8428e1e5dff2
+  regex c51097368a8c266ad9942dc9e3370fd5
+158cc155a70bca59eb093c214f469ccc
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Distance.Rules.$trModule2
+                   Duckling.Distance.Rules.$trModule1) -}
+b0130bd38f79f2748a939366cb7de55c
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Distance.Rules"#) -}
+f7401a3edf1ef600d484c5662fd430ce
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+a14c66e5dc29f959ac14003d88578125
+  rules :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules68
+                   Duckling.Distance.Rules.rules1) -}
+055b9876daf6d6825c4c2b2e507c99f0
+  rules1 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules59
+                   Duckling.Distance.Rules.rules2) -}
+5313bc1d3d6fde0e63a58e68f8eac87d
+  rules10 :: GHC.Base.Maybe Duckling.Distance.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Distance.Types.Unit
+                   Duckling.Distance.Types.Mile) -}
+5b42f25d029706d9b7b7b0c9a49e0691
+  rules11 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules12) -}
+9ee498fc173c3e13908fffbdfead8517
+  rules12 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules13
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+429115773868129e7a878012c124b736
+  rules13 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Distance.Rules.rules14) -}
+4b778a310c75683a2c2918193070a5a9
+  rules14 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Distance.Rules.rules15) -}
+c4e1bda53bd0bf39621c5744c2cc3666
+  rules15 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "miles?|\\232\\139\\177(\\233\\135\\140|\\232\\163\\143)"#) -}
+fa52543e6870307ef80f81dfaab1e119
+  rules16 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Distance.Rules.rules17) -}
+156b5cbfa0f42fef982f37096f4cbd3d
+  rules17 :: Duckling.Types.Token -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a1 $dResolve $dEq $dHashable $dShow $dNFData dim' ds1 ->
+                 case dim' of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Distance cobox1 -> GHC.Types.True } }) -}
+654bee944f7aab03303bf4aff6896247
+  rules18 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<dist> miles"#) -}
+450c8677158e0985914c75eae93970f7
+  rules19 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules27
+                   Duckling.Distance.Rules.rules22
+                   Duckling.Distance.Rules.rules20) -}
+f74fb67648e26616da5c8541ad142d78
+  rules2 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules55
+                   Duckling.Distance.Rules.rules3) -}
+f0bde9b4d3052edd78e29d10da5e62d5
+  rules20 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Distance cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WDistance
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Distance.Types.DistanceData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Distance.Types.DistanceData
+                                   Duckling.Distance.Rules.rules21
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+fc60333d08da8fdb9f640867ed2ee160
+  rules21 :: GHC.Base.Maybe Duckling.Distance.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Distance.Types.Unit
+                   Duckling.Distance.Types.Metre) -}
+6991096ed4ecdff2d6994f94ead3548a
+  rules22 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules23) -}
+86e60d7095bfbcb3a5c02760b4193e81
+  rules23 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules24
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+f3018e8fc2c59baee09a721bb0d48ebc
+  rules24 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Distance.Rules.rules25) -}
+8f8984a4dad0be4778c5eab8aafca00b
+  rules25 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Distance.Rules.rules26) -}
+fc0680b5657d0237760a70553d3cb34b
+  rules26 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "m|\\231\\177\\179|\\229\\133\\172\\229\\176\\186"#) -}
+8bad950637784b420cca834e43a5b27d
+  rules27 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<dist> meters"#) -}
+f1a8a375809c885cd2db590e072a31d3
+  rules28 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules36
+                   Duckling.Distance.Rules.rules31
+                   Duckling.Distance.Rules.rules29) -}
+1b3b4b8f9a38cf6613a08c9473116c46
+  rules29 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Distance cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WDistance
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Distance.Types.DistanceData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Distance.Types.DistanceData
+                                   Duckling.Distance.Rules.rules30
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+515a41628aa4c368dd902d4076ceefad
+  rules3 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules46
+                   Duckling.Distance.Rules.rules4) -}
+aa912e20b98e47443546858d101d2f41
+  rules30 :: GHC.Base.Maybe Duckling.Distance.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Distance.Types.Unit
+                   Duckling.Distance.Types.Kilometre) -}
+71f3872f36d3c6af419ebb6263798af5
+  rules31 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules32) -}
+d7be0299e4a7a6c4ae05af0c3045d9b3
+  rules32 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules33
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+1094f50547119231d001d9f7694d3227
+  rules33 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Distance.Rules.rules34) -}
+50567f0daadab63d84fd66991addf2f4
+  rules34 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Distance.Rules.rules35) -}
+a31bbedc60fddb9aa8d0955b81198ef6
+  rules35 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "km|\\229\\141\\131\\231\\177\\179|\\229\\133\\172(\\233\\135\\140|\\232\\163\\143)"#) -}
+a36d68cf8c6ffa8fd432a9324de399fe
+  rules36 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<dist> km"#) -}
+d66e397a99455bb77e60071ef261857d
+  rules37 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules45
+                   Duckling.Distance.Rules.rules40
+                   Duckling.Distance.Rules.rules38) -}
+6773b63059271f4346e20328a69c1e6c
+  rules38 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Distance cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WDistance
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Distance.Types.DistanceData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Distance.Types.DistanceData
+                                   Duckling.Distance.Rules.rules39
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+1493ff8f18f63e699671510f2fb73686
+  rules39 :: GHC.Base.Maybe Duckling.Distance.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Distance.Types.Unit
+                   Duckling.Distance.Types.Inch) -}
+dd462dc7bd12080fbc783a25b29aa820
+  rules4 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules37
+                   Duckling.Distance.Rules.rules5) -}
+2cc9c121745b40a5b39f12ffe7219460
+  rules40 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules41) -}
+fc37dc8df1c70e2769648e176e4ec9f7
+  rules41 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules42
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+41ef773a6a7941ac96047fed7fef5a4d
+  rules42 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Distance.Rules.rules43) -}
+f97660d382f8b559db8a2a838cffbefd
+  rules43 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Distance.Rules.rules44) -}
+aa66b766bc1c738c323e911b951bfef3
+  rules44 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "''|inch(es)?|\\232\\139\\177\\229\\175\\184|\\232\\139\\177\\229\\144\\139|\\229\\144\\139"#) -}
+c842bfb04ea9ff546a0bb8f321db3144
+  rules45 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<dist> inch"#) -}
+33a51f45ba237fd526aeb68255a54163
+  rules46 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules54
+                   Duckling.Distance.Rules.rules49
+                   Duckling.Distance.Rules.rules47) -}
+3a946683ac9c339391902d7ef2d207a2
+  rules47 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Distance cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WDistance
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Distance.Types.DistanceData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Distance.Types.DistanceData
+                                   Duckling.Distance.Rules.rules48
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+3a5e120d39523fc9845c5628941838f1
+  rules48 :: GHC.Base.Maybe Duckling.Distance.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Distance.Types.Unit
+                   Duckling.Distance.Types.Foot) -}
+089cf7d3fb04d93ac98463a03e4a6934
+  rules49 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules50) -}
+0991e0f03cb011e29c8a6a2e0a413f9f
+  rules5 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules28
+                   Duckling.Distance.Rules.rules6) -}
+9b423f423f3513495844152c96f5c02e
+  rules50 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules51
+                   Duckling.Distance.Rules.rules40) -}
+d15bb6d8d2e25a7f7b02cea836c80d46
+  rules51 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Distance.Rules.rules52) -}
+71e824f87baa09605f6eaeab8b640274
+  rules52 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Distance.Rules.rules53) -}
+cdbe058f83afb03deb662dfb1a439ee0
+  rules53 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "'|f(oo|ee)?ts?|\\232\\139\\177\\229\\176\\186|\\229\\145\\142"#) -}
+e28b48a692cefbce2c6cbf522d22061d
+  rules54 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<dist> feet and <dist> inch "#) -}
+96e1f713165244651e606cf15068423d
+  rules55 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules58
+                   Duckling.Distance.Rules.rules56
+                   Duckling.Distance.Rules.rules47) -}
+20c0da8b8a6542ff68c16b2cdd2b9814
+  rules56 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules57) -}
+69a89886ca345ccba06bc57dce301b13
+  rules57 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules51
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+5f10dad815cebe25507539847bba74ce
+  rules58 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "<dist> feet"#) -}
+35d46b881a56012d6b1141b59551d707
+  rules59 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules67
+                   Duckling.Distance.Rules.rules62
+                   Duckling.Distance.Rules.rules60) -}
+5d8749770953084442e8fb5dcf1f4023
+  rules6 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules19
+                   Duckling.Distance.Rules.rules7) -}
+5d36148936844f234d642285ce41ecce
+  rules60 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Distance cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WDistance
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Distance.Types.DistanceData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Distance.Types.DistanceData
+                                   Duckling.Distance.Rules.rules61
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+634c419ece797a4c10d68a5e1bc6b344
+  rules61 :: GHC.Base.Maybe Duckling.Distance.Types.Unit
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Duckling.Distance.Types.Unit
+                   Duckling.Distance.Types.Centimetre) -}
+92832e115c46af63dde87fe2fd67a403
+  rules62 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules16
+                   Duckling.Distance.Rules.rules63) -}
+6bc7c17c432f046532943d61a10af007
+  rules63 :: [Duckling.Types.PatternItem]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules64
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+dfdab31a91b2c1c9b3a1f4e7af515a5a
+  rules64 :: Duckling.Types.PatternItem
+  {- Strictness: m1,
+     Unfolding: (Duckling.Types.Regex
+                   Duckling.Distance.Rules.rules65) -}
+dabf07a9386fe64eb71b2fdef7258cf4
+  rules65 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.Distance.Rules.rules66) -}
+c7a32b9172084692e4ec016662a7cd89
+  rules66 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "cm|\\229\\142\\152\\231\\177\\179|\\229\\133\\172\\229\\136\\134"#) -}
+7d1418ccd1a2ec2c87bacd2f44c8d3ec
+  rules67 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<dist> centimeters"#) -}
+8c0394bc22af3ce0f36c7d79ff73c987
+  rules68 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules73
+                   Duckling.Distance.Rules.rules70
+                   Duckling.Distance.Rules.rules69) -}
+bf232ec36c40f2c353e0d9f5fdd362bb
+  rules69 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 ds3 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Numeral cobox0
+                        -> case ds3
+                                  `cast`
+                                (Sub cobox0) of wild3 { Duckling.Numeral.Types.NumeralData ds4 ds5 ds6 ds7 ->
+                           GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                Duckling.Distance.Types.$fResolveDistanceData
+                                Duckling.Distance.Types.$fEqDistanceData
+                                Duckling.Distance.Types.$fHashableDistanceData
+                                Duckling.Distance.Types.$fShowDistanceData
+                                Duckling.Distance.Types.$fNFDataDistanceData_$crnf
+                                  `cast`
+                                (Sym (Control.DeepSeq.N:NFData[0]
+                                          <Duckling.Distance.Types.DistanceData>_N))
+                                Duckling.Types.$WDistance
+                                (Duckling.Distance.Helpers.distance ds4)) } } } }) -}
+9d08f7212736d09adac69c23ef3d35e8
+  rules7 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules8
+                   (GHC.Types.[] @ Duckling.Types.Rule)) -}
+21b5af1756e52cce232dcf61a3024e9a
+  rules70 :: [Duckling.Types.PatternItem]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.Distance.Rules.rules71
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+1c673f9c01b03e443d586389d7a99c39
+  rules71 :: Duckling.Types.PatternItem
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Duckling.Types.Predicate
+                   Duckling.Distance.Rules.rules72) -}
+aba24e4f229577482dd3d3612680b9f4
+  rules72 :: Duckling.Types.Token -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Types.Token) ->
+                 case ds of wild { Duckling.Types.Token a1 $dResolve $dEq $dHashable $dShow $dNFData dim' ds1 ->
+                 case dim' of wild1 {
+                   DEFAULT -> GHC.Types.False
+                   Duckling.Types.Numeral cobox1 -> GHC.Types.True } }) -}
+adf761fcddfac6666221d3910df52317
+  rules73 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "number as distance"#) -}
+75f11ab19521e2f5a1191039f15918ee
+  rules8 :: Duckling.Types.Rule
+  {- Strictness: m,
+     Unfolding: (Duckling.Types.Rule
+                   Duckling.Distance.Rules.rules18
+                   Duckling.Distance.Rules.rules11
+                   Duckling.Distance.Rules.rules9) -}
+b1e0208ac99ffe89d9302a5dc74c03bf
+  rules9 ::
+    [Duckling.Types.Token] -> GHC.Base.Maybe Duckling.Types.Token
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ (tokens :: [Duckling.Types.Token]) ->
+                 case tokens of wild {
+                   [] -> GHC.Base.Nothing @ Duckling.Types.Token
+                   : ds ds1
+                   -> case ds of wild1 { Duckling.Types.Token a $dResolve $dEq $dHashable $dShow $dNFData ds2 dd ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Base.Nothing @ Duckling.Types.Token
+                        Duckling.Types.Distance cobox0
+                        -> GHC.Base.Just
+                             @ Duckling.Types.Token
+                             (Duckling.Types.Token
+                                @ Duckling.Distance.Types.DistanceData
+                                $dResolve `cast` (Duckling.Resolve.Resolve cobox0)_R
+                                $dEq `cast` (GHC.Classes.Eq cobox0)_R
+                                $dHashable `cast` (Data.Hashable.Class.Hashable cobox0)_R
+                                $dShow `cast` (GHC.Show.Show cobox0)_R
+                                $dNFData `cast` (Control.DeepSeq.NFData cobox0)_R
+                                Duckling.Types.$WDistance
+                                (case dd
+                                        `cast`
+                                      (Sub cobox0) of wild3 { Duckling.Distance.Types.DistanceData ds3 ds4 ds5 ds6 ->
+                                 Duckling.Distance.Types.DistanceData
+                                   Duckling.Distance.Rules.rules10
+                                   ds4
+                                   ds5
+                                   ds6 })) } } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

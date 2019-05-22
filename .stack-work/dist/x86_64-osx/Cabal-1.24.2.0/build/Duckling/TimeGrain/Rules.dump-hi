@@ -1,0 +1,730 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:01:02.927233 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Rules 8002
+  interface hash: ae0414df542ac75b6497ee23e72009f8
+  ABI hash: 7f035f196d49c38552f68fbb82eaf471
+  export-list hash: e71231c304b9c79d0e63d20b4e38d0f1
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: e5d07e4eb4865f1ec94244f9fe7e1757
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.TimeGrain.Rules.rules
+module dependencies: Duckling.AmountOfMoney.Types
+                     Duckling.CreditCardNumber.Types Duckling.Dimensions.Types
+                     Duckling.Distance.Types Duckling.Duration.Types
+                     Duckling.Email.Types Duckling.Gender.Types Duckling.Identity.Types
+                     Duckling.Locale Duckling.Numeral.Types Duckling.Ordinal.Types
+                     Duckling.PhoneNumber.Types Duckling.Quantity.Types
+                     Duckling.Regex.Types Duckling.Region Duckling.Resolve
+                     Duckling.Temperature.Types Duckling.Time.Types
+                     Duckling.TimeGrain.Types Duckling.Types Duckling.Url.Types
+                     Duckling.Volume.Types Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Dimensions.Types 0550b66ebec07a66dfc3ea4104e21efe
+  exports: 1d319a78c66b2cad5cc751ccac3cd721
+import  -/  Duckling.TimeGrain.Types df1446d581d19c78205a53c0773a1394
+  exports: 1edf6532c5926aae175720f5ee1798eb
+  Day 8970ba78a9767ba3b8a7c6ba9b51a195
+  Grain 39f514c392611535b9c35c2b5fb6eab3
+  Hour f413bd39f6a3df4d024809dd397238f5
+  Minute 57c14cb5d1c88e1e2781deaf29a43d44
+  Month cdb07e4928b6255bf5c5d09382398536
+  Second 3d7b52f366224c0a3363b787e55a7c7b
+  Week 24e58e057a627ca1d36056a6f162829e
+  Year 6f596c2b14ab7e9f5cbae1f027059b30
+import  -/  Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+  exports: 234683482d9f074d977aa6ca4a8259f1
+  Rule 68f6ad16b93bf0573b6e6f063820cf0e
+  Rule 876893268fb58123567a47e946b5b6ba
+  TimeGrain 080731afd4ca77e227c906ea69ec213a
+  Token ed5ab3414f0516bc6b6fd996e839d3c3
+  name 76f427769b73e82db2c2df59caa60288
+  pattern 6666cdf07a41b137593bc737023ac7f1
+  prod a4c6750bd517e049c9ce8428e1e5dff2
+  regex c51097368a8c266ad9942dc9e3370fd5
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+11726df649569db893f61e431bb6508e
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.TimeGrain.Rules.$trModule2
+                   Duckling.TimeGrain.Rules.$trModule1) -}
+7df5e8f0d59d00d961e0e302c6ae2c11
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.TimeGrain.Rules"#) -}
+7fa692d9f7c9087d8581af9136a0f0d3
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+925e4f70447db80faae81557c07ec825
+  rules :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules62
+                   Duckling.TimeGrain.Rules.rules1) -}
+578e259978e2e31cb8f8e3c293785c55
+  rules1 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules53
+                   Duckling.TimeGrain.Rules.rules2) -}
+f67cc11ab63189ba0cef298bfa7b53e7
+  rules10 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Year) -}
+764f32511322519d7e719d5ba83a11d1
+  rules11 :: Duckling.TimeGrain.Types.Grain -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: Duckling.TimeGrain.Types.Grain) ->
+                 case Duckling.TimeGrain.Types.$fGenericGrain1
+                        @ GHC.Prim.Any
+                        eta of wild {
+                   GHC.Generics.L1 x1
+                   -> Duckling.TimeGrain.Types.$fNFDataGrain4 @ GHC.Prim.Any x1
+                   GHC.Generics.R1 x1
+                   -> Duckling.TimeGrain.Types.$fNFDataGrain3 @ GHC.Prim.Any x1 }) -}
+29e33a0a6e43228f30db8c9c84d66ec5
+  rules12 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules13
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+9e4fa5b191e8b9e5c784dd16781adbce
+  rules13 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules14) -}
+40c0db93157afaed495b951a96206f28
+  rules14 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules15) -}
+26dce327cb552cdda041fd9a563c2156
+  rules15 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\185\\180"#) -}
+4e4648eec525973586958b29540b74ba
+  rules16 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "year (grain)"#) -}
+37de1916fe76a1f7e5a922c70eaf9b5d
+  rules17 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules25
+                   Duckling.TimeGrain.Rules.rules21
+                   Duckling.TimeGrain.Rules.rules18) -}
+4afca245e37a6bdc321929bdbf1c26e8
+  rules18 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules19) -}
+b83e684922045cd4461cbd86d9643baa
+  rules19 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules20) -}
+7d7270a600dcb4ab49079a5dea2ff24d
+  rules2 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules44
+                   Duckling.TimeGrain.Rules.rules3) -}
+cfbef89f3a6eb2e5271df0bc16597580
+  rules20 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Month) -}
+9732749031b2bed90fe04a454d27c023
+  rules21 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules22
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+2cacd1f6130e238ef4099034ff892016
+  rules22 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules23) -}
+256c724ba78cc08f0bad4d07ec38fc61
+  rules23 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules24) -}
+cbef489879181d599a53e5de856667db
+  rules24 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\230\\156\\136"#) -}
+f528c31b34bf2676ab5fbf42f3243fb7
+  rules25 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "month (grain)"#) -}
+a50cc7f53d4d4242d30bb590dd5cafd6
+  rules26 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules34
+                   Duckling.TimeGrain.Rules.rules30
+                   Duckling.TimeGrain.Rules.rules27) -}
+eb16d21e84a1b4176f51dff467be9847
+  rules27 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules28) -}
+f2d247b19b79bbad12f44c5ca4589ecb
+  rules28 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules29) -}
+d52e548ebeba4cfc927a4a1d4552f46b
+  rules29 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Week) -}
+83aad72f198951bb4d02ff68aea155e2
+  rules3 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules35
+                   Duckling.TimeGrain.Rules.rules4) -}
+bd013b6e763d088cf626ef7f6bc1486c
+  rules30 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules31
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+5475873565a5ebc73baba164613d0a2e
+  rules31 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules32) -}
+bdca0ca21ae82a52da64947dbb12a596
+  rules32 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules33) -}
+0446172abe1f8b54c12e2a735d18a2e5
+  rules33 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\145\\168|\\233\\128\\177|\\231\\164\\188\\230\\139\\156|\\231\\166\\174\\230\\139\\156|\\230\\152\\159\\230\\156\\159"#) -}
+3b8b9d432b5fb38489474ba89906f7d0
+  rules34 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "week (grain)"#) -}
+14b8aab7371fc9ad00f4630e2f48d50b
+  rules35 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules43
+                   Duckling.TimeGrain.Rules.rules39
+                   Duckling.TimeGrain.Rules.rules36) -}
+e48d91fd09db4c9222fc93af6eed839f
+  rules36 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules37) -}
+3559ee26d1f0882c1c3d9a8ce6d79c38
+  rules37 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules38) -}
+5b01c0aaa971546498e7d986435adb78
+  rules38 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Day) -}
+2c312c8d21518bf4585881cafb477631
+  rules39 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules40
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+3c4efcc4c286f3231ecb1d5164c873f2
+  rules4 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules26
+                   Duckling.TimeGrain.Rules.rules5) -}
+644015a988bf8ce9d862925a9300115c
+  rules40 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules41) -}
+3fe233aa49d9619f6c98c32a6e1f1edf
+  rules41 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules42) -}
+8c1e055e521006d5c9a0a6cf2d7a9476
+  rules42 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\164\\169|\\230\\151\\165"#) -}
+2387d77458044eecff683fac3f6d23b8
+  rules43 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "day (grain)"#) -}
+3917abf014985c81d95b856101e0f148
+  rules44 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules52
+                   Duckling.TimeGrain.Rules.rules48
+                   Duckling.TimeGrain.Rules.rules45) -}
+b1b27b6dc75b399ea91c773708283e00
+  rules45 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules46) -}
+bead5b353690b20f25c8fb973e2982f3
+  rules46 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules47) -}
+8c24fb8f13f67e300937873d5a32156d
+  rules47 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Hour) -}
+0fd390901e5d8a92b692e7a9a116cab2
+  rules48 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules49
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+92ab50aa2bd477d360a5d0f1d175ce80
+  rules49 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules50) -}
+c4178c89ebff074c0070eb7201e8832b
+  rules5 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules17
+                   Duckling.TimeGrain.Rules.rules6) -}
+b225d3269d4963ac63488b984543aa27
+  rules50 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules51) -}
+88ee04586b507c2d29d4cfe3e78346c2
+  rules51 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\176\\143\\230\\151\\182|\\229\\176\\143\\230\\153\\130|\\233\\144\\152(\\233\\160\\173)?"#) -}
+8c2afab9a158eae0a50f7877813f4a27
+  rules52 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "hour (grain)"#) -}
+b46ca1b9f1c3fa1836b15cf98aa851a1
+  rules53 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules61
+                   Duckling.TimeGrain.Rules.rules57
+                   Duckling.TimeGrain.Rules.rules54) -}
+ec972e04a6888ac854f926342f23351b
+  rules54 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules55) -}
+b3d45751c65859a566b287a2e47c1e30
+  rules55 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules56) -}
+96404112fa55d851e3e6f0de65fedf54
+  rules56 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Minute) -}
+4a88e91bc7fb7e52c67e865ab30a0679
+  rules57 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules58
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+4d8e8c4e601c5d79f6aefc51da7bdc03
+  rules58 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules59) -}
+884f734bffac5c4fca3e977af5bca696
+  rules59 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules60) -}
+d797d5efb0887a7555052573db64b743
+  rules6 :: [Duckling.Types.Rule]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules7
+                   (GHC.Types.[] @ Duckling.Types.Rule)) -}
+2d7b3904df96b744cf1400e10aaf9ed4
+  rules60 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\136\\134(\\233\\146\\159|\\233\\144\\152)?"#) -}
+810fa608a37aae4bab504319dd3d85e2
+  rules61 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "minute (grain)"#) -}
+d52334f6f4908c1e87efc1b3faa29c47
+  rules62 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules70
+                   Duckling.TimeGrain.Rules.rules66
+                   Duckling.TimeGrain.Rules.rules63) -}
+eeb6fa25893c106c2ccba66c66968310
+  rules63 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules64) -}
+337640d7f63b8d534c3872f5105a2d36
+  rules64 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules65) -}
+58b7e8b48adcfbdfe082a5d5896ef125
+  rules65 :: Duckling.Types.Token
+  {- Unfolding: (Duckling.Types.Token
+                   @ Duckling.TimeGrain.Types.Grain
+                   Duckling.TimeGrain.Types.$fResolveGrain
+                   Duckling.TimeGrain.Types.$fEqGrain
+                   Duckling.TimeGrain.Types.$fHashableGrain
+                   Duckling.TimeGrain.Types.$fShowGrain
+                   Duckling.TimeGrain.Rules.rules11
+                     `cast`
+                   (Sym (Control.DeepSeq.N:NFData[0]
+                             <Duckling.TimeGrain.Types.Grain>_N))
+                   Duckling.Types.$WTimeGrain
+                   Duckling.TimeGrain.Types.Second) -}
+8cdca0ba508eaa8d354c2d4011bf9f29
+  rules66 :: [Duckling.Types.PatternItem]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Types.PatternItem
+                   Duckling.TimeGrain.Rules.rules67
+                   (GHC.Types.[] @ Duckling.Types.PatternItem)) -}
+f8ab0761b5387980d72439e6fb526136
+  rules67 :: Duckling.Types.PatternItem
+  {- Unfolding: (Duckling.Types.Regex
+                   Duckling.TimeGrain.Rules.rules68) -}
+95ceeef7b254b3bcf9972c0bcdf6a0e4
+  rules68 :: Text.Regex.PCRE.Wrap.Regex
+  {- Unfolding: (Text.Regex.PCRE.String.$fRegexMakerRegexCompOptionExecOption[]_$cmakeRegexOpts
+                   Duckling.Types.regex1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:CompOption[0])))
+                   Text.Regex.PCRE.Wrap.execBlank1
+                     `cast`
+                   (Trans
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (Sym (Text.Regex.PCRE.Wrap.N:ExecOption[0])))
+                   Duckling.TimeGrain.Rules.rules69) -}
+527653dc59bb7f6e97b518bf62acd188
+  rules69 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\231\\167\\146(\\233\\146\\159|\\233\\144\\152)?"#) -}
+9f69dcac29d37c2167d02c2977bed020
+  rules7 :: Duckling.Types.Rule
+  {- Unfolding: (Duckling.Types.Rule
+                   Duckling.TimeGrain.Rules.rules16
+                   Duckling.TimeGrain.Rules.rules12
+                   Duckling.TimeGrain.Rules.rules8) -}
+24524d927878165c9b0c00dda1e534f5
+  rules70 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "second (grain)"#) -}
+ea1c9f85c458a1067d59bfcc2844d007
+  rules8 :: Duckling.Types.Production
+  {- Arity: 1,
+     Unfolding: (\ (ds :: [Duckling.Types.Token]) ->
+                 Duckling.TimeGrain.Rules.rules9) -}
+127d7eb3ab60e89064e522c3fb5bc85e
+  rules9 :: GHC.Base.Maybe Duckling.Types.Token
+  {- Unfolding: (GHC.Base.Just
+                   @ Duckling.Types.Token
+                   Duckling.TimeGrain.Rules.rules10) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

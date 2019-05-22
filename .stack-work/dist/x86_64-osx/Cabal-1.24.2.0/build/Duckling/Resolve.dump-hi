@@ -1,0 +1,954 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:00:13.639581 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Resolve 8002
+  interface hash: f7f654ac29663c2bf2cf55671ac56ea2
+  ABI hash: 15ce2eadafd5cc42f057e1d0f9191938
+  export-list hash: 6e20ad884e276a7b8b73219b25eea656
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c43ddf42b5f52f02e979982a67f8b2c7
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Resolve.fromUTC
+  Duckling.Resolve.toUTC
+  Duckling.Resolve.Context{Duckling.Resolve.Context locale referenceTime}
+  Duckling.Resolve.DucklingTime{Duckling.Resolve.DucklingTime}
+  Duckling.Resolve.Options{Duckling.Resolve.Options withLatent}
+  Duckling.Resolve.Resolve{Duckling.Resolve.ResolvedValue Duckling.Resolve.resolve}
+module dependencies: Duckling.Locale Duckling.Region
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson 1af00541e969ad203c27ee12864de00d
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d6ae344f2a743c9940980d0869569ad4
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Locale 020bf273f3f9b80348357a6a6745b7ad
+  exports: add3c3336cdc18456bb772c1f769cbd3
+  Locale 31c921884abdece48e208bb67982f63e
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time f3fc075e226487ba9b287f2bf43f4b8f
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.UTC 042a9b8f7ae05c2937d1ff59fdfe0852
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime 7c0577d8171eae7ec83c841433ddc85a
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.TimeOfDay 72c150f669114e7e5950fd45988d923a
+import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.TimeZone 40efa2c566bfef99e63d59b8f6d567cf
+import  -/  timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT:Data.Time.LocalTime.TimeZone.Series 2b73fd98294ae95b5699ae442ea94d5c
+6c0269cb99302be078f2197303ef498a
+  $fEqContext :: GHC.Classes.Eq Duckling.Resolve.Context
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Resolve.Context
+                  Duckling.Resolve.$fEqContext_$c==
+                  Duckling.Resolve.$fEqContext_$c/= -}
+6c0269cb99302be078f2197303ef498a
+  $fEqContext_$c/= ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Context -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S(SL)L)L),1*U(1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U)),1*U(1*H,1*U))><S(S(S(SL)L)L),1*U(1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U)),1*U(1*H,1*U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Resolve.Context) ->
+                 case w of ww { Duckling.Resolve.Context ww1 ww2 ->
+                 case ww1
+                        `cast`
+                      (Duckling.Resolve.N:DucklingTime[0]) of ww3 { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww4 ww5 ->
+                 case ww4 of ww6 { Data.Time.Clock.UTC.UTCTime ww7 ww8 ->
+                 case w1 of ww9 { Duckling.Resolve.Context ww10 ww11 ->
+                 case ww10
+                        `cast`
+                      (Duckling.Resolve.N:DucklingTime[0]) of ww12 { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww13 ww14 ->
+                 case ww13 of ww15 { Data.Time.Clock.UTC.UTCTime ww16 ww17 ->
+                 Duckling.Resolve.$w$c/=
+                   ww7
+                   ww8
+                   ww5
+                   ww2
+                   ww16
+                   ww17
+                   ww14
+                   ww11 } } } } } }) -}
+6c0269cb99302be078f2197303ef498a
+  $fEqContext_$c== ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Context -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S(SL)L)L),1*U(1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U)),1*U(1*H,1*U))><S(S(S(SL)L)L),1*U(1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U)),1*U(1*H,1*U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Resolve.Context) ->
+                 case w of ww { Duckling.Resolve.Context ww1 ww2 ->
+                 case ww1
+                        `cast`
+                      (Duckling.Resolve.N:DucklingTime[0]) of ww3 { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww4 ww5 ->
+                 case ww4 of ww6 { Data.Time.Clock.UTC.UTCTime ww7 ww8 ->
+                 case w1 of ww9 { Duckling.Resolve.Context ww10 ww11 ->
+                 case ww10
+                        `cast`
+                      (Duckling.Resolve.N:DucklingTime[0]) of ww12 { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww13 ww14 ->
+                 case ww13 of ww15 { Data.Time.Clock.UTC.UTCTime ww16 ww17 ->
+                 Duckling.Resolve.$w$c==
+                   ww7
+                   ww8
+                   ww5
+                   ww2
+                   ww16
+                   ww17
+                   ww14
+                   ww11 } } } } } }) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fEqDucklingTime :: GHC.Classes.Eq Duckling.Resolve.DucklingTime
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Resolve.DucklingTime
+                  Duckling.Resolve.$fEqDucklingTime_$c==
+                  Duckling.Resolve.$fEqDucklingTime_$c/= -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fEqDucklingTime_$c/= ::
+    Duckling.Resolve.DucklingTime
+    -> Duckling.Resolve.DucklingTime -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SL)L),1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U))><S(S(SL)L),1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U))>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Time.LocalTime.TimeZone.Series.$fEqZoneSeriesTime_$c/=
+                  `cast`
+                (Sym (Duckling.Resolve.N:DucklingTime[0])
+                 ->_R Sym (Duckling.Resolve.N:DucklingTime[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fEqDucklingTime_$c== ::
+    Duckling.Resolve.DucklingTime
+    -> Duckling.Resolve.DucklingTime -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SL)L),1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U))><S(S(SL)L),1*U(1*U(1*U,1*U),1*U(1*U(1*U(U),1*U,1*U),1*U))>,
+     Unfolding: InlineRule (0, True, True)
+                Data.Time.LocalTime.TimeZone.Series.$fEqZoneSeriesTime_$c==
+                  `cast`
+                (Sym (Duckling.Resolve.N:DucklingTime[0])
+                 ->_R Sym (Duckling.Resolve.N:DucklingTime[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fEqOptions :: GHC.Classes.Eq Duckling.Resolve.Options
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Resolve.Options
+                  Duckling.Resolve.$fEqOptions_$c==
+                  Duckling.Resolve.$fEqOptions_$c/= -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fEqOptions_$c/= ::
+    Duckling.Resolve.Options
+    -> Duckling.Resolve.Options -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.$fEqBool_$c/=
+                  `cast`
+                (Sym (Duckling.Resolve.N:Options[0])
+                 ->_R Sym (Duckling.Resolve.N:Options[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fEqOptions_$c== ::
+    Duckling.Resolve.Options
+    -> Duckling.Resolve.Options -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.$fEqBool_$c==
+                  `cast`
+                (Sym (Duckling.Resolve.N:Options[0])
+                 ->_R Sym (Duckling.Resolve.N:Options[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+6c0269cb99302be078f2197303ef498a
+  $fShowContext :: GHC.Show.Show Duckling.Resolve.Context
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Resolve.Context
+                  Duckling.Resolve.$fShowContext_$cshowsPrec
+                  Duckling.Resolve.$fShowContext_$cshow
+                  Duckling.Resolve.$fShowContext_$cshowList -}
+6c0269cb99302be078f2197303ef498a
+  $fShowContext1 :: Duckling.Resolve.Context -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Duckling.Resolve.Context ww1 ww2 ->
+                 Duckling.Resolve.$w$cshowsPrec 0# ww1 ww2 w1 }) -}
+99b26b5dab0dafe9114336a89bc4e268
+  $fShowContext2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+3e4cf63e3cc2b310f830c3439b6c18e0
+  $fShowContext3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "locale = "#) -}
+cc3641b7026db6ed6c6bc3a12af24653
+  $fShowContext4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+708b36330706bfb688cfe60326195563
+  $fShowContext5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "DucklingTime "#) -}
+da3b81a2fcbb1923cc48ee8313cfad89
+  $fShowContext6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "referenceTime = "#) -}
+2578d2f894a45986b42a7e60023e1e98
+  $fShowContext7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Context {"#) -}
+6c0269cb99302be078f2197303ef498a
+  $fShowContext_$cshow :: Duckling.Resolve.Context -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U(1*U(U,U),U(U(U,U,U),U)),1*U(1*H,1*U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.Resolve.Context) ->
+                 Duckling.Resolve.$fShowContext_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+6c0269cb99302be078f2197303ef498a
+  $fShowContext_$cshowList ::
+    [Duckling.Resolve.Context] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.Resolve.Context
+                   Duckling.Resolve.$fShowContext1) -}
+6c0269cb99302be078f2197303ef498a
+  $fShowContext_$cshowsPrec ::
+    GHC.Types.Int -> Duckling.Resolve.Context -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U(1*U(U,U),U(U(U,U,U),U)),1*U(1*H,1*U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.Resolve.Context)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Duckling.Resolve.Context ww3 ww4 ->
+                 Duckling.Resolve.$w$cshowsPrec ww1 ww3 ww4 w2 } }) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fShowDucklingTime :: GHC.Show.Show Duckling.Resolve.DucklingTime
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Resolve.DucklingTime
+                  Duckling.Resolve.$fShowDucklingTime_$cshowsPrec
+                  Duckling.Resolve.$fShowDucklingTime_$cshow
+                  Duckling.Resolve.$fShowDucklingTime_$cshowList -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fShowDucklingTime1 ::
+    Duckling.Resolve.DucklingTime -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Duckling.Resolve.DucklingTime)
+                   (w1 :: GHC.Base.String) ->
+                 Duckling.Resolve.$w$cshowsPrec1 0# w w1) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fShowDucklingTime_$cshow ::
+    Duckling.Resolve.DucklingTime -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U(1*U(U,U),U(U(U,U,U),U))>,
+     Unfolding: (\ (x :: Duckling.Resolve.DucklingTime) ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   Duckling.Resolve.$fShowContext5
+                   (case x `cast`
+                         (Duckling.Resolve.N:DucklingTime[0]) of ww { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww1 ww2 ->
+                    case ww1 of ww3 { Data.Time.Clock.UTC.UTCTime ww4 ww5 ->
+                    Data.Time.LocalTime.TimeZone.Series.$w$cshowsPrec1
+                      ww4
+                      ww5
+                      ww2
+                      (GHC.Types.[] @ GHC.Types.Char) } })) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fShowDucklingTime_$cshowList ::
+    [Duckling.Resolve.DucklingTime] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.Resolve.DucklingTime
+                   Duckling.Resolve.$fShowDucklingTime1) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $fShowDucklingTime_$cshowsPrec ::
+    GHC.Types.Int -> Duckling.Resolve.DucklingTime -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><L,1*U(1*U(U,U),U(U(U,U,U),U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.Resolve.DucklingTime)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Duckling.Resolve.$w$cshowsPrec1 ww1 w1 w2 }) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fShowOptions :: GHC.Show.Show Duckling.Resolve.Options
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Resolve.Options
+                  Duckling.Resolve.$fShowOptions_$cshowsPrec
+                  Duckling.Resolve.$fShowOptions_$cshow
+                  Duckling.Resolve.$fShowOptions_$cshowList -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fShowOptions1 :: Duckling.Resolve.Options -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Duckling.Resolve.Options)
+                   (w1 :: GHC.Base.String) ->
+                 Duckling.Resolve.$w$cshowsPrec2 0# w w1) -}
+46344a92e2a53793a79dc58628737de4
+  $fShowOptions2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Options {"#) -}
+138104b73d2a3a34f6db372533e52e99
+  $fShowOptions3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "withLatent = "#) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fShowOptions_$cshow :: Duckling.Resolve.Options -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.Resolve.Options) ->
+                 Duckling.Resolve.$fShowOptions_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fShowOptions_$cshowList ::
+    [Duckling.Resolve.Options] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.Resolve.Options
+                   Duckling.Resolve.$fShowOptions1) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $fShowOptions_$cshowsPrec ::
+    GHC.Types.Int -> Duckling.Resolve.Options -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><L,1*U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.Resolve.Options)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Duckling.Resolve.$w$cshowsPrec2 ww1 w1 w2 }) -}
+fc3ce8e2513c378a813173ad4bc4f7a1
+  $tc'C:Resolve :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9621826602173502017##
+                   3018779881573543182##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tc'C:Resolve1) -}
+6ccd09256dee5efac05811462bad7ff5
+  $tc'C:Resolve1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'C:Resolve"#) -}
+532a4b9d7fecbd75b39ed2082e613d12
+  $tc'Context :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12541969517698652956##
+                   12017236635677912855##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tc'Context1) -}
+70b93fd7b4afedbac95f0262178191c1
+  $tc'Context1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Context"#) -}
+f697d51046d5ad814bbb9b7d0a5e9082
+  $tc'DucklingTime :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10991155081931828673##
+                   4619122157578737468##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tc'DucklingTime1) -}
+3e858edb092d4c1c92b5d621286558ab
+  $tc'DucklingTime1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'DucklingTime"#) -}
+7cbcf339af537fbc075f6b031a68ecaf
+  $tc'Options :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17204559073864503008##
+                   3051029271796455417##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tc'Options1) -}
+11dfc8d9ea71eb13cdd1f3ed3fc410fc
+  $tc'Options1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Options"#) -}
+6691d8e34f6832e569da759251d66745
+  $tcContext :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12488107257006419023##
+                   7943579583298603335##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tcContext1) -}
+0115a097016bf995e5bb1b2016166acd
+  $tcContext1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Context"#) -}
+73f45866a55cf9ced66fd6947253af49
+  $tcDucklingTime :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4433709831283833108##
+                   7584533357785178539##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tcDucklingTime1) -}
+f0ee7cf482b341a7716894278cc98f04
+  $tcDucklingTime1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "DucklingTime"#) -}
+95c75243098cbb3a2a4590309860d1a7
+  $tcOptions :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13645283496390325637##
+                   2412775249193760348##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tcOptions1) -}
+2f93623c71745205cfd7a9450e164077
+  $tcOptions1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Options"#) -}
+e11baf8e3a7db4290bef939622348860
+  $tcResolve :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3664215870824890093##
+                   5538182596031599630##
+                   Duckling.Resolve.$trModule
+                   Duckling.Resolve.$tcResolve1) -}
+39f50f4be1b9809ed9251346ac0803cd
+  $tcResolve1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Resolve"#) -}
+a3057716095e4f8455ba674859bf50cb
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Resolve.$trModule2
+                   Duckling.Resolve.$trModule1) -}
+8b81a9ce6cf5b0372faf735b65d2ce09
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Resolve"#) -}
+ff563ea09196d0966ac33a4a1c5ea22b
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+f202d91d7e07359ee9d65efc01100447
+  $w$c/= ::
+    Data.Time.Calendar.Days.Day
+    -> Data.Time.Clock.Scale.DiffTime
+    -> Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries
+    -> Duckling.Locale.Locale
+    -> Data.Time.Calendar.Days.Day
+    -> Data.Time.Clock.Scale.DiffTime
+    -> Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries
+    -> Duckling.Locale.Locale
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><L,1*U(1*U(1*U(U),1*U,1*U),1*U)><L,1*U(1*H,1*U)><S,1*U><L,1*U><L,1*U(1*U(1*U(U),1*U,1*U),1*U)><L,1*U(1*H,1*U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: Data.Time.Calendar.Days.Day)
+                   (ww1 :: Data.Time.Clock.Scale.DiffTime)
+                   (ww2 :: Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries)
+                   (ww3 :: Duckling.Locale.Locale)
+                   (ww4 :: Data.Time.Calendar.Days.Day)
+                   (ww5 :: Data.Time.Clock.Scale.DiffTime)
+                   (ww6 :: Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries)
+                   (ww7 :: Duckling.Locale.Locale) ->
+                 case GHC.Integer.Type.eqInteger#
+                        ww `cast` (Data.Time.Calendar.Days.N:Day[0])
+                        ww4 `cast` (Data.Time.Calendar.Days.N:Day[0]) of wild { DEFAULT ->
+                 case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild of wild1 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case GHC.Integer.Type.eqInteger#
+                             ww1
+                               `cast`
+                             (Trans
+                                  (Data.Time.Clock.Scale.N:DiffTime[0])
+                                  (Data.Fixed.N:Fixed[0] <Data.Fixed.E12>_P))
+                             ww5
+                               `cast`
+                             (Trans
+                                  (Data.Time.Clock.Scale.N:DiffTime[0])
+                                  (Data.Fixed.N:Fixed[0] <Data.Fixed.E12>_P)) of wild2 { DEFAULT ->
+                      case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild2 of wild3 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True
+                        -> case ww2 of ww8 { Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries ww9 ww10 ->
+                           case ww9 of ww11 { Data.Time.LocalTime.TimeZone.TimeZone ww12 ww13 ww14 ->
+                           case ww12 of ww15 { GHC.Types.I# ww16 ->
+                           case ww6 of ww17 { Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries ww18 ww19 ->
+                           case ww18 of ww20 { Data.Time.LocalTime.TimeZone.TimeZone ww21 ww22 ww23 ->
+                           case ww21 of ww24 { GHC.Types.I# ww25 ->
+                           case Data.Time.LocalTime.TimeZone.Series.$w$c==
+                                  ww16
+                                  ww13
+                                  ww14
+                                  ww10
+                                  ww25
+                                  ww22
+                                  ww23
+                                  ww19 of wild4 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True
+                             -> case ww3 of ww26 { Duckling.Locale.Locale ww27 ww28 ->
+                                case ww27 of ww29 { Duckling.Locale.ZH ->
+                                case ww7 of ww30 { Duckling.Locale.Locale ww31 ww32 ->
+                                case ww31 of ww33 { Duckling.Locale.ZH ->
+                                case ww28 of wild5 {
+                                  GHC.Base.Nothing
+                                  -> case ww32 of wild6 {
+                                       GHC.Base.Nothing -> GHC.Types.False
+                                       GHC.Base.Just ipv -> GHC.Types.True }
+                                  GHC.Base.Just a1
+                                  -> case ww32 of wild6 {
+                                       GHC.Base.Nothing -> GHC.Types.True
+                                       GHC.Base.Just b1
+                                       -> case GHC.Prim.tagToEnum#
+                                                 @ GHC.Types.Bool
+                                                 (GHC.Prim.==#
+                                                    (GHC.Prim.dataToTag#
+                                                       @ Duckling.Region.Region
+                                                       a1)
+                                                    (GHC.Prim.dataToTag#
+                                                       @ Duckling.Region.Region
+                                                       b1)) of wild7 {
+                                            GHC.Types.False -> GHC.Types.True
+                                            GHC.Types.True
+                                            -> GHC.Types.False } } } } } } } } } } } } } } } } } }) -}
+bf148f8d208a21825b5ce758d792d5a0
+  $w$c== ::
+    Data.Time.Calendar.Days.Day
+    -> Data.Time.Clock.Scale.DiffTime
+    -> Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries
+    -> Duckling.Locale.Locale
+    -> Data.Time.Calendar.Days.Day
+    -> Data.Time.Clock.Scale.DiffTime
+    -> Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries
+    -> Duckling.Locale.Locale
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><L,1*U(1*U(1*U(U),1*U,1*U),1*U)><L,1*U(1*H,1*U)><S,1*U><L,1*U><L,1*U(1*U(1*U(U),1*U,1*U),1*U)><L,1*U(1*H,1*U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: Data.Time.Calendar.Days.Day)
+                   (ww1 :: Data.Time.Clock.Scale.DiffTime)
+                   (ww2 :: Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries)
+                   (ww3 :: Duckling.Locale.Locale)
+                   (ww4 :: Data.Time.Calendar.Days.Day)
+                   (ww5 :: Data.Time.Clock.Scale.DiffTime)
+                   (ww6 :: Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries)
+                   (ww7 :: Duckling.Locale.Locale) ->
+                 case GHC.Integer.Type.eqInteger#
+                        ww `cast` (Data.Time.Calendar.Days.N:Day[0])
+                        ww4 `cast` (Data.Time.Calendar.Days.N:Day[0]) of wild { DEFAULT ->
+                 case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild of wild1 {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> case GHC.Integer.Type.eqInteger#
+                             ww1
+                               `cast`
+                             (Trans
+                                  (Data.Time.Clock.Scale.N:DiffTime[0])
+                                  (Data.Fixed.N:Fixed[0] <Data.Fixed.E12>_P))
+                             ww5
+                               `cast`
+                             (Trans
+                                  (Data.Time.Clock.Scale.N:DiffTime[0])
+                                  (Data.Fixed.N:Fixed[0] <Data.Fixed.E12>_P)) of wild2 { DEFAULT ->
+                      case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild2 of wild3 {
+                        GHC.Types.False -> GHC.Types.False
+                        GHC.Types.True
+                        -> case ww2 of ww8 { Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries ww9 ww10 ->
+                           case ww9 of ww11 { Data.Time.LocalTime.TimeZone.TimeZone ww12 ww13 ww14 ->
+                           case ww12 of ww15 { GHC.Types.I# ww16 ->
+                           case ww6 of ww17 { Data.Time.LocalTime.TimeZone.Series.TimeZoneSeries ww18 ww19 ->
+                           case ww18 of ww20 { Data.Time.LocalTime.TimeZone.TimeZone ww21 ww22 ww23 ->
+                           case ww21 of ww24 { GHC.Types.I# ww25 ->
+                           case Data.Time.LocalTime.TimeZone.Series.$w$c==
+                                  ww16
+                                  ww13
+                                  ww14
+                                  ww10
+                                  ww25
+                                  ww22
+                                  ww23
+                                  ww19 of wild4 {
+                             GHC.Types.False -> GHC.Types.False
+                             GHC.Types.True
+                             -> Duckling.Locale.$fEqLocale_$c==
+                                  ww3
+                                  ww7 } } } } } } } } } } }) -}
+9d9d0796c95f65907fdc63b419d8ba3e
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Duckling.Resolve.DucklingTime
+    -> Duckling.Locale.Locale
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4,
+     Strictness: <S,U><L,1*U(1*U(U,U),U(U(U,U,U),U))><L,1*U(1*H,1*U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Duckling.Resolve.DucklingTime)
+                   (ww2 :: Duckling.Locale.Locale)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Duckling.Resolve.$fShowContext7
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Duckling.Resolve.$fShowContext6
+                          (Duckling.Resolve.$w$cshowsPrec1
+                             0#
+                             ww1
+                             (GHC.Base.++
+                                @ GHC.Types.Char
+                                Duckling.Resolve.$fShowContext4
+                                (GHC.Base.++
+                                   @ GHC.Types.Char
+                                   Duckling.Resolve.$fShowContext3
+                                   (case ww2 of ww3 { Duckling.Locale.Locale ww4 ww5 ->
+                                    case ww4 of ww6 { Duckling.Locale.ZH ->
+                                    GHC.Base.++
+                                      @ GHC.Types.Char
+                                      (Duckling.Locale.$w$cshow Duckling.Locale.ZH ww5)
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         Duckling.Resolve.$fShowContext2
+                                         x) } })))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
+d2a369727815f8cf8ab1ed0538a688b0
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> Duckling.Resolve.DucklingTime
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,1*U(1*U(U,U),U(U(U,U,U),U))><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (w :: Duckling.Resolve.DucklingTime)
+                   (w1 :: GHC.Base.String) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Duckling.Resolve.$fShowContext5
+                        (case w `cast`
+                              (Duckling.Resolve.N:DucklingTime[0]) of ww1 { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww2 ww3 ->
+                         case ww2 of ww4 { Data.Time.Clock.UTC.UTCTime ww5 ww6 ->
+                         Data.Time.LocalTime.TimeZone.Series.$w$cshowsPrec1
+                           ww5
+                           ww6
+                           ww3
+                           w1 } })
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Duckling.Resolve.$fShowContext5
+                           (case w `cast`
+                                 (Duckling.Resolve.N:DucklingTime[0]) of ww1 { Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime ww2 ww3 ->
+                            case ww2 of ww4 { Data.Time.Clock.UTC.UTCTime ww5 ww6 ->
+                            Data.Time.LocalTime.TimeZone.Series.$w$cshowsPrec1
+                              ww5
+                              ww6
+                              ww3
+                              (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1) } })) }) -}
+97f32ae7e47d6c096d8e6d04ab59eac6
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> Duckling.Resolve.Options -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (w :: Duckling.Resolve.Options)
+                   (w1 :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Duckling.Resolve.$fShowOptions3
+                       (case w `cast` (Duckling.Resolve.N:Options[0]) of wild {
+                          GHC.Types.False
+                          -> GHC.Base.++
+                               @ GHC.Types.Char
+                               GHC.Show.shows18
+                               (GHC.Base.++ @ GHC.Types.Char Duckling.Resolve.$fShowContext2 x)
+                          GHC.Types.True
+                          -> GHC.Base.++
+                               @ GHC.Types.Char
+                               GHC.Show.shows17
+                               (GHC.Base.++ @ GHC.Types.Char Duckling.Resolve.$fShowContext2 x) })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Duckling.Resolve.$fShowOptions2
+                        (g w1)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Duckling.Resolve.$fShowOptions2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1))) }) -}
+6c0269cb99302be078f2197303ef498a
+  data Context
+    = Context {referenceTime :: Duckling.Resolve.DucklingTime,
+               locale :: Duckling.Locale.Locale}
+d2a369727815f8cf8ab1ed0538a688b0
+  newtype DucklingTime
+    = DucklingTime Data.Time.LocalTime.TimeZone.Series.ZoneSeriesTime
+97f32ae7e47d6c096d8e6d04ab59eac6
+  newtype Options = Options {withLatent :: GHC.Types.Bool}
+857149e63f1fbb61ae9c206e0802b0fa
+  class (GHC.Classes.Eq (Duckling.Resolve.ResolvedValue a),
+         GHC.Show.Show (Duckling.Resolve.ResolvedValue a),
+         Data.Aeson.Types.ToJSON.ToJSON
+           (Duckling.Resolve.ResolvedValue a)) =>
+        Resolve a where
+    type family ResolvedValue a :: * open
+    resolve :: Duckling.Resolve.Context
+               -> Duckling.Resolve.Options
+               -> a
+               -> GHC.Base.Maybe
+                    (Duckling.Resolve.ResolvedValue a, GHC.Types.Bool)
+    {-# MINIMAL resolve #-}
+75cf257bdc71508f7f392fa74f4e9244
+  fromUTC ::
+    Data.Time.Clock.UTC.UTCTime
+    -> Data.Time.LocalTime.TimeZone.TimeZone
+    -> Data.Time.LocalTime.LocalTime.ZonedTime
+  {- Arity: 2, Strictness: <S,1*U(U,U)><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Data.Time.Clock.UTC.UTCTime)
+                   (timeZone :: Data.Time.LocalTime.TimeZone.TimeZone) ->
+                 case ds of wild { Data.Time.Clock.UTC.UTCTime day diffTime ->
+                 Data.Time.LocalTime.LocalTime.ZonedTime
+                   (Data.Time.LocalTime.LocalTime.LocalTime
+                      day
+                      (Data.Time.LocalTime.TimeOfDay.timeToTimeOfDay diffTime))
+                   timeZone }) -}
+7b49c496e5a75703c2e2577e6db7f264
+  locale :: Duckling.Resolve.Context -> Duckling.Locale.Locale
+  RecSel Left Duckling.Resolve.Context
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Resolve.Context) ->
+                 case ds of wild { Duckling.Resolve.Context ds1 ds2 -> ds2 }) -}
+1de216c3b60f68eb7958305130c4a454
+  referenceTime ::
+    Duckling.Resolve.Context -> Duckling.Resolve.DucklingTime
+  RecSel Left Duckling.Resolve.Context
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.Resolve.Context) ->
+                 case ds of wild { Duckling.Resolve.Context ds1 ds2 -> ds1 }) -}
+5b64bf9b19bf7523a4dc8eda1a14db5d
+  toUTC ::
+    Data.Time.LocalTime.LocalTime.LocalTime
+    -> Data.Time.Clock.UTC.UTCTime
+  {- Arity: 1, Strictness: <S,1*U(U,1*U(1*U(U),1*U(U),U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Data.Time.LocalTime.LocalTime.LocalTime) ->
+                 case ds of wild { Data.Time.LocalTime.LocalTime.LocalTime day timeOfDay ->
+                 Data.Time.Clock.UTC.UTCTime
+                   day
+                   (Data.Time.LocalTime.TimeOfDay.timeOfDayToTime timeOfDay) }) -}
+ab3c85f032ac59bd92f86f0c919d2256
+  withLatent :: Duckling.Resolve.Options -> GHC.Types.Bool
+  RecSel Left Duckling.Resolve.Options
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Resolve.withLatent1
+                  `cast`
+                (<Duckling.Resolve.Options>_R
+                 ->_R Duckling.Resolve.N:Options[0]) -}
+541d5c5fd9451fd5a91b173d5f596a15
+  withLatent1 :: Duckling.Resolve.Options -> Duckling.Resolve.Options
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Duckling.Resolve.Options) -> ds) -}
+instance GHC.Classes.Eq [Duckling.Resolve.Context]
+  = Duckling.Resolve.$fEqContext
+instance GHC.Classes.Eq [Duckling.Resolve.DucklingTime]
+  = Duckling.Resolve.$fEqDucklingTime
+instance GHC.Classes.Eq [Duckling.Resolve.Options]
+  = Duckling.Resolve.$fEqOptions
+instance GHC.Show.Show [Duckling.Resolve.Context]
+  = Duckling.Resolve.$fShowContext
+instance GHC.Show.Show [Duckling.Resolve.DucklingTime]
+  = Duckling.Resolve.$fShowDucklingTime
+instance GHC.Show.Show [Duckling.Resolve.Options]
+  = Duckling.Resolve.$fShowOptions
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

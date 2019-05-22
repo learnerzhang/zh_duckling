@@ -1,0 +1,2593 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:00:15.43395 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types [family instance module] 8002
+  interface hash: 1137d1dfd70d5e5935e92e87296a5133
+  ABI hash: 0669fe8745512166dacfbf9327ef7790
+  export-list hash: bba20226ebfec62c3ade9b9203981606
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c2da04f805df50bc0af6b24905fb6ee5
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.PhoneNumber.Types.PhoneNumberData{Duckling.PhoneNumber.Types.PhoneNumberData extension number prefix}
+  Duckling.PhoneNumber.Types.PhoneNumberValue{Duckling.PhoneNumber.Types.PhoneNumberValue value}
+module dependencies: Duckling.Locale Duckling.Region
+                     Duckling.Resolve
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson 1af00541e969ad203c27ee12864de00d
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal 4c7adfaf9946e7eb59b1a47b47e68246
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d6ae344f2a743c9940980d0869569ad4
+import  -/  base-4.9.1.0:Data.Monoid 51cc9cd8c130d49ba96b7c2c2406022b
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  deepseq-1.4.2.0@deepseq-1.4.2.0:Control.DeepSeq 0a99763cf6016b16bbf55422778a79b2
+import  -/  Duckling.Resolve 15ce2eadafd5cc42f057e1d0f9191938
+  exports: 6e20ad884e276a7b8b73219b25eea656
+  Resolve 857149e63f1fbb61ae9c206e0802b0fa
+  ResolvedValue d3c9ab28ab95ed33280b467fbe72cd58
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable 0e86f32bd46d4c618b1e312455011c77
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Class bc4f00f60e55accb5753c8e0ce3cde5f
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+import  -/  text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow aa23f2706bb607d0c81ed1e25d7f545f
+import  -/  text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Classes dedda7fb5ea7a6680ca797592cc143d8
+154d0dce431951fc44a0633d381184a8
+  $fEqPhoneNumberData ::
+    GHC.Classes.Eq Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberData
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberData_$c==
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberData_$c/= -}
+154d0dce431951fc44a0633d381184a8
+  $fEqPhoneNumberData_$c/= ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (b :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case Duckling.PhoneNumber.Types.$fEqPhoneNumberData_$c==
+                        a
+                        b of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+154d0dce431951fc44a0633d381184a8
+  $fEqPhoneNumberData_$c== ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case w1 of ww4 { Duckling.PhoneNumber.Types.PhoneNumberData ww5 ww6 ww7 ->
+                 Duckling.PhoneNumber.Types.$w$c== ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fEqPhoneNumberValue ::
+    GHC.Classes.Eq Duckling.PhoneNumber.Types.PhoneNumberValue
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberValue_$c==
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberValue_$c/= -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fEqPhoneNumberValue_$c/= ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberValue ww1 ->
+                 case ww1 of ww2 { Data.Text.Internal.Text ww3 ww4 ww5 ->
+                 case w1 of ww6 { Duckling.PhoneNumber.Types.PhoneNumberValue ww7 ->
+                 case ww7 of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                 Duckling.PhoneNumber.Types.$w$c/=
+                   ww3
+                   ww4
+                   ww5
+                   ww9
+                   ww10
+                   ww11 } } } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fEqPhoneNumberValue_$c== ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (ds1 :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case ds of wild { Duckling.PhoneNumber.Types.PhoneNumberValue a1 ->
+                 case ds1 of wild1 { Duckling.PhoneNumber.Types.PhoneNumberValue b1 ->
+                 Data.Text.$fEqText_$c== a1 b1 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fGenericPhoneNumberData ::
+    GHC.Generics.Generic Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberData
+                  Duckling.PhoneNumber.Types.$fGenericPhoneNumberData_$cfrom
+                  Duckling.PhoneNumber.Types.$fGenericPhoneNumberData_$cto -}
+154d0dce431951fc44a0633d381184a8
+  $fGenericPhoneNumberData1 ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "prefix")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.K1
+               GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+          GHC.Generics.:*: (GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "number")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R Data.Text.Internal.Text)
+                            GHC.Generics.:*: GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "extension")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R
+                                                  (GHC.Base.Maybe GHC.Integer.Type.Integer))))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case x1 of wild { Duckling.PhoneNumber.Types.PhoneNumberData g1 g2 g3 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "prefix")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1
+                            GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "number")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R Data.Text.Internal.Text)
+                       GHC.Generics.:*: GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "extension")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1
+                                             GHC.Generics.R
+                                             (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P
+                                   <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                   <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "prefix")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1
+                                      GHC.Generics.R
+                                      (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "number")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R Data.Text.Internal.Text))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "extension")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1
+                               GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                       @ x
+                       g2
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.N:K1[0]
+                                      <GHC.Generics.R>_P <Data.Text.Internal.Text>_R <x>_P))
+                            (Sym (GHC.Generics.N:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <'GHC.Generics.MetaSel
+                                         ('GHC.Base.Just "number")
+                                         'GHC.Generics.NoSourceUnpackedness
+                                         'GHC.Generics.NoSourceStrictness
+                                         'GHC.Generics.DecidedLazy>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R Data.Text.Internal.Text>_R) <x>_N))
+                       g3
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.N:K1[0]
+                                      <GHC.Generics.R>_P
+                                      <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                      <x>_P))
+                            (Sym (GHC.Generics.N:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <'GHC.Generics.MetaSel
+                                         ('GHC.Base.Just "extension")
+                                         'GHC.Generics.NoSourceUnpackedness
+                                         'GHC.Generics.NoSourceStrictness
+                                         'GHC.Generics.DecidedLazy>_P
+                                      <GHC.Generics.K1
+                                         GHC.Generics.R
+                                         (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R) <x>_N))))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                           <GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "prefix")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1
+                                 GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                            GHC.Generics.:*: (GHC.Generics.M1
+                                                GHC.Generics.S
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "number")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R Data.Text.Internal.Text)
+                                              GHC.Generics.:*: GHC.Generics.M1
+                                                                 GHC.Generics.S
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "extension")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.K1
+                                                                    GHC.Generics.R
+                                                                    (GHC.Base.Maybe
+                                                                       GHC.Integer.Type.Integer)))>_R) <x>_N) }) -}
+154d0dce431951fc44a0633d381184a8
+  $fGenericPhoneNumberData_$cfrom ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> GHC.Generics.Rep Duckling.PhoneNumber.Types.PhoneNumberData x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.PhoneNumber.Types.$fGenericPhoneNumberData1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Duckling.PhoneNumber.Types.PhoneNumberData>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "PhoneNumberData"
+                                       "Duckling.PhoneNumber.Types"
+                                       "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "prefix")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1
+                                             GHC.Generics.R
+                                             (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                        GHC.Generics.:*: (GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just "number")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R
+                                                               Data.Text.Internal.Text)
+                                                          GHC.Generics.:*: GHC.Generics.M1
+                                                                             GHC.Generics.S
+                                                                             ('GHC.Generics.MetaSel
+                                                                                ('GHC.Base.Just
+                                                                                   "extension")
+                                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                                'GHC.Generics.NoSourceStrictness
+                                                                                'GHC.Generics.DecidedLazy)
+                                                                             (GHC.Generics.K1
+                                                                                GHC.Generics.R
+                                                                                (GHC.Base.Maybe
+                                                                                   GHC.Integer.Type.Integer))))>_R))
+                          (Sub (Sym (Duckling.PhoneNumber.Types.Rep_PhoneNumberData[0]))) <x>_N) -}
+154d0dce431951fc44a0633d381184a8
+  $fGenericPhoneNumberData_$cto ::
+    GHC.Generics.Rep Duckling.PhoneNumber.Types.PhoneNumberData x
+    -> Duckling.PhoneNumber.Types.PhoneNumberData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(U,1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x
+                   (ds :: GHC.Generics.Rep
+                            Duckling.PhoneNumber.Types.PhoneNumberData x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Duckling.PhoneNumber.Types.Rep_PhoneNumberData[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "PhoneNumberData"
+                                        "Duckling.PhoneNumber.Types"
+                                        "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                        'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "prefix")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R
+                                              (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             ('GHC.Generics.MetaSel
+                                                                ('GHC.Base.Just "number")
+                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                'GHC.Generics.NoSourceStrictness
+                                                                'GHC.Generics.DecidedLazy)
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R
+                                                                Data.Text.Internal.Text)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              ('GHC.Generics.MetaSel
+                                                                                 ('GHC.Base.Just
+                                                                                    "extension")
+                                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                                 'GHC.Generics.NoSourceStrictness
+                                                                                 'GHC.Generics.DecidedLazy)
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 (GHC.Base.Maybe
+                                                                                    GHC.Integer.Type.Integer))))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "prefix")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.K1
+                                           GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                      GHC.Generics.:*: (GHC.Generics.M1
+                                                          GHC.Generics.S
+                                                          ('GHC.Generics.MetaSel
+                                                             ('GHC.Base.Just "number")
+                                                             'GHC.Generics.NoSourceUnpackedness
+                                                             'GHC.Generics.NoSourceStrictness
+                                                             'GHC.Generics.DecidedLazy)
+                                                          (GHC.Generics.K1
+                                                             GHC.Generics.R Data.Text.Internal.Text)
+                                                        GHC.Generics.:*: GHC.Generics.M1
+                                                                           GHC.Generics.S
+                                                                           ('GHC.Generics.MetaSel
+                                                                              ('GHC.Base.Just
+                                                                                 "extension")
+                                                                              'GHC.Generics.NoSourceUnpackedness
+                                                                              'GHC.Generics.NoSourceStrictness
+                                                                              'GHC.Generics.DecidedLazy)
+                                                                           (GHC.Generics.K1
+                                                                              GHC.Generics.R
+                                                                              (GHC.Base.Maybe
+                                                                                 GHC.Integer.Type.Integer)))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 case ds2 of wild1 { GHC.Generics.:*: ds3 ds4 ->
+                 Duckling.PhoneNumber.Types.PhoneNumberData
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "prefix")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P))
+                   ds3
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "number")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R Data.Text.Internal.Text>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <Data.Text.Internal.Text>_R <x>_P))
+                   ds4
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "extension")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P
+                             <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                             <x>_P)) } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fHashablePhoneNumberData ::
+    Data.Hashable.Class.Hashable
+      Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberData
+                  Duckling.PhoneNumber.Types.$fHashablePhoneNumberData_$s$dmhashWithSalt
+                  Duckling.PhoneNumber.Types.$fHashablePhoneNumberData_$chash -}
+40878ba5c4f22ed8378d5a9203e9d4a8
+  $fHashablePhoneNumberData1 ::
+    Data.Hashable.Class.GHashable
+      Data.Hashable.Class.Zero
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData
+            "PhoneNumberData"
+            "Duckling.PhoneNumber.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.False)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "prefix")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+             GHC.Generics.:*: (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "number")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 Data.Text.Internal.Text)
+                               GHC.Generics.:*: GHC.Generics.S1
+                                                  ('GHC.Generics.MetaSel
+                                                     ('GHC.Base.Just "extension")
+                                                     'GHC.Generics.NoSourceUnpackedness
+                                                     'GHC.Generics.NoSourceStrictness
+                                                     'GHC.Generics.DecidedLazy)
+                                                  (GHC.Generics.Rec0
+                                                     (GHC.Base.Maybe GHC.Integer.Type.Integer))))))
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(SS(S(SSS)S)),1*U(1*U,1*U(1*U(U,U,U),1*U))>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.PhoneNumber.Types.$fHashablePhoneNumberData2
+                  `cast`
+                (Trans
+                     (forall (a1 :: <*>_N).
+                      <Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1>_R
+                      ->_R <GHC.Types.Int>_R
+                      ->_R Trans
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.C>_P
+                                         <'GHC.Generics.MetaCons
+                                            "PhoneNumberData"
+                                            'GHC.Generics.PrefixI
+                                            'GHC.Types.True>_P
+                                         <GHC.Generics.S1
+                                            ('GHC.Generics.MetaSel
+                                               ('GHC.Base.Just "prefix")
+                                               'GHC.Generics.NoSourceUnpackedness
+                                               'GHC.Generics.NoSourceStrictness
+                                               'GHC.Generics.DecidedLazy)
+                                            (GHC.Generics.Rec0
+                                               (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                          GHC.Generics.:*: (GHC.Generics.S1
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "number")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.Rec0
+                                                                 Data.Text.Internal.Text)
+                                                            GHC.Generics.:*: GHC.Generics.S1
+                                                                               ('GHC.Generics.MetaSel
+                                                                                  ('GHC.Base.Just
+                                                                                     "extension")
+                                                                                  'GHC.Generics.NoSourceUnpackedness
+                                                                                  'GHC.Generics.NoSourceStrictness
+                                                                                  'GHC.Generics.DecidedLazy)
+                                                                               (GHC.Generics.Rec0
+                                                                                  (GHC.Base.Maybe
+                                                                                     GHC.Integer.Type.Integer)))>_R))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.D>_P
+                                         <'GHC.Generics.MetaData
+                                            "PhoneNumberData"
+                                            "Duckling.PhoneNumber.Types"
+                                            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                            'GHC.Types.False>_P
+                                         <GHC.Generics.M1
+                                            GHC.Generics.C
+                                            ('GHC.Generics.MetaCons
+                                               "PhoneNumberData"
+                                               'GHC.Generics.PrefixI
+                                               'GHC.Types.True)
+                                            (GHC.Generics.S1
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "prefix")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.Rec0
+                                                  (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                             GHC.Generics.:*: (GHC.Generics.S1
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just "number")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.Rec0
+                                                                    Data.Text.Internal.Text)
+                                                               GHC.Generics.:*: GHC.Generics.S1
+                                                                                  ('GHC.Generics.MetaSel
+                                                                                     ('GHC.Base.Just
+                                                                                        "extension")
+                                                                                     'GHC.Generics.NoSourceUnpackedness
+                                                                                     'GHC.Generics.NoSourceStrictness
+                                                                                     'GHC.Generics.DecidedLazy)
+                                                                                  (GHC.Generics.Rec0
+                                                                                     (GHC.Base.Maybe
+                                                                                        GHC.Integer.Type.Integer))))>_R)) <a1>_N
+                      ->_R <GHC.Types.Int>_R)
+                     (Sym (Data.Hashable.Class.N:GHashable[0]
+                               <Data.Hashable.Class.Zero>_N
+                               <GHC.Generics.M1
+                                  GHC.Generics.D
+                                  ('GHC.Generics.MetaData
+                                     "PhoneNumberData"
+                                     "Duckling.PhoneNumber.Types"
+                                     "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                     'GHC.Types.False)
+                                  (GHC.Generics.M1
+                                     GHC.Generics.C
+                                     ('GHC.Generics.MetaCons
+                                        "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                     (GHC.Generics.S1
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "prefix")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.Rec0
+                                           (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                                      GHC.Generics.:*: (GHC.Generics.S1
+                                                          ('GHC.Generics.MetaSel
+                                                             ('GHC.Base.Just "number")
+                                                             'GHC.Generics.NoSourceUnpackedness
+                                                             'GHC.Generics.NoSourceStrictness
+                                                             'GHC.Generics.DecidedLazy)
+                                                          (GHC.Generics.Rec0
+                                                             Data.Text.Internal.Text)
+                                                        GHC.Generics.:*: GHC.Generics.S1
+                                                                           ('GHC.Generics.MetaSel
+                                                                              ('GHC.Base.Just
+                                                                                 "extension")
+                                                                              'GHC.Generics.NoSourceUnpackedness
+                                                                              'GHC.Generics.NoSourceStrictness
+                                                                              'GHC.Generics.DecidedLazy)
+                                                                           (GHC.Generics.Rec0
+                                                                              (GHC.Base.Maybe
+                                                                                 GHC.Integer.Type.Integer)))))>_N))) -}
+2b289bf4e9b3e06985e930ac857e1ab4
+  $fHashablePhoneNumberData2 ::
+    Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1
+    -> GHC.Types.Int
+    -> (GHC.Generics.:*:)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "prefix")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+         (GHC.Generics.S1
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "number")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.Rec0 Data.Text.Internal.Text)
+          GHC.Generics.:*: GHC.Generics.S1
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "extension")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+         a1
+    -> GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(SS(S(SSS)S)),1*U(1*U,1*U(1*U(U,U,U),1*U))>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a1
+                   (w :: Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: (GHC.Generics.:*:)
+                            (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "prefix")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                            (GHC.Generics.S1
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "number")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.Rec0 Data.Text.Internal.Text)
+                             GHC.Generics.:*: GHC.Generics.S1
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "extension")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.Rec0
+                                                   (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                            a1) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w2 of ww2 { GHC.Generics.:*: ww3 ww4 ->
+                 case ww4 of ww5 { GHC.Generics.:*: ww6 ww7 ->
+                 case ww6
+                        `cast`
+                      (Trans
+                           (GHC.Generics.N:M1[0]
+                                <GHC.Generics.S>_P
+                                <'GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "number")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy>_P
+                                <GHC.Generics.Rec0 Data.Text.Internal.Text>_R <a1>_N)
+                           (GHC.Generics.N:K1[0]
+                                <GHC.Generics.R>_P
+                                <Data.Text.Internal.Text>_R
+                                <a1>_P)) of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                 case Duckling.PhoneNumber.Types.$w$dGHashable
+                        @ a1
+                        ww1
+                        ww3
+                        ww9
+                        ww10
+                        ww11
+                        ww7 of ww12 { DEFAULT ->
+                 GHC.Types.I# ww12 } } } } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fHashablePhoneNumberData_$chash ::
+    Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (\ (x :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case x of wild { Duckling.PhoneNumber.Types.PhoneNumberData g1 g2 g3 ->
+                 case g2 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 case Duckling.PhoneNumber.Types.$w$dGHashable
+                        @ GHC.Prim.Any
+                        -2578643520546668380#
+                        g1
+                          `cast`
+                        (Trans
+                             (Sym (GHC.Generics.N:K1[0]
+                                       <GHC.Generics.R>_P
+                                       <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                       <GHC.Prim.Any>_P))
+                             (Sym (GHC.Generics.N:M1[0]
+                                       <GHC.Generics.S>_P
+                                       <'GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "prefix")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy>_P
+                                       <GHC.Generics.K1
+                                          GHC.Generics.R
+                                          (GHC.Base.Maybe
+                                             GHC.Integer.Type.Integer)>_R) <GHC.Prim.Any>_N))
+                        ww1
+                        ww2
+                        ww3
+                        g3
+                          `cast`
+                        (Trans
+                             (Sym (GHC.Generics.N:K1[0]
+                                       <GHC.Generics.R>_P
+                                       <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                       <GHC.Prim.Any>_P))
+                             (Sym (GHC.Generics.N:M1[0]
+                                       <GHC.Generics.S>_P
+                                       <'GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "extension")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy>_P
+                                       <GHC.Generics.K1
+                                          GHC.Generics.R
+                                          (GHC.Base.Maybe
+                                             GHC.Integer.Type.Integer)>_R) <GHC.Prim.Any>_N)) of ww4 { DEFAULT ->
+                 GHC.Types.I# ww4 } } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fHashablePhoneNumberData_$s$dmhashWithSalt ::
+    GHC.Types.Int
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(SS(SSS)S),1*U(1*U,1*U(U,U,U),1*U)>m,
+     Unfolding: InlineRule (-3, True, False)
+                (\ (salt :: GHC.Types.Int)
+                   (x :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 Duckling.PhoneNumber.Types.$fHashablePhoneNumberData1
+                   `cast`
+                 (Data.Hashable.Class.N:GHashable[0]
+                      <Data.Hashable.Class.Zero>_N
+                      (Sym (Duckling.PhoneNumber.Types.Rep_PhoneNumberData[0])))
+                   @ GHC.Prim.Any
+                   (Data.Hashable.Class.$WHashArgs0 @ GHC.Prim.Any)
+                   salt
+                   (Duckling.PhoneNumber.Types.$fGenericPhoneNumberData_$cfrom
+                      @ GHC.Prim.Any
+                      x)) -}
+154d0dce431951fc44a0633d381184a8
+  $fNFDataPhoneNumberData ::
+    Control.DeepSeq.NFData Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SSS),1*U(1*U,1*U,1*U)>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Duckling.PhoneNumber.Types.$fNFDataPhoneNumberData_$crnf
+                  `cast`
+                (Sym (Control.DeepSeq.N:NFData[0]
+                          <Duckling.PhoneNumber.Types.PhoneNumberData>_N)) -}
+00614a99b5d45a2f7ddce809e4da5bb6
+  $fNFDataPhoneNumberData1 ::
+    (GHC.Generics.:*:)
+      (GHC.Generics.M1
+         GHC.Generics.S
+         ('GHC.Generics.MetaSel
+            ('GHC.Base.Just "prefix")
+            'GHC.Generics.NoSourceUnpackedness
+            'GHC.Generics.NoSourceStrictness
+            'GHC.Generics.DecidedLazy)
+         (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+      (GHC.Generics.S1
+         ('GHC.Generics.MetaSel
+            ('GHC.Base.Just "number")
+            'GHC.Generics.NoSourceUnpackedness
+            'GHC.Generics.NoSourceStrictness
+            'GHC.Generics.DecidedLazy)
+         (GHC.Generics.Rec0 Data.Text.Internal.Text)
+       GHC.Generics.:*: GHC.Generics.S1
+                          ('GHC.Generics.MetaSel
+                             ('GHC.Base.Just "extension")
+                             'GHC.Generics.NoSourceUnpackedness
+                             'GHC.Generics.NoSourceStrictness
+                             'GHC.Generics.DecidedLazy)
+                          (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+      a1
+    -> ()
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SS(SS)),1*U(1*U,1*U(1*U,1*U))>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a1
+                   (w :: (GHC.Generics.:*:)
+                           (GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "prefix")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                           (GHC.Generics.S1
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "number")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.Rec0 Data.Text.Internal.Text)
+                            GHC.Generics.:*: GHC.Generics.S1
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "extension")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.Rec0
+                                                  (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                           a1) ->
+                 case w of ww { GHC.Generics.:*: ww1 ww2 ->
+                 case ww2 of ww3 { GHC.Generics.:*: ww4 ww5 ->
+                 Duckling.PhoneNumber.Types.$w$dGNFData @ a1 ww1 ww4 ww5 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fNFDataPhoneNumberData_$crnf ::
+    Duckling.PhoneNumber.Types.PhoneNumberData -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SSS),1*U(1*U,1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case eta of wild { Duckling.PhoneNumber.Types.PhoneNumberData g1 g2 g3 ->
+                 Duckling.PhoneNumber.Types.$fNFDataPhoneNumberData1
+                   @ GHC.Prim.Any
+                   (GHC.Generics.:*:
+                      @ (GHC.Generics.M1
+                           GHC.Generics.S
+                           ('GHC.Generics.MetaSel
+                              ('GHC.Base.Just "prefix")
+                              'GHC.Generics.NoSourceUnpackedness
+                              'GHC.Generics.NoSourceStrictness
+                              'GHC.Generics.DecidedLazy)
+                           (GHC.Generics.K1
+                              GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                      @ (GHC.Generics.M1
+                           GHC.Generics.S
+                           ('GHC.Generics.MetaSel
+                              ('GHC.Base.Just "number")
+                              'GHC.Generics.NoSourceUnpackedness
+                              'GHC.Generics.NoSourceStrictness
+                              'GHC.Generics.DecidedLazy)
+                           (GHC.Generics.K1 GHC.Generics.R Data.Text.Internal.Text)
+                         GHC.Generics.:*: GHC.Generics.M1
+                                            GHC.Generics.S
+                                            ('GHC.Generics.MetaSel
+                                               ('GHC.Base.Just "extension")
+                                               'GHC.Generics.NoSourceUnpackedness
+                                               'GHC.Generics.NoSourceStrictness
+                                               'GHC.Generics.DecidedLazy)
+                                            (GHC.Generics.K1
+                                               GHC.Generics.R
+                                               (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                      @ GHC.Prim.Any
+                      g1
+                        `cast`
+                      (Trans
+                           (Sym (GHC.Generics.N:K1[0]
+                                     <GHC.Generics.R>_P
+                                     <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                     <GHC.Prim.Any>_P))
+                           (Sym (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <'GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "prefix")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy>_P
+                                     <GHC.Generics.K1
+                                        GHC.Generics.R
+                                        (GHC.Base.Maybe
+                                           GHC.Integer.Type.Integer)>_R) <GHC.Prim.Any>_N))
+                      (GHC.Generics.:*:
+                         @ (GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "number")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R Data.Text.Internal.Text))
+                         @ (GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "extension")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1
+                                 GHC.Generics.R (GHC.Base.Maybe GHC.Integer.Type.Integer)))
+                         @ GHC.Prim.Any
+                         g2
+                           `cast`
+                         (Trans
+                              (Sym (GHC.Generics.N:K1[0]
+                                        <GHC.Generics.R>_P
+                                        <Data.Text.Internal.Text>_R
+                                        <GHC.Prim.Any>_P))
+                              (Sym (GHC.Generics.N:M1[0]
+                                        <GHC.Generics.S>_P
+                                        <'GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "number")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy>_P
+                                        <GHC.Generics.K1
+                                           GHC.Generics.R
+                                           Data.Text.Internal.Text>_R) <GHC.Prim.Any>_N))
+                         g3
+                           `cast`
+                         (Trans
+                              (Sym (GHC.Generics.N:K1[0]
+                                        <GHC.Generics.R>_P
+                                        <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                        <GHC.Prim.Any>_P))
+                              (Sym (GHC.Generics.N:M1[0]
+                                        <GHC.Generics.S>_P
+                                        <'GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "extension")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy>_P
+                                        <GHC.Generics.K1
+                                           GHC.Generics.R
+                                           (GHC.Base.Maybe
+                                              GHC.Integer.Type.Integer)>_R) <GHC.Prim.Any>_N)))) }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData ::
+    GHC.Classes.Ord Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberData
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberData
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$ccompare
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$c<
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$c<=
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$c>
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$c>=
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$cmax
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$cmin -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$c< ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case w1 of ww4 { Duckling.PhoneNumber.Types.PhoneNumberData ww5 ww6 ww7 ->
+                 Duckling.PhoneNumber.Types.$w$c< ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$c<= ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case w1 of ww4 { Duckling.PhoneNumber.Types.PhoneNumberData ww5 ww6 ww7 ->
+                 Duckling.PhoneNumber.Types.$w$c<= ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$c> ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case w1 of ww4 { Duckling.PhoneNumber.Types.PhoneNumberData ww5 ww6 ww7 ->
+                 Duckling.PhoneNumber.Types.$w$c> ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$c>= ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case w1 of ww4 { Duckling.PhoneNumber.Types.PhoneNumberData ww5 ww6 ww7 ->
+                 Duckling.PhoneNumber.Types.$w$c>= ww1 ww2 ww3 ww5 ww6 ww7 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$ccompare ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),1*U(1*U,1*U(U,U,U),1*U)><S(SLL),1*U(1*U,1*U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case w1 of ww4 { Duckling.PhoneNumber.Types.PhoneNumberData ww5 ww6 ww7 ->
+                 Duckling.PhoneNumber.Types.$w$ccompare
+                   ww1
+                   ww2
+                   ww3
+                   ww5
+                   ww6
+                   ww7 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$cmax ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),U(U,U(U,U,U),U)><S(SLL),U(U,U(U,U,U),U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (y :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$c<=
+                        x
+                        y of wild {
+                   GHC.Types.False -> x GHC.Types.True -> y }) -}
+154d0dce431951fc44a0633d381184a8
+  $fOrdPhoneNumberData_$cmin ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Duckling.PhoneNumber.Types.PhoneNumberData
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SLL),U(U,U(U,U,U),U)><S(SLL),U(U,U(U,U,U),U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Duckling.PhoneNumber.Types.PhoneNumberData)
+                   (y :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case Duckling.PhoneNumber.Types.$fOrdPhoneNumberData_$c<=
+                        x
+                        y of wild {
+                   GHC.Types.False -> y GHC.Types.True -> x }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue ::
+    GHC.Classes.Ord Duckling.PhoneNumber.Types.PhoneNumberValue
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberValue
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$ccompare
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$c<
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$c<=
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$c>
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$c>=
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$cmax
+                  Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue_$cmin -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$c< ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (b :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case a of wild { Duckling.PhoneNumber.Types.PhoneNumberValue a1 ->
+                 case b of wild1 { Duckling.PhoneNumber.Types.PhoneNumberValue b1 ->
+                 Data.Text.$fOrdText_$c< a1 b1 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$c<= ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (b :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case a of wild { Duckling.PhoneNumber.Types.PhoneNumberValue a1 ->
+                 case b of wild1 { Duckling.PhoneNumber.Types.PhoneNumberValue b1 ->
+                 Data.Text.$fOrdText_$c<= a1 b1 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$c> ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (b :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case a of wild { Duckling.PhoneNumber.Types.PhoneNumberValue a1 ->
+                 case b of wild1 { Duckling.PhoneNumber.Types.PhoneNumberValue b1 ->
+                 Data.Text.$fOrdText_$c> a1 b1 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$c>= ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (b :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case a of wild { Duckling.PhoneNumber.Types.PhoneNumberValue a1 ->
+                 case b of wild1 { Duckling.PhoneNumber.Types.PhoneNumberValue b1 ->
+                 Data.Text.$fOrdText_$c>= a1 b1 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$ccompare ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)),1*U(1*U(U,U,U))><S(S(LLS)),1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (b :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case a of wild { Duckling.PhoneNumber.Types.PhoneNumberValue a1 ->
+                 case b of wild1 { Duckling.PhoneNumber.Types.PhoneNumberValue b1 ->
+                 Data.Text.$fOrdText_$ccompare a1 b1 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$cmax ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)),1*U(U(U,U,U))><S(S(SSS)),1*U(U(U,U,U))>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberValue ww1 ->
+                 case ww1 of ww2 { Data.Text.Internal.Text ww3 ww4 ww5 ->
+                 case w1 of ww6 { Duckling.PhoneNumber.Types.PhoneNumberValue ww7 ->
+                 case ww7 of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                 case Data.Text.$w$ccompare ww3 ww4 ww5 ww9 ww10 ww11 of wild {
+                   DEFAULT
+                   -> Duckling.PhoneNumber.Types.PhoneNumberValue
+                        (Data.Text.Internal.Text ww9 ww10 ww11)
+                   GHC.Types.GT
+                   -> Duckling.PhoneNumber.Types.PhoneNumberValue
+                        (Data.Text.Internal.Text ww3 ww4 ww5) } } } } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fOrdPhoneNumberValue_$cmin ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)),1*U(U(U,U,U))><S(S(SSS)),1*U(U(U,U,U))>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberValue ww1 ->
+                 case ww1 of ww2 { Data.Text.Internal.Text ww3 ww4 ww5 ->
+                 case w1 of ww6 { Duckling.PhoneNumber.Types.PhoneNumberValue ww7 ->
+                 case ww7 of ww8 { Data.Text.Internal.Text ww9 ww10 ww11 ->
+                 case Data.Text.$w$ccompare ww3 ww4 ww5 ww9 ww10 ww11 of wild {
+                   DEFAULT
+                   -> Duckling.PhoneNumber.Types.PhoneNumberValue
+                        (Data.Text.Internal.Text ww3 ww4 ww5)
+                   GHC.Types.GT
+                   -> Duckling.PhoneNumber.Types.PhoneNumberValue
+                        (Data.Text.Internal.Text ww9 ww10 ww11) } } } } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fResolvePhoneNumberData ::
+    Duckling.Resolve.Resolve Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberData
+                  Duckling.PhoneNumber.Types.$fEqPhoneNumberValue
+                    `cast`
+                  (GHC.Classes.Eq
+                     (Sym (Duckling.PhoneNumber.Types.D:R:ResolvedValuePhoneNumberData[0])))_R
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberValue
+                    `cast`
+                  (GHC.Show.Show
+                     (Sym (Duckling.PhoneNumber.Types.D:R:ResolvedValuePhoneNumberData[0])))_R
+                  Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue
+                    `cast`
+                  (Data.Aeson.Types.ToJSON.ToJSON
+                     (Sym (Duckling.PhoneNumber.Types.D:R:ResolvedValuePhoneNumberData[0])))_R
+                  Duckling.PhoneNumber.Types.$fResolvePhoneNumberData_$cresolve -}
+154d0dce431951fc44a0633d381184a8
+  $fResolvePhoneNumberData_$cresolve ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> Duckling.PhoneNumber.Types.PhoneNumberData
+    -> GHC.Base.Maybe
+         (Duckling.Resolve.ResolvedValue
+            Duckling.PhoneNumber.Types.PhoneNumberData,
+          GHC.Types.Bool)
+  {- Arity: 3, Strictness: <L,A><L,A><S,1*U(1*U,U,1*U)>m2,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Resolve.Options)
+                   (w2 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w2 of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 case Duckling.PhoneNumber.Types.$w$cresolve
+                        ww1
+                        ww2
+                        ww3 of ww4 { Unit# ww5 ->
+                 GHC.Base.Just
+                   @ (Duckling.Resolve.ResolvedValue
+                        Duckling.PhoneNumber.Types.PhoneNumberData,
+                      GHC.Types.Bool)
+                   ww5 } }) -}
+154d0dce431951fc44a0633d381184a8
+  $fShowPhoneNumberData ::
+    GHC.Show.Show Duckling.PhoneNumber.Types.PhoneNumberData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberData
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberData_$cshowsPrec
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberData_$cshow
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberData_$cshowList -}
+154d0dce431951fc44a0633d381184a8
+  $fShowPhoneNumberData1 ::
+    Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberData ww1 ww2 ww3 ->
+                 Duckling.PhoneNumber.Types.$w$cshowsPrec1 0# ww1 ww2 ww3 }) -}
+c3ac5d71b933e8838354f79cea27b98f
+  $fShowPhoneNumberData2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "extension = "#) -}
+33fb3d60c535e88aef617820899cc6a0
+  $fShowPhoneNumberData3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "number = "#) -}
+d9edfecc82b186b97cf9df132c73388a
+  $fShowPhoneNumberData4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+b824c9eabf8df5047f763c17a1ffcd08
+  $fShowPhoneNumberData5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "prefix = "#) -}
+60c585fbc13f436085bbbc42537d8c59
+  $fShowPhoneNumberData6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "PhoneNumberData {"#) -}
+e060bb18c82d85ebed0efd424e5ee727
+  $fShowPhoneNumberData7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+154d0dce431951fc44a0633d381184a8
+  $fShowPhoneNumberData_$cshow ::
+    Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,U(U,U,U),1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 Duckling.PhoneNumber.Types.$fShowPhoneNumberData_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+154d0dce431951fc44a0633d381184a8
+  $fShowPhoneNumberData_$cshowList ::
+    [Duckling.PhoneNumber.Types.PhoneNumberData] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.PhoneNumber.Types.PhoneNumberData
+                   Duckling.PhoneNumber.Types.$fShowPhoneNumberData1) -}
+154d0dce431951fc44a0633d381184a8
+  $fShowPhoneNumberData_$cshowsPrec ::
+    GHC.Types.Int
+    -> Duckling.PhoneNumber.Types.PhoneNumberData -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U,U(U,U,U),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Duckling.PhoneNumber.Types.PhoneNumberData ww3 ww4 ww5 ->
+                 Duckling.PhoneNumber.Types.$w$cshowsPrec1 ww1 ww3 ww4 ww5 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fShowPhoneNumberValue ::
+    GHC.Show.Show Duckling.PhoneNumber.Types.PhoneNumberValue
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberValue_$cshowsPrec
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberValue_$cshow
+                  Duckling.PhoneNumber.Types.$fShowPhoneNumberValue_$cshowList -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fShowPhoneNumberValue1 ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberValue ww1 ->
+                 Duckling.PhoneNumber.Types.$w$cshowsPrec 0# ww1 w1 }) -}
+0be7ef5a02871893664fddb1a4020905
+  $fShowPhoneNumberValue2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+305cab5ef929314d69010b71b2b637e7
+  $fShowPhoneNumberValue3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "value = "#) -}
+ebede380febfb44c1de77322217a0943
+  $fShowPhoneNumberValue4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "PhoneNumberValue {"#) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fShowPhoneNumberValue_$cshow ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 Duckling.PhoneNumber.Types.$fShowPhoneNumberValue_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fShowPhoneNumberValue_$cshowList ::
+    [Duckling.PhoneNumber.Types.PhoneNumberValue] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                   Duckling.PhoneNumber.Types.$fShowPhoneNumberValue1) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fShowPhoneNumberValue_$cshowsPrec ::
+    GHC.Types.Int
+    -> Duckling.PhoneNumber.Types.PhoneNumberValue -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U(U,U,U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Duckling.PhoneNumber.Types.PhoneNumberValue ww3 ->
+                 Duckling.PhoneNumber.Types.$w$cshowsPrec ww1 ww3 w2 } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fToJSONPhoneNumberValue ::
+    Data.Aeson.Types.ToJSON.ToJSON
+      Duckling.PhoneNumber.Types.PhoneNumberValue
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                  Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoJSON
+                  Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoEncoding
+                  Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoJSONList
+                  Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoEncodingList -}
+7906fe63df218d8732f3e9687ddb4ffb
+  $fToJSONPhoneNumberValue1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "value"#) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fToJSONPhoneNumberValue_$ctoEncoding ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(U)>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoJSON
+                      eta)) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fToJSONPhoneNumberValue_$ctoEncodingList ::
+    [Duckling.PhoneNumber.Types.PhoneNumberValue]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Duckling.PhoneNumber.Types.PhoneNumberValue]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Duckling.PhoneNumber.Types.PhoneNumberValue)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoJSON
+                                              v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Duckling.PhoneNumber.Types.PhoneNumberValue>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fToJSONPhoneNumberValue_$ctoJSON ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case w of ww { Duckling.PhoneNumber.Types.PhoneNumberValue ww1 ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue1,
+                            Data.Aeson.Types.Internal.$WString ww1)
+                           (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.Object dt } }) -}
+e6c989aa31a37e440d66ddc809a1e0b4
+  $fToJSONPhoneNumberValue_$ctoJSONList ::
+    [Duckling.PhoneNumber.Types.PhoneNumberValue]
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Duckling.PhoneNumber.Types.PhoneNumberValue]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Duckling.PhoneNumber.Types.PhoneNumberValue
+                                       c
+                                       Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+fcc955370727820b9865cc5c43d17dd3
+  $tc'PhoneNumberData :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13752458947269393440##
+                   12263464748261671216##
+                   Duckling.PhoneNumber.Types.$trModule
+                   Duckling.PhoneNumber.Types.$tc'PhoneNumberData1) -}
+8ce36bde7b602b8c0deefa41d2546684
+  $tc'PhoneNumberData1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'PhoneNumberData"#) -}
+1c2e88b80663239ff917ee702049f63d
+  $tc'PhoneNumberValue :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10675818860963666455##
+                   3455664316480521444##
+                   Duckling.PhoneNumber.Types.$trModule
+                   Duckling.PhoneNumber.Types.$tc'PhoneNumberValue1) -}
+490d3611bb250a6140e8a6b5771fa502
+  $tc'PhoneNumberValue1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'PhoneNumberValue"#) -}
+7f80417ee2ac0354b2b7af83b6bd0b33
+  $tcPhoneNumberData :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3207531870940760438##
+                   17296983355172637306##
+                   Duckling.PhoneNumber.Types.$trModule
+                   Duckling.PhoneNumber.Types.$tcPhoneNumberData1) -}
+120bbac3f62dd977cb09f21a18d078f1
+  $tcPhoneNumberData1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "PhoneNumberData"#) -}
+b7dd0393eddaff899f4559ac9cb7e218
+  $tcPhoneNumberValue :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13020066581645198550##
+                   5523550108712581572##
+                   Duckling.PhoneNumber.Types.$trModule
+                   Duckling.PhoneNumber.Types.$tcPhoneNumberValue1) -}
+d5693414cd452e6872ffe2a61812cf44
+  $tcPhoneNumberValue1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "PhoneNumberValue"#) -}
+a09cc5311d7e3065800e4bff59253909
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.PhoneNumber.Types.$trModule2
+                   Duckling.PhoneNumber.Types.$trModule1) -}
+285b36f3c43cc967dcb4485775ba83d8
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.PhoneNumber.Types"#) -}
+d4478e1346cead0369503c9b38df75cc
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+9896286b66f54c277e979ac81ae91cc5
+  $w$c/= ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <L,U><L,U><S,U><L,U><L,U><S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: GHC.Prim.ByteArray#)
+                   (ww4 :: GHC.Prim.Int#)
+                   (ww5 :: GHC.Prim.Int#) ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.==# ww2 ww5) of wild2 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case {__pkg_ccall text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00 _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.ByteArray#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.Word#
+                                                                                                         -> GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld
+                                                                                                         -> (# GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld,
+                                                                                                               GHC.Prim.Int# #)}
+                             ww
+                             (GHC.Prim.int2Word# ww1)
+                             ww3
+                             (GHC.Prim.int2Word# ww4)
+                             (GHC.Prim.int2Word# ww2)
+                             GHC.Prim.realWorld# of wild { (#,#) ds11 ds12 ->
+                      case GHC.Prim.narrow32Int# ds12 of wild1 {
+                        DEFAULT -> GHC.Types.True 0# -> GHC.Types.False } } }) -}
+ed71ed1c01c8cd45bb38f328adc5372a
+  $w$c< ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U,U,U)><L,1*U><S,1*U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (ww5 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ (w :: GHC.Prim.Void#)[OneShot] ->
+                     case ww1 of ww6 { Data.Text.Internal.Text ww7 ww8 ww9 ->
+                     case ww4 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                     case Data.Text.$w$ccompare ww7 ww8 ww9 ww11 ww12 ww13 of wild {
+                       GHC.Types.LT -> GHC.Types.True
+                       GHC.Types.EQ
+                       -> case ww2 of wild1 {
+                            GHC.Base.Nothing
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.False
+                                 GHC.Base.Just ipv -> GHC.Types.True }
+                            GHC.Base.Just a2
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.False
+                                 GHC.Base.Just b1 -> GHC.Integer.Type.ltInteger a2 b1 } }
+                       GHC.Types.GT -> GHC.Types.False } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.True }
+                   GHC.Base.Just a2
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> case GHC.Integer.Type.compareInteger a2 b1 of wild2 {
+                             GHC.Types.LT -> GHC.Types.True
+                             GHC.Types.EQ -> $j GHC.Prim.void#
+                             GHC.Types.GT -> GHC.Types.False } } }) -}
+12e5e0482a6c051a4ed44123891e2d8e
+  $w$c<= ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U,U,U)><L,1*U><S,1*U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (ww5 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ (w :: GHC.Prim.Void#)[OneShot] ->
+                     case ww1 of ww6 { Data.Text.Internal.Text ww7 ww8 ww9 ->
+                     case ww4 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                     case Data.Text.$w$ccompare ww7 ww8 ww9 ww11 ww12 ww13 of wild {
+                       GHC.Types.LT -> GHC.Types.True
+                       GHC.Types.EQ
+                       -> case ww2 of wild1 {
+                            GHC.Base.Nothing -> case ww5 of wild2 { DEFAULT -> GHC.Types.True }
+                            GHC.Base.Just a2
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.False
+                                 GHC.Base.Just b1 -> GHC.Integer.Type.leInteger a2 b1 } }
+                       GHC.Types.GT -> GHC.Types.False } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.True }
+                   GHC.Base.Just a2
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> case GHC.Integer.Type.compareInteger a2 b1 of wild2 {
+                             GHC.Types.LT -> GHC.Types.True
+                             GHC.Types.EQ -> $j GHC.Prim.void#
+                             GHC.Types.GT -> GHC.Types.False } } }) -}
+75687ff1c810ec8fea82be30f0d2c36f
+  $w$c== ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U,U,U)><L,1*U><S,1*U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (ww5 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ (w :: GHC.Prim.Void#)[OneShot] ->
+                     case ww1 of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                     case ww4 of wild1 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.==# dt2 dt5) of wild2 {
+                       GHC.Types.False -> GHC.Types.False
+                       GHC.Types.True
+                       -> case {__pkg_ccall text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00 _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                             -> GHC.Prim.Word#
+                                                                                                             -> GHC.Prim.ByteArray#
+                                                                                                             -> GHC.Prim.Word#
+                                                                                                             -> GHC.Prim.Word#
+                                                                                                             -> GHC.Prim.State#
+                                                                                                                  GHC.Prim.RealWorld
+                                                                                                             -> (# GHC.Prim.State#
+                                                                                                                     GHC.Prim.RealWorld,
+                                                                                                                   GHC.Prim.Int# #)}
+                                 dt
+                                 (GHC.Prim.int2Word# dt1)
+                                 dt3
+                                 (GHC.Prim.int2Word# dt4)
+                                 (GHC.Prim.int2Word# dt2)
+                                 GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                          case GHC.Prim.narrow32Int# ds12 of wild5 {
+                            DEFAULT -> GHC.Types.False
+                            0#
+                            -> case ww2 of wild6 {
+                                 GHC.Base.Nothing
+                                 -> case ww5 of wild7 {
+                                      GHC.Base.Nothing -> GHC.Types.True
+                                      GHC.Base.Just ipv -> GHC.Types.False }
+                                 GHC.Base.Just a1
+                                 -> case ww5 of wild7 {
+                                      GHC.Base.Nothing -> GHC.Types.False
+                                      GHC.Base.Just b1
+                                      -> GHC.Integer.Type.eqInteger a1 b1 } } } } } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a1
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> case GHC.Integer.Type.eqInteger# a1 b1 of wild2 { DEFAULT ->
+                           case GHC.Prim.tagToEnum# @ GHC.Types.Bool wild2 of wild3 {
+                             GHC.Types.False -> GHC.Types.False
+                             GHC.Types.True -> $j GHC.Prim.void# } } } }) -}
+319ee7742fb3cbd0a7826ecd0024600c
+  $w$c> ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U,U,U)><L,1*U><S,1*U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (ww5 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ (w :: GHC.Prim.Void#)[OneShot] ->
+                     case ww1 of ww6 { Data.Text.Internal.Text ww7 ww8 ww9 ->
+                     case ww4 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                     case Data.Text.$w$ccompare ww7 ww8 ww9 ww11 ww12 ww13 of wild {
+                       GHC.Types.LT -> GHC.Types.False
+                       GHC.Types.EQ
+                       -> case ww2 of wild1 {
+                            GHC.Base.Nothing
+                            -> case ww5 of wild2 { DEFAULT -> GHC.Types.False }
+                            GHC.Base.Just a2
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.True
+                                 GHC.Base.Just b1 -> GHC.Integer.Type.gtInteger a2 b1 } }
+                       GHC.Types.GT -> GHC.Types.True } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a2
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just b1
+                        -> case GHC.Integer.Type.compareInteger a2 b1 of wild2 {
+                             GHC.Types.LT -> GHC.Types.False
+                             GHC.Types.EQ -> $j GHC.Prim.void#
+                             GHC.Types.GT -> GHC.Types.True } } }) -}
+fe5da3377be47e4d0cf68ee5fcfe9b1e
+  $w$c>= ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Bool
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U,U,U)><L,1*U><S,1*U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (ww5 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Bool
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ (w :: GHC.Prim.Void#)[OneShot] ->
+                     case ww1 of ww6 { Data.Text.Internal.Text ww7 ww8 ww9 ->
+                     case ww4 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                     case Data.Text.$w$ccompare ww7 ww8 ww9 ww11 ww12 ww13 of wild {
+                       GHC.Types.LT -> GHC.Types.False
+                       GHC.Types.EQ
+                       -> case ww2 of wild1 {
+                            GHC.Base.Nothing
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.True
+                                 GHC.Base.Just ipv -> GHC.Types.False }
+                            GHC.Base.Just a2
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.True
+                                 GHC.Base.Just b1 -> GHC.Integer.Type.geInteger a2 b1 } }
+                       GHC.Types.GT -> GHC.Types.True } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a2
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.True
+                        GHC.Base.Just b1
+                        -> case GHC.Integer.Type.compareInteger a2 b1 of wild2 {
+                             GHC.Types.LT -> GHC.Types.False
+                             GHC.Types.EQ -> $j GHC.Prim.void#
+                             GHC.Types.GT -> GHC.Types.True } } }) -}
+059bb89bba2b0fa1ad93ca98b95ac7c9
+  $w$ccompare ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Types.Ordering
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U,U,U)><L,1*U><S,1*U><L,1*U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (ww2 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww4 :: Data.Text.Internal.Text)
+                   (ww5 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   $j :: GHC.Prim.Void# -> GHC.Types.Ordering
+                     {- Arity: 1, Strictness: <L,A> -}
+                   = \ (w :: GHC.Prim.Void#)[OneShot] ->
+                     case ww1 of ww6 { Data.Text.Internal.Text ww7 ww8 ww9 ->
+                     case ww4 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                     case Data.Text.$w$ccompare ww7 ww8 ww9 ww11 ww12 ww13 of wild {
+                       GHC.Types.LT -> GHC.Types.LT
+                       GHC.Types.EQ
+                       -> case ww2 of wild1 {
+                            GHC.Base.Nothing
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.EQ
+                                 GHC.Base.Just ipv -> GHC.Types.LT }
+                            GHC.Base.Just a2
+                            -> case ww5 of wild2 {
+                                 GHC.Base.Nothing -> GHC.Types.GT
+                                 GHC.Base.Just b1 -> GHC.Integer.Type.compareInteger a2 b1 } }
+                       GHC.Types.GT -> GHC.Types.GT } } }
+                 } in
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> $j GHC.Prim.void#
+                        GHC.Base.Just ipv -> GHC.Types.LT }
+                   GHC.Base.Just a2
+                   -> case ww3 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.GT
+                        GHC.Base.Just b1
+                        -> case GHC.Integer.Type.compareInteger a2 b1 of wild2 {
+                             GHC.Types.LT -> GHC.Types.LT
+                             GHC.Types.EQ -> $j GHC.Prim.void#
+                             GHC.Types.GT -> GHC.Types.GT } } }) -}
+154d0dce431951fc44a0633d381184a8
+  $w$cresolve ::
+    GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> (# (Duckling.Resolve.ResolvedValue
+             Duckling.PhoneNumber.Types.PhoneNumberData,
+           GHC.Types.Bool) #)
+  {- Arity: 3, Strictness: <L,1*U><L,U><L,1*U>, Inline: [0] -}
+2f8cf10f47dc1ca3dd0d43c3d3d2cbf8
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,1*U(U,U,U)><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Data.Text.Internal.Text)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Duckling.PhoneNumber.Types.$fShowPhoneNumberValue4
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Duckling.PhoneNumber.Types.$fShowPhoneNumberValue3
+                          (case Data.Text.Show.$w$cshowsPrec
+                                  ww1
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Duckling.PhoneNumber.Types.$fShowPhoneNumberValue2
+                                     x) of ww2 { (#,#) ww3 ww4 ->
+                           GHC.Types.: @ GHC.Types.Char ww3 ww4 }))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
+39b35e44f9636d48104ea4a8831ff591
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+    -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,U(U,U,U)><L,1*U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.Maybe GHC.Integer.Type.Integer)
+                   (ww2 :: Data.Text.Internal.Text)
+                   (ww3 :: GHC.Base.Maybe GHC.Integer.Type.Integer) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ GHC.Integer.Type.Integer
+                       GHC.Show.$fShowInteger
+                       Duckling.PhoneNumber.Types.$fShowPhoneNumberData7
+                       ww1
+                 } in
+                 let {
+                   f1 :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ GHC.Integer.Type.Integer
+                       GHC.Show.$fShowInteger
+                       Duckling.PhoneNumber.Types.$fShowPhoneNumberData7
+                       ww3
+                 } in
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String) ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Duckling.PhoneNumber.Types.$fShowPhoneNumberData6
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Duckling.PhoneNumber.Types.$fShowPhoneNumberData5
+                          (f (GHC.Base.++
+                                @ GHC.Types.Char
+                                Duckling.PhoneNumber.Types.$fShowPhoneNumberData4
+                                (GHC.Base.++
+                                   @ GHC.Types.Char
+                                   Duckling.PhoneNumber.Types.$fShowPhoneNumberData3
+                                   (case Data.Text.Show.$w$cshowsPrec
+                                           ww2
+                                           (GHC.Base.++
+                                              @ GHC.Types.Char
+                                              Duckling.PhoneNumber.Types.$fShowPhoneNumberData4
+                                              (GHC.Base.++
+                                                 @ GHC.Types.Char
+                                                 Duckling.PhoneNumber.Types.$fShowPhoneNumberData2
+                                                 (f1
+                                                    (GHC.Base.++
+                                                       @ GHC.Types.Char
+                                                       Duckling.PhoneNumber.Types.$fShowPhoneNumberValue2
+                                                       x)))) of ww4 { (#,#) ww5 ww6 ->
+                                    GHC.Types.: @ GHC.Types.Char ww5 ww6 })))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p
+                   GHC.Types.True
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 x)) }) -}
+fb679185a33fd0f7046c102843dd1f6d
+  $w$dGHashable ::
+    GHC.Prim.Int#
+    -> GHC.Generics.M1
+         GHC.Generics.S
+         ('GHC.Generics.MetaSel
+            ('GHC.Base.Just "prefix")
+            'GHC.Generics.NoSourceUnpackedness
+            'GHC.Generics.NoSourceStrictness
+            'GHC.Generics.DecidedLazy)
+         (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+         a1
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Generics.S1
+         ('GHC.Generics.MetaSel
+            ('GHC.Base.Just "extension")
+            'GHC.Generics.NoSourceUnpackedness
+            'GHC.Generics.NoSourceStrictness
+            'GHC.Generics.DecidedLazy)
+         (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+         a1
+    -> GHC.Prim.Int#
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <S,U><S,1*U><S,U><S,U><S,U><S,1*U>, Inline: [0],
+     Unfolding: (\ @ a1
+                   (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "prefix")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                             a1)
+                   (ww2 :: GHC.Prim.ByteArray#)
+                   (ww3 :: GHC.Prim.Int#)
+                   (ww4 :: GHC.Prim.Int#)
+                   (ww5 :: GHC.Generics.S1
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "extension")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                             a1) ->
+                 case ww1
+                        `cast`
+                      (Trans
+                           (GHC.Generics.N:M1[0]
+                                <GHC.Generics.S>_P
+                                <'GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "prefix")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy>_P
+                                <GHC.Generics.K1
+                                   GHC.Generics.R
+                                   (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <a1>_N)
+                           (GHC.Generics.N:K1[0]
+                                <GHC.Generics.R>_P
+                                <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                <a1>_P)) of wild {
+                   GHC.Base.Nothing
+                   -> case {__pkg_ccall hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol hashable_fnv_hash_offset GHC.Prim.ByteArray#
+                                                                                                                          -> GHC.Prim.Int#
+                                                                                                                          -> GHC.Prim.Int#
+                                                                                                                          -> GHC.Prim.Int#
+                                                                                                                          -> GHC.Prim.State#
+                                                                                                                               GHC.Prim.RealWorld
+                                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                                  GHC.Prim.RealWorld,
+                                                                                                                                GHC.Prim.Int# #)}
+                             ww2
+                             (GHC.Prim.uncheckedIShiftL# ww3 1#)
+                             (GHC.Prim.uncheckedIShiftL# ww4 1#)
+                             (GHC.Prim.*# ww 16777619#)
+                             GHC.Prim.realWorld# of wild1 { (#,#) ds1 ds2 ->
+                      case ww5
+                             `cast`
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <'GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "extension")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy>_P
+                                     <GHC.Generics.K1
+                                        GHC.Generics.R
+                                        (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <a1>_N)
+                                (GHC.Generics.N:K1[0]
+                                     <GHC.Generics.R>_P
+                                     <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                     <a1>_P)) of wild2 {
+                        GHC.Base.Nothing -> GHC.Prim.*# ds2 16777619#
+                        GHC.Base.Just a2
+                        -> Data.Hashable.Class.$w$chashWithSalt3
+                             (GHC.Prim.xorI# (GHC.Prim.*# ds2 16777619#) 6148914691236517205#)
+                             a2 } }
+                   GHC.Base.Just a2
+                   -> case Data.Hashable.Class.$w$chashWithSalt3
+                             (GHC.Prim.xorI# (GHC.Prim.*# ww 16777619#) 6148914691236517205#)
+                             a2 of ww6 { DEFAULT ->
+                      case {__pkg_ccall hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol hashable_fnv_hash_offset GHC.Prim.ByteArray#
+                                                                                                                          -> GHC.Prim.Int#
+                                                                                                                          -> GHC.Prim.Int#
+                                                                                                                          -> GHC.Prim.Int#
+                                                                                                                          -> GHC.Prim.State#
+                                                                                                                               GHC.Prim.RealWorld
+                                                                                                                          -> (# GHC.Prim.State#
+                                                                                                                                  GHC.Prim.RealWorld,
+                                                                                                                                GHC.Prim.Int# #)}
+                             ww2
+                             (GHC.Prim.uncheckedIShiftL# ww3 1#)
+                             (GHC.Prim.uncheckedIShiftL# ww4 1#)
+                             ww6
+                             GHC.Prim.realWorld# of wild1 { (#,#) ds1 ds2 ->
+                      case ww5
+                             `cast`
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <'GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "extension")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy>_P
+                                     <GHC.Generics.K1
+                                        GHC.Generics.R
+                                        (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <a1>_N)
+                                (GHC.Generics.N:K1[0]
+                                     <GHC.Generics.R>_P
+                                     <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                     <a1>_P)) of wild2 {
+                        GHC.Base.Nothing -> GHC.Prim.*# ds2 16777619#
+                        GHC.Base.Just a3
+                        -> Data.Hashable.Class.$w$chashWithSalt3
+                             (GHC.Prim.xorI# (GHC.Prim.*# ds2 16777619#) 6148914691236517205#)
+                             a3 } } } }) -}
+f3dde2dd1f0fd09e53620d4615c4ddfe
+  $w$dGNFData ::
+    GHC.Generics.M1
+      GHC.Generics.S
+      ('GHC.Generics.MetaSel
+         ('GHC.Base.Just "prefix")
+         'GHC.Generics.NoSourceUnpackedness
+         'GHC.Generics.NoSourceStrictness
+         'GHC.Generics.DecidedLazy)
+      (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+      a1
+    -> GHC.Generics.S1
+         ('GHC.Generics.MetaSel
+            ('GHC.Base.Just "number")
+            'GHC.Generics.NoSourceUnpackedness
+            'GHC.Generics.NoSourceStrictness
+            'GHC.Generics.DecidedLazy)
+         (GHC.Generics.Rec0 Data.Text.Internal.Text)
+         a1
+    -> GHC.Generics.S1
+         ('GHC.Generics.MetaSel
+            ('GHC.Base.Just "extension")
+            'GHC.Generics.NoSourceUnpackedness
+            'GHC.Generics.NoSourceStrictness
+            'GHC.Generics.DecidedLazy)
+         (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+         a1
+    -> ()
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,1*U><S,1*U><S,1*U>,
+     Inline: [0],
+     Unfolding: (\ @ a1
+                   (ww :: GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "prefix")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                            a1)
+                   (ww1 :: GHC.Generics.S1
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "number")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.Rec0 Data.Text.Internal.Text)
+                             a1)
+                   (ww2 :: GHC.Generics.S1
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "extension")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                             a1) ->
+                 case case ww
+                             `cast`
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <'GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "prefix")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy>_P
+                                     <GHC.Generics.K1
+                                        GHC.Generics.R
+                                        (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <a1>_N)
+                                (GHC.Generics.N:K1[0]
+                                     <GHC.Generics.R>_P
+                                     <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                     <a1>_P)) of wild {
+                        GHC.Base.Nothing -> GHC.Tuple.()
+                        GHC.Base.Just x
+                        -> Control.DeepSeq.$fNFDataInteger_$crnf x } of wild1 { () ->
+                 case ww1 of tpl { DEFAULT ->
+                 case ww2
+                        `cast`
+                      (Trans
+                           (GHC.Generics.N:M1[0]
+                                <GHC.Generics.S>_P
+                                <'GHC.Generics.MetaSel
+                                   ('GHC.Base.Just "extension")
+                                   'GHC.Generics.NoSourceUnpackedness
+                                   'GHC.Generics.NoSourceStrictness
+                                   'GHC.Generics.DecidedLazy>_P
+                                <GHC.Generics.K1
+                                   GHC.Generics.R
+                                   (GHC.Base.Maybe GHC.Integer.Type.Integer)>_R <a1>_N)
+                           (GHC.Generics.N:K1[0]
+                                <GHC.Generics.R>_P
+                                <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                                <a1>_P)) of wild {
+                   GHC.Base.Nothing -> GHC.Tuple.()
+                   GHC.Base.Just x
+                   -> Control.DeepSeq.$fNFDataInteger_$crnf x } } }) -}
+154d0dce431951fc44a0633d381184a8
+  axiom D:R:ResolvedValuePhoneNumberData::
+      Duckling.Resolve.ResolvedValue
+        Duckling.PhoneNumber.Types.PhoneNumberData
+        = Duckling.PhoneNumber.Types.PhoneNumberValue
+154d0dce431951fc44a0633d381184a8
+  data PhoneNumberData
+    = PhoneNumberData {prefix :: GHC.Base.Maybe
+                                   GHC.Integer.Type.Integer,
+                       number :: Data.Text.Internal.Text,
+                       extension :: GHC.Base.Maybe GHC.Integer.Type.Integer}
+e6c989aa31a37e440d66ddc809a1e0b4
+  data PhoneNumberValue
+    = PhoneNumberValue {value :: Data.Text.Internal.Text}
+154d0dce431951fc44a0633d381184a8
+  axiom Rep_PhoneNumberData::
+      GHC.Generics.Rep Duckling.PhoneNumber.Types.PhoneNumberData
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "PhoneNumberData"
+               "Duckling.PhoneNumber.Types"
+               "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "PhoneNumberData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "prefix")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 (GHC.Base.Maybe GHC.Integer.Type.Integer))
+                GHC.Generics.:*: (GHC.Generics.S1
+                                    ('GHC.Generics.MetaSel
+                                       ('GHC.Base.Just "number")
+                                       'GHC.Generics.NoSourceUnpackedness
+                                       'GHC.Generics.NoSourceStrictness
+                                       'GHC.Generics.DecidedLazy)
+                                    (GHC.Generics.Rec0 Data.Text.Internal.Text)
+                                  GHC.Generics.:*: GHC.Generics.S1
+                                                     ('GHC.Generics.MetaSel
+                                                        ('GHC.Base.Just "extension")
+                                                        'GHC.Generics.NoSourceUnpackedness
+                                                        'GHC.Generics.NoSourceStrictness
+                                                        'GHC.Generics.DecidedLazy)
+                                                     (GHC.Generics.Rec0
+                                                        (GHC.Base.Maybe
+                                                           GHC.Integer.Type.Integer)))))
+bb0bcbcdd43bb9bd21673c8ea349b4c4
+  extension ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Left Duckling.PhoneNumber.Types.PhoneNumberData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case ds of wild { Duckling.PhoneNumber.Types.PhoneNumberData ds1 ds2 ds3 ->
+                 ds3 }) -}
+37afd24a3b7bbd836ee9a0c4be5fe307
+  number ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> Data.Text.Internal.Text
+  RecSel Left Duckling.PhoneNumber.Types.PhoneNumberData
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSL),1*U(A,1*U(U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case ds of wild { Duckling.PhoneNumber.Types.PhoneNumberData ds1 ds2 ds3 ->
+                 ds2 }) -}
+80bb3064f8996fda17beb41b4c1819c1
+  prefix ::
+    Duckling.PhoneNumber.Types.PhoneNumberData
+    -> GHC.Base.Maybe GHC.Integer.Type.Integer
+  RecSel Left Duckling.PhoneNumber.Types.PhoneNumberData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.PhoneNumber.Types.PhoneNumberData) ->
+                 case ds of wild { Duckling.PhoneNumber.Types.PhoneNumberData ds1 ds2 ds3 ->
+                 ds1 }) -}
+e70e360ed6f9b27dd3ad6095d25bb317
+  value ::
+    Duckling.PhoneNumber.Types.PhoneNumberValue
+    -> Data.Text.Internal.Text
+  RecSel Left Duckling.PhoneNumber.Types.PhoneNumberValue
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U(U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Duckling.PhoneNumber.Types.PhoneNumberValue) ->
+                 case ds of wild { Duckling.PhoneNumber.Types.PhoneNumberValue ds1 ->
+                 ds1 }) -}
+instance GHC.Classes.Eq [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fEqPhoneNumberData
+instance GHC.Classes.Eq [Duckling.PhoneNumber.Types.PhoneNumberValue]
+  = Duckling.PhoneNumber.Types.$fEqPhoneNumberValue
+instance GHC.Generics.Generic [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fGenericPhoneNumberData
+instance Data.Hashable.Class.Hashable [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fHashablePhoneNumberData
+instance Control.DeepSeq.NFData [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fNFDataPhoneNumberData
+instance GHC.Classes.Ord [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fOrdPhoneNumberData
+instance GHC.Classes.Ord [Duckling.PhoneNumber.Types.PhoneNumberValue]
+  = Duckling.PhoneNumber.Types.$fOrdPhoneNumberValue
+instance Duckling.Resolve.Resolve [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fResolvePhoneNumberData
+instance GHC.Show.Show [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.$fShowPhoneNumberData
+instance GHC.Show.Show [Duckling.PhoneNumber.Types.PhoneNumberValue]
+  = Duckling.PhoneNumber.Types.$fShowPhoneNumberValue
+instance Data.Aeson.Types.ToJSON.ToJSON [Duckling.PhoneNumber.Types.PhoneNumberValue]
+  = Duckling.PhoneNumber.Types.$fToJSONPhoneNumberValue
+family instance GHC.Generics.Rep [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.Rep_PhoneNumberData
+family instance Duckling.Resolve.ResolvedValue [Duckling.PhoneNumber.Types.PhoneNumberData]
+  = Duckling.PhoneNumber.Types.D:R:ResolvedValuePhoneNumberData
+"SPEC/Duckling.PhoneNumber.Types $dmhashWithSalt @ PhoneNumberData" [ALWAYS] forall ($dGHashable :: Data.Hashable.Class.GHashable
+                                                                                                      Data.Hashable.Class.Zero
+                                                                                                      (GHC.Generics.Rep
+                                                                                                         Duckling.PhoneNumber.Types.PhoneNumberData))
+                                                                                    ($dGeneric :: GHC.Generics.Generic
+                                                                                                    Duckling.PhoneNumber.Types.PhoneNumberData)
+                                                                                    ($dHashable :: Data.Hashable.Class.Hashable
+                                                                                                     Duckling.PhoneNumber.Types.PhoneNumberData)
+  Data.Hashable.Class.$dmhashWithSalt @ Duckling.PhoneNumber.Types.PhoneNumberData
+                                      $dHashable
+                                      $dGeneric
+                                      $dGHashable
+  = Duckling.PhoneNumber.Types.$fHashablePhoneNumberData_$s$dmhashWithSalt
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

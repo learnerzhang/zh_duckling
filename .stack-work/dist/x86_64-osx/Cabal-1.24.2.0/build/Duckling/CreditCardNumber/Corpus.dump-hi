@@ -1,0 +1,798 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:01:08.451877 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Corpus 8002
+  interface hash: 4963701a1343ad34f76aab564371acd2
+  ABI hash: 0f9fea7182d7ab78ba509ee4abfe9aa2
+  export-list hash: c4babb41f70eda940f4de23122841f35
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ad13767d1aa0c2a638e3430186b2a1cf
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.CreditCardNumber.Corpus.corpus
+  Duckling.CreditCardNumber.Corpus.negativeCorpus
+module dependencies: Duckling.AmountOfMoney.Helpers
+                     Duckling.AmountOfMoney.Rules Duckling.AmountOfMoney.Types
+                     Duckling.Api Duckling.Core Duckling.CreditCardNumber.Helpers
+                     Duckling.CreditCardNumber.Rules Duckling.CreditCardNumber.Types
+                     Duckling.Dimensions Duckling.Dimensions.Common
+                     Duckling.Dimensions.Types Duckling.Distance.Helpers
+                     Duckling.Distance.Rules Duckling.Distance.Types
+                     Duckling.Duration.Helpers Duckling.Duration.Rules
+                     Duckling.Duration.Types Duckling.Email.Rules Duckling.Email.Types
+                     Duckling.Engine Duckling.Engine.Regex Duckling.Gender.Rules
+                     Duckling.Gender.Types Duckling.Identity.Helpers
+                     Duckling.Identity.Rules Duckling.Identity.Types Duckling.Locale
+                     Duckling.Numeral.Helpers Duckling.Numeral.Rules
+                     Duckling.Numeral.Types Duckling.Ordinal.Helpers
+                     Duckling.Ordinal.Rules Duckling.Ordinal.Types
+                     Duckling.PhoneNumber.Rules Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Helpers Duckling.Quantity.Rules
+                     Duckling.Quantity.Types Duckling.Ranking.Classifiers
+                     Duckling.Ranking.Classifiers.ZH_XX Duckling.Ranking.Extraction
+                     Duckling.Ranking.Rank Duckling.Ranking.Types Duckling.Regex.Types
+                     Duckling.Region Duckling.Resolve Duckling.Rules
+                     Duckling.Rules.Common Duckling.Temperature.Helpers
+                     Duckling.Temperature.Rules Duckling.Temperature.Types
+                     Duckling.Testing.Types Duckling.Time.Helpers Duckling.Time.Rules
+                     Duckling.Time.TimeZone.Parse Duckling.Time.Types
+                     Duckling.TimeGrain.Rules Duckling.TimeGrain.Types Duckling.Types
+                     Duckling.Types.Document Duckling.Types.Stash Duckling.Url.Helpers
+                     Duckling.Url.Rules Duckling.Url.Types Duckling.Volume.Helpers
+                     Duckling.Volume.Rules Duckling.Volume.Types Duckling.Weight.Helpers
+                     Duckling.Weight.Rules Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.CreditCardNumber.Helpers 779cea288d8431d47e5cad16454c4be5
+  exports: 61bbe3e40bef2789b5d036b6910966af
+  maxNumberDigits 7035693a8b09b58d6a6160f5f5daba64
+  minNumberDigits 02d5e339a408c435b529b6e8fd4c76c0
+import  -/  Duckling.CreditCardNumber.Types 81fe06b4314b4604371cc015e9908e21
+  exports: 8db62903b79d3bc1584e480b56e21fcc
+  Amex 618c8ea60b8e9a78757a24b214bb9f12
+  CreditCardNumberValue 31ee5b9aa4fba9fcf4845f50cdfadec0
+  DinerClub 0e62a283e88e9f647ffca9747f27dfed
+  Discover 9f2eff7eb8113c1e80c0d779b2aaa123
+  Mastercard b856b265a0bc01631a226a695b3fda82
+  Other 92a3373a98f7848db0d8f20e3bf1a40c
+  Visa 6cedb5f1269a577ee65c4206e5034088
+import  -/  Duckling.Testing.Types a43f67fb62d50f033116bd615019c103
+  exports: c3bdabff1f878cdb9f1a06aa9798a083
+  Corpus 3678ae062c1f6873d635493e9463cd42
+  Example 229575881ace16a3861bb85ac88bc4c1
+  NegativeCorpus a962af0f5318d8f7db2e9a63003c543c
+  examples ac3dfc3428f717b4bf32290e3e73f89d
+  testContext a2b9b307754e64d57829569f9b05f84d
+  testOptions 1abf9bf49c67a240999e40f967046842
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+621cd1968318e31f1a8c74a6cff198a6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.CreditCardNumber.Corpus.$trModule2
+                   Duckling.CreditCardNumber.Corpus.$trModule1) -}
+88dbe23937a91ae523eacfa4e22ef182
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "Duckling.CreditCardNumber.Corpus"#) -}
+aab9c48ecffb3cfc35a84342b8ec7a8b
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+2e1496c01be77b8920149466dca347ae
+  $wallExamples :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.CreditCardNumber.Corpus.corpus8 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+fe8c828b855244ec8ce28b3eab2bf593
+  $wallExamples1 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.CreditCardNumber.Corpus.corpus18 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+03bf4498171c80dfe899549ac6f917a1
+  $wallExamples2 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.CreditCardNumber.Corpus.corpus28 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+663deb09ed96626edaccb9f90150ef9b
+  $wallExamples3 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.CreditCardNumber.Corpus.corpus38 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+bb5429b21bae5aeab58ec522a7f4ad1c
+  $wallExamples4 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.CreditCardNumber.Corpus.corpus48 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+4aca176d8c8b23e3c975fcea08478794
+  $wallExamples5 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.CreditCardNumber.Corpus.corpus58 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+0f865f5cf212d62d291158b5890df115
+  allExamples :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.CreditCardNumber.Corpus.corpus56
+                   Duckling.CreditCardNumber.Corpus.corpus1) -}
+31233f25b11f5afe935f011c8d3fbede
+  corpus :: Duckling.Testing.Types.Corpus
+  {- Strictness: m,
+     Unfolding: ((Duckling.Testing.Types.testContext,
+                  GHC.Types.False `cast` (Sym (Duckling.Resolve.N:Options[0])),
+                  Duckling.CreditCardNumber.Corpus.allExamples)) -}
+ba6a8070a090d8397402fb1e4386f27c
+  corpus1 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.CreditCardNumber.Corpus.corpus46
+                   Duckling.CreditCardNumber.Corpus.corpus2) -}
+b0b9d445d0f35c4cb303ed7ea3ca5366
+  corpus10 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus11
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+c94310e13798f91d0711a573856c004e
+  corpus11 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue7,
+                  Duckling.CreditCardNumber.Corpus.corpus12)) -}
+69bc7671461b2846a23e21cd211be639
+  corpus12 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Types.$w$ctoJSON
+                        Duckling.CreditCardNumber.Types.Other of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.String ww1 }) -}
+8f90cbf026312a885741f171136a1c72
+  corpus13 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue8,
+                  Duckling.CreditCardNumber.Corpus.corpus14)) -}
+08522a06a7400c39b8561cf9ee688728
+  corpus14 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Corpus.corpus15 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+ec0b925f88e8d397b85667990e104827
+  corpus15 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "3530111333300000"#) -}
+1d88250c6bea0ab87cc1e7b0d3e595ed
+  corpus16 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.CreditCardNumber.Corpus.corpus25,
+                  Duckling.CreditCardNumber.Corpus.corpus17)) -}
+3fd76455cc7d6945715ba5316ec65bd3
+  corpus17 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.CreditCardNumber.Corpus.$wallExamples1 ww3 }) -}
+548bf0bb7e2414fb6c478b675ea91f36
+  corpus18 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.CreditCardNumber.Corpus.corpus19
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+52c63c00028da0176354de616d145359
+  corpus19 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus23
+                   Duckling.CreditCardNumber.Corpus.corpus20) -}
+e110799b2ccda93f36553c922c9831d3
+  corpus2 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.CreditCardNumber.Corpus.corpus36
+                   Duckling.CreditCardNumber.Corpus.corpus3) -}
+97568b5975f2450c754fd86d08ba7c8a
+  corpus20 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus21
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+10eac31bbe40d97a1d4b3afa7ac6a171
+  corpus21 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue7,
+                  Duckling.CreditCardNumber.Corpus.corpus22)) -}
+ebb27ca6118b4810475325add8509099
+  corpus22 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Types.$w$ctoJSON
+                        Duckling.CreditCardNumber.Types.DinerClub of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.String ww1 }) -}
+3bbd90b5874c900e2d57b9cdf2723fdd
+  corpus23 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue8,
+                  Duckling.CreditCardNumber.Corpus.corpus24)) -}
+fb8829b451391d2ebee13282b7d4b475
+  corpus24 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Corpus.corpus25 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+a417f2ffb201814acd1e8dd816fdc7c7
+  corpus25 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "30569309025904"#) -}
+900422732cc651f91f920ffa008607c8
+  corpus26 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.CreditCardNumber.Corpus.corpus35,
+                  Duckling.CreditCardNumber.Corpus.corpus27)) -}
+7be40704d4d9d14505d9a6e8d903d803
+  corpus27 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.CreditCardNumber.Corpus.$wallExamples2 ww3 }) -}
+d56f9f45703b009b7daf7bf2167f298b
+  corpus28 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.CreditCardNumber.Corpus.corpus29
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+a4ecd8da7f9421d549239f7a3be75ec2
+  corpus29 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus33
+                   Duckling.CreditCardNumber.Corpus.corpus30) -}
+04e702fe6ea08fce9348b93056918e87
+  corpus3 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.CreditCardNumber.Corpus.corpus26
+                   Duckling.CreditCardNumber.Corpus.corpus4) -}
+7f4f415d82c69587cba70db0ef2b9ce8
+  corpus30 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus31
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+94929e9b7afb9090fae0576679869623
+  corpus31 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue7,
+                  Duckling.CreditCardNumber.Corpus.corpus32)) -}
+0a216f0f1c1eebfc9c5a8501be4a4018
+  corpus32 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Types.$w$ctoJSON
+                        Duckling.CreditCardNumber.Types.Mastercard of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.String ww1 }) -}
+be6f056d8d9e8887879294402a926877
+  corpus33 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue8,
+                  Duckling.CreditCardNumber.Corpus.corpus34)) -}
+b48617cc6c45550d08395f51bf79fdfc
+  corpus34 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Corpus.corpus35 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+9be2db0c5b33f44df2992cb9649b8366
+  corpus35 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "5555555555554444"#) -}
+137770f49ed2b3a7c5084fc7e767a25f
+  corpus36 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.CreditCardNumber.Corpus.corpus45,
+                  Duckling.CreditCardNumber.Corpus.corpus37)) -}
+3a1a1f6d02688b847d50164890f41132
+  corpus37 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.CreditCardNumber.Corpus.$wallExamples3 ww3 }) -}
+6b62cd98465fbdd7c7d4e7b7711c154b
+  corpus38 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.CreditCardNumber.Corpus.corpus39
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+25e872091c1ee4f49ce3846b12a0e859
+  corpus39 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus43
+                   Duckling.CreditCardNumber.Corpus.corpus40) -}
+203465e43ac53e787b313245000d0e6b
+  corpus4 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.CreditCardNumber.Corpus.corpus16
+                   Duckling.CreditCardNumber.Corpus.corpus5) -}
+fa40432e626052076623536fcfb868e0
+  corpus40 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus41
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+aaf214cf678b2518970abf2c8fee51a7
+  corpus41 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue7,
+                  Duckling.CreditCardNumber.Corpus.corpus42)) -}
+ff82ed0722edb34143e00bafaa194c0a
+  corpus42 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Types.$w$ctoJSON
+                        Duckling.CreditCardNumber.Types.Discover of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.String ww1 }) -}
+0b14584509acad880cac240cdf458222
+  corpus43 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue8,
+                  Duckling.CreditCardNumber.Corpus.corpus44)) -}
+b8481cab4fb1f0595789601c1fbc636c
+  corpus44 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Corpus.corpus45 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+bef5413c236352dc6aa777ed15ba0617
+  corpus45 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "6011111111111117"#) -}
+3dbd205c7a9e4784d476fc6f046aa11e
+  corpus46 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.CreditCardNumber.Corpus.corpus55,
+                  Duckling.CreditCardNumber.Corpus.corpus47)) -}
+0ee51e792a48870e0cf0204f122185fb
+  corpus47 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.CreditCardNumber.Corpus.$wallExamples4 ww3 }) -}
+b196381406108db1ab15c8e911c3ba67
+  corpus48 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.CreditCardNumber.Corpus.corpus49
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+a5a39790773c82eb729a9cdc2c70db71
+  corpus49 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus53
+                   Duckling.CreditCardNumber.Corpus.corpus50) -}
+7ee08aaf71d7ef9eeee3135dc0f5e653
+  corpus5 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.CreditCardNumber.Corpus.corpus6
+                   (GHC.Types.[] @ Duckling.Testing.Types.Example)) -}
+fcf0da961550f8e0d2f1c7437a0830b2
+  corpus50 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus51
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+e8ea1677175e618b634e79a4a8d864f3
+  corpus51 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue7,
+                  Duckling.CreditCardNumber.Corpus.corpus52)) -}
+2f7eb6aed4afa1ef1d0b6cf7a536736d
+  corpus52 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Types.$w$ctoJSON
+                        Duckling.CreditCardNumber.Types.Amex of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.String ww1 }) -}
+0be143bd47a39a96c8d0f76dd7f3352a
+  corpus53 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue8,
+                  Duckling.CreditCardNumber.Corpus.corpus54)) -}
+b8697fa56e88a693d379e5bb254b2225
+  corpus54 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Corpus.corpus55 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+46dc501f6e9c857ca4697390b4ed5deb
+  corpus55 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "371449635398431"#) -}
+875baf37e223d26979d88ccf0c81b057
+  corpus56 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.CreditCardNumber.Corpus.corpus65,
+                  Duckling.CreditCardNumber.Corpus.corpus57)) -}
+a08a44dba1d4995b39441675a6ecf68a
+  corpus57 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.CreditCardNumber.Corpus.$wallExamples5 ww3 }) -}
+1e3af553e5ae922968f96c473628637f
+  corpus58 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.CreditCardNumber.Corpus.corpus59
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+4fa75a7a06c7479451c3f9025841f299
+  corpus59 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus63
+                   Duckling.CreditCardNumber.Corpus.corpus60) -}
+8a67854e61e93779e731fc4b1ad873a6
+  corpus6 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.CreditCardNumber.Corpus.corpus15,
+                  Duckling.CreditCardNumber.Corpus.corpus7)) -}
+5fdd7dca634d7aae4f8ac66629cdf937
+  corpus60 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus61
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+662a05e210cdf1d58bf6a80035af14dc
+  corpus61 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue7,
+                  Duckling.CreditCardNumber.Corpus.corpus62)) -}
+c951976b2375cf8507193cabc862678b
+  corpus62 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Types.$w$ctoJSON
+                        Duckling.CreditCardNumber.Types.Visa of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.String ww1 }) -}
+76ffc599bbe05e8aab28cc0cbab45f37
+  corpus63 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.CreditCardNumber.Types.$fToJSONCreditCardNumberValue8,
+                  Duckling.CreditCardNumber.Corpus.corpus64)) -}
+ef20cf756fbb9c3bde48415b8fd3ec47
+  corpus64 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.CreditCardNumber.Corpus.corpus65 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+fd7d137e82aceaf32b7feace881f1372
+  corpus65 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "4111111111111111"#) -}
+388d896bfc5e0c75017721b0d3f460ac
+  corpus7 ::
+    Duckling.Resolve.Context
+    -> Duckling.Types.ResolvedToken -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.CreditCardNumber.Corpus.$wallExamples ww3 }) -}
+8880d2ae66848ed3ed530a493d265967
+  corpus8 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.CreditCardNumber.Corpus.corpus9
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+9f3066ff0cca2e29dc95e155ef24dcd6
+  corpus9 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.CreditCardNumber.Corpus.corpus13
+                   Duckling.CreditCardNumber.Corpus.corpus10) -}
+c0cb786cea369cd1dc6f6216d97ae9cd
+  negativeCorpus :: Duckling.Testing.Types.NegativeCorpus
+  {- Strictness: m,
+     Unfolding: ((Duckling.Testing.Types.testContext,
+                  GHC.Types.False `cast` (Sym (Duckling.Resolve.N:Options[0])),
+                  Duckling.CreditCardNumber.Corpus.negativeCorpus_examples)) -}
+fc3af4d1e35177708de7ff26b9634bf5
+  negativeCorpus1 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus6
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus2) -}
+ecb9a0a2deae4b51b1a1e5402a5e1dd9
+  negativeCorpus2 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus5
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus3) -}
+a57278a13433db3700c221d545e4b111
+  negativeCorpus3 :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus4
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+0ed5540bebbf94aeca2ec659b6330925
+  negativeCorpus4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "4111111111111110"#) -}
+d43315fa6d9ab018ab5198de89660fec
+  negativeCorpus5 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "invalid"#) -}
+d37e9e2c880c709a842da7cd63a1b3b6
+  negativeCorpus6 :: Data.Text.Internal.Text
+073838998381f3e9ab5bcfb4212c7018
+  negativeCorpus7 :: Data.Text.Internal.Text
+523b70de802cf8277b89dcbe54d5ebd9
+  negativeCorpus_examples :: [Data.Text.Internal.Text]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus7
+                   Duckling.CreditCardNumber.Corpus.negativeCorpus1) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

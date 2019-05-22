@@ -1,0 +1,1065 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:08:19.652302 UTC
+
+interface main@main:Duckling.Ranking.Train 8002
+  interface hash: bd350807fb7b126bba5cf9a749b7d10e
+  ABI hash: a1cbe959d438af0147356300bc2e799e
+  export-list hash: e51d2a1096e35e4ef00980275ad47775
+  orphan hash: a9227baf587b563c56b9bb4ac697991c
+  flag hash: 1e397c2cf82b1bd089861a62491ecd97
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Ranking.Train.makeClassifiers
+module dependencies:
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:Data.Tuple 7dc4bbb45d2e69c991ffac438beeca11
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Engine 621c48f9379a58a84d4238ff16f6192c
+import  -/  duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ranking.Extraction fa0bda08a3ac9172b685bf4e72a46773
+import  -/  duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ranking.Types 10cc0e8112128b4277fe9f1be9f50acb
+import  -/  duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Resolve 15ce2eadafd5cc42f057e1d0f9191938
+import  -/  duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Testing.Types a43f67fb62d50f033116bd615019c103
+import  -/  duckling-0.1.6.1@duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types 801e304eb17ff8eb30c8b6726b1646d0
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base 05331f9dbdce4e8225c18ce1a8ba2f88
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Strict 74fd7b14a4a2f9eaf95c7dc9a18e61b1
+import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet 5f58e144114dc7a5de72a4ecdcadde39
+72414d883e491fc7956bc2722323bd8b
+  $s$wupdateOrConcatWithKey ::
+    (Duckling.Ranking.Types.Feature -> v -> v -> v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+  {- Arity: 3, Strictness: <L,C(C1(C1(U)))><S,U><S,U>, Inline: [0],
+     Unfolding: (\ @ v
+                   (w1 :: Duckling.Ranking.Types.Feature -> v -> v -> v)
+                   (ww :: GHC.Prim.Array#
+                            (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v))
+                   (ww1 :: GHC.Prim.Array#
+                             (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)) ->
+                 let {
+                   wild1 :: GHC.Prim.Int#
+                   = GHC.Prim.sizeofArray#
+                       @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                       ww1
+                 } in
+                 case GHC.Prim.newArray#
+                        @ (GHC.Base.Maybe GHC.Types.Int)
+                        @ GHC.Prim.RealWorld
+                        wild1
+                        (Data.HashMap.Array.undefinedElem @ (GHC.Base.Maybe GHC.Types.Int))
+                        GHC.Prim.realWorld# of ds { (#,#) ipv ipv1 ->
+                 letrec {
+                   $wgo10 :: forall s.
+                             Data.HashMap.Array.Array
+                               (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                             -> Data.HashMap.Array.MArray s (GHC.Base.Maybe GHC.Types.Int)
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.State# s
+                             -> (# GHC.Prim.State# s,
+                                   Data.HashMap.Array.MArray s (GHC.Base.Maybe GHC.Types.Int) #)
+                     {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,U><S,U><S,U>,
+                        Inline: [0] -}
+                   = \ @ s
+                       (w :: Data.HashMap.Array.Array
+                               (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v))
+                       (w2 :: Data.HashMap.Array.MArray s (GHC.Base.Maybe GHC.Types.Int))
+                       (ww2 :: GHC.Prim.Int#)
+                       (ww3 :: GHC.Prim.Int#)
+                       (w3 :: GHC.Prim.State# s)[OneShot] ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww2 ww3) of wild2 {
+                       GHC.Types.False
+                       -> case w2 of wild3 { Data.HashMap.Array.MArray ds1 ->
+                          case GHC.Prim.writeArray#
+                                 @ s
+                                 @ (GHC.Base.Maybe GHC.Types.Int)
+                                 ds1
+                                 ww2
+                                 (case w of wild4 { Data.HashMap.Array.Array ds2 ->
+                                  case GHC.Prim.indexArray#
+                                         @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                         ds2
+                                         ww2 of ds4 { Unit# ipv2 ->
+                                  case ipv2 of wild5 { Data.HashMap.Base.L k1 ds3 ->
+                                  case k1 of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
+                                  Duckling.Ranking.Train.$wpoly_go1
+                                    @ v
+                                    ww5
+                                    ww6
+                                    ww7
+                                    ww
+                                    0#
+                                    (GHC.Prim.sizeofArray#
+                                       @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                       ww) } } } })
+                                 w3 of s' { DEFAULT ->
+                          $wgo10 @ s w wild3 (GHC.Prim.+# ww2 1#) ww3 s' } }
+                       GHC.Types.True -> (# w3, w2 #) }
+                 } in
+                 case $wgo10
+                        @ GHC.Prim.RealWorld
+                        (Data.HashMap.Array.Array
+                           @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                           ww1)
+                        (Data.HashMap.Array.$WMArray
+                           @ GHC.Prim.RealWorld
+                           @ (GHC.Base.Maybe GHC.Types.Int)
+                           ipv1)
+                        0#
+                        wild1
+                        ipv of ds1 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild { Data.HashMap.Array.MArray ds2 ->
+                 case GHC.Prim.unsafeFreezeArray#
+                        @ GHC.Prim.RealWorld
+                        @ (GHC.Base.Maybe GHC.Types.Int)
+                        ds2
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case Duckling.Ranking.Train.$wgo1
+                        (Data.HashMap.Array.Array @ (GHC.Base.Maybe GHC.Types.Int) ipv5)
+                        (GHC.Prim.sizeofArray# @ (GHC.Base.Maybe GHC.Types.Int) ipv5)
+                        0#
+                        0# of ww2 { DEFAULT ->
+                 let {
+                   n1 :: GHC.Prim.Int#
+                   = GHC.Prim.sizeofArray#
+                       @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                       ww
+                 } in
+                 case GHC.Prim.newArray#
+                        @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                        @ GHC.Prim.RealWorld
+                        (GHC.Prim.+# n1 ww2)
+                        (Data.HashMap.Array.undefinedElem
+                           @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v))
+                        GHC.Prim.realWorld# of ds4 { (#,#) ipv7 ipv8 ->
+                 case GHC.Prim.copyArray#
+                        @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                        @ GHC.Prim.RealWorld
+                        ww
+                        0#
+                        ipv8
+                        0#
+                        n1
+                        ipv7 of s2 { DEFAULT ->
+                 letrec {
+                   $wgo11 :: GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.State# GHC.Prim.RealWorld
+                             -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 3, Strictness: <L,U><S,U><S,U>, Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.Int#)
+                       (ww4 :: GHC.Prim.Int#)
+                       (w :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww4 wild1) of wild2 {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (GHC.Base.Maybe GHC.Types.Int)
+                                 ipv5
+                                 ww4 of ds5 { Unit# ipv9 ->
+                          case ipv9 of wild3 {
+                            GHC.Base.Nothing
+                            -> case GHC.Prim.indexArray#
+                                      @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                      ww1
+                                      ww4 of ds6 { Unit# ipv10 ->
+                               case GHC.Prim.writeArray#
+                                      @ GHC.Prim.RealWorld
+                                      @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                      ipv8
+                                      ww3
+                                      ipv10
+                                      w of s' { DEFAULT ->
+                               $wgo11 (GHC.Prim.+# ww3 1#) (GHC.Prim.+# ww4 1#) s' } }
+                            GHC.Base.Just i3
+                            -> case i3 of wild4 { GHC.Types.I# i# ->
+                               case GHC.Prim.indexArray#
+                                      @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                      ww
+                                      i# of ds6 { Unit# ipv10 ->
+                               case ipv10 of wild5 { Data.HashMap.Base.L k1 v1 ->
+                               case GHC.Prim.indexArray#
+                                      @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                      ww1
+                                      ww4 of ds7 { Unit# ipv6 ->
+                               case ipv6 of wild6 { Data.HashMap.Base.L ds8 v2 ->
+                               case GHC.Prim.writeArray#
+                                      @ GHC.Prim.RealWorld
+                                      @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                      ipv8
+                                      i#
+                                      (Data.HashMap.Base.L
+                                         @ Duckling.Ranking.Types.Feature
+                                         @ v
+                                         k1
+                                         (w1 k1 v1 v2))
+                                      w of s' { DEFAULT ->
+                               $wgo11 ww3 (GHC.Prim.+# ww4 1#) s' } } } } } } } }
+                       GHC.Types.True -> (# w, GHC.Tuple.() #) }
+                 } in
+                 case $wgo11 n1 0# s2 of ds5 { (#,#) ipv9 ipv10 ->
+                 case GHC.Prim.unsafeFreezeArray#
+                        @ GHC.Prim.RealWorld
+                        @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                        ipv8
+                        ipv9 of ds6 { (#,#) ipv11 ipv12 ->
+                 ipv12 } } } } } } } } }) -}
+f9bfd8a0e5bd40a78af167812f6ce263
+  $s$wupdateOrConcatWithKey1 ::
+    (Duckling.Types.Node -> v -> v -> v)
+    -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+    -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+    -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+  {- Arity: 3, Strictness: <L,C(C1(C1(U)))><S,U><S,U>, Inline: [0] -}
+2ed76bb8be6567dae65f9e9b93a3624f
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Ranking.Train.$trModule2
+                   Duckling.Ranking.Train.$trModule1) -}
+7e854f7f7b83a1d2455918908c7cb945
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Ranking.Train"#) -}
+5ee88ac4ac8d4ef6fd7f30ce96f7cf60
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+26a80320e1fc2136fa0429a1d7042121
+  $w$s$wupdateOrSnocWithKey ::
+    (Duckling.Ranking.Types.Feature -> v -> v -> v)
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+  {- Arity: 6, Strictness: <L,C(C1(C1(U)))><L,U><L,U><L,U><L,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (w :: Duckling.Ranking.Types.Feature -> v -> v -> v)
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w1 :: v)
+                   (w2 :: GHC.Prim.Array#
+                            (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)) ->
+                 letrec {
+                   $wgo10 :: GHC.Prim.ByteArray#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> v
+                             -> GHC.Prim.Array#
+                                  (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Array#
+                                  (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                     {- Arity: 7, Strictness: <L,U><L,U><L,U><L,U><S,U><S,U><S,U>,
+                        Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.ByteArray#)
+                       (ww4 :: GHC.Prim.Int#)
+                       (ww5 :: GHC.Prim.Int#)
+                       (w3 :: v)
+                       (ww6 :: GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v))
+                       (ww7 :: GHC.Prim.Int#)
+                       (ww8 :: GHC.Prim.Int#) ->
+                     let {
+                       k2 :: Duckling.Ranking.Types.Feature
+                       = Data.Text.Internal.Text ww3 ww4 ww5
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww7 ww8) of wild {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                 ww6
+                                 ww7 of ds { Unit# ipv3 ->
+                          case ipv3 of wild1 { Data.HashMap.Base.L kx y ->
+                          case kx of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# ww5 dt5) of wild3 {
+                            GHC.Types.False
+                            -> $wgo10 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00 _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.State#
+                                                                                                                       GHC.Prim.RealWorld
+                                                                                                                  -> (# GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld,
+                                                                                                                        GHC.Prim.Int# #)}
+                                      ww3
+                                      (GHC.Prim.int2Word# ww4)
+                                      dt3
+                                      (GHC.Prim.int2Word# dt4)
+                                      (GHC.Prim.int2Word# ww5)
+                                      GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild5 {
+                                 DEFAULT -> $wgo10 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                                 0#
+                                 -> case GHC.Prim.thawArray#
+                                           @ (Data.HashMap.Base.Leaf
+                                                Duckling.Ranking.Types.Feature v)
+                                           @ GHC.Prim.RealWorld
+                                           ww6
+                                           0#
+                                           (GHC.Prim.sizeofArray#
+                                              @ (Data.HashMap.Base.Leaf
+                                                   Duckling.Ranking.Types.Feature v)
+                                              ww6)
+                                           GHC.Prim.realWorld# of ds1 { (#,#) ipv4 ipv5 ->
+                                    case GHC.Prim.writeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf
+                                                Duckling.Ranking.Types.Feature v)
+                                           ipv5
+                                           ww7
+                                           (Data.HashMap.Base.L
+                                              @ Duckling.Ranking.Types.Feature
+                                              @ v
+                                              k2
+                                              (w k2 w3 y))
+                                           ipv4 of s' { DEFAULT ->
+                                    case GHC.Prim.unsafeFreezeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf
+                                                Duckling.Ranking.Types.Feature v)
+                                           ipv5
+                                           s' of ds2 { (#,#) ipv6 ipv7 ->
+                                    ipv7 } } } } } } } } }
+                       GHC.Types.True
+                       -> case GHC.Prim.newArray#
+                                 @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                 @ GHC.Prim.RealWorld
+                                 (GHC.Prim.+# ww8 1#)
+                                 (Data.HashMap.Array.undefinedElem
+                                    @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v))
+                                 GHC.Prim.realWorld# of ds { (#,#) ipv3 ipv4 ->
+                          case GHC.Prim.copyArray#
+                                 @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                 @ GHC.Prim.RealWorld
+                                 ww6
+                                 0#
+                                 ipv4
+                                 0#
+                                 ww8
+                                 ipv3 of s2 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                 ipv4
+                                 ww8
+                                 (Data.HashMap.Base.L @ Duckling.Ranking.Types.Feature @ v k2 w3)
+                                 s2 of s' { DEFAULT ->
+                          case GHC.Prim.unsafeFreezeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                                 ipv4
+                                 s' of ds1 { (#,#) ipv5 ipv6 ->
+                          ipv6 } } } } }
+                 } in
+                 $wgo10
+                   ww
+                   ww1
+                   ww2
+                   w1
+                   w2
+                   0#
+                   (GHC.Prim.sizeofArray#
+                      @ (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+                      w2)) -}
+1835af54b33483a3cc4cea04fd0bea00
+  $w$s$wupdateOrSnocWithKey1 ::
+    (Data.Text.Internal.Text -> v -> v -> v)
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+  {- Arity: 6, Strictness: <L,C(C1(C1(U)))><L,U><L,U><L,U><L,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (w :: Data.Text.Internal.Text -> v -> v -> v)
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w1 :: v)
+                   (w2 :: GHC.Prim.Array#
+                            (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)) ->
+                 letrec {
+                   $wgo10 :: GHC.Prim.ByteArray#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> v
+                             -> GHC.Prim.Array#
+                                  (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Array#
+                                  (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                     {- Arity: 7, Strictness: <L,U><L,U><L,U><L,U><S,U><S,U><S,U>,
+                        Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.ByteArray#)
+                       (ww4 :: GHC.Prim.Int#)
+                       (ww5 :: GHC.Prim.Int#)
+                       (w3 :: v)
+                       (ww6 :: GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Data.Text.Internal.Text v))
+                       (ww7 :: GHC.Prim.Int#)
+                       (ww8 :: GHC.Prim.Int#) ->
+                     let {
+                       k2 :: Data.Text.Internal.Text = Data.Text.Internal.Text ww3 ww4 ww5
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww7 ww8) of wild {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ww6
+                                 ww7 of ds { Unit# ipv3 ->
+                          case ipv3 of wild1 { Data.HashMap.Base.L kx y ->
+                          case kx of wild2 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.==# ww5 dt5) of wild3 {
+                            GHC.Types.False
+                            -> $wgo10 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                            GHC.Types.True
+                            -> case {__pkg_ccall text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00 _hs_text_memcmp GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.ByteArray#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.Word#
+                                                                                                                  -> GHC.Prim.State#
+                                                                                                                       GHC.Prim.RealWorld
+                                                                                                                  -> (# GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld,
+                                                                                                                        GHC.Prim.Int# #)}
+                                      ww3
+                                      (GHC.Prim.int2Word# ww4)
+                                      dt3
+                                      (GHC.Prim.int2Word# dt4)
+                                      (GHC.Prim.int2Word# ww5)
+                                      GHC.Prim.realWorld# of wild4 { (#,#) ds11 ds12 ->
+                               case GHC.Prim.narrow32Int# ds12 of wild5 {
+                                 DEFAULT -> $wgo10 ww3 ww4 ww5 w3 ww6 (GHC.Prim.+# ww7 1#) ww8
+                                 0#
+                                 -> case w k2 w3 y of v' { DEFAULT ->
+                                    case GHC.Prim.thawArray#
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           @ GHC.Prim.RealWorld
+                                           ww6
+                                           0#
+                                           (GHC.Prim.sizeofArray#
+                                              @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                              ww6)
+                                           GHC.Prim.realWorld# of ds1 { (#,#) ipv4 ipv5 ->
+                                    case GHC.Prim.writeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           ipv5
+                                           ww7
+                                           (Data.HashMap.Base.L @ Data.Text.Internal.Text @ v k2 v')
+                                           ipv4 of s' { DEFAULT ->
+                                    case GHC.Prim.unsafeFreezeArray#
+                                           @ GHC.Prim.RealWorld
+                                           @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                           ipv5
+                                           s' of ds2 { (#,#) ipv6 ipv7 ->
+                                    ipv7 } } } } } } } } } }
+                       GHC.Types.True
+                       -> case GHC.Prim.newArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 @ GHC.Prim.RealWorld
+                                 (GHC.Prim.+# ww8 1#)
+                                 (Data.HashMap.Array.undefinedElem
+                                    @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v))
+                                 GHC.Prim.realWorld# of ds { (#,#) ipv3 ipv4 ->
+                          case w3 of v2 { DEFAULT ->
+                          case GHC.Prim.copyArray#
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 @ GHC.Prim.RealWorld
+                                 ww6
+                                 0#
+                                 ipv4
+                                 0#
+                                 ww8
+                                 ipv3 of s2 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ipv4
+                                 ww8
+                                 (Data.HashMap.Base.L @ Data.Text.Internal.Text @ v k2 v2)
+                                 s2 of s' { DEFAULT ->
+                          case GHC.Prim.unsafeFreezeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                                 ipv4
+                                 s' of ds1 { (#,#) ipv5 ipv6 ->
+                          ipv6 } } } } } }
+                 } in
+                 $wgo10
+                   ww
+                   ww1
+                   ww2
+                   w1
+                   w2
+                   0#
+                   (GHC.Prim.sizeofArray#
+                      @ (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+                      w2)) -}
+e81bea724c2e5aebe8dd361fd13456ad
+  $w$s$wupdateOrSnocWithKey2 ::
+    (Duckling.Types.Node -> v -> v -> v)
+    -> Duckling.Types.Range
+    -> Duckling.Types.Token
+    -> [Duckling.Types.Node]
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> v
+    -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+    -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+  {- Arity: 7,
+     Strictness: <L,C(C1(C1(U)))><L,U(U(U),U(U))><L,U><L,U><L,U><L,U><S,U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (w :: Duckling.Types.Node -> v -> v -> v)
+                   (ww :: Duckling.Types.Range)
+                   (ww1 :: Duckling.Types.Token)
+                   (ww2 :: [Duckling.Types.Node])
+                   (ww3 :: GHC.Base.Maybe Data.Text.Internal.Text)
+                   (w1 :: v)
+                   (w2 :: GHC.Prim.Array#
+                            (Data.HashMap.Base.Leaf Duckling.Types.Node v)) ->
+                 letrec {
+                   $wgo10 :: Duckling.Types.Range
+                             -> Duckling.Types.Token
+                             -> [Duckling.Types.Node]
+                             -> GHC.Base.Maybe Data.Text.Internal.Text
+                             -> v
+                             -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Int#
+                             -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                     {- Arity: 8,
+                        Strictness: <L,U(U(U),U(U))><L,U><L,U><L,U><L,U><S,U><S,U><S,U>,
+                        Inline: [0] -}
+                   = \ (ww4 :: Duckling.Types.Range)
+                       (ww5 :: Duckling.Types.Token)
+                       (ww6 :: [Duckling.Types.Node])
+                       (ww7 :: GHC.Base.Maybe Data.Text.Internal.Text)
+                       (w3 :: v)
+                       (ww8 :: GHC.Prim.Array#
+                                 (Data.HashMap.Base.Leaf Duckling.Types.Node v))
+                       (ww9 :: GHC.Prim.Int#)
+                       (ww10 :: GHC.Prim.Int#) ->
+                     let {
+                       k2 :: Duckling.Types.Node = Duckling.Types.Node ww4 ww5 ww6 ww7
+                     } in
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww9 ww10) of wild {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                 ww8
+                                 ww9 of ds { Unit# ipv3 ->
+                          case ipv3 of wild1 { Data.HashMap.Base.L kx y ->
+                          case kx of ww11 { Duckling.Types.Node ww12 ww13 ww14 ww15 ->
+                          case ww4 of ww16 { Duckling.Types.Range ww17 ww18 ->
+                          case ww17 of ww19 { GHC.Types.I# ww20 ->
+                          case ww12 of ww21 { Duckling.Types.Range ww22 ww23 ->
+                          case ww22 of ww24 { GHC.Types.I# ww25 ->
+                          case Duckling.Types.$w$c==2
+                                 ww20
+                                 ww18
+                                 ww5
+                                 ww6
+                                 ww7
+                                 ww25
+                                 ww23
+                                 ww13
+                                 ww14
+                                 ww15 of wild2 {
+                            GHC.Types.False
+                            -> $wgo10 ww16 ww5 ww6 ww7 w3 ww8 (GHC.Prim.+# ww9 1#) ww10
+                            GHC.Types.True
+                            -> case GHC.Prim.thawArray#
+                                      @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                      @ GHC.Prim.RealWorld
+                                      ww8
+                                      0#
+                                      (GHC.Prim.sizeofArray#
+                                         @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                         ww8)
+                                      GHC.Prim.realWorld# of ds1 { (#,#) ipv4 ipv5 ->
+                               case GHC.Prim.writeArray#
+                                      @ GHC.Prim.RealWorld
+                                      @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                      ipv5
+                                      ww9
+                                      (Data.HashMap.Base.L @ Duckling.Types.Node @ v k2 (w k2 w3 y))
+                                      ipv4 of s' { DEFAULT ->
+                               case GHC.Prim.unsafeFreezeArray#
+                                      @ GHC.Prim.RealWorld
+                                      @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                      ipv5
+                                      s' of ds2 { (#,#) ipv6 ipv7 ->
+                               ipv7 } } } } } } } } } } }
+                       GHC.Types.True
+                       -> case GHC.Prim.newArray#
+                                 @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                 @ GHC.Prim.RealWorld
+                                 (GHC.Prim.+# ww10 1#)
+                                 (Data.HashMap.Array.undefinedElem
+                                    @ (Data.HashMap.Base.Leaf Duckling.Types.Node v))
+                                 GHC.Prim.realWorld# of ds { (#,#) ipv3 ipv4 ->
+                          case GHC.Prim.copyArray#
+                                 @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                 @ GHC.Prim.RealWorld
+                                 ww8
+                                 0#
+                                 ipv4
+                                 0#
+                                 ww10
+                                 ipv3 of s2 { DEFAULT ->
+                          case GHC.Prim.writeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                 ipv4
+                                 ww10
+                                 (Data.HashMap.Base.L @ Duckling.Types.Node @ v k2 w3)
+                                 s2 of s' { DEFAULT ->
+                          case GHC.Prim.unsafeFreezeArray#
+                                 @ GHC.Prim.RealWorld
+                                 @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                                 ipv4
+                                 s' of ds1 { (#,#) ipv5 ipv6 ->
+                          ipv6 } } } } }
+                 } in
+                 $wgo10
+                   ww
+                   ww1
+                   ww2
+                   ww3
+                   w1
+                   w2
+                   0#
+                   (GHC.Prim.sizeofArray#
+                      @ (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+                      w2)) -}
+db90d7abb8541a71b02aaa21d7b4a82a
+  $w$sinsertWith ::
+    (v -> v -> v)
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> v
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+  {- Arity: 6, Strictness: <L,C(C1(U))><S,U><S,U><S,U><L,U><S,1*U>,
+     Inline: [0] -}
+38997ff051a27d67ca1dcd6e4a3deb06
+  $wgo1 ::
+    Data.HashMap.Array.Array (GHC.Base.Maybe GHC.Types.Int)
+    -> GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,U(U)><S,U><S,U><L,U>,
+     Inline: [0] -}
+7792860c43f35c4b314328f913d51db0
+  $wmakeClassifiers ::
+    [Duckling.Types.Rule]
+    -> Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> [Duckling.Testing.Types.Example]
+    -> Data.HashMap.Base.HashMap
+         Data.Text.Internal.Text Duckling.Ranking.Types.Classifier
+  {- Arity: 4, Strictness: <L,U><L,U><L,U><S,1*U>, Inline: [0],
+     Unfolding: (\ (w :: [Duckling.Types.Rule])
+                   (ww :: Duckling.Resolve.Context)
+                   (ww1 :: Duckling.Resolve.Options)
+                   (ww2 :: [Duckling.Testing.Types.Example]) ->
+                 letrec {
+                   go4 :: [Duckling.Testing.Types.Example]
+                          -> Duckling.Ranking.Types.Dataset -> Duckling.Ranking.Types.Dataset
+                     {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+                   = \ (ds :: [Duckling.Testing.Types.Example])
+                       (eta :: Duckling.Ranking.Types.Dataset) ->
+                     case ds of wild {
+                       [] -> eta
+                       : y ys
+                       -> case y of wild1 { (,) sentence predicate ->
+                          let {
+                            w1 :: Duckling.Types.ResolvedToken -> GHC.Types.Bool = predicate ww
+                          } in
+                          letrec {
+                            $wgo10 :: [Duckling.Types.ResolvedToken]
+                                      -> (# [Duckling.Types.ResolvedToken],
+                                            [Duckling.Types.ResolvedToken] #)
+                              {- Arity: 1, Strictness: <S,1*U>, Inline: [0] -}
+                            = \ (w2 :: [Duckling.Types.ResolvedToken]) ->
+                              case w2 of wild2 {
+                                []
+                                -> (# GHC.Types.[] @ Duckling.Types.ResolvedToken,
+                                      GHC.Types.[] @ Duckling.Types.ResolvedToken #)
+                                : y1 ys1
+                                -> let {
+                                     w3 :: ([Duckling.Types.ResolvedToken],
+                                            [Duckling.Types.ResolvedToken])
+                                     = case $wgo10 ys1 of ww3 { (#,#) ww4 ww5 -> (ww4, ww5) }
+                                   } in
+                                   case w1 y1 of wild3 {
+                                     GHC.Types.False
+                                     -> (# case w3 of wild4 { (,) ts fs -> ts },
+                                           GHC.Types.:
+                                             @ Duckling.Types.ResolvedToken
+                                             y1
+                                             (case w3 of wild4 { (,) ts fs -> fs }) #)
+                                     GHC.Types.True
+                                     -> (# GHC.Types.:
+                                             @ Duckling.Types.ResolvedToken
+                                             y1
+                                             (case w3 of wild4 { (,) ts fs -> ts }),
+                                           case w3 of wild4 { (,) ts fs -> fs } #) } }
+                          } in
+                          case $wgo10
+                                 (Duckling.Engine.parseAndResolve
+                                    w
+                                    sentence
+                                    ww
+                                    ww1) of ww3 { (#,#) ww4 ww5 ->
+                          let {
+                            nodesOK :: Data.HashSet.HashSet Duckling.Types.Node
+                            = Duckling.Ranking.Train.makeClassifiers_go2
+                                ww4
+                                (Data.HashMap.Base.Empty @ Duckling.Types.Node @ ())
+                                  `cast`
+                                (Sym (Data.HashSet.N:HashSet[0] <Duckling.Types.Node>_N))
+                          } in
+                          go4
+                            ys
+                            (Duckling.Ranking.Train.makeClassifiers_updateDataset
+                               GHC.Types.False
+                               (Data.HashMap.Base.difference
+                                  @ Duckling.Types.Node
+                                  @ ()
+                                  @ ()
+                                  Duckling.Types.$fEqNode
+                                  Duckling.Types.$fHashableNode
+                                  (Duckling.Ranking.Train.makeClassifiers_go1
+                                     ww5
+                                     (Data.HashMap.Base.Empty @ Duckling.Types.Node @ ())
+                                       `cast`
+                                     (Sym (Data.HashSet.N:HashSet[0] <Duckling.Types.Node>_N)))
+                                    `cast`
+                                  (Data.HashSet.N:HashSet[0] <Duckling.Types.Node>_N)
+                                  nodesOK
+                                    `cast`
+                                  (Data.HashSet.N:HashSet[0] <Duckling.Types.Node>_N))
+                                 `cast`
+                               (Sym (Data.HashSet.N:HashSet[0] <Duckling.Types.Node>_N))
+                               (Duckling.Ranking.Train.makeClassifiers_updateDataset
+                                  GHC.Types.True
+                                  nodesOK
+                                  eta)) } } }
+                 } in
+                 Duckling.Ranking.Train.makeClassifiers_go
+                   (go4
+                      ww2
+                      (Data.HashMap.Base.Empty
+                         @ Data.Text.Internal.Text
+                         @ [Duckling.Ranking.Types.Datum]))) -}
+5e5b0cc4be1164e804b7651761be1b48
+  $wpoly_go1 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Duckling.Ranking.Types.Feature v)
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.Maybe GHC.Types.Int
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <L,U><L,U><L,U><S,U><S,U><S,U>, Inline: [0] -}
+f3b031b9e94eae7a6e2db1bc73cf28cf
+  $wpoly_go2 ::
+    Duckling.Types.Range
+    -> Duckling.Types.Token
+    -> [Duckling.Types.Node]
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Prim.Array# (Data.HashMap.Base.Leaf Duckling.Types.Node v)
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.Maybe GHC.Types.Int
+  {- Arity: 7, HasNoCafRefs,
+     Strictness: <L,U(U(U),U(U))><L,U><L,U><L,U><S,U><S,U><S,U>,
+     Inline: [0] -}
+c6b084fc522a096ec7ef93de323dc826
+  $wpoly_go3 ::
+    GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Duckling.Ranking.Types.Feature v
+    -> Data.HashMap.Base.HashMap Duckling.Ranking.Types.Feature v
+    -> Data.HashMap.Base.HashMap Duckling.Ranking.Types.Feature v
+  {- Arity: 3, Strictness: <L,U><S,U><S,1*U>, Inline: [0] -}
+c3b4829f32e00f42fac9a7e47f3ac073
+  $wpoly_go4 ::
+    GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Duckling.Types.Node v
+    -> Data.HashMap.Base.HashMap Duckling.Types.Node v
+    -> Data.HashMap.Base.HashMap Duckling.Types.Node v
+  {- Arity: 3, Strictness: <L,U><S,U><S,1*U>, Inline: [0] -}
+7a6f84894757197de67fb229f3b50d17
+  makeClassifiers ::
+    [Duckling.Types.Rule]
+    -> Duckling.Testing.Types.Corpus
+    -> Duckling.Ranking.Types.Classifiers
+  {- Arity: 2, Strictness: <L,U><S(LLS),1*U(U,U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: [Duckling.Types.Rule])
+                   (w1 :: Duckling.Testing.Types.Corpus) ->
+                 case w1 of ww { (,,) ww1 ww2 ww3 ->
+                 Duckling.Ranking.Train.$wmakeClassifiers w ww1 ww2 ww3 }) -}
+68d514df942979d61467019bdcfb522c
+  makeClassifiers_go ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text [Duckling.Ranking.Types.Datum]
+    -> Data.HashMap.Base.HashMap
+         Data.Text.Internal.Text Duckling.Ranking.Types.Classifier
+  {- Arity: 1, Strictness: <S,1*U> -}
+d015c7ab2dbb81cb97111fcfe143b738
+  makeClassifiers_go1 ::
+    [Duckling.Types.ResolvedToken]
+    -> Data.HashSet.HashSet Duckling.Types.Node
+    -> Data.HashSet.HashSet Duckling.Types.Node
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+45b6065eabb03f695e829b841778ba1e
+  makeClassifiers_go2 ::
+    [Duckling.Types.ResolvedToken]
+    -> Data.HashSet.HashSet Duckling.Types.Node
+    -> Data.HashSet.HashSet Duckling.Types.Node
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+29e9c74ea7ae6003822ed32cf27ddbe8
+  makeClassifiers_updateDataset ::
+    Duckling.Ranking.Types.Class
+    -> Data.HashSet.HashSet Duckling.Types.Node
+    -> Duckling.Ranking.Types.Dataset
+    -> Duckling.Ranking.Types.Dataset
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U> -}
+"SPEC/Duckling.Ranking.Train $wupdateOrConcatWithKey @ Feature _" [0] forall @ v
+                                                                             (w :: GHC.Classes.Eq
+                                                                                     Duckling.Ranking.Types.Feature)
+  Data.HashMap.Base.$wupdateOrConcatWithKey @ Data.Text.Internal.Text
+                                            @ v
+                                            w
+  = Duckling.Ranking.Train.$s$wupdateOrConcatWithKey @ v
+"SPEC/Duckling.Ranking.Train $wupdateOrConcatWithKey @ Node _" [0] forall @ v
+                                                                          (w :: GHC.Classes.Eq
+                                                                                  Duckling.Types.Node)
+  Data.HashMap.Base.$wupdateOrConcatWithKey @ Duckling.Types.Node
+                                            @ v
+                                            w
+  = Duckling.Ranking.Train.$s$wupdateOrConcatWithKey1 @ v
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,2977 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:01:09.889109 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Corpus 8002
+  interface hash: ae60381b3ab2f14638eb07c0b99befb5
+  ABI hash: a952ce66ab3f7291ada30dc178f3739d
+  export-list hash: ce21d6496e1140cd28847cd109afe01c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: da43e020b162444b971d19b8435d080b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Numeral.Corpus.corpus
+module dependencies: Duckling.AmountOfMoney.Helpers
+                     Duckling.AmountOfMoney.Rules Duckling.AmountOfMoney.Types
+                     Duckling.Api Duckling.Core Duckling.CreditCardNumber.Helpers
+                     Duckling.CreditCardNumber.Rules Duckling.CreditCardNumber.Types
+                     Duckling.Dimensions Duckling.Dimensions.Common
+                     Duckling.Dimensions.Types Duckling.Distance.Helpers
+                     Duckling.Distance.Rules Duckling.Distance.Types
+                     Duckling.Duration.Helpers Duckling.Duration.Rules
+                     Duckling.Duration.Types Duckling.Email.Rules Duckling.Email.Types
+                     Duckling.Engine Duckling.Engine.Regex Duckling.Gender.Rules
+                     Duckling.Gender.Types Duckling.Identity.Helpers
+                     Duckling.Identity.Rules Duckling.Identity.Types Duckling.Locale
+                     Duckling.Numeral.Helpers Duckling.Numeral.Rules
+                     Duckling.Numeral.Types Duckling.Ordinal.Helpers
+                     Duckling.Ordinal.Rules Duckling.Ordinal.Types
+                     Duckling.PhoneNumber.Rules Duckling.PhoneNumber.Types
+                     Duckling.Quantity.Helpers Duckling.Quantity.Rules
+                     Duckling.Quantity.Types Duckling.Ranking.Classifiers
+                     Duckling.Ranking.Classifiers.ZH_XX Duckling.Ranking.Extraction
+                     Duckling.Ranking.Rank Duckling.Ranking.Types Duckling.Regex.Types
+                     Duckling.Region Duckling.Resolve Duckling.Rules
+                     Duckling.Rules.Common Duckling.Temperature.Helpers
+                     Duckling.Temperature.Rules Duckling.Temperature.Types
+                     Duckling.Testing.Types Duckling.Time.Helpers Duckling.Time.Rules
+                     Duckling.Time.TimeZone.Parse Duckling.Time.Types
+                     Duckling.TimeGrain.Rules Duckling.TimeGrain.Types Duckling.Types
+                     Duckling.Types.Document Duckling.Types.Stash Duckling.Url.Helpers
+                     Duckling.Url.Rules Duckling.Url.Types Duckling.Volume.Helpers
+                     Duckling.Volume.Rules Duckling.Volume.Types Duckling.Weight.Helpers
+                     Duckling.Weight.Rules Duckling.Weight.Types
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      extra-1.5.3@extra-1.5.3-DgI7Z6Dwkeh8JGXDlNC5BL
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         dependent-sum-0.4@dependent-sum-0.4-32kCW1hJUMSBd03CvIwqZl:Data.GADT.Compare
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.ByteString.Lazy
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.Sequence
+         regex-pcre-0.94.4@regex-pcre-0.94.4-Dlv5UOV35E3Fsya0hon6HM:Text.Regex.PCRE.String
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.AmountOfMoney.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.CreditCardNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Distance.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Duration.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Email.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Gender.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Identity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Numeral.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.PhoneNumber.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Quantity.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Regex.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Temperature.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Time.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.TimeGrain.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Url.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Volume.Types
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Weight.Types
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Duckling.Locale 020bf273f3f9b80348357a6a6745b7ad
+  exports: add3c3336cdc18456bb772c1f769cbd3
+  ZH d0aa7ebc9f9dfa8c425a5fce26f36d93
+  makeLocale 1586c234b6d7199fdb023a38b4b3332d
+import  -/  Duckling.Numeral.Types 5130bfd045a9ca6085fec0a42ae9c523
+  exports: 94344b1dfc906561c4234f30cd403539
+  NumeralValue c8a53c4a489f4f0d32e4d3c6162277f7
+import  -/  Duckling.Resolve 15ce2eadafd5cc42f057e1d0f9191938
+  exports: 6e20ad884e276a7b8b73219b25eea656
+  locale 7b49c496e5a75703c2e2577e6db7f264
+import  -/  Duckling.Testing.Types a43f67fb62d50f033116bd615019c103
+  exports: c3bdabff1f878cdb9f1a06aa9798a083
+  Corpus 3678ae062c1f6873d635493e9463cd42
+  Example 229575881ace16a3861bb85ac88bc4c1
+  examples ac3dfc3428f717b4bf32290e3e73f89d
+  testContext a2b9b307754e64d57829569f9b05f84d
+  testOptions 1abf9bf49c67a240999e40f967046842
+5d41ef217db2d8da9b33c33ccb035f10
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Numeral.Corpus.$trModule2
+                   Duckling.Numeral.Corpus.$trModule1) -}
+2e9903869f31c5fe04434d68d449e223
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Numeral.Corpus"#) -}
+50c4058f2e9cefcdde4d3aedb5c90f75
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+1a55416c969d195abb09ccdc4ce33b44
+  $wcheck :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus72 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+53658f9f1ee19337d96cc5c1bfdf2e63
+  $wcheck1 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus100 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+0905570dac4b256a33bb828b22e6070a
+  $wcheck10 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus217 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+f8b844b7fc8d7cee047c77f79d982fa5
+  $wcheck11 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus227 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+4aca637c5f104d00c183b297d8dd7307
+  $wcheck12 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus237 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+5e77012cef404a620e13daf8bfa4d9fc
+  $wcheck13 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus247 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+7566bef573a89d266b414256a8377df8
+  $wcheck14 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus257 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+5da2f2b28a7a436da69718efe14abb6b
+  $wcheck15 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus267 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+84cf6125390b57a938d68f5053a7bcc0
+  $wcheck16 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus277 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+0562662bdbc0f10b2cc27e71c31ae96b
+  $wcheck17 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus287 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+2ae7b708b0c874d4fadbc20724abd83e
+  $wcheck18 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus297 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+8136b6045630406899dfe0a53199b285
+  $wcheck19 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus309 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+a874759256ef2aec307724d5dc821fe4
+  $wcheck2 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus115 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+a6c159cead0f192ca0917efb87990a27
+  $wcheck20 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus323 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+2f9e15eb88764f80ade7ddf5c154c513
+  $wcheck3 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus129 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+33efa234bb61cd59b947b7f0e9f3a8d2
+  $wcheck4 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus143 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+0c424b9e170ee7682eadd2953413193c
+  $wcheck5 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus159 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+1d812f102aac79eb4d0c7bca23a83168
+  $wcheck6 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus171 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+32186b5f42785f3b174f41df55a8f69f
+  $wcheck7 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus181 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+a1bea86a54785a57052d94a388cccaf7
+  $wcheck8 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus193 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+7d2d82e58827e2806d53f71e3b6e6282
+  $wcheck9 :: Duckling.Types.ResolvedVal -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: Duckling.Types.ResolvedVal) ->
+                 case ww of wild { Duckling.Types.RVal a1 $dResolve $dEq $dShow $dToJSON ds v ->
+                 case Duckling.Numeral.Corpus.corpus205 of dt { DEFAULT ->
+                 Data.Aeson.Types.Internal.$fEqValue_$c==
+                   (Data.Aeson.Types.Internal.Object dt)
+                   (Data.Aeson.Types.ToJSON.toJSON
+                      @ (Duckling.Resolve.ResolvedValue a1)
+                      (Duckling.Resolve.$p3Resolve @ a1 $dResolve)
+                      v) } }) -}
+45dab3363c68fc36ffd999b7ae6279d0
+  allExamples :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus336
+                   Duckling.Numeral.Corpus.corpus1) -}
+b8c1dfb00c0f27808a1f5286440acb54
+  corpus :: Duckling.Testing.Types.Corpus
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus338,
+                  GHC.Types.False `cast` (Sym (Duckling.Resolve.N:Options[0])),
+                  Duckling.Numeral.Corpus.allExamples)) -}
+61918377ff5fd9038c8b1b209f19ead1
+  corpus1 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus334
+                   Duckling.Numeral.Corpus.corpus2) -}
+9e0b7b929a33a190569e7f84d42df46e
+  corpus10 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus304
+                   Duckling.Numeral.Corpus.corpus11) -}
+bdb88868677add74a7078f322e3524e4
+  corpus100 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus101
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+49d6527a87fa16fe8a22bd1af9e4e639
+  corpus101 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus102) -}
+e65b14f060e62765a6a846ab48f94168
+  corpus102 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus103
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+9ca3fde6545789bf2daaf5174ccc44a7
+  corpus103 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus104)) -}
+818c62af0b44789e037f674edc5aa908
+  corpus104 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        1200000.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             1200000.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus77 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+5b18a88a3757fd4f4d063ba059966b5d
+  corpus105 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\128\\231\\153\\190\\228\\186\\140\\229\\141\\129\\228\\184\\135"#) -}
+017b653c7b21930d2d507a98614e6446
+  corpus106 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus107,
+                  Duckling.Numeral.Corpus.corpus_check1)) -}
+2ce1afea6252a68d0ba8d008e976e7ee
+  corpus107 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# ".0012G"#) -}
+17d908ce02b7cf7c4ec57b440dbebdf8
+  corpus108 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus109,
+                  Duckling.Numeral.Corpus.corpus_check1)) -}
+1996dbba5d2132e60f9f79e75a2afb2b
+  corpus109 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1.2M"#) -}
+47a2e38a203b5ab994e53ed0d7c548cf
+  corpus11 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus296
+                   Duckling.Numeral.Corpus.corpus12) -}
+64fc5f076217f8be32bc04c24d39c2a8
+  corpus110 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus111,
+                  Duckling.Numeral.Corpus.corpus_check1)) -}
+d285d6c5a0fdcdb0e66f85dc69bde1cc
+  corpus111 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1200000"#) -}
+51531a33fadfdcea22557312acd6f6e1
+  corpus112 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus113,
+                  Duckling.Numeral.Corpus.corpus_check1)) -}
+38d5917f1fa20cdcdd46bbf19d3c409d
+  corpus113 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1,200,000"#) -}
+733bcfde734881622715a9c75eafb731
+  corpus114 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus121,
+                  Duckling.Numeral.Corpus.corpus_check2)) -}
+2e5b5c3367e0c1e7a805c42634946597
+  corpus115 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus116
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+e98def0470b0a6e6107d49266d4875af
+  corpus116 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus117) -}
+7bef48d8f126faf9d8a7dd9d5aba5d6d
+  corpus117 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus118
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+acb04dbc7cea3b273c7468ae44a7783f
+  corpus118 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus119)) -}
+3a02f3062d69e5117cb72d8677bce595
+  corpus119 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        1040000.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             1040000.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus120 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+42fccf10b9587296f8819e7ef61df9b8
+  corpus12 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus294
+                   Duckling.Numeral.Corpus.corpus13) -}
+81ad98af11921da1f2624ecab2a9d14c
+  corpus120 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1040000.0##) -}
+640d4b7684a41d0f850698c13613f833
+  corpus121 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\128\\231\\153\\190\\233\\155\\182\\229\\155\\155\\228\\184\\135"#) -}
+8677025b625e5199384fcc5ec67e94af
+  corpus122 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus123,
+                  Duckling.Numeral.Corpus.corpus_check2)) -}
+f6e4a144816e50562d90089483b9d6ca
+  corpus123 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1.04M"#) -}
+790552f7d97a8c90ccec179a45779140
+  corpus124 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus125,
+                  Duckling.Numeral.Corpus.corpus_check2)) -}
+be21ea551e443a26dfb083cf2ff7520e
+  corpus125 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1040000"#) -}
+cb065603eb54f08cf590062be1028527
+  corpus126 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus127,
+                  Duckling.Numeral.Corpus.corpus_check2)) -}
+b3ae1de76400b86adfee62371eb3b665
+  corpus127 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1,040,000"#) -}
+c7649356994b532100c4d66388f61228
+  corpus128 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus135,
+                  Duckling.Numeral.Corpus.corpus_check3)) -}
+07289afd9500819ccf37e85c8660dec0
+  corpus129 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus130
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+1c35d37acb85f10c7a04fc959949fc17
+  corpus13 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus286
+                   Duckling.Numeral.Corpus.corpus14) -}
+96039d465329cf227de51fddf7abe10c
+  corpus130 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus131) -}
+c7a9bc9cff5f278f5ebee67a6f29a9ed
+  corpus131 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus132
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+39bbd483ca43786a8e6dad6c215e1c10
+  corpus132 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus133)) -}
+38920492982a071167554b8a1cc0dcfc
+  corpus133 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        3000000.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             3000000.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus134 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+71408ceb297ba69d58db2db0efe5be56
+  corpus134 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 3000000.0##) -}
+3a73d791e10bcb78c3dfd42f8072b0d1
+  corpus135 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\137\\231\\153\\190\\228\\184\\135"#) -}
+22af56467436a2ced1921652bd0e9efc
+  corpus136 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus137,
+                  Duckling.Numeral.Corpus.corpus_check3)) -}
+23824777dfab4e77f5806187877bcfb7
+  corpus137 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "3,000,000"#) -}
+e39adb6fa3ec7de729029ebbcd96336d
+  corpus138 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus139,
+                  Duckling.Numeral.Corpus.corpus_check3)) -}
+670e26238f05c62ca0e61e81975eb788
+  corpus139 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "3000000"#) -}
+3917a2e1684a4686775410a35eae14fe
+  corpus14 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus284
+                   Duckling.Numeral.Corpus.corpus15) -}
+713e5673fa945f01f0aad718a2eea322
+  corpus140 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus141,
+                  Duckling.Numeral.Corpus.corpus_check3)) -}
+3e8b3c61d7f5a25507e28223e187f63f
+  corpus141 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "3M"#) -}
+b09485a95c3339f5ff8fc133761b85e0
+  corpus142 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus149,
+                  Duckling.Numeral.Corpus.corpus_check4)) -}
+123e497b8db7aea44cfaab7a433efcec
+  corpus143 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus144
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+11ae96eb4abbb226d1bca7c4a10042aa
+  corpus144 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus145) -}
+d03bcdd272db50580c556678012867e8
+  corpus145 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus146
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+559d0fefaa8e1ab446d5a775793a1e3a
+  corpus146 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus147)) -}
+434fb22b3d0f78d73febb599ce80af4f
+  corpus147 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        100000.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             100000.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus148 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+b46a08927fb9e70c0f0cff501f362895
+  corpus148 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 100000.0##) -}
+29a11321bd8cb7b7a2bf9e68263951da
+  corpus149 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\229\\141\\129\\228\\184\\135"#) -}
+063242e6baf622b74ff949a8b5386b73
+  corpus15 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus276
+                   Duckling.Numeral.Corpus.corpus16) -}
+7283ad624a70a884c8bbb022dd2ffc39
+  corpus150 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus151,
+                  Duckling.Numeral.Corpus.corpus_check4)) -}
+786454c8214075aa1ebbd56cf6cdbadc
+  corpus151 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "100k"#) -}
+cd82a4c8d0f8602abbec6d408d83edc3
+  corpus152 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus153,
+                  Duckling.Numeral.Corpus.corpus_check4)) -}
+06188dea8d0851e50b7d05ab0d25dce5
+  corpus153 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "100K"#) -}
+3e987b80e3da46128d0670e1b13c7793
+  corpus154 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus155,
+                  Duckling.Numeral.Corpus.corpus_check4)) -}
+c2e85fc1c2b61f491b23ba69f83178c7
+  corpus155 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "100000"#) -}
+d68f8a67e44ed20507b46fd8ca213623
+  corpus156 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus157,
+                  Duckling.Numeral.Corpus.corpus_check4)) -}
+65f3021d236e8948bf5ac123dee0fe97
+  corpus157 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "100,000"#) -}
+d86b35a95b867c887a27f9cca97b00af
+  corpus158 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus165,
+                  Duckling.Numeral.Corpus.corpus_check5)) -}
+d0e73181f2874fd0d682cbf906beb4db
+  corpus159 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus160
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+4a09df6b0c26004e7646ffb4c3faa93f
+  corpus16 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus274
+                   Duckling.Numeral.Corpus.corpus17) -}
+60fd38dc439bea4ccb64cfe6bf4ec239
+  corpus160 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus161) -}
+d30fc63d6a66b2999e9ac9233680c88c
+  corpus161 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus162
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+1db85b839829d4287a8e1bc11d8b25ad
+  corpus162 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus163)) -}
+ee8d3a47f588e14ab949be89e3f56d20
+  corpus163 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        34507.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             34507.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus164 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+e84b912f7b0fa2847c3c674abdcd1512
+  corpus164 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 34507.0##) -}
+12e1127154daa3b9dd77e0764c8c71c9
+  corpus165 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\137\\228\\184\\135\\229\\155\\155\\229\\141\\131\\228\\186\\148\\231\\153\\190\\233\\155\\182\\228\\184\\131"#) -}
+0275456bdc69c44cdefbce576b7ade54
+  corpus166 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus167,
+                  Duckling.Numeral.Corpus.corpus_check5)) -}
+2f63e55d3e4bb5573ee0f2e5298e9da8
+  corpus167 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "34,507"#) -}
+77d13df782116ef979e87e1c9466388f
+  corpus168 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus169,
+                  Duckling.Numeral.Corpus.corpus_check5)) -}
+e46d4cff0902ae08bb3185952be989d9
+  corpus169 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "34507"#) -}
+c3f75a693513cba3471c4687e9c9d505
+  corpus17 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus266
+                   Duckling.Numeral.Corpus.corpus18) -}
+01151c4a03f2681375a2c3d7c2bc63ba
+  corpus170 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus177,
+                  Duckling.Numeral.Corpus.corpus_check6)) -}
+b11ff4a9046b30e9b9eba84bf7dd60bb
+  corpus171 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus172
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+ebee423e615cbf2f63e0aba10ee96d58
+  corpus172 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus173) -}
+9cb897926d25bb8ec20b82ab2fbb5f03
+  corpus173 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus174
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+5399f42bdf8c3c2d4980486c16969656
+  corpus174 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus175)) -}
+a879d1b66dd42ab2057327c692402b72
+  corpus175 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        0.77##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             0.77##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus176 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+de5f9f613331f5e4e6a7fd62c1b60450
+  corpus176 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.77##) -}
+e3057a087b5116c1af810b76e604a207
+  corpus177 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# ".77"#) -}
+8745c6a009ee2c94cae53815bbae82a1
+  corpus178 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus179,
+                  Duckling.Numeral.Corpus.corpus_check6)) -}
+fed62c90ed1df09362445815a7590d1c
+  corpus179 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "0.77"#) -}
+b66c10a4df0da6a6cb8e5c1258f5ea21
+  corpus18 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus264
+                   Duckling.Numeral.Corpus.corpus19) -}
+a637e13a0a29e12ec244094cf7816517
+  corpus180 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus187,
+                  Duckling.Numeral.Corpus.corpus_check7)) -}
+1c121a3532b77b316a246787c39411ee
+  corpus181 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus182
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+7f63d54fbbb06f5b696c4df432949124
+  corpus182 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus183) -}
+dafda8aa9003599b07127522603b06f6
+  corpus183 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus184
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+8296bdd6cd620bb393e7f0b6248bbeba
+  corpus184 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus185)) -}
+46e7dacc50a1cebcc89d81f0dda86c9d
+  corpus185 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        1.1##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             1.1##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus186 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+18ae3f4cfe5a873f8b1553844e32f41b
+  corpus186 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.1##) -}
+415513f9156981fbf07854c2e7cef44e
+  corpus187 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "01.10"#) -}
+c40d6a2af2c3e517d2167df1886c4c76
+  corpus188 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus189,
+                  Duckling.Numeral.Corpus.corpus_check7)) -}
+a76b0c593b630e0b4b39710daea780b7
+  corpus189 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1.10"#) -}
+6d5702021a20b5d8f480c48fa24483f5
+  corpus19 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus256
+                   Duckling.Numeral.Corpus.corpus20) -}
+9a5fe3a57c32d5f66991bbb89f4f9015
+  corpus190 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus191,
+                  Duckling.Numeral.Corpus.corpus_check7)) -}
+ad46be7ed9befbb13591208341ec3d43
+  corpus191 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1.1"#) -}
+095e890236c5af9fe238d58d8dc6ecfa
+  corpus192 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus199,
+                  Duckling.Numeral.Corpus.corpus_check8)) -}
+4990a61f6891d2b2ef427a711f96dd03
+  corpus193 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus194
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+34a7c8e70c931099b4501bc5e3b759ec
+  corpus194 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus195) -}
+22a2ee7ff9f73d8a36a2f83a6da7f090
+  corpus195 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus196
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+edc210f0f4d27643c7b3b72de92ff774
+  corpus196 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus197)) -}
+5c690e372cef96ad2c0cdf18d6080f80
+  corpus197 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        10040.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             10040.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus198 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+e15e7a79bdeb945162f5060116143b83
+  corpus198 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 10040.0##) -}
+171ee9ed6e2d98d076601f97b60d001d
+  corpus199 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\128\\228\\184\\135\\233\\155\\182\\229\\155\\155\\229\\141\\129"#) -}
+ce6e48df93860238bb9a8f3693ac8e95
+  corpus2 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus332
+                   Duckling.Numeral.Corpus.corpus3) -}
+62825c54d0ea6bf1284936e16cc5a27b
+  corpus20 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus254
+                   Duckling.Numeral.Corpus.corpus21) -}
+11a0a549209c73ef103291fdd2d1e2c1
+  corpus200 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus201,
+                  Duckling.Numeral.Corpus.corpus_check8)) -}
+3bb08a866a6a11b0b57cc6261d8120c7
+  corpus201 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "10,040"#) -}
+76bbddadf489883732a5871bd555b973
+  corpus202 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus203,
+                  Duckling.Numeral.Corpus.corpus_check8)) -}
+ef6e4f2d95beace2a78f5df7c8be9f66
+  corpus203 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "10040"#) -}
+796b04ed06168194e1ba2df68e8ec1c2
+  corpus204 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus211,
+                  Duckling.Numeral.Corpus.corpus_check9)) -}
+5430b388c6a420bc5fee00207746a51c
+  corpus205 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus206
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+b5934d5dcd5fecee12188e2ca02324c6
+  corpus206 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus207) -}
+a9c16c44a14eca10263555dc71467902
+  corpus207 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus208
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+c5569bf900e96732a6b4e99fac2808dc
+  corpus208 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus209)) -}
+692228fb7ad7097f5c95b2b03d3593a5
+  corpus209 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        34567.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             34567.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus210 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+0a7c9095435137e9a2e80a2df72d3972
+  corpus21 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus246
+                   Duckling.Numeral.Corpus.corpus22) -}
+de0d2f11672c4d1948cd2b1ae9ecf72b
+  corpus210 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 34567.0##) -}
+e288a3eaea5e0ae8683d8c66b79e169d
+  corpus211 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\137\\228\\184\\135\\229\\155\\155\\229\\141\\131\\228\\186\\148\\231\\153\\190\\229\\133\\173\\229\\141\\129\\228\\184\\131"#) -}
+01b0a84463f2ccbbafde72682cd8d629
+  corpus212 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus213,
+                  Duckling.Numeral.Corpus.corpus_check9)) -}
+78cecf0a7ea90a47d246604d81ee2b37
+  corpus213 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "34,567"#) -}
+3e5e6c025d100c026b198a1e0bda6e23
+  corpus214 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus215,
+                  Duckling.Numeral.Corpus.corpus_check9)) -}
+d8e5818856a67a9e499d8d76a47c182d
+  corpus215 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "34567"#) -}
+44fe94ebf83e265aee60e8ccebe9a366
+  corpus216 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus223,
+                  Duckling.Numeral.Corpus.corpus_check10)) -}
+78e8a681420314ca1cd09b08f0979ee6
+  corpus217 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus218
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+31f02370d56370ccd76dc12b3e064ae0
+  corpus218 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus219) -}
+8a40e547692b924071e8de01e9e6de3e
+  corpus219 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus220
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+7f0a6d35b10cc04c46c2510519b728a7
+  corpus22 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus244
+                   Duckling.Numeral.Corpus.corpus23) -}
+233454190db23f42f2684d45a7ef196c
+  corpus220 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus221)) -}
+3efb2ca74d8505648b567811e8811b59
+  corpus221 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        534.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             534.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus222 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+b7a2673c9a0126522fbdb613d1b78c2a
+  corpus222 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 534.0##) -}
+88fa74b4fba5985aad3c084875ebd5b6
+  corpus223 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\186\\148\\231\\153\\190\\228\\184\\137\\229\\141\\129\\229\\155\\155"#) -}
+f8eebc5b9997c81c04976dd6e4b19629
+  corpus224 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus225,
+                  Duckling.Numeral.Corpus.corpus_check10)) -}
+289c19c3fbdb65b6c5f56e68c97b910e
+  corpus225 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "534"#) -}
+b5cab33e24a29ca6f30c68846744cff2
+  corpus226 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus233,
+                  Duckling.Numeral.Corpus.corpus_check11)) -}
+cee8fd5afb4eed31666d42659fff5c8f
+  corpus227 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus228
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+8e6acee733c454f8072fce3ef6a52fc7
+  corpus228 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus229) -}
+9e1860047d4d8e9acb524cf77d41cce3
+  corpus229 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus230
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+0ad73fd1355eca41022ee8cc2a80e7b6
+  corpus23 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus236
+                   Duckling.Numeral.Corpus.corpus24) -}
+15cff4fda8af7151e2f37a0d5d5a977b
+  corpus230 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus231)) -}
+8acd84ad9569f7eddc68808bb86e9095
+  corpus231 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        203.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             203.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus232 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+084c9e62636044f5724ce127238fd0af
+  corpus232 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 203.0##) -}
+f09cec23198e2fbfb97e00fb8f7e5b05
+  corpus233 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\186\\140\\231\\153\\190\\233\\155\\182\\228\\184\\137"#) -}
+861afb086374a81e8493044ec136e66c
+  corpus234 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus235,
+                  Duckling.Numeral.Corpus.corpus_check11)) -}
+b7a5e8a4951762dd29887e6a7b0922da
+  corpus235 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "203"#) -}
+b6038170c67a20b37ceaa8de8e47cc80
+  corpus236 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus243,
+                  Duckling.Numeral.Corpus.corpus_check12)) -}
+80acac9b5a7c283c986773007e635bbd
+  corpus237 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus238
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+0f4b066d23980c392e131d91b77ae665
+  corpus238 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus239) -}
+e1c05ab6b9646d56404ae88f3067aeff
+  corpus239 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus240
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+04e3f4b2810eefa2b73b8b39eeec15e3
+  corpus24 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus234
+                   Duckling.Numeral.Corpus.corpus25) -}
+1f7121b82af3302e42d4d528a05fe949
+  corpus240 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus241)) -}
+e17d22fd5d72639f42ae7d6fa6d4ac92
+  corpus241 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        96.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             96.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus242 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+b2f7be6e5fc3b9811c7949848896bdc7
+  corpus242 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 96.0##) -}
+3cb31db50ad42332de0d7fa71433c667
+  corpus243 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\185\\157\\229\\141\\129\\229\\133\\173"#) -}
+fb6cf52e59bd3343aad233afba3d54a0
+  corpus244 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus245,
+                  Duckling.Numeral.Corpus.corpus_check12)) -}
+5347f7edb875dfd8fb603461d6f8240e
+  corpus245 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "96"#) -}
+b666444664a0189797fd58df6c08d94f
+  corpus246 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus253,
+                  Duckling.Numeral.Corpus.corpus_check13)) -}
+c9ea00fe33e3c6923ddf6c7d3b73749c
+  corpus247 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus248
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+bd9df720d927c12ea7b769bac0068831
+  corpus248 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus249) -}
+df9760fbc885c0a95732ed0259a6994a
+  corpus249 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus250
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+54960310601b093932d7f604f9451b3c
+  corpus25 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus226
+                   Duckling.Numeral.Corpus.corpus26) -}
+e44c7314debfdedd339c1db6748927f5
+  corpus250 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus251)) -}
+a27fe3d50f05e66140974118527f8165
+  corpus251 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        33.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             33.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus252 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+1f1e9d1c8f1bfebf19a14fe8ea7347aa
+  corpus252 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 33.0##) -}
+e7bb49ebe003001e1e156f5434dc8174
+  corpus253 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\137\\229\\141\\129\\228\\184\\137"#) -}
+ad648d26add4800288e1957d8b89ab75
+  corpus254 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus255,
+                  Duckling.Numeral.Corpus.corpus_check13)) -}
+863427ce637bb9e0d3dfbe9866126687
+  corpus255 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "33"#) -}
+85ee17f9aa64f50a05902aa682e48dc1
+  corpus256 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus263,
+                  Duckling.Numeral.Corpus.corpus_check14)) -}
+a4477269276673f1ff80432de4a432c3
+  corpus257 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus258
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+1bcd9e0b2a3903a00370aaaa6f17b0af
+  corpus258 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus259) -}
+be52927a2a371b8ab8b5a01b5eed6012
+  corpus259 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus260
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+62e61823c4a2beba581c90fa907949f6
+  corpus26 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus224
+                   Duckling.Numeral.Corpus.corpus27) -}
+ea952a86c7b2908aad431ed4a9b6e1e9
+  corpus260 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus261)) -}
+2f187687413ca89981584b323854d7a4
+  corpus261 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        60.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             60.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus262 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+7242e6ba49fbb8db09ae083795f70206
+  corpus262 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 60.0##) -}
+8356d53b63b39587ee08215db2adbd67
+  corpus263 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\229\\133\\173\\229\\141\\129"#) -}
+0a3b6606f13797833e5e60ed4e7d73ec
+  corpus264 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus265,
+                  Duckling.Numeral.Corpus.corpus_check14)) -}
+f3c08ce8f1c12d2e17c7704d47bd0921
+  corpus265 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "60"#) -}
+77391c37dfefc29449a58d0908e50471
+  corpus266 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus273,
+                  Duckling.Numeral.Corpus.corpus_check15)) -}
+8a85781098513c800a7e41714b74e1c7
+  corpus267 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus268
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+e3d193c45ca9618e06f816d855a95a3d
+  corpus268 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus269) -}
+9cb2de8a62f8fadd512a2a3c34df0300
+  corpus269 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus270
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+893f1f64b00292eb680e00670d81af09
+  corpus27 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus216
+                   Duckling.Numeral.Corpus.corpus28) -}
+0cfdc886f3fb81750aebd340711df33b
+  corpus270 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus271)) -}
+8e1b0aec9d85b3d8f0d00224e3eb696a
+  corpus271 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        20.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             20.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus272 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+6d8deea30a4d723b5b6cf3653c4233b3
+  corpus272 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 20.0##) -}
+eaf5e2ec753444e0140553680b6eb881
+  corpus273 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\186\\140\\229\\141\\129"#) -}
+dba8dbcb6427d7594e272031af60d399
+  corpus274 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus275,
+                  Duckling.Numeral.Corpus.corpus_check15)) -}
+8ea71db783fd2b230524e48f6e45a8b4
+  corpus275 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "20"#) -}
+27ead31182a337733055ad050e6a3f4c
+  corpus276 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus283,
+                  Duckling.Numeral.Corpus.corpus_check16)) -}
+b65af4f238a05c47aa7176d0afc16194
+  corpus277 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus278
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+037cccac3a683b3b8067568af87b72d1
+  corpus278 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus279) -}
+ea9aff42e1e81f2cae794e57cdebeca5
+  corpus279 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus280
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+f8f2cd29d9242b18d8a9976c24864dc8
+  corpus28 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus214
+                   Duckling.Numeral.Corpus.corpus29) -}
+efaa16a35e64ed5a30a588bc4a88405e
+  corpus280 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus281)) -}
+1b961ae2e1efb77f8d42888c8f905458
+  corpus281 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        11.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             11.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus282 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+48a327979dcfec2c75f130cd204aebe6
+  corpus282 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 11.0##) -}
+ff3067054eea53ed4f558dccd7828238
+  corpus283 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\229\\141\\129\\228\\184\\128"#) -}
+6226adf47e991e76a73360d8d30c56ff
+  corpus284 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus285,
+                  Duckling.Numeral.Corpus.corpus_check16)) -}
+38cd59a1c2600357bd9e74fdb2617c88
+  corpus285 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "11"#) -}
+2e979aa52bab548e9db07640cbb1a004
+  corpus286 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus293,
+                  Duckling.Numeral.Corpus.corpus_check17)) -}
+a45ad256f79fe254aaeabae9b23b78bf
+  corpus287 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus288
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+eb997b0f877d3811af9fb81d8cbc422b
+  corpus288 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus289) -}
+ff346bb671efaf7f14dc8a2618d970f9
+  corpus289 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus290
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+ddbe984f548cf1a7389b64fb7395dd94
+  corpus29 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus212
+                   Duckling.Numeral.Corpus.corpus30) -}
+a6f823b728147e5a074afa9e52bd375d
+  corpus290 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus291)) -}
+0ab35b28a6f31258c27d57eee724c6ab
+  corpus291 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        10.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             10.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus292 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+906b7ea4d92cef03b6604fa662d27803
+  corpus292 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 10.0##) -}
+91a7c9fcb46dd987782380444e6ccf4f
+  corpus293 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\229\\141\\129"#) -}
+89cf70196bc3940581cad10b3b7848b5
+  corpus294 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus295,
+                  Duckling.Numeral.Corpus.corpus_check17)) -}
+12089b3e986c3fc5ff5fd0adb42b6098
+  corpus295 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "10"#) -}
+8146a08674c270f17e5eb46c57e6c2b7
+  corpus296 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus303,
+                  Duckling.Numeral.Corpus.corpus_check18)) -}
+8740c99e61659e198bf8d7cbb966e3d4
+  corpus297 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus298
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+e9d7b5b530188afd03702d87a7125e27
+  corpus298 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus299) -}
+2b25b6438f33941aa452ea4d5bc19072
+  corpus299 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus300
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+132427aa1b4eb5ee01fa5d2e8ff11e2d
+  corpus3 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus330
+                   Duckling.Numeral.Corpus.corpus4) -}
+b4715fced581a7a2567fd2877ab05cdb
+  corpus30 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus204
+                   Duckling.Numeral.Corpus.corpus31) -}
+b381f712ed750c4aadf77b60e686d057
+  corpus300 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus301)) -}
+d95541ac3f532d1f31193ba162bcbba8
+  corpus301 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        2.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             2.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus302 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+5616ca9ee02c18e86806c747ed2a1767
+  corpus302 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 2.0##) -}
+79d3521ec0755c186fd931ae02273501
+  corpus303 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\186\\140\\228\\184\\170"#) -}
+633111d659d7d3f9b8329bf45d027a7f
+  corpus304 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus305,
+                  Duckling.Numeral.Corpus.corpus_check18)) -}
+f028b47f06dfd74a059092c5900c3229
+  corpus305 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\186\\140\\229\\128\\139"#) -}
+ecaa4a6beee61bd12effbb5aae1044c9
+  corpus306 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus307,
+                  Duckling.Numeral.Corpus.corpus_check18)) -}
+ac4ee5e0909d517824860156c1f382b8
+  corpus307 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "2"#) -}
+eb42f1b5d4d637926620ee614c67c053
+  corpus308 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus315,
+                  Duckling.Numeral.Corpus.corpus_check19)) -}
+254c7a6bb3f869bc910a5a17ce6f8b78
+  corpus309 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus310
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+882dfea0da82c8f58142eb1409bcc162
+  corpus31 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus202
+                   Duckling.Numeral.Corpus.corpus32) -}
+17dc8e55ee781b6fab59730fba215d2a
+  corpus310 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus311) -}
+e9eb6488cb594ec62628fda325d3eef3
+  corpus311 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus312
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+55413b6380651ceb57ad9048aba81de1
+  corpus312 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus313)) -}
+a73be09b6db5e17fca5b171d238ef839
+  corpus313 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        1.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             1.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus314 of ww3 { (#,#) ww4 ww5 ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific ww4 ww5) } } } } }) -}
+05f3e936ed96ad090953b79d1d7a20e3
+  corpus314 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0##) -}
+9a7684fe3cd1e4b1b54987b31ee15c85
+  corpus315 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "1\\228\\184\\170"#) -}
+cdc9ada2a622f3ed96bfa164fec099b2
+  corpus316 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus317,
+                  Duckling.Numeral.Corpus.corpus_check19)) -}
+bc74c2485467f9bf0d51471e85462242
+  corpus317 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\228\\184\\128\\228\\184\\170"#) -}
+11ad0e901a89058385e4e51ee443fed7
+  corpus318 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus319,
+                  Duckling.Numeral.Corpus.corpus_check19)) -}
+0ad1ca0a07b751a7faf0e6d3f409b665
+  corpus319 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\228\\184\\128"#) -}
+b29a1f33425708fecbafbaba41467a62
+  corpus32 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus200
+                   Duckling.Numeral.Corpus.corpus33) -}
+9b0b43741d2d2c8a47ec646b4be8d0ba
+  corpus320 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus321,
+                  Duckling.Numeral.Corpus.corpus_check19)) -}
+0d641612450939105bd07f245d508444
+  corpus321 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "1"#) -}
+ad7eef79dc82e60b0b5fdc4711298906
+  corpus322 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus329,
+                  Duckling.Numeral.Corpus.corpus_check20)) -}
+2e2072a972abc8eaaf4814884cb8ceaf
+  corpus323 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus324
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+6d92c0ebdce0c9b8c1915ac92ed6ef98
+  corpus324 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus325) -}
+4f61ef3ef0f87ca06596fa8f0bd242b6
+  corpus325 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus326
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+d1acc0d59b287e2755317c00ffd0f7bd
+  corpus326 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus327)) -}
+cf69a22c5feeb0b531de25f8335a791b
+  corpus327 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        0.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             0.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> Data.Aeson.Types.Internal.Number
+                             Duckling.Numeral.Corpus.corpus328 } } } }) -}
+cdfff41f0bdd87688b45bc08aa11deef
+  corpus328 :: Data.Scientific.Scientific
+  {- HasNoCafRefs,
+     Unfolding: (Data.Scientific.Scientific
+                   Data.Scientific.$fFractionalScientific2
+                   0#) -}
+34c1759b43c40b5a92e97894ad07ebc6
+  corpus329 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "0\\228\\184\\170"#) -}
+50fdfa83e53a8a222d412c5fd277ede1
+  corpus33 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus192
+                   Duckling.Numeral.Corpus.corpus34) -}
+90ef9613db954b8efe380d512c8839fe
+  corpus330 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus331,
+                  Duckling.Numeral.Corpus.corpus_check20)) -}
+7b842bc042029cd43558e6a5fd187f62
+  corpus331 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\233\\155\\182\\228\\184\\170"#) -}
+e055b39f383259d1ed5754550267e679
+  corpus332 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus333,
+                  Duckling.Numeral.Corpus.corpus_check20)) -}
+a650bc26da7e8f40451c8f95ea967333
+  corpus333 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\233\\155\\182"#) -}
+a9fa70765e1864302af06bbca4e22636
+  corpus334 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus335,
+                  Duckling.Numeral.Corpus.corpus_check20)) -}
+ff49e8ac0f94362e9b1c8227a5f17f2a
+  corpus335 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "\\227\\128\\135"#) -}
+59268b635e1bf424ecefe25670c055ba
+  corpus336 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Strictness: m,
+     Unfolding: ((Duckling.Numeral.Corpus.corpus337,
+                  Duckling.Numeral.Corpus.corpus_check20)) -}
+feb39ee765f6812dd4c76c5e9909c885
+  corpus337 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "0"#) -}
+299ed1ef7e8184d46d56d3b10db237ff
+  corpus338 :: Duckling.Resolve.Context
+  {- Strictness: m,
+     Unfolding: (Duckling.Resolve.Context
+                   Duckling.Testing.Types.testContext2
+                     `cast`
+                   (Sym (Duckling.Resolve.N:DucklingTime[0]))
+                   Duckling.Numeral.Corpus.corpus339) -}
+6e43f503665a78e61c28befbe213999f
+  corpus339 :: Duckling.Locale.Locale
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Duckling.Locale.Locale
+                   Duckling.Locale.ZH
+                   (GHC.Base.Nothing @ Duckling.Region.Region)) -}
+a2f23c5df24abfb59391d149b8129d8a
+  corpus34 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus190
+                   Duckling.Numeral.Corpus.corpus35) -}
+aeffdc7adc02fe95f047cf33f5c60ecd
+  corpus35 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus188
+                   Duckling.Numeral.Corpus.corpus36) -}
+8972717d34c8883aed309dfa9c45e525
+  corpus36 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus180
+                   Duckling.Numeral.Corpus.corpus37) -}
+f11b24ad8a1dd84570bc04c7a9321dc3
+  corpus37 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus178
+                   Duckling.Numeral.Corpus.corpus38) -}
+465a0f98df19d119d525f81393de80bb
+  corpus38 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus170
+                   Duckling.Numeral.Corpus.corpus39) -}
+9ba3eb00159c2adc48c892715851084b
+  corpus39 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus168
+                   Duckling.Numeral.Corpus.corpus40) -}
+6083cc015b1a8b94d0d1798c26f5ece3
+  corpus4 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus322
+                   Duckling.Numeral.Corpus.corpus5) -}
+6670e708733df4b3a7bdf7414f4d8975
+  corpus40 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus166
+                   Duckling.Numeral.Corpus.corpus41) -}
+5d16e998859f7c23b4894f92df136600
+  corpus41 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus158
+                   Duckling.Numeral.Corpus.corpus42) -}
+3efb5ae8de0369b7d48bceca1a5c89c3
+  corpus42 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus156
+                   Duckling.Numeral.Corpus.corpus43) -}
+df31e6ffdd14eadd4524cb0a510e8f63
+  corpus43 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus154
+                   Duckling.Numeral.Corpus.corpus44) -}
+7023b3bb4dd614a2e04e9ada8312ec12
+  corpus44 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus152
+                   Duckling.Numeral.Corpus.corpus45) -}
+7224a0288b1830a3d781922b8d1c6aca
+  corpus45 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus150
+                   Duckling.Numeral.Corpus.corpus46) -}
+236d8ba4051dbdfb13607d15c2c2203e
+  corpus46 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus142
+                   Duckling.Numeral.Corpus.corpus47) -}
+963bc3db2045f7170ba1a7215c4a6b92
+  corpus47 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus140
+                   Duckling.Numeral.Corpus.corpus48) -}
+1a4f0ab702b328eb3c25c4626698c623
+  corpus48 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus138
+                   Duckling.Numeral.Corpus.corpus49) -}
+d7b72b1d8620b52dbeab8965c0154631
+  corpus49 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus136
+                   Duckling.Numeral.Corpus.corpus50) -}
+aa0cca233738bc3985a246fffe19e303
+  corpus5 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus320
+                   Duckling.Numeral.Corpus.corpus6) -}
+cabed35177098771ff09b74fd24f1bb4
+  corpus50 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus128
+                   Duckling.Numeral.Corpus.corpus51) -}
+934b1da89157fd4959f7249855d52687
+  corpus51 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus126
+                   Duckling.Numeral.Corpus.corpus52) -}
+b7b8ee8a49dda5930808a0b84f9b2297
+  corpus52 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus124
+                   Duckling.Numeral.Corpus.corpus53) -}
+8f91eb2152f529002ca1e9f02cabac42
+  corpus53 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus122
+                   Duckling.Numeral.Corpus.corpus54) -}
+34900331046575bb0c227afc19ae5baa
+  corpus54 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus114
+                   Duckling.Numeral.Corpus.corpus55) -}
+b9e348940fa70a45c83400015da18e86
+  corpus55 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus112
+                   Duckling.Numeral.Corpus.corpus56) -}
+161486d9490fd4600df3547295b75395
+  corpus56 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus110
+                   Duckling.Numeral.Corpus.corpus57) -}
+50079289332e644df9a12e18491f7e89
+  corpus57 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus108
+                   Duckling.Numeral.Corpus.corpus58) -}
+dc34936c243202ca7ccd1d07b40af65d
+  corpus58 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus106
+                   Duckling.Numeral.Corpus.corpus59) -}
+b23cc6342b50d0d630dfdc57da754963
+  corpus59 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus99
+                   Duckling.Numeral.Corpus.corpus60) -}
+ed92bf7bc4b38368f3da17812219b1d4
+  corpus6 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus318
+                   Duckling.Numeral.Corpus.corpus7) -}
+d1ab6354fd8ba5bb37f7692978a07ab6
+  corpus60 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus97
+                   Duckling.Numeral.Corpus.corpus61) -}
+d1bc70d61d6bc393bdd1fd62e8512254
+  corpus61 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus95
+                   Duckling.Numeral.Corpus.corpus62) -}
+9c8ad080c56283bf2827f974ce234df4
+  corpus62 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus93
+                   Duckling.Numeral.Corpus.corpus63) -}
+a2e68adc5f3fac095d8bad0cac0729c5
+  corpus63 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus91
+                   Duckling.Numeral.Corpus.corpus64) -}
+e49f90aeb966f766fa688fe139354be5
+  corpus64 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus89
+                   Duckling.Numeral.Corpus.corpus65) -}
+05e2e1df67613b2323197740151afba8
+  corpus65 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus87
+                   Duckling.Numeral.Corpus.corpus66) -}
+8f136f86248caf26023a02b8dd31acb5
+  corpus66 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus85
+                   Duckling.Numeral.Corpus.corpus67) -}
+e6f2faa2760952fb30f66a1bb03e9256
+  corpus67 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus83
+                   Duckling.Numeral.Corpus.corpus68) -}
+569e984241bda23e0dd2b643ef6180d1
+  corpus68 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus81
+                   Duckling.Numeral.Corpus.corpus69) -}
+e907308de9ba65e1ae91853a4e9a876b
+  corpus69 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus79
+                   Duckling.Numeral.Corpus.corpus70) -}
+a27b414505956c3865ed868a163a7338
+  corpus7 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus316
+                   Duckling.Numeral.Corpus.corpus8) -}
+02d1c832bb0d5c04ce60a65843b87116
+  corpus70 :: [Duckling.Testing.Types.Example]
+  {- Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus71
+                   (GHC.Types.[] @ Duckling.Testing.Types.Example)) -}
+f2b89af163c6f23c5ce91c4e65c30945
+  corpus71 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus78,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+808b1bd68a91b2d68200f31912f6fe35
+  corpus72 ::
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Aeson.Types.Internal.Value
+  {- Unfolding: (Data.Aeson.Types.Internal.$sfromList1
+                   @ Data.Aeson.Types.Internal.Value
+                   Duckling.Numeral.Corpus.corpus73
+                   (Data.HashMap.Base.Empty
+                      @ Data.Text.Internal.Text
+                      @ Data.Aeson.Types.Internal.Value)) -}
+153b44d496bc8fb20f110118c6dac27b
+  corpus73 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Types.$fToJSONNumeralValue2
+                   Duckling.Numeral.Corpus.corpus74) -}
+16edf3c2523b2b7786d6b11da3cfe59a
+  corpus74 :: [Data.Aeson.Types.Internal.Pair]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Aeson.Types.Internal.Pair
+                   Duckling.Numeral.Corpus.corpus75
+                   (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)) -}
+b8b15966b478113772ca2a15643ac262
+  corpus75 ::
+    (Data.Text.Internal.Text, Data.Aeson.Types.Internal.Value)
+  {- Unfolding: ((Duckling.Numeral.Types.$fToJSONNumeralValue1,
+                  Duckling.Numeral.Corpus.corpus76)) -}
+8152dfab7278f0e601d8cc27b39b9745
+  corpus76 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case {__pkg_ccall base-4.9.1.0 isDoubleNaN GHC.Prim.Double#
+                                                            -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                            -> (# GHC.Prim.State#
+                                                                    GHC.Prim.RealWorld,
+                                                                  GHC.Prim.Int# #)}
+                        -1200000.0##
+                        GHC.Prim.realWorld# of wild { (#,#) ds2 ds3 ->
+                 case ds3 of wild1 {
+                   DEFAULT -> Data.Aeson.Types.Internal.Null
+                   0#
+                   -> case {__pkg_ccall base-4.9.1.0 isDoubleInfinite GHC.Prim.Double#
+                                                                      -> GHC.Prim.State#
+                                                                           GHC.Prim.RealWorld
+                                                                      -> (# GHC.Prim.State#
+                                                                              GHC.Prim.RealWorld,
+                                                                            GHC.Prim.Int# #)}
+                             -1200000.0##
+                             GHC.Prim.realWorld# of wild2 { (#,#) ds1 ds5 ->
+                      case ds5 of wild3 {
+                        DEFAULT -> Data.Aeson.Types.Internal.Null
+                        0#
+                        -> case Data.Scientific.$wlvl1
+                                  Duckling.Numeral.Corpus.corpus77 of ww3 { (#,#) ww4 ww5 ->
+                           case GHC.Integer.Type.negateInteger ww4 of dt { DEFAULT ->
+                           Data.Aeson.Types.Internal.Number
+                             (Data.Scientific.Scientific dt ww5) } } } } } }) -}
+35ffcca58af3562b1ac31e224607e456
+  corpus77 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1200000.0##) -}
+24fcb93b5cf403a0eba71316c04d10ca
+  corpus78 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\232\\180\\159\\228\\184\\128\\231\\153\\190\\228\\186\\140\\229\\141\\129\\228\\184\\135"#) -}
+8a9d6ab192410884d0a886074a9ce836
+  corpus79 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus80,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+3a7a00daa7835667b538b2c15b891319
+  corpus8 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus308
+                   Duckling.Numeral.Corpus.corpus9) -}
+a8fe2c6fb4a974e9705ae313b95d56a5
+  corpus80 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "-.0012G"#) -}
+ffb3392507c64022b72f11a7f0248b5e
+  corpus81 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus82,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+1dcaff3f9041c84a01d3aa763e1f2bd5
+  corpus82 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "-1200K"#) -}
+f4a4adfcead77cae1034c4c6802ec05c
+  corpus83 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus84,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+1797704a61cd2491024080492b4d091a
+  corpus84 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "-1.2M"#) -}
+480003ccf0168654e9df8ac93f277272
+  corpus85 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus86,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+6c094ab484773c30ba6233b9eb870542
+  corpus86 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\232\\180\\159 1200000"#) -}
+bfcb0c7676f506a0ffe08ed1c841cf1f
+  corpus87 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus88,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+507fc2e59c25c81bc9f151faebfa09f6
+  corpus88 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\232\\180\\1591200000"#) -}
+1aedd24430b3e47de9a169ed1ee833cd
+  corpus89 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus90,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+663a00066412b9b863856a04040580f8
+  corpus9 :: [Duckling.Testing.Types.Example]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Duckling.Testing.Types.Example
+                   Duckling.Numeral.Corpus.corpus306
+                   Duckling.Numeral.Corpus.corpus10) -}
+b91cea544dc362b2ede00d536f344b54
+  corpus90 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\232\\178\\160 1,200,000"#) -}
+ff2f7991160ff48f06999564a8af1605
+  corpus91 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus92,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+1bb85e20aed6d6b621d0332271a7b431
+  corpus92 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\232\\180\\159 1,200,000"#) -}
+0764273bcfa30814c3e0ac802a3e4fdd
+  corpus93 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus94,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+985230795f87dfbe503b4f063dbe6da2
+  corpus94 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "\\232\\180\\1591,200,000"#) -}
+ff8ed57e9f8fcc530becdda95a91a5c6
+  corpus95 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus96,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+8e83b28ebca9f5a238a443d028e87466
+  corpus96 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "-1200000"#) -}
+ac36103f070c927e7a647062f0550915
+  corpus97 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus98,
+                  Duckling.Numeral.Corpus.corpus_check)) -}
+c191e1f1f70b5d34dcb15e90e81aedd9
+  corpus98 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "- 1,200,000"#) -}
+ca63ce7af5430d0af55889965aa43ddb
+  corpus99 ::
+    (Data.Text.Internal.Text, Duckling.Testing.Types.TestPredicate)
+  {- Unfolding: ((Duckling.Numeral.Corpus.corpus105,
+                  Duckling.Numeral.Corpus.corpus_check1)) -}
+604a52d7fc872f06df1d74e43111ce68
+  corpus_check :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck ww3 }) -}
+bea989b64ffdd30e5cedd6fc578fe82c
+  corpus_check1 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck1 ww3 }) -}
+59077e71a7fed9316e18ff2851b04d68
+  corpus_check10 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck10 ww3 }) -}
+27e1b23c6fe6cfaaf6c7f12cde4ee850
+  corpus_check11 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck11 ww3 }) -}
+3633be0bdc9c0e6396e087737d2a0249
+  corpus_check12 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck12 ww3 }) -}
+a7921493954e9dc651daaa0526ff56cb
+  corpus_check13 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck13 ww3 }) -}
+c5e6da060b3dc20be1e9160d08e5908e
+  corpus_check14 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck14 ww3 }) -}
+2b8a68cbe00f49d86506731f50fec259
+  corpus_check15 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck15 ww3 }) -}
+ccff406eed73dcc289703bd481f71d63
+  corpus_check16 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck16 ww3 }) -}
+edcd9e79271e43fb14f01af64c01f08e
+  corpus_check17 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck17 ww3 }) -}
+a659d38c032f0b1f806d5e34ca0aa662
+  corpus_check18 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck18 ww3 }) -}
+dcbffca9afcddad1634a9c6e60d4268a
+  corpus_check19 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck19 ww3 }) -}
+4c81f09c58a27c6e2f36d904e92c9b66
+  corpus_check2 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck2 ww3 }) -}
+07af3cfdb3c3dc997b4da09fe485fbf8
+  corpus_check20 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck20 ww3 }) -}
+758de16475f5d31ab39a5e59dd31bbaf
+  corpus_check3 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck3 ww3 }) -}
+5179304ec251a407be4f83f555cedcf3
+  corpus_check4 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck4 ww3 }) -}
+7cdaa881d013112e1f8afbdb3a630d03
+  corpus_check5 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck5 ww3 }) -}
+ac008138a6b27b42ae76df135226f1e1
+  corpus_check6 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck6 ww3 }) -}
+1d8e65646eb7061c589be9e7c6c68093
+  corpus_check7 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck7 ww3 }) -}
+6a99ea1e2e818499a5f0281a478cedcc
+  corpus_check8 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck8 ww3 }) -}
+74df7cdca82653c835ff2124907459f8
+  corpus_check9 :: Duckling.Testing.Types.TestPredicate
+  {- Arity: 2, Strictness: <L,A><S(LLSL),1*U(A,A,1*U,A)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Duckling.Resolve.Context)
+                   (w1 :: Duckling.Types.ResolvedToken) ->
+                 case w1 of ww { Duckling.Types.Resolved ww1 ww2 ww3 ww4 ->
+                 Duckling.Numeral.Corpus.$wcheck9 ww3 }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

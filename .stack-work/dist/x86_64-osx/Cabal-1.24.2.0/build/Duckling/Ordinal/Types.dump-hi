@@ -1,0 +1,1209 @@
+
+==================== FINAL INTERFACE ====================
+2019-03-14 03:00:14.799131 UTC
+
+interface duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Ordinal.Types [family instance module] 8002
+  interface hash: 25253a430c4a3f7b4c2bc461aebce60c
+  ABI hash: 338cef02dda50d8eb48357da4a409fec
+  export-list hash: 775285a26ee37c34a56d1069720093f1
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 4a81f2fbea7efd710ef2f3c96bcc0d18
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Duckling.Ordinal.Types.isBetween
+  Duckling.Ordinal.Types.OrdinalData{Duckling.Ordinal.Types.OrdinalData value}
+module dependencies: Duckling.Locale Duckling.Region
+                     Duckling.Resolve
+package dependencies: aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      generic-deriving-1.11.2@generic-deriving-1.11.2-FTRmVS5RM6G7R2MgyiZHgW
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      timezone-series-0.1.8@timezone-series-0.1.8-4K4l0A0wjZPUt7r2oV8PT
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Applicative
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Concurrent
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Exception
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Control.Monad.ST
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Array
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Bool
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.ByteString
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Char
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Complex
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Data
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Dynamic
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Either
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Fixed
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Floating
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Compose
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Identity
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Product
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Functor.Sum
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Integral
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.List.NonEmpty
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Maybe
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Monoid
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ord
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Proxy
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Ratio
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Semigroup
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Text
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Tuple
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Coercion
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Type.Equality
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Typeable
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Version
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Data.Void
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.C.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Foreign.Ptr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Event
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Fingerprint
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Generics
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.RTS.Flags
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stack
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.StaticPtr
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.Stats
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.GHC.TypeLits
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Numeric.Natural
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Exit
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.IO
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.System.Posix.Types
+         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Text.Read
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Locale
+                         duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1:Duckling.Region
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.FromStringTextShow
+                         text-show-3.6@text-show-3.6-60Dmy5IB2MTJMsJHXN7mDI:TextShow.Options
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson 1af00541e969ad203c27ee12864de00d
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal 4c7adfaf9946e7eb59b1a47b47e68246
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d6ae344f2a743c9940980d0869569ad4
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  deepseq-1.4.2.0@deepseq-1.4.2.0:Control.DeepSeq 0a99763cf6016b16bbf55422778a79b2
+import  -/  Duckling.Resolve 15ce2eadafd5cc42f057e1d0f9191938
+  exports: 6e20ad884e276a7b8b73219b25eea656
+  Resolve 857149e63f1fbb61ae9c206e0802b0fa
+  ResolvedValue d3c9ab28ab95ed33280b467fbe72cd58
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable 0e86f32bd46d4c618b1e312455011c77
+import  -/  hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Class bc4f00f60e55accb5753c8e0ce3cde5f
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+e73c6b69ec549db5ee2f779a063637ca
+  $fEqOrdinalData ::
+    GHC.Classes.Eq Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fEqOrdinalData_$c==
+                  Duckling.Ordinal.Types.$fEqOrdinalData_$c/= -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fEqOrdinalData_$c/= ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.neInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fEqOrdinalData_$c== ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.eqInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fGenericOrdinalData ::
+    GHC.Generics.Generic Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fGenericOrdinalData_$cfrom
+                  Duckling.Ordinal.Types.$fGenericOrdinalData_$cto -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fGenericOrdinalData1 ::
+    GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData x
+    -> GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x
+                   (ds :: GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData x) ->
+                 ds) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fGenericOrdinalData2 ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x (x1 :: Duckling.Ordinal.Types.OrdinalData) -> x1) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fGenericOrdinalData_$cfrom ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.$fGenericOrdinalData2
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Duckling.Ordinal.Types.OrdinalData>_R
+                 ->_R Trans
+                          (Duckling.Ordinal.Types.N:OrdinalData[0])
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                               (Trans
+                                    (Sym (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.S>_P
+                                              <'GHC.Generics.MetaSel
+                                                 ('GHC.Base.Just "value")
+                                                 'GHC.Generics.NoSourceUnpackedness
+                                                 'GHC.Generics.NoSourceStrictness
+                                                 'GHC.Generics.DecidedLazy>_P
+                                              <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R))
+                                    (Trans
+                                         (Sym (GHC.Generics.N:M1[0]
+                                                   <GHC.Generics.C>_P
+                                                   <'GHC.Generics.MetaCons
+                                                      "OrdinalData"
+                                                      'GHC.Generics.PrefixI
+                                                      'GHC.Types.True>_P
+                                                   <GHC.Generics.M1
+                                                      GHC.Generics.S
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "value")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.K1
+                                                         GHC.Generics.R GHC.Types.Int)>_R))
+                                         (Trans
+                                              (Sym (GHC.Generics.N:M1[0]
+                                                        <GHC.Generics.D>_P
+                                                        <'GHC.Generics.MetaData
+                                                           "OrdinalData"
+                                                           "Duckling.Ordinal.Types"
+                                                           "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                                           'GHC.Types.True>_P
+                                                        <GHC.Generics.M1
+                                                           GHC.Generics.C
+                                                           ('GHC.Generics.MetaCons
+                                                              "OrdinalData"
+                                                              'GHC.Generics.PrefixI
+                                                              'GHC.Types.True)
+                                                           (GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "value")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Types.Int))>_R))
+                                              (Sub (Sym (Duckling.Ordinal.Types.Rep_OrdinalData[0]))))) <x>_N))) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fGenericOrdinalData_$cto ::
+    GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData x
+    -> Duckling.Ordinal.Types.OrdinalData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.$fGenericOrdinalData1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData x>_R
+                 ->_R Trans
+                          (Trans
+                               (Sub (Duckling.Ordinal.Types.Rep_OrdinalData[0]))
+                               (Trans
+                                    (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.D>_P
+                                         <'GHC.Generics.MetaData
+                                            "OrdinalData"
+                                            "Duckling.Ordinal.Types"
+                                            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                            'GHC.Types.True>_P
+                                         <GHC.Generics.M1
+                                            GHC.Generics.C
+                                            ('GHC.Generics.MetaCons
+                                               "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                            (GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "value")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))>_R)
+                                    (Trans
+                                         (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.C>_P
+                                              <'GHC.Generics.MetaCons
+                                                 "OrdinalData"
+                                                 'GHC.Generics.PrefixI
+                                                 'GHC.Types.True>_P
+                                              <GHC.Generics.M1
+                                                 GHC.Generics.S
+                                                 ('GHC.Generics.MetaSel
+                                                    ('GHC.Base.Just "value")
+                                                    'GHC.Generics.NoSourceUnpackedness
+                                                    'GHC.Generics.NoSourceStrictness
+                                                    'GHC.Generics.DecidedLazy)
+                                                 (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)>_R)
+                                         (GHC.Generics.N:M1[0]
+                                              <GHC.Generics.S>_P
+                                              <'GHC.Generics.MetaSel
+                                                 ('GHC.Base.Just "value")
+                                                 'GHC.Generics.NoSourceUnpackedness
+                                                 'GHC.Generics.NoSourceStrictness
+                                                 'GHC.Generics.DecidedLazy>_P
+                                              <GHC.Generics.K1
+                                                 GHC.Generics.R GHC.Types.Int>_R))) <x>_N)
+                          (Trans
+                               (GHC.Generics.N:K1[0] <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P)
+                               (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])))) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fHashableOrdinalData ::
+    Data.Hashable.Class.Hashable Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fHashableOrdinalData_$s$dmhashWithSalt
+                  Duckling.Ordinal.Types.$fHashableOrdinalData_$chash -}
+39cea793f2c86f6a37edb7c8d75e8baa
+  $fHashableOrdinalData1 :: GHC.Types.Int -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Data.Hashable.Class.combine
+                   Data.Hashable.Class.defaultSalt) -}
+6c5259635d60fdade7fab8c54827a817
+  $fHashableOrdinalData2 ::
+    Data.Hashable.Class.GHashable
+      Data.Hashable.Class.Zero
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData
+            "OrdinalData"
+            "Duckling.Ordinal.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.True)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "value")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 GHC.Types.Int))))
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.$fHashableOrdinalData3
+                  `cast`
+                (Sym (Data.Hashable.Class.N:GHashable[0]
+                          <Data.Hashable.Class.Zero>_N
+                          <GHC.Generics.M1
+                             GHC.Generics.D
+                             ('GHC.Generics.MetaData
+                                "OrdinalData"
+                                "Duckling.Ordinal.Types"
+                                "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                'GHC.Types.True)
+                             (GHC.Generics.M1
+                                GHC.Generics.C
+                                ('GHC.Generics.MetaCons
+                                   "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                (GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "value")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 GHC.Types.Int)))>_N)) -}
+47e8a25b494c80427fde78a0fcbebc1e
+  $fHashableOrdinalData3 ::
+    Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1
+    -> GHC.Types.Int
+    -> GHC.Generics.M1
+         GHC.Generics.D
+         ('GHC.Generics.MetaData
+            "OrdinalData"
+            "Duckling.Ordinal.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.C
+            ('GHC.Generics.MetaCons
+               "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "value")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 GHC.Types.Int)))
+         a1
+    -> GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (3, True, True)
+                (\ @ a1
+                   (targs :: Data.Hashable.Class.HashArgs Data.Hashable.Class.Zero a1)
+                   (salt :: GHC.Types.Int)
+                   (x :: GHC.Generics.M1
+                           GHC.Generics.D
+                           ('GHC.Generics.MetaData
+                              "OrdinalData"
+                              "Duckling.Ordinal.Types"
+                              "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                              'GHC.Types.True)
+                           (GHC.Generics.M1
+                              GHC.Generics.C
+                              ('GHC.Generics.MetaCons
+                                 "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "value")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 GHC.Types.Int)))
+                           a1) ->
+                 Data.Hashable.Class.combine
+                   salt
+                   x `cast`
+                   (Trans
+                        (Trans
+                             (GHC.Generics.N:M1[0]
+                                  <GHC.Generics.D>_P
+                                  <'GHC.Generics.MetaData
+                                     "OrdinalData"
+                                     "Duckling.Ordinal.Types"
+                                     "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                     'GHC.Types.True>_P
+                                  <GHC.Generics.M1
+                                     GHC.Generics.C
+                                     ('GHC.Generics.MetaCons
+                                        "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                     (GHC.Generics.S1
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "value")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.Rec0 GHC.Types.Int))>_R)
+                             (Trans
+                                  (GHC.Generics.N:M1[0]
+                                       <GHC.Generics.C>_P
+                                       <'GHC.Generics.MetaCons
+                                          "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                       <GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "value")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.Rec0 GHC.Types.Int)>_R)
+                                  (GHC.Generics.N:M1[0]
+                                       <GHC.Generics.S>_P
+                                       <'GHC.Generics.MetaSel
+                                          ('GHC.Base.Just "value")
+                                          'GHC.Generics.NoSourceUnpackedness
+                                          'GHC.Generics.NoSourceStrictness
+                                          'GHC.Generics.DecidedLazy>_P
+                                       <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R)) <a1>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Types.Int>_R <a1>_P))) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fHashableOrdinalData_$chash ::
+    Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.$fHashableOrdinalData1
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Int>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fHashableOrdinalData_$s$dmhashWithSalt ::
+    GHC.Types.Int
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (-3, True, False)
+                (\ (salt :: GHC.Types.Int)
+                   (x :: Duckling.Ordinal.Types.OrdinalData) ->
+                 Duckling.Ordinal.Types.$fHashableOrdinalData2
+                   `cast`
+                 (Data.Hashable.Class.N:GHashable[0]
+                      <Data.Hashable.Class.Zero>_N
+                      (Sym (Duckling.Ordinal.Types.Rep_OrdinalData[0])))
+                   @ GHC.Prim.Any
+                   (Data.Hashable.Class.$WHashArgs0 @ GHC.Prim.Any)
+                   salt
+                   (Duckling.Ordinal.Types.$fGenericOrdinalData_$cfrom
+                      @ GHC.Prim.Any
+                      x)) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fNFDataOrdinalData ::
+    Control.DeepSeq.NFData Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Duckling.Ordinal.Types.$fNFDataOrdinalData_$s$dmrnf
+                  `cast`
+                (Sym (Control.DeepSeq.N:NFData[0]
+                          <Duckling.Ordinal.Types.OrdinalData>_N)) -}
+a22862817f3fe9d840b0a67301afd87e
+  $fNFDataOrdinalData1 ::
+    Control.DeepSeq.GNFData
+      (GHC.Generics.D1
+         ('GHC.Generics.MetaData
+            "OrdinalData"
+            "Duckling.Ordinal.Types"
+            "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+            'GHC.Types.True)
+         (GHC.Generics.C1
+            ('GHC.Generics.MetaCons
+               "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+            (GHC.Generics.S1
+               ('GHC.Generics.MetaSel
+                  ('GHC.Base.Just "value")
+                  'GHC.Generics.NoSourceUnpackedness
+                  'GHC.Generics.NoSourceStrictness
+                  'GHC.Generics.DecidedLazy)
+               (GHC.Generics.Rec0 GHC.Types.Int))))
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.$fNFDataOrdinalData2
+                  `cast`
+                (Sym (Control.DeepSeq.N:GNFData[0]
+                          <GHC.Types.*>_N
+                          <GHC.Generics.M1
+                             GHC.Generics.D
+                             ('GHC.Generics.MetaData
+                                "OrdinalData"
+                                "Duckling.Ordinal.Types"
+                                "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                                'GHC.Types.True)
+                             (GHC.Generics.M1
+                                GHC.Generics.C
+                                ('GHC.Generics.MetaCons
+                                   "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                (GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "value")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 GHC.Types.Int)))>_N)) -}
+069d2e0f093e19adde714dc02baf745e
+  $fNFDataOrdinalData2 ::
+    GHC.Generics.M1
+      GHC.Generics.D
+      ('GHC.Generics.MetaData
+         "OrdinalData"
+         "Duckling.Ordinal.Types"
+         "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+         'GHC.Types.True)
+      (GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.S1
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "value")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.Rec0 GHC.Types.Int)))
+      a1
+    -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a1
+                   (x :: GHC.Generics.M1
+                           GHC.Generics.D
+                           ('GHC.Generics.MetaData
+                              "OrdinalData"
+                              "Duckling.Ordinal.Types"
+                              "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+                              'GHC.Types.True)
+                           (GHC.Generics.M1
+                              GHC.Generics.C
+                              ('GHC.Generics.MetaCons
+                                 "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                              (GHC.Generics.S1
+                                 ('GHC.Generics.MetaSel
+                                    ('GHC.Base.Just "value")
+                                    'GHC.Generics.NoSourceUnpackedness
+                                    'GHC.Generics.NoSourceStrictness
+                                    'GHC.Generics.DecidedLazy)
+                                 (GHC.Generics.Rec0 GHC.Types.Int)))
+                           a1) ->
+                 case x of tpl { DEFAULT -> GHC.Tuple.() }) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fNFDataOrdinalData_$s$dmrnf ::
+    Duckling.Ordinal.Types.OrdinalData -> ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (-3, True, False)
+                (\ (eta :: Duckling.Ordinal.Types.OrdinalData) ->
+                 Duckling.Ordinal.Types.$fNFDataOrdinalData1
+                   `cast`
+                 (Control.DeepSeq.N:GNFData[0]
+                      <GHC.Types.*>_N (Sym (Duckling.Ordinal.Types.Rep_OrdinalData[0])))
+                   @ GHC.Prim.Any
+                   (Duckling.Ordinal.Types.$fGenericOrdinalData_$cfrom
+                      @ GHC.Prim.Any
+                      eta)) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData ::
+    GHC.Classes.Ord Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fEqOrdinalData
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$ccompare
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$c<
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$c<=
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$c>
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$c>=
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$cmax
+                  Duckling.Ordinal.Types.$fOrdOrdinalData_$cmin -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$c< ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.ltInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$c<= ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.leInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$c> ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.gtInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$c>= ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.geInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Bool>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$ccompare ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.compareInt
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R <GHC.Types.Ordering>_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$cmax ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.$fOrdInt_$cmax
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fOrdOrdinalData_$cmin ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.$fOrdInt_$cmin
+                  `cast`
+                (Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])
+                 ->_R Sym (Duckling.Ordinal.Types.N:OrdinalData[0])) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fResolveOrdinalData ::
+    Duckling.Resolve.Resolve Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fEqOrdinalData
+                    `cast`
+                  (GHC.Classes.Eq
+                     (Sym (Duckling.Ordinal.Types.D:R:ResolvedValueOrdinalData[0])))_R
+                  Duckling.Ordinal.Types.$fShowOrdinalData
+                    `cast`
+                  (GHC.Show.Show
+                     (Sym (Duckling.Ordinal.Types.D:R:ResolvedValueOrdinalData[0])))_R
+                  Duckling.Ordinal.Types.$fToJSONOrdinalData
+                    `cast`
+                  (Data.Aeson.Types.ToJSON.ToJSON
+                     (Sym (Duckling.Ordinal.Types.D:R:ResolvedValueOrdinalData[0])))_R
+                  Duckling.Ordinal.Types.$fResolveOrdinalData_$cresolve -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fResolveOrdinalData1 ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> Duckling.Ordinal.Types.OrdinalData
+    -> GHC.Base.Maybe
+         (Duckling.Ordinal.Types.OrdinalData, GHC.Types.Bool)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><L,U>m2,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: Duckling.Resolve.Context)
+                   (ds1 :: Duckling.Resolve.Options)
+                   (x :: Duckling.Ordinal.Types.OrdinalData) ->
+                 GHC.Base.Just
+                   @ (Duckling.Ordinal.Types.OrdinalData, GHC.Types.Bool)
+                   (x, GHC.Types.False)) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fResolveOrdinalData_$cresolve ::
+    Duckling.Resolve.Context
+    -> Duckling.Resolve.Options
+    -> Duckling.Ordinal.Types.OrdinalData
+    -> GHC.Base.Maybe
+         (Duckling.Resolve.ResolvedValue Duckling.Ordinal.Types.OrdinalData,
+          GHC.Types.Bool)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,A><L,U>m2,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.$fResolveOrdinalData1
+                  `cast`
+                (<Duckling.Resolve.Context>_R
+                 ->_R <Duckling.Resolve.Options>_R
+                 ->_R <Duckling.Ordinal.Types.OrdinalData>_R
+                 ->_R (GHC.Base.Maybe
+                         ((,)
+                            (Sub (Sym (Duckling.Ordinal.Types.D:R:ResolvedValueOrdinalData[0])))
+                            <GHC.Types.Bool>_R)_R)_R) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fShowOrdinalData ::
+    GHC.Show.Show Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fShowOrdinalData_$cshowsPrec
+                  Duckling.Ordinal.Types.$fShowOrdinalData_$cshow
+                  Duckling.Ordinal.Types.$fShowOrdinalData_$cshowList -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fShowOrdinalData1 ::
+    Duckling.Ordinal.Types.OrdinalData -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Duckling.Ordinal.Types.OrdinalData)
+                   (w1 :: GHC.Base.String) ->
+                 Duckling.Ordinal.Types.$w$cshowsPrec 0# w w1) -}
+fda51f07b14ca9b1e6d4468a1d6a8aa2
+  $fShowOrdinalData2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+d085db6e1cf450b7d5cda3c6c493df85
+  $fShowOrdinalData3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "value = "#) -}
+a29926be949c80456f1d0a1ecec40f35
+  $fShowOrdinalData4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "OrdinalData {"#) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fShowOrdinalData_$cshow ::
+    Duckling.Ordinal.Types.OrdinalData -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U(U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Duckling.Ordinal.Types.OrdinalData) ->
+                 Duckling.Ordinal.Types.$fShowOrdinalData_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fShowOrdinalData_$cshowList ::
+    [Duckling.Ordinal.Types.OrdinalData] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Duckling.Ordinal.Types.OrdinalData
+                   Duckling.Ordinal.Types.$fShowOrdinalData1) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fShowOrdinalData_$cshowsPrec ::
+    GHC.Types.Int
+    -> Duckling.Ordinal.Types.OrdinalData -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><L,1*U(U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Duckling.Ordinal.Types.OrdinalData)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Duckling.Ordinal.Types.$w$cshowsPrec ww1 w1 w2 }) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fToJSONOrdinalData ::
+    Data.Aeson.Types.ToJSON.ToJSON Duckling.Ordinal.Types.OrdinalData
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Duckling.Ordinal.Types.OrdinalData
+                  Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoJSON
+                  Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoEncoding
+                  Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoJSONList
+                  Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoEncodingList -}
+c2467e027ca64aa6ffc71e1fe307c9ce
+  $fToJSONOrdinalData1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "value"#) -}
+c6a698ee328712e63f4543c4598ad235
+  $fToJSONOrdinalData2 :: Data.Aeson.Types.Internal.Pair
+  {- Strictness: m,
+     Unfolding: ((Duckling.Ordinal.Types.$fToJSONOrdinalData4,
+                  Duckling.Ordinal.Types.$fToJSONOrdinalData3)) -}
+4596d2519ccef8a484bd20d5c78f3872
+  $fToJSONOrdinalData3 :: Data.Aeson.Types.Internal.Value
+  {- Unfolding: (case Duckling.Ordinal.Types.$fToJSONOrdinalData1 of dt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.String dt }) -}
+9cc89ee757b4131a5e1f1b51a75387d6
+  $fToJSONOrdinalData4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "type"#) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fToJSONOrdinalData_$ctoEncoding ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <L,1*U(U)>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Duckling.Ordinal.Types.OrdinalData) ->
+                 Data.Aeson.Encoding.Internal.value
+                   (Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoJSON eta)) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fToJSONOrdinalData_$ctoEncodingList ::
+    [Duckling.Ordinal.Types.OrdinalData]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Duckling.Ordinal.Types.OrdinalData]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Data.Aeson.Encoding.Internal.value
+                               (Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoJSON x))
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Duckling.Ordinal.Types.OrdinalData
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Duckling.Ordinal.Types.OrdinalData)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Data.Aeson.Encoding.Internal.value
+                                           (Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoJSON v))
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Duckling.Ordinal.Types.OrdinalData>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fToJSONOrdinalData_$ctoJSON ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <L,1*U(U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Duckling.Ordinal.Types.OrdinalData) ->
+                 case Duckling.Ordinal.Types.$w$ctoJSON w of ww { Unit# ww1 ->
+                 Data.Aeson.Types.Internal.Object ww1 }) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $fToJSONOrdinalData_$ctoJSONList ::
+    [Duckling.Ordinal.Types.OrdinalData]
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Duckling.Ordinal.Types.OrdinalData]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Duckling.Ordinal.Types.OrdinalData
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Duckling.Ordinal.Types.OrdinalData
+                                       c
+                                       Duckling.Ordinal.Types.$fToJSONOrdinalData_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+ebfeaf43c8e9cdda9db5d16739824f4c
+  $tc'OrdinalData :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15247662929326667487##
+                   5961670906691122481##
+                   Duckling.Ordinal.Types.$trModule
+                   Duckling.Ordinal.Types.$tc'OrdinalData1) -}
+acbaa58f587b55e31b5769aa0153dc8b
+  $tc'OrdinalData1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'OrdinalData"#) -}
+a0f25bd62e09ae1b8e78e2684c338a72
+  $tcOrdinalData :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4153352391496078289##
+                   3522655807347787740##
+                   Duckling.Ordinal.Types.$trModule
+                   Duckling.Ordinal.Types.$tcOrdinalData1) -}
+220decc08820b3ab7573b61b74c79e42
+  $tcOrdinalData1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "OrdinalData"#) -}
+3de7261abb658018d0c8d6aca552424f
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Duckling.Ordinal.Types.$trModule2
+                   Duckling.Ordinal.Types.$trModule1) -}
+3e3d99223bee02b5caa4a455f70e136e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Duckling.Ordinal.Types"#) -}
+466d616aac32f865fb55c5c26460a011
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"#) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Duckling.Ordinal.Types.OrdinalData
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 3, Strictness: <S,U><L,1*U(U)><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (w :: Duckling.Ordinal.Types.OrdinalData)
+                   (w1 :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Duckling.Ordinal.Types.$fShowOrdinalData4
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Duckling.Ordinal.Types.$fShowOrdinalData3
+                          (case w `cast`
+                                (Duckling.Ordinal.Types.N:OrdinalData[0]) of ww2 { GHC.Types.I# ww3 ->
+                           case GHC.Show.$wshowSignedInt
+                                  0#
+                                  ww3
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Duckling.Ordinal.Types.$fShowOrdinalData2
+                                     x) of ww4 { (#,#) ww5 ww6 ->
+                           GHC.Types.: @ GHC.Types.Char ww5 ww6 } }))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w1
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1)) }) -}
+e73c6b69ec549db5ee2f779a063637ca
+  $w$ctoJSON ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 1, Strictness: <L,1*U(U)>, Inline: [0],
+     Unfolding: (\ (w :: Duckling.Ordinal.Types.OrdinalData) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           Duckling.Ordinal.Types.$fToJSONOrdinalData2
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Duckling.Ordinal.Types.$fToJSONOrdinalData1,
+                               case w `cast`
+                                    (Duckling.Ordinal.Types.N:OrdinalData[0]) of wild { GHC.Types.I# i ->
+                               case GHC.Integer.Type.smallInteger i of dt { DEFAULT ->
+                               Data.Aeson.Types.Internal.Number
+                                 (Data.Scientific.Scientific dt 0#) } })
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+e73c6b69ec549db5ee2f779a063637ca
+  axiom D:R:ResolvedValueOrdinalData::
+      Duckling.Resolve.ResolvedValue Duckling.Ordinal.Types.OrdinalData
+        = Duckling.Ordinal.Types.OrdinalData
+e73c6b69ec549db5ee2f779a063637ca
+  newtype OrdinalData = OrdinalData {value :: GHC.Types.Int}
+e73c6b69ec549db5ee2f779a063637ca
+  axiom Rep_OrdinalData::
+      GHC.Generics.Rep Duckling.Ordinal.Types.OrdinalData
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "OrdinalData"
+               "Duckling.Ordinal.Types"
+               "duckling-0.1.6.1-FuuoxNkK08bIA0dGJuhBV1"
+               'GHC.Types.True)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "OrdinalData" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "value")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 GHC.Types.Int)))
+1187b6ed8c481ea961ca8016c03bbc8e
+  isBetween :: GHC.Classes.Ord a => a -> a -> a -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S(LLLC(C(S))LLLL),U(A,A,A,C(C1(U)),A,A,A,A)><L,U><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ a
+                   ($dOrd :: GHC.Classes.Ord a)
+                   (x :: a)
+                   (low :: a)
+                   (high :: a) ->
+                 case GHC.Classes.<= @ a $dOrd low x of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True -> GHC.Classes.<= @ a $dOrd x high }) -}
+2f66f4e563cf8f416d92a789623cda71
+  value :: Duckling.Ordinal.Types.OrdinalData -> GHC.Types.Int
+  RecSel Left Duckling.Ordinal.Types.OrdinalData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Duckling.Ordinal.Types.value1
+                  `cast`
+                (<Duckling.Ordinal.Types.OrdinalData>_R
+                 ->_R Duckling.Ordinal.Types.N:OrdinalData[0]) -}
+db10706e298c06bd681ab3e630e865cb
+  value1 ::
+    Duckling.Ordinal.Types.OrdinalData
+    -> Duckling.Ordinal.Types.OrdinalData
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Duckling.Ordinal.Types.OrdinalData) -> ds) -}
+instance GHC.Classes.Eq [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fEqOrdinalData
+instance GHC.Generics.Generic [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fGenericOrdinalData
+instance Data.Hashable.Class.Hashable [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fHashableOrdinalData
+instance Control.DeepSeq.NFData [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fNFDataOrdinalData
+instance GHC.Classes.Ord [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fOrdOrdinalData
+instance Duckling.Resolve.Resolve [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fResolveOrdinalData
+instance GHC.Show.Show [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fShowOrdinalData
+instance Data.Aeson.Types.ToJSON.ToJSON [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.$fToJSONOrdinalData
+family instance GHC.Generics.Rep [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.Rep_OrdinalData
+family instance Duckling.Resolve.ResolvedValue [Duckling.Ordinal.Types.OrdinalData]
+  = Duckling.Ordinal.Types.D:R:ResolvedValueOrdinalData
+"SPEC/Duckling.Ordinal.Types $dmhashWithSalt @ OrdinalData" [ALWAYS] forall ($dGHashable :: Data.Hashable.Class.GHashable
+                                                                                              Data.Hashable.Class.Zero
+                                                                                              (GHC.Generics.Rep
+                                                                                                 Duckling.Ordinal.Types.OrdinalData))
+                                                                            ($dGeneric :: GHC.Generics.Generic
+                                                                                            Duckling.Ordinal.Types.OrdinalData)
+                                                                            ($dHashable :: Data.Hashable.Class.Hashable
+                                                                                             Duckling.Ordinal.Types.OrdinalData)
+  Data.Hashable.Class.$dmhashWithSalt @ Duckling.Ordinal.Types.OrdinalData
+                                      $dHashable
+                                      $dGeneric
+                                      $dGHashable
+  = Duckling.Ordinal.Types.$fHashableOrdinalData_$s$dmhashWithSalt
+"SPEC/Duckling.Ordinal.Types $dmrnf @ OrdinalData" [ALWAYS] forall ($dGNFData :: Control.DeepSeq.GNFData
+                                                                                   (GHC.Generics.Rep
+                                                                                      Duckling.Ordinal.Types.OrdinalData))
+                                                                   ($dGeneric :: GHC.Generics.Generic
+                                                                                   Duckling.Ordinal.Types.OrdinalData)
+                                                                   ($dNFData :: Control.DeepSeq.NFData
+                                                                                  Duckling.Ordinal.Types.OrdinalData)
+  Control.DeepSeq.$dmrnf @ Duckling.Ordinal.Types.OrdinalData
+                         $dNFData
+                         $dGeneric
+                         $dGNFData
+  = Duckling.Ordinal.Types.$fNFDataOrdinalData_$s$dmrnf
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
